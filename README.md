@@ -36,6 +36,9 @@ Our E2E tests will validate the following:
 - info.yaml contains all required fields 
 - Solve script returns proper flag
 
+### Other 
+If you anticipate your challenge needing special resources, please let us know well ahead of time. 
+
 
 ## Additional References
 Docker File
