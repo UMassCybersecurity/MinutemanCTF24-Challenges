@@ -1,0 +1,1 @@
+This file will be stored and show up under files in CTFd
