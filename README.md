@@ -17,7 +17,7 @@ You can specify the type of challenge in the info.yaml.
     - Use the following format (challenges/[category]/[challenge name])
     - Each challenge should contain the following:
         - a static folder with downloadable assets
-        - cloudbuild.yaml (if dynamic) (*see example challenges for default cloudbuild.yaml. contact DevOps club if your challenge has additional requirements*)
+        - cloudbuild.yaml (if dynamic) (*you should be able to copy paste the cloudbuild.yaml from the example challenges; contact DevOps club (ogpatel@umass.edu or abodepudi@umass.edu) if your challenge has additional requirements than a simple Docker container*)
         - Dockerfile (if dynamic)
         - info.yaml (*see example challenges for required fields*)
         - README.md
