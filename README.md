@@ -1,3 +1,5 @@
+## Tentative CTF date: October 12-14, 2024
+
 ## For Challenge Authors 
 
 ### Our Environment Setup 
