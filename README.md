@@ -2,7 +2,7 @@
 
 ### Our Environment Setup 
 We follow best GitOps practices. This repository is the single source of truth. 
-We have a dev and production enviornment (two ctfd environments). You will **NOT** be able to promote a challenge to production until it has passed E2E testing and been tested in the dev enviornment.
+We have a dev and production enviornment (two ctfd environments). You will **NOT** be able to promote a challenge to production until it has passed E2E testing and been tested in the dev enviornment. :nerd:
 
 ### PR Process
 Please commit all changes to the dev branch. 
