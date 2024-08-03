@@ -7,9 +7,9 @@ We follow best GitOps practices. This repository is the single source of truth.
 We have a dev and production enviornment (two ctfd environments). You will **NOT** be able to promote a challenge to production until it has passed E2E testing and been tested in the dev enviornment. 🤓
 
 ### PR Process
-Please create a branch for each challenge named: <category>/<challenge-name>. 
+Please create a branch for each challenge named: *category*/*challenge-name*
 This branch will be merged into the dev branch once your PR is approved. 
-See the example challenges in the /challenges/examples
+See the example challenges in the `/challenges/examples`
 
 There are two types of challenges: static vs. dynamic. 
 Static challenges simply contain downloadable assets. 
