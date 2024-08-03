@@ -7,7 +7,8 @@ We follow best GitOps practices. This repository is the single source of truth.
 We have a dev and production enviornment (two ctfd environments). You will **NOT** be able to promote a challenge to production until it has passed E2E testing and been tested in the dev enviornment. 🤓
 
 ### PR Process
-Please commit all changes to the dev branch. 
+Please create a branch for each challenge named: <category>/<challenge-name>. 
+This branch will be merged into the dev branch once your PR is approved. 
 See the example challenges in the /challenges/examples
 
 There are two types of challenges: static vs. dynamic. 
@@ -19,8 +20,7 @@ You can specify the type of challenge in the info.yaml.
     - Use the following format (challenges/[category]/[challenge name])
     - Each challenge should contain the following:
         - a static folder with downloadable assets
-        - cloudbuild.yaml (if dynamic) (*you should be able to copy paste the cloudbuild.yaml from the example challenges; contact DevOps club (ogpatel@umass.edu or abodepudi@umass.edu) if your challenge has additional requirements than a simple Docker container*)
-        - Dockerfile (if dynamic)
+        - Dockerfile/docker-compose.yml (if dynamic)
         - info.yaml (*see example challenges for required fields*)
         - README.md
         - solve script (if dynamic) (*see example challenges for format*)
