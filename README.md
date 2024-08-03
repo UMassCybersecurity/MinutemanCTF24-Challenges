@@ -34,7 +34,6 @@ You can specify the type of challenge in the info.yaml.
 ### End to End Testing (E2E)
 Our E2E tests will validate the following:
 - The Docker container builds 
-- Successfully deploys to a testing GCP Cloud Run container
 - info.yaml contains all required fields 
 - Solve script returns proper flag
 
