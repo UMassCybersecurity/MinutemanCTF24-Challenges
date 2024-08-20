@@ -1,4 +1,4 @@
-## ⚠️ INFRA STILL IN DEVELOPMENT ⚠️
+## ⚠️ INFRA STILL IN DEVELOPMENT (we are bums sorry) ⚠️
 ## CTF date: October 11-13, 2024
 
 ## For Challenge Authors 
