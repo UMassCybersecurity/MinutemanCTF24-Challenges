@@ -22,22 +22,17 @@ int main(){
     
     puts("Enter research password:");
     fgets(buffer + prompt_size, 128, stdin);
-    size_t len = strlen(buffer);
-    if(len > 128){
-        puts("Input too long!");
-        return 1;
-    }
 
-    buffer[len - 1] = 0; //remove \n
+    buffer[strlen(buffer) - 1] = 0; //remove \n
     puts(buffer);
 
     if(strcmp(buffer + prompt_size, password) == 0){
-        is_oppenheimer = 0x5f;
+        is_oppenheimer = 1;
     } else {
         puts("Incorrect");
     }
 
-    if(is_oppenheimer == 0x5f){
+    if(is_oppenheimer){
         puts("Welcome oppenheimer");
         flag = getenv("FLAG");
         if(flag == NULL) {
