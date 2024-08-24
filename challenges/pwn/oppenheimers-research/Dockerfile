@@ -1,7 +1,5 @@
 FROM docker.io/alpine:3.20.2
 
-# RUN apk add socat
-
 USER 1001
 
 ENV FLAG MinutemanCTF{hello}

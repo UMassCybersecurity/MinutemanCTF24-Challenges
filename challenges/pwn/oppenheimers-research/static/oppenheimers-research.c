@@ -22,7 +22,13 @@ int main(){
     
     puts("Enter research password:");
     fgets(buffer + prompt_size, 128, stdin);
-    buffer[strlen(buffer) - 1] = 0; //remove \n
+    size_t len = strlen(buffer);
+    if(len > 128){
+        puts("Input too long!");
+        return 1;
+    }
+
+    buffer[len - 1] = 0; //remove \n
     puts(buffer);
 
     if(strcmp(buffer + prompt_size, password) == 0){
