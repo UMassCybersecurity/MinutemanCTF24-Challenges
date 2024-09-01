@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Login{% endblock %}
+{% block content %}
+<p>{{ message }}</p>
+<form method="GET">
+    <label>Username: </label><input type="text" name="username" /><br /><br />
+    <label>Password: </label><input type="text" name="password" /><br /><br />
+    <input class="bg-red-800 rounded p-2" type="submit" value="Submit" />
+</form>
+{% endblock %}
