@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./header.ejs') %>
+<body class="container">
+    Register a username!
+    <input id="username_input" type="text">
+    <button id="submit_button">Register</button>
+</body>
+<script>
+    submit_button.onclick = async () =>{
+        const resp = await fetch("/register",{
+            method:"POST",
+            headers: {
+                "Content-Type":"application/json"
+            },
+            body: JSON.stringify({
+                'username': username_input.value
+            })
+        });
+        const data = await resp.json();
+        if(Object.keys(data).indexOf("success") >= 0){
+            document.cookie = `user=${data["success"]["token"]}`;
+            window.location = "/dashboard"
+        }
+        else if(Object.keys(data).indexOf("error") >= 0){
+            alert(data["error"])
+        }
+        else{
+            alert("Malformed JSON in response.")
+        }
+    }
+</script>
+<%- include('./footer.ejs') %>
+
+</html>

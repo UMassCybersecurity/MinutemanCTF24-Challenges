@@ -1,0 +1,30 @@
+<script>
+    window.addEventListener("load", () => {
+        report_button.onclick = async () => {
+            const resp = await fetch("/report", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({
+                    'path': window.location.pathname
+                })
+            });
+            window.location = "/dashboard";
+        }
+    });
+</script>
+
+<footer class="fixed-bottom mt-auto d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">&copy; Cross Space Request Forge (CSRF)</p>
+    <a href="/"
+        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32">
+            <use xlink:href="#bootstrap" />
+        </svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><button id="report_button">Report this page.</button></li>
+    </ul>
+</footer>

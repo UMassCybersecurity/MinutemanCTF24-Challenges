@@ -1,0 +1,34 @@
+<head>
+    <link rel="stylesheet" href="/css/bootstrap.min.css"cd>
+    <script src="/js/bootstrap.min.js"></script>
+    <title>Cross Space Request Forge</title>
+</head>
+<script>
+    function deleteAllCookies() {
+        const splitBy = navigator.userAgent.includes("Chrome") ? '; ' : ';' 
+        document.cookie.split(splitBy).map(e => 
+            document.cookie = `${e.split('=')[0]}=;max-age=0;path=/;domain=${document.domain}`
+        );
+    }
+</script>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">Cross Space Request Forge</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <% ["Dashboard","Register"].forEach(item=>{ %>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/<%= item.toLowerCase() %>">
+                        <%= item %>
+                    </a>
+                </li>
+            <% }) %>
+            <li>
+                <button onclick="deleteAllCookies();document.location='/'">Logout</button>
+            </li>
+        </ul>
+    </div>
+</nav>
