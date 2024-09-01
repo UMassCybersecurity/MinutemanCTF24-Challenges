@@ -11,7 +11,7 @@ description: temp description
 # Optional settings (defaults defined in default.yaml)
 
 # must be either static or dynamic
-type: dynamic
+type: static
 
 # initial point value of challenge
 value: 100 
