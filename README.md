@@ -18,7 +18,7 @@ Dynamic challenges need a running container for the player to interact with.
 You can specify the type of challenge in the info.yaml. 
 
 1) Create a new directory in the appropriate category for your challenge. 
-    - Use the following format (challenges/[category]/[challenge name])
+    - Use the following format (challenges/[static or dynamic]/[category]/[challenge name])
     - Each challenge should contain the following:
         - a static folder with downloadable assets
         - Dockerfile/docker-compose.yml (if dynamic)
