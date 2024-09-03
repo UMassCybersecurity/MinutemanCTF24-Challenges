@@ -1,7 +1,6 @@
-name: dynamic-example-2
-author: infra:)
+name: static-example-1
 category: examples
-description: This is a sample description 2
+description: This is a sample description
 
 # Add a case insensitive flag
 flags:
@@ -10,7 +9,7 @@ flags:
 
 # Make this challenge a dynamic challenge worth 300 points
 value: 300
-type: dynamic
+type: static
 dynamic:
   function: linear
   decay: 10
