@@ -39,11 +39,11 @@ int main(){
 
     if(is_oppenheimer == 0x5f){
         puts("Welcome oppenheimer");
-        flag = getenv("FLAG");
-        if(flag == NULL) {
-            puts("No flag :(");
-            return 1;
-        }
-        printf("flag: %s\n", flag);
+                        flag = getenv("FLAG");
+                        if(flag == NULL) {
+                            puts("No flag :(");
+                            return 1;
+                        }
+                        printf("flag: %s\n", flag);
     }
 }
