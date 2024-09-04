@@ -10,7 +10,9 @@
                     'path': window.location.pathname
                 })
             });
-            window.location = "/dashboard";
+            const data = await resp.json();
+            
+            'error' in data ? alert(data['error']) : alert("Page has been reported.");
         }
     });
 </script>

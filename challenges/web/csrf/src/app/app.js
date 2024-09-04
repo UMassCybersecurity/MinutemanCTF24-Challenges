@@ -48,8 +48,11 @@ app.post('/register', async (req, res) => {
 app.post('/report', async (req, res) => {
   const path = req.body.path;
   if (path && typeof path == 'string') {
-    await bot.checkPage(path, client);
-    return res.json({ 'success': { 'message': 'Admin checked the page.' } })
+    const timeout = new Promise((res,rej)=>{
+      setTimeout(res,5000,{'error':{'message':'Error occured while Admin was checking page, try again soon.'}});
+    })
+    const out = await Promise.race([timeout,bot.checkPage(path,client)]);
+    return res.json(out);
   }
   res.json({ 'error': 'Path is invalid.' });
 })
@@ -92,10 +95,11 @@ app.get('/transfer/:user/:amount', utils.authMiddleware, async (req, res) => {
 })
 
 app.get('/flag', utils.authMiddleware, (req, res) => {
+  let message = "You don't have enough tokens.";
   if (req.user.tokens >= 1000000) {
-    return res.send(process.env.FLAG);
+    message = `Congratulations, here is the flag: ${process.env.FLAG}`
   }
-  return res.send("You don't have enough tokens.");
+  return res.render('flag.ejs',{message});
 })
 
 app.listen(port, () => {

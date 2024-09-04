@@ -1,7 +1,7 @@
 name: cross-space-request-forge
 category: web
 description: TARS made an interesting site to request currency throughout 
-
+dynamic: {}
 # Add a regular flag
 flags:
   - content: "MinutemanCTF{Cr0sS1nG_$p4C3_T0_F0Rg3_R3qu3$TS}"
