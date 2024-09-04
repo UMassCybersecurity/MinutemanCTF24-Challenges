@@ -1,1 +1,3 @@
-zip web_csrf.zip -r user_docker-compose.yaml src
+#!/bin/sh
+mkdir static
+zip static/web_csrf.zip -r src docker-compose.yaml

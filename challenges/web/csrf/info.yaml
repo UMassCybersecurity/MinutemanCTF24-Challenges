@@ -4,7 +4,7 @@ description: TARS made an interesting site to request currency throughout
 
 # Add a regular flag
 flags:
-  - content: "UMASS{Cr0sS1nG_$p4C3_T0_F0Rg3_R3qu3$TS}"
+  - content: "MinutemanCTF{Cr0sS1nG_$p4C3_T0_F0Rg3_R3qu3$TS}"
 
 # Make this challenge worth 500 points
 value: 500

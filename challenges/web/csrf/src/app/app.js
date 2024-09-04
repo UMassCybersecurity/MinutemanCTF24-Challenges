@@ -21,17 +21,6 @@ app.use(express.static('public'))
 
 app.set('view engine', 'ejs');
 
-app.get('/users', async (req, res) => {
-  const keys = await client.keys('*');
-  let output = {};
-  for (let i = 0; i < keys.length; ++i) {
-    const key = keys[i];
-    output[key] = (await client.get(key));
-  }
-  res.send(output);
-})
-
-
 app.get("/", (req, res) => {
   res.render('index.ejs');
 })
@@ -39,7 +28,6 @@ app.get("/", (req, res) => {
 app.get('/register', (req, res) => {
   res.render('register.ejs');
 })
-
 
 app.post('/register', async (req, res) => {
   const username = req.body.username;
