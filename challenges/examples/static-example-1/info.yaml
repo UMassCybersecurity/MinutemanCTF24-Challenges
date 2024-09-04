@@ -7,13 +7,8 @@ flags:
   - content: "UMassCTF{hello2}"
     data: "case_insensitive"
 
-# Make this challenge a dynamic challenge worth 300 points
+# Make this challenge a static challenge worth 300 points
 value: 300
-type: static
-dynamic:
-  function: linear
-  decay: 10
-  minimum: 100
 
 # Add connection info
 connection_info: nc localhost:9000
