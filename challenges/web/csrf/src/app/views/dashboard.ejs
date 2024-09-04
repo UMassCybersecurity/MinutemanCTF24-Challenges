@@ -2,15 +2,17 @@
 <html lang="en">
 <%- include('./header.ejs') %>
 
-    <body class="container">
-        Welcome <%= user.username %>!
+    <body>
+        <div class="container">
+            <p>Welcome <%= user.username %>!</p>
             <p id="info">
 
             </p>
             <button id="refresh_button">Refresh balance.</button>
+        </div>
     </body>
     <script>
-        function parseResp(data){
+        function parseResp(data) {
             if (Object.keys(data).indexOf("success") >= 0) {
                 return data['success'];
             }
@@ -21,7 +23,7 @@
                 throw new Error("Malformed JSON in response.")
             }
         }
-        
+
         window.addEventListener("load", async () => {
             const resp = await fetch("/balance/<%= user.username %>");
             try {
@@ -39,7 +41,7 @@
                 deleteAllCookies();
                 document.cookie = `user=${data['token']};path=/`;
                 window.location.reload();
-            }   
+            }
         });
     </script>
     <%- include('./footer.ejs') %>

@@ -1,68 +1,10 @@
-# This file represents the base specification of your challenge. It is used by
-# other tools to install and deploy your challenge.
+name: cross-space-request-forge
+category: web
+description: TARS made an interesting site to request currency throughout 
 
-# Required sections
-
-name: "Cross Space Refinery Forge"
-author: "Ayman"
-category: wen
-description: COME ON TARS
-
-# Optional settings (defaults defined in default.yaml)
-
-# must be either static or dynamic
-type: dynamic
-
-# initial point value of challenge
-value: 100 
-
-# This field is for dynamic challenges.
-# Note: type must be dynamic to use this field
-dynamic:
-  function: linear # must be either linear or logarithmic
-  decay: 100
-  minimum: 50
-
-# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: https://csrf.web.[domain_here]/
-
-# The maximum number of attempts a user gets (set to 0 or remove for unlimited)
-attempts: 0
-
-# Flags specify answers that your challenge use. You should generally provide at least one.
+# Add a regular flag
 flags:
-    - content: "UMASS{Cr0sS1nG_$p4C3_T0_F0Rg3_R3qu3$TS}" # required field for every flag
-      type: "static" # must be static or regex
-      data: "case_insensitive" # additional data
+  - content: "UMASS{Cr0sS1nG_$p4C3_T0_F0Rg3_R3qu3$TS}"
 
-# Topics are used to help tell what techniques/information a challenge involves
-# They are generally only visible to admins
-topics:
-    - web
-    - csrf
-
-# Tags are used to provide additional public tagging to a challenge
-tags:
-    - web
-
-# Provide paths to files from the same directory that this file is in
-files:
-    - dist/source.py
-
-# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
-hints:
-    - content: "This hint costs points" # required field for every hint
-      cost: 10
-
-# Requirements are used to make a challenge require another challenge to be solved before being available.
-requirements:
-  anonymize: true
-  prerequisites:
-    - "Warmup"
-    - "Are you alive"
-
-# The state of the challenge.
-state: hidden # must be hidden or visible
-
-# The next challenge a user should play once they complete this one
-next: Red50
+# Make this challenge worth 500 points
+value: 500
