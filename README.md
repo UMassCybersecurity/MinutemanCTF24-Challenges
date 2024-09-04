@@ -21,7 +21,6 @@ You can specify the type of challenge in the info.yaml.
     - Each challenge should contain the following:
         - a static folder with downloadable assets
         - Dockerfile/docker-compose.yml (if dynamic)
-          - Your challenge must run on port 8080. We will expand support for all ports in the future. 
         - info.yaml (*see [reference.yaml](./challenges/examples/reference.yaml) for fields*)
             - The flag should have the following format: MinutemanCTF{\<FLAG\>}
         - README.md
