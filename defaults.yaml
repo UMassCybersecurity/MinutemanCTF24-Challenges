@@ -1,10 +1,7 @@
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
     - type: "static" # must be static or regex
-      data: "case_insensitive" # additional data
 
-# Challenge type determines how points change depending on the number of solves.
-# Note: this may be removed later
 # Initial point value of challenge
 value: 100 
 # Must be either static or dynamic
@@ -16,7 +13,7 @@ dynamic:
   minimum: 50
 
 # The maximum number of attempts a user gets (set to 0 or remove for unlimited)
-attempts: 0
+max_attempts: 0
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
