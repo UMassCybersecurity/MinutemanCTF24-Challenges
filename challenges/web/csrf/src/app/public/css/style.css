@@ -19,11 +19,11 @@ nav {
 }
 
 .navbar-light .navbar-brand {
-	color: grey;
+	color: white;
 }
 
 .navbar-light .navbar-brand:hover {
-	color: grey;
+	color: white;
 }
 
 .container {
@@ -31,4 +31,9 @@ nav {
     opacity: .7;
     padding: 15px;
     margin-top: 15px;
+}
+
+button {
+	background-image: linear-gradient(white,grey);
+    border-radius: 3px;
 }
