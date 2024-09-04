@@ -9,7 +9,6 @@ flags:
 
 # Make this challenge a dynamic challenge worth 300 points
 value: 300
-type: dynamic
 dynamic:
   function: linear
   decay: 10
