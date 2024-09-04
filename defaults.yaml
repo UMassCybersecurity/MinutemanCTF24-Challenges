@@ -5,8 +5,6 @@ flags:
 
 # Challenge type determines how points change depending on the number of solves.
 # Note: this may be removed later
-type: static # must be either static or dynamic
-
 # Initial point value of challenge
 value: 100 
 # Must be either static or dynamic
