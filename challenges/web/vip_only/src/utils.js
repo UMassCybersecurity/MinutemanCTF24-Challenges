@@ -14,4 +14,22 @@ const createToken = async (username,client) =>{
     return jwt.sign(user,"bad_key");
 }
 
-module.exports = {createToken,parseUser};
+const authMiddleware = (req, res, next) => {
+    console.log(req.cookies.user);
+    if (req.cookies.user) {
+        
+        try {
+            req.user = jwt.verify(req.cookies['user'], "bad_key");
+            req.user.tokens = parseFloat(req.user.tokens);
+            console.log("cookie success");
+            return next();
+        }
+        catch (e) {
+            console.log(e);
+            return res.send("Invalid JWT, try registering a new token.");
+        }
+    }
+    return res.send("Error when processing JWT.");
+}
+
+module.exports = {createToken,parseUser,authMiddleware};
