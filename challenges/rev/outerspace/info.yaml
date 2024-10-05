@@ -1,0 +1,7 @@
+name: outerspace
+category: rev
+description: You received a reply from your long time friend in outerspace. Thing is, you have long lost the source code. Can you try decoding the message, and wrap it in UMASS{}?
+
+flags:
+  - content: "UMassCTF{W3lc0me_t0_Base64-NextGen!}"
+
