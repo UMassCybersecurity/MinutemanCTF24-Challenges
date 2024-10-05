@@ -1,0 +1,9 @@
+name: Flag Encoder
+description: I've encoded my flag with a never seen before encoding algorithm. Surely nobody will be able to break it, right?
+
+flags:
+  - content: "Minuteman{R3v3r53_7H3_5cr1P7}"
+
+hints:
+  - content: "Try to figure out what each line is doing individually."
+  - content: "You can get back the input by undoing each step in the script in reverse order."
