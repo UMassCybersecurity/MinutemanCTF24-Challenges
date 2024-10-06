@@ -42,6 +42,7 @@ app.get('/', (req,res)=>{
 
 app.post('/register', async (req, res) => {
     const newuser = req.body;
+    console.log(req.body)
     const username = newuser.username;
     if (username && typeof username == 'string' && username.match(/([a-z|A-Z|0-9])+/g)) {
       const isUserTaken = await client.exists(username);
@@ -51,13 +52,13 @@ app.post('/register', async (req, res) => {
       else {
         //const time = Date.now();
 
-        await client.HSET(username, 'isVIP', 'false', 'time');
-        await client.HSET(username, newuser);
+        await client.HSET(username, 'isVIP', 'false');
+        
+        await client.HSET(username, req.body);
 
-        console.log(await client.HGETALL(username));
+        //console.log(await client.HGETALL(username));
 
-        await client.set(username, JSON.stringify({ 'tokens': '0' }), { EX: 60 * 30 });
-        console.log(await client.get(username));
+        await client.HSET(username, { 'tokens': '0' });
         const data = { 'token': (await utils.createToken(username, client)) };
         // Set browser httpOnly cookies
         res.cookie("user", data['token'], {
@@ -73,11 +74,9 @@ app.post('/register', async (req, res) => {
 
 app.get('/check', utils.authMiddleware, async (req, res) => {
     const username = req.user.username;
-    console.log(await client.type(username));
+    console.log(req.user)
 
-    console.log(await client.HGETALL(username));
-    //const vip = await client.HGET(username, 'isVIP');
-    const vip = 'true';
+    const vip = await client.HGET(username, 'isVIP');
     if (vip === 'true') {
         res.render(vip.html);
     }
