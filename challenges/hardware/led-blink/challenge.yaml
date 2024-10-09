@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: plankton-rules
+spec:
+  ports:
+    - port: 4000
+  selector:
+    app: plankton-rules
+  clusterIP: None
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: plankton-rules
+spec:
+  selector:
+    matchLabels:
+      app: plankton-rules
+  template:
+    metadata:
+      labels:
+        app: plankton-rules
+    spec:
+      # containers:
+      #   - image: 
+      #     name: 
+      #     ports:
+      #       - containerPort: 4000
+      # TODO get container image
