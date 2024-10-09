@@ -1,0 +1,11 @@
+name: Message In the Air
+
+description: We received an urgent RF communication about the war. Can you help us decode it?
+
+flags:
+  - content: "MINUTEMAN{ThE_brITish_r_COMing}"
+
+# TODO add hints
+
+hints:
+  - content: Can you read the data inside of the wav file.
