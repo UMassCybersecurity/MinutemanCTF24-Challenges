@@ -10,5 +10,5 @@ hints:
   - content: I wonder how they represent negative numbers
   - content: Have you ever heard of two's complement
 
-# TODO port number
+# TODO update connection info
 connection_info: http://challs.umasscybersec.org
