@@ -11,7 +11,10 @@ function checkPage(path, client) {
         page.setExtraHTTPHeaders({
             'Cookie': `user=${(await utils.createToken('TARS', client))}`
         });
-        await page.goto(`http://127.0.0.1:${process.env.SERVER_PORT}/${path}`);
+        path = path.startsWith('/') ? path : `/${path}` ;
+        await page.goto(`http://127.0.0.1:${process.env.SERVER_PORT}${path}`,{
+            timeout: 5000
+        });
         await browser.close();
         return res({'success': { 'message': 'Admin checked the page.' }});
     })

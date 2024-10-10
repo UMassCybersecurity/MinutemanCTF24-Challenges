@@ -84,7 +84,6 @@ app.get('/transfer/:user/:amount', utils.authMiddleware, async (req, res) => {
   const amount = parseInt(req.params.amount);
   if (typeof to_username == 'string' && typeof amount == 'number' && from_user.tokens >= amount && (await client.exists(to_username))) {
     from_user.tokens = (from_user.tokens - amount).toString();
-    console.log(from_user)
     await client.set(from_user.username, JSON.stringify({ 'tokens': from_user.tokens}));
     let to_user = utils.parseUser((await client.get(to_username)));
     to_user.tokens += amount;
