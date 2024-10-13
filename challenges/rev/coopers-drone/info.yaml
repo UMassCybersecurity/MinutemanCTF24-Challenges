@@ -1,0 +1,10 @@
+name: coopers-drone
+category: rev
+description: Cooper captured a drone, but can you crack the secret key to get root access?
+
+flags:
+  - content: "MINUTEMAN{what's_a_calling_convention?}"
+    type: "static"
+    data: "case_insensitive"
+
+value: 300
