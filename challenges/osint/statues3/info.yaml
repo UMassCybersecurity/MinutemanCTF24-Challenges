@@ -1,0 +1,19 @@
+# Required sections
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+
+name: "Statues 3"
+description: "I was going to take a picture but the statue got cut off. Can you tell me the last line on the plate below the statue?\n\nFlag format: `MINUTEMAN{FIRST_TWO_LINES_ALL_CAPS}` eg https://www.umass.edu/physicalplant/sites/default/files/IMG_1409.jpg is `MINUTEMAN{METAWAMPE_LEGENDARY_SPIRIT_OF_THE_REDMEN}`"
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{DEDICATED_TO_ALL_IRISH_GUARDSMEN}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+# hints:
+
+tags:
+    - osint
