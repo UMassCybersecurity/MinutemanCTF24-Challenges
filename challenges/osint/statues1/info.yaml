@@ -1,0 +1,24 @@
+# Required sections
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+
+name: "Statues 1"
+description: "I found this cool statue while I was taking a walk. Could you tell me its address?\n\nFlag format: `UMASS{copy address on google maps}`\n eg https://maps.app.goo.gl/ifL7iM1uvMs5nV7a9 is to `UMASS{Old Chapel, 144 Hicks Way, Amherst, MA 01002}`"
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "UMASS{174 Liberty St, Minute Man National Historical Park, Concord, MA 01742}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+    - content: "UMASS{174 Liberty St, Concord, MA 01742}"
+      type: "static"
+      data: "case_insensitive"
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "How could you 'search' using an image?" # required field for every hint
+    - content: "See google lens/reverse image search"
+
+tags:
+    - osint
