@@ -1,5 +1,5 @@
 
-flag = "Minuteman{censored_not_the_real_flag}"
+flag = "MINUTEMAN{TEST}"
 
 super_secret_key = 42
 
@@ -9,7 +9,7 @@ while super_secret_key % 11 != 0:
 while super_secret_key > 100:
     super_secret_key //= 10
     
-flag = flag.replace("Minuteman", "Second_person")
+flag = flag.replace("MINUTEMAN", "HOURGUY")
 
 flag = flag[super_secret_key:] + flag[:super_secret_key]
 
@@ -22,4 +22,4 @@ flag = flag[::-1]
 
 print(flag)
 # with open("encoded.txt", "w") as f:
-    # f.write(flag)
+#     f.write(flag)
