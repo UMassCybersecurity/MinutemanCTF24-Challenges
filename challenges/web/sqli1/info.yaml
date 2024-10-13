@@ -2,12 +2,11 @@ name: Spire Login 1
 description: I'm building a new SPIRE killer startup, starting with the login page. Surely nobody can login as admin, right?
 
 flags:
-  - content: "MINUTEMAN{TODO-change-flag}"
+  - content: "MINUTEMAN{S1mpL3_sql_1NJ3c710N}"
 
 hints:
   - content: "Try the docker challenges under misc if you want to try running the website locally."
-  - content: "Try PaaS(under web workshop) first. What's something similar that can be done here?"
   - content: "Try sending an apostrophe in the username. What happens?"
-  - content: "PaaS used command injection, which used bash operators. What can you use in SQL to break the application?"
+  - content: "Command injection uses bash operators (&&, ;, etc). What can you use in SQL to break the application?"
 
 connection_info: http://web-challs.umasscybersec.org:1337
