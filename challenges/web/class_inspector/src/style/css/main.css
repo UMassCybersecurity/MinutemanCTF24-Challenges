@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 1.5em;
+    font-family: Courier New;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: cover;
+}
+
+h1 {
+    font-size: 3 rem;
+    text-align: center;
+    padding: 0.5em;
+}
+
+h2 {
+    font-size: 3 rem;
+    text-align: center;
+    padding: 0.5em;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 1em
+}
+
+form { 
+    margin: 0 auto; 
+    width:250px;
+}
+
+input{
+    padding: 12px;
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+
+input[type="submit"] {
+    background-color: rgb(34, 39, 97);
+    width: 180px;
+    display: block;
+    margin: 0px auto;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Courier New", Courier, monospace;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(34, 39, 97);
+}
