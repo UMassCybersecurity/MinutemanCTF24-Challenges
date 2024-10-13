@@ -1,0 +1,9 @@
+name: Spire Login 3
+description: "I'm building a new SPIRE killer startup, starting with the login page. I've heard that the admin reuses his password for other websites. Can you get it for me?""
+
+flags:
+  - content: "MINUTEMAN{TODO-change-flag}"
+
+# hints:
+
+connection_info: http://web-challs.umasscybersec.org:1337
