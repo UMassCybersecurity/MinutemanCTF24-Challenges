@@ -7,7 +7,7 @@ services:
       REDIS_URL: redis://db:6379
       SECRET_TOKEN: DO_NOT_GO_GENTLE_INTO_THAT_GOOD_NIGHT_5612780561278
       SERVER_PORT: 1337
-      FLAG: MINUETMANCTF{Cr0sS1nG_$p4C3_T0_F0Rg3_R3qu3$TS2}
+      FLAG: MINUTEMANCTF{Cr0sS1nG_$p4C3_T0_F0Rg3_R3qu3$TS2}
     restart: always
   db:
     image: redis:latest
