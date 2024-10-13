@@ -96,7 +96,7 @@ def login():
         except Exception as e:
             return render_template('login.html', message=f"something went wrong ({e})")
 
-        if len(rec) != 1:
+        if len(rec) == 0:
             return render_template('login.html', message="login incorrect")
         elif rec[0] == 'admin':
             session['user'] = 'admin'
