@@ -1,0 +1,19 @@
+# Required sections
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+
+name: "Lonely Bike Rack"
+description: "There's this lonely bike rack on campus. Can you go and give it some company?\n\nFlag Format: Something on the circled box TODO `MINUTEMAN{TODO}`"
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{TODO-checkthesign}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+# hints:
+
+tags:
+    - osint
