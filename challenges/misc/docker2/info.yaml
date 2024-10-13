@@ -3,7 +3,7 @@ description: "I just made this cool docker image! Can you see what's in the `/ro
 
 # Flags specify answers that your challenge use. You should generally provide at least one.
 flags:
-    - content: "MINUTEMAN{TODO-requires-rebuild-of-image}" # required field for every flag
+    - content: "MINUTEMAN{uND3rn3A7H_7H3_5UrFAC3}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
