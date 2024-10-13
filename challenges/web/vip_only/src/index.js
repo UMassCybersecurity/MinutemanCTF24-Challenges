@@ -5,11 +5,13 @@ const cookieParser = require('cookie-parser');
 const utils = require('./utils.js');
 const jwt = require('jsonwebtoken');
 const { RedisSearchLanguages } = require('redis');
+//const path = require('path');
 
 const app = express();
 
 app.use(cookieParser());
 app.set('view engine', 'ejs');
+//app.set('views', path.join(__dirname, 'views'));
 app.use(bodyParser.urlencoded({ extended: false }));
 console.log(process.env.REDIS_HOST);
 //const client = redis.createClient({url: `redis://${process.env.REDIS_HOST}:${process.env.REDIS_PORT}`});
@@ -28,16 +30,16 @@ app.listen(port, () => {
 });
 
 app.get('/', (req,res)=>{
-    res.send(`
-    <h1>Register</h1>
-    <form method='post' action='/register'>
-    <input type='text' name='username' placeholder='Username' required />
-    <input type='password' name='password' placeholder='password' required/>
-    <input type='submit' />
-    </form>
-    <a href='/login'>Login</a>
-    `)
-    //res.render(views/register);
+    // res.send(`
+    // <h1>Register</h1>
+    // <form method='post' action='/register'>
+    // <input type='text' name='username' placeholder='Username' required />
+    // <input type='password' name='password' placeholder='password' required/>
+    // <input type='submit' />
+    // </form>
+    // <a href='/login'>Login</a>
+    // `)
+    res.render('register.ejs');
 })
 
 app.post('/register', async (req, res) => {
@@ -50,7 +52,6 @@ app.post('/register', async (req, res) => {
         return res.json({ "error": "Username is taken." });
       }
       else {
-        //const time = Date.now();
 
         await client.HSET(username, 'isVIP', 'false');
         
