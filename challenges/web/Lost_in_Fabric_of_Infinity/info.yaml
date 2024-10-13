@@ -1,0 +1,6 @@
+name: Lost in Fabric of Infinity
+category: web
+description: Cooper just came back from Miller's planet, and he received messages that span 23 years. Can you find the secret message Tom and Murph left for him?
+# Add a regular flag
+flags:
+  - content: "MINUTEMAN{V@liD_c0mmAnd_iNj3ct_W}"
