@@ -1,9 +1,9 @@
 name: "Docker 3"
-description: "It looks like someone deleted `flag2.txt` when building the container. Can you tell me what was inside of it?"
+description: "It looks like someone deleted `flag3.txt` when building the container. Can you tell me what was inside of it?"
 
 # Flags specify answers that your challenge use. You should generally provide at least one.
 flags:
-    - content: "MINUTEMAN{TODO-requires-rebuild-of-image}" # required field for every flag
+    - content: "MINUTEMAN{C0N741N3r5_4R3_L1k3_0n10N2}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
