@@ -2,7 +2,7 @@ name: Spire Login 3
 description: "I'm building a new SPIRE killer startup, starting with the login page. I've heard that the admin reuses his password for other websites. Can you get it for me?""
 
 flags:
-  - content: "MINUTEMAN{TODO-change-flag}"
+  - content: "MINUTEMAN{71m1Ng_15_3V3ry7H1NG}"
 
 # hints:
 

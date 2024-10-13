@@ -7,7 +7,7 @@ services:
     depends_on:
       - db
     environment:
-      - FLAG=MINUTEMAN{TEST}
+      - FLAG=MINUTEMAN{71m1Ng_15_3V3ry7H1NG}
   db:
     image: mysql:9.0.1
     container_name: sqli3_db
