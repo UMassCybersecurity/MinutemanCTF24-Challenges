@@ -1,0 +1,6 @@
+name: Minuteman HTTP v1.1
+category: web
+description: Learn web exploitation by intercepting, reading, and editing HTTP requests!
+# Add a regular flag
+flags:
+  - content: "MINUTEMAN{W3LC0m3_T0_W3B_4T_M1nUt3M4N_CTF!}"
