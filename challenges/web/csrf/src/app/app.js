@@ -12,7 +12,7 @@ const client = redis.createClient({
 
 client.on('error', err => console.log('Redis Client Error', err));
 client.connect();
-client.set("TARS", JSON.stringify({ 'tokens': '+Infinity' }));
+client.hSet("TARS", { 'username': 'TARS', 'tokens': +Infinity });
 
 
 app.use(cookieParser());
@@ -37,7 +37,7 @@ app.post('/register', async (req, res) => {
       return res.json({ "error": "Username is taken." });
     }
     else {
-      await client.set(username, JSON.stringify({ 'tokens': '0' }), { EX: 60 * 30 });
+      await client.hSet(username, {'username': username, 'tokens': 0 });
       const data = { 'token': (await utils.createToken(username, client)) };
       return res.json({ "success": data });
     }
@@ -82,12 +82,12 @@ app.get('/transfer/:user/:amount', utils.authMiddleware, async (req, res) => {
   const from_user = req.user;
   const to_username = req.params.user;
   const amount = parseInt(req.params.amount);
-  if (typeof to_username == 'string' && typeof amount == 'number' && from_user.tokens >= amount && (await client.exists(to_username))) {
+  if (typeof to_username == 'string' && typeof amount == 'number' && from_user.tokens >= amount && from_user.tokens > 0 && await client.exists(to_username)) {
     from_user.tokens = (from_user.tokens - amount).toString();
-    await client.set(from_user.username, JSON.stringify({ 'tokens': from_user.tokens}));
-    let to_user = utils.parseUser((await client.get(to_username)));
+    await client.hSet(from_user.username, from_user);
+    let to_user = await client.hGetAll(to_username);
     to_user.tokens += amount;
-    await client.set(to_username, utils.stringifyUser(to_user));
+    await client.hSet(to_username, to_user);
     return res.send("Tokens successfully transfered.");
   }
   return res.send("Please provide a valid user and/or amount you are transfering to.");

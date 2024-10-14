@@ -8,8 +8,11 @@ function checkPage(path, client) {
             args: ['--no-sandbox']
         });
         const page = await browser.newPage();
+        console.log('Making token');
+        const token = await utils.createToken('TARS', client);
+        console.log(token);
         page.setExtraHTTPHeaders({
-            'Cookie': `user=${(await utils.createToken('TARS', client))}`
+            'Cookie': `user=${token}`
         });
         path = path.startsWith('/') ? path : `/${path}` ;
         await page.goto(`http://127.0.0.1:${process.env.SERVER_PORT}${path}`,{

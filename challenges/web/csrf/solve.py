@@ -3,6 +3,7 @@ import json, random
 
 # make a random username
 USERNAME = "".join(list(map(lambda x: random.choice(list("0123456789")),range(0,25))))
+
 URL = "http://localhost:1337"
 
 # register a user and get the token
@@ -31,4 +32,5 @@ r1 = r.get(f"{URL}/flag",headers={
     'Cookie': f'user={TOKEN}'
 })
 
-print(r1.text)
+idx = r1.text.find("flag:")+5
+print(r1.text[idx:idx+60])
