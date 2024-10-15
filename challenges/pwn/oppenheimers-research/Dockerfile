@@ -2,8 +2,8 @@ FROM docker.io/alpine:3.20.2
 
 USER 1001
 
-ENV FLAG MinutemanCTF{hello}
-ENV PASSWORD fldjshf^skdfnjksbvjkalsh3kj3vas
+ENV FLAG MINUTEMAN{hello}
+ENV PASSWORD fldjshfskdfnjksbvjkalsh3kj3vas
 
 COPY ./static/oppenheimers-research.o /bin/ctfmain
 

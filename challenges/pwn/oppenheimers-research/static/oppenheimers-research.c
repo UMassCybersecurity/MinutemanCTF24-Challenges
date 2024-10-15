@@ -1,3 +1,7 @@
+/*
+Compile: gcc o
+*/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
