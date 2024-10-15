@@ -4,11 +4,11 @@
 # If not provided it is inferred from folder name
 
 name: "Lonely Bike Rack"
-description: "There's this lonely bike rack on campus. Can you go and give it some company?\n\nFlag Format: Something on the circled box TODO `MINUTEMAN{TODO}`"
+description: "There's this lonely bike rack on campus. Can you go and give it some company?\n\nFlag Format: `MINUTEMAN{serial number of circled box}` eg 'SN 12-345678' is `MINUTEMAN{12-345678}`\nThe serial number will be the second line on a tag on the front of the box."
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "MINUTEMAN{TODO-checkthesign}" # required field for every flag
+    - content: "MINUTEMAN{44-040342}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
