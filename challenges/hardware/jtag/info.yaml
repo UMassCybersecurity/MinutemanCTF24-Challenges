@@ -1,1 +1,16 @@
-flag: UMassCTF{0x3481:2_JTaG_oR_n0t_2_jTAg}
+name: Hardware Hacking 2
+
+description: "During a routine computer inspection at Los Alamos, we found this suspicious device attached to our nuclear launch computer. It appears to be injecting some data into our program. Can you help us figure out what data it is injecting and where? The flag should be in the format 'MINUTEMAN{ADDR:DATA}'. For example if it wrote 'hacked' to 0xdeadbeef then the flag will be 'MINUTEMAN{0xdeadbeef:hacked}'"
+
+flags:
+  - content: "MINUTEMAN{0x3481:2_JTaG_oR_n0t_2_jTAg}"
+
+hints:
+  - content: "The device was attached to a port labeled JTAG. I wonder what what that is?"
+  - content: "Our computers are using ARM CPUs which implement the ARMv5 debug spec. Here is a great reference: https://piolabs.com/blog/engineering/diving-into-arm-debug-access-port.html"
+
+tags:
+  - hard
+  - JTAG
+
+value: 800
