@@ -1,0 +1,26 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Sam The Minuteman put all the flags in a CSV file, he encrypted the CSV file but I have a sample one with the correct column names. Can you figure out how to decrypt it?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+  - content: "UMASS{CR1B_t1LL_U_W1n_123}"
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Cribbing CSVs
+
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+  - crypto
+  - cribbing
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+  - content: "We now that xor can be reversed: if Plaintext ^ Secret = Ciphertext then we can get the secret key with CipherText ^ Plaintext = Secret"
+  - content: "We know the first line of the plaintext is the same as our sample CSV, how can we use this to get the secret key?"
+  - content: "Encrypting is the same as decrypting in XOR, so once you get the secret key you can get the plaintext back!"
+  
