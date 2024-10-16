@@ -46,7 +46,7 @@ def push_or_pop(floor_num: int):
     if floor_num == num_floors:
         return (-1, 'pop')
     
-    k = floor_num / 100
+    k = floor_num / num_floors
     prob = 0.7 * (1 - k) + 0.3 * k
     change = np.random.choice([1, -1], p=[prob, 1 - prob])
     outcome = 'push' if change == 1 else 'pop'
