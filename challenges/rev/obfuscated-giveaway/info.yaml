@@ -1,6 +1,6 @@
-name: Obfuscated Giveaway
+name: Obfuscated Tickets
 
-description: "Someone is hosting a giveaway for a million dollars!! Can you help me deobfuscate the site and find the right guess?"
+description: "Someone is hosting a giveaway for a ticket to be part of an exclusive team to explore a black hole!! Would you like to be part of the team?"
 
 flags:
   - content: "MINUTEMAN{S3cUrE_jS_XoR}"
@@ -11,4 +11,4 @@ hints:
   - content: Have you ever heard of two's complement
 
 # TODO port number
-connection_info: http://challs.umasscybersec.org
+connection_info: TODO
