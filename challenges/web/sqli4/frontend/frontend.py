@@ -68,9 +68,9 @@ def index():
         if session.get('user') == 'admin':
             return render_template('index.html', message=f'Hello admin!')
         else:
-            return render_template('index.html', message=f"hi")
+            return render_template('index.html', message=f"Welcome researcher!")
     
-    return render_template('index.html', message='please go to login or register')
+    return render_template('index.html', message='Welcome to the Manhattan Project!\nPlease login or register as a researcher.')
 
 @server.route('/login')
 def login():
@@ -91,7 +91,7 @@ def login():
             return render_template('login.html', message=f"something went wrong ({e})")
 
         if len(rec) == 0:
-            return render_template('login.html', message="login incorrect")
+            return render_template('login.html', message="Login incorrect")
         elif rec[0] == 'admin':
             session['user'] = 'admin'
             return redirect('/')
@@ -132,7 +132,7 @@ def register():
 
     if not username and not password:
         return render_template('register.html')
-    return render_template('register.html', message="please enter both username and password")
+    return render_template('register.html', message="Please enter both username and password")
 
 def wait_db():
     try:
