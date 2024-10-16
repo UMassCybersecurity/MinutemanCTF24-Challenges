@@ -4,7 +4,7 @@ from random import shuffle
 from story import *
 from flag import FLAG
 
-testing = False
+testing = True
 
 if not testing:
     print(description)
@@ -66,7 +66,7 @@ print(first_floor)
 print()
 
 while num_failures < max_failures:
-    num_events = np.random.randint(5, 7)
+    num_events = np.random.randint(5, 10)
     for _ in range(num_events):
         num_moves = np.random.choice([1, 2, 3, 4, 5], p=[0.25, 0.3, 0.3, 0.10, 0.05])
 
