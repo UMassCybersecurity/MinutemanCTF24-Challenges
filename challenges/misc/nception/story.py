@@ -30,7 +30,7 @@ If you are wrong too many times, he locks them away forever (and you disconnect 
 Can you save them?
 '''
 
-first_floor = "This is the first floor. Achilles chases the Tortoise up an infinite Escher staircase that loops back to the start; each step defies gravity and logic.",
+first_floor = "This is the first floor. Achilles chases the Tortoise up an infinite Escher staircase that loops back to the start; each step defies gravity and logic."
 last_floor = "They step into a room labeled \"Exit,\". This is the last floor."
 
 floors = [

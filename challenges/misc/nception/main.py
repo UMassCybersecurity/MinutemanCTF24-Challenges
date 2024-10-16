@@ -4,7 +4,7 @@ from random import shuffle
 from story import *
 from flag import FLAG
 
-testing = True
+testing = False
 
 if not testing:
     print(description)
@@ -61,6 +61,7 @@ def get_description(floor_num: int):
         return last_floor
     return floors[floor_num-2]
     
+print(first_floor)
 
 while num_failures < max_failures:
     num_events = np.random.randint(5, 7)
