@@ -25,7 +25,5 @@ while True:
         parity_set = divisor_universe if int(parity_vector[i]) else entire_universe.difference(divisor_universe)
         all_sets.append(parity_set)
 
-    [print(set) for set in all_sets[1:]]
-
     possible_current_states = set.intersection(*all_sets)
     print(possible_current_states)

@@ -4,7 +4,7 @@ from random import shuffle
 from story import *
 from flag import FLAG
 
-testing = True
+testing = False
 
 if not testing:
     print(description)
