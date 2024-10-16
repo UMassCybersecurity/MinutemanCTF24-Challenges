@@ -10,9 +10,6 @@ compile: gcc -g -o oppenheimers-research oppenheimers-research.c -no-pie -fno-st
 const char prompt[] = "Your password input: ";
 const unsigned short prompt_size = sizeof(prompt) - 1;
 
-char* password;
-char* flag;
-
 // Just removing buffers on input and output
 // Not important to challenge
 __attribute__((constructor)) void ignore_me() {
@@ -21,15 +18,17 @@ __attribute__((constructor)) void ignore_me() {
     setbuf(stderr, NULL);
 }
 
-int main(){    
+int main(int argc, char* argv[]){
     char is_oppenheimer = 0;
     char buffer[128];
+    char password[128];
 
-    password = getenv("PASSWORD");
-    if(password == NULL) {
+    FILE *passwd = fopen("password.txt", "r");
+    if(passwd == NULL) {
         puts("No password :(");
         return 1;
     }
+    fgets(password, 128, passwd);
 
     strcpy(buffer, prompt); //add prompt
     
@@ -46,12 +45,15 @@ int main(){
     }
 
     if(is_oppenheimer){
-        puts("Welcome oppenheimer");
-        flag = getenv("FLAG");
+        puts("Welcome oppenheimer!");
+
+        FILE *flag = fopen("flag.txt", "r");
         if(flag == NULL) {
             puts("No flag :(");
             return 1;
         }
-        printf("flag: %s\n", flag);
+        char buff[128];
+        fgets(buff, 128, flag);
+        printf("flag: %s\n", buff);
     }
 }
