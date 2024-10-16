@@ -1,0 +1,20 @@
+name: Oppenheimer's Research 2
+
+description: 
+
+flags:
+  - content: MINUTEMAN{COnfIdenTiAL_r3sEaRch}
+
+hints:
+  - content: I hope we properly accounted for adding the password prompt to our input buffer.
+  - content: I wonder what would happen if the password was really long.
+
+value: 100
+
+tags:
+  - warmup
+  - C
+  - buffer overflow
+
+# TODO port
+connection_info: ""

