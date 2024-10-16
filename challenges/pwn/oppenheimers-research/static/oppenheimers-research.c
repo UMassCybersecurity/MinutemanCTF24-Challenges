@@ -21,7 +21,7 @@ __attribute__((constructor)) void ignore_me() {
 int main(int argc, char* argv[]){
     char is_oppenheimer = 0;
     char buffer[128];
-    char password[128];
+    char password[128]; 
 
     FILE *passwd = fopen("password.txt", "r");
     if(passwd == NULL) {
@@ -33,7 +33,7 @@ int main(int argc, char* argv[]){
     strcpy(buffer, prompt); //add prompt
     
     puts("Enter research password:");
-    fgets(buffer + prompt_size, 128, stdin);
+    fgets(buffer + prompt_size, 0x128, stdin);
 
     buffer[strlen(buffer) - 1] = 0; //remove \n
     puts(buffer);

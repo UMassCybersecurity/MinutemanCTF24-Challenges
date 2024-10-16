@@ -1,6 +1,6 @@
 import pwn
 
-p = pwn.process(["./static/oppenheimers-research", "password", "MINUTEMAN{test-flag}"])
+p = pwn.process("./static/oppenheimers-research")
 # host = "localhost"
 # port = 4444
 # p = remote(host, port)
