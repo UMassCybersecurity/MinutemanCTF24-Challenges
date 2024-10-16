@@ -15,11 +15,12 @@ if not testing:
 
 # Game setup
 shuffle(floors)
-current_floor = 1  # What floor are they currently on
-num_failures = 0   # How many times as the player guessed incorrectly
-max_failures = 5   # What is the max number of wrong guesses before users is kicked
-passed_check = 0   # Did they get their previous guess correct?
-num_floors = 100   # How many floors are there?
+current_floor = 1   # What floor are they currently on
+num_failures = 0    # How many times as the player guessed incorrectly in total?
+max_failures = 5    # What is the max number of wrong guesses before users is kicked
+num_successes = 0   # How many times has the player guessed correctly in a row?
+win_threshold = 10  # How many times in a row does the player have to guess correctly?
+num_floors = 100    # How many floors are there?
 
 def check_tops(floor_num: int):
     tops = np.array([floor_num % 2, floor_num % 3, floor_num % 5, floor_num % 7]) == 0
@@ -62,11 +63,12 @@ def get_description(floor_num: int):
     return floors[floor_num-2]
     
 print(first_floor)
+print()
 
 while num_failures < max_failures:
     num_events = np.random.randint(5, 7)
     for _ in range(num_events):
-        num_moves = np.random.choice([1, 2, 3, 4, 5], p=[0.50, 0.25, 0.15, 0.05, 0.05])
+        num_moves = np.random.choice([1, 2, 3, 4, 5], p=[0.25, 0.3, 0.3, 0.10, 0.05])
 
         for _ in range(num_moves):
             change, outcome = push_or_pop(current_floor)
@@ -96,13 +98,14 @@ while num_failures < max_failures:
 
     if wrong:
         num_failures += 1
-        passed_check = 0
+        num_successes = 0
         print(f'Your guess was wrong, the correct floor was {current_floor}. You have {max_failures - num_failures} guesses left.')
-    elif passed_check:
-        print(f"\n\nYou win, here's your flag: {FLAG}")
-        break
     else:
         print('Your guess was correct.\n')
-        passed_check = 1
+        num_successes += 1
+    
+    if num_successes >= win_threshold:
+        print(f"\n\nYou win, here's your flag: {FLAG}")
+        sys.exit(0)
 
 print('Hofstadter declares with finality: you are out of guesses. Achilles and the Tortoise are mine for eternity! (reconnect to play again)')

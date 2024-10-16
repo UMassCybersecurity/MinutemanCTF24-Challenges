@@ -25,8 +25,8 @@ If the top stops spinning then the current floor number is not divisible by that
 For example, if I am on floor 12, tops 2 and 3 will keep spinning, and tops 5 and 7 will stop.
 
 Every so often, Hofstadter will ask you what floor you are on. 
-If you are right twice in a row, he'll set the duo free. 
-If you are wrong too many times, he locks them away forever (and you disconnect from the game).
+If you are right ten times in a row, he'll set the duo free. 
+If make 5 incorrect guesses in total, he locks the duo away forever (and you disconnect from the game).
 Can you save them?
 '''
 
