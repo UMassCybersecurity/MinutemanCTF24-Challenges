@@ -4,7 +4,7 @@ from random import shuffle
 from story import *
 from flag import FLAG
 
-testing = False
+testing = True
 
 if not testing:
     print(description)
@@ -46,8 +46,8 @@ def push_or_pop(floor_num: int):
     if floor_num == num_floors:
         return (-1, 'pop')
     
-    k = np.log(2) / 100
-    prob = .35 + .3 * np.exp(-k * (floor_num - 2))
+    k = floor_num / 100
+    prob = 0.7 * (1 - k) + 0.3 * k
     change = np.random.choice([1, -1], p=[prob, 1 - prob])
     outcome = 'push' if change == 1 else 'pop'
 
