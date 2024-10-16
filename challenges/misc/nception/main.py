@@ -79,7 +79,7 @@ while num_failures < max_failures:
         if num_moves == 1:
             print(f'Inception: {person} picked out one {outcome}')
         else:
-            print(f'Inception: {person} picked out {num_moves} pushes and tops')
+            print(f'Inception: {person} picked out {num_moves} total pushes and pops')
         print(get_description(current_floor))
         check_tops(current_floor)
         print()
