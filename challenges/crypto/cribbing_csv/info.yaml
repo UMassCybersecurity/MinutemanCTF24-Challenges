@@ -6,7 +6,7 @@ description: Sam The Minuteman put all the flags in a CSV file, he encrypted the
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-  - content: "UMASS{CR1B_t1LL_U_W1n_123}"
+  - content: "MINUTEMAN{CR1B_t1LL_U_W1n_123}"
 
 # Name of the challenge
 # If not provided it is inferred from folder name
