@@ -1,5 +1,6 @@
 /*
-Compile: gcc o
+author: om
+compile: gcc -g -o oppenheimers-research oppenheimers-research.c -no-pie -fno-stack-protector
 */
 
 #include <stdlib.h>
@@ -12,10 +13,18 @@ const unsigned short prompt_size = sizeof(prompt) - 1;
 char* password;
 char* flag;
 
+// Just removing buffers on input and output
+// Not important to challenge
+__attribute__((constructor)) void ignore_me() {
+    setbuf(stdin, NULL);
+    setbuf(stdout, NULL);
+    setbuf(stderr, NULL);
+}
+
 int main(){    
     char is_oppenheimer = 0;
     char buffer[128];
-    
+
     password = getenv("PASSWORD");
     if(password == NULL) {
         puts("No password :(");
