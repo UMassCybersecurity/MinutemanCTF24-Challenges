@@ -32,7 +32,7 @@ int main(int argc, char* argv[]){
 
     strcpy(buffer, prompt); //add prompt
 
-    puts("Enter research password:");
+    printf("Enter research password: ");
     fgets(buffer + prompt_size, 0x128, stdin);
     
     size_t len = strlen(buffer);

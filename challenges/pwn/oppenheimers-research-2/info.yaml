@@ -1,18 +1,17 @@
 name: Oppenheimer's Research 2
 
-description: We fixed some of the issues you brought up. 
+description: We fixed the issues you found last time. Can you break in again and find the flag we planted?
 
 flags:
-  - content: 
+  - content: MINUTEMAN{HowD_u_g3T_iN?}
 
 hints:
-  - content:
-  - content:
+  - content: How does strlen get the length of a string and what does fgets look for to stop collecting input? 
 
-value: 100
+value: 200
 
 tags:
-  - warmup
+  - easy
   - C
   - buffer overflow
 
