@@ -1,0 +1,32 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Echo, echo, echo...
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{1_sh0uld_g0_t0_l3ctur3_1nst34d}" # required field for every flag
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: echo360
+
+# Category of challenge
+# If not provided it is inferred from folder name
+
+# initial point value of challenge
+value: 100 
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: nc hostname 8787
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "Why does the man page for gets() tell us to never use it?" # required field for every hint
+
+# The state of the challenge.
+state: hidden # must be hidden or visible
