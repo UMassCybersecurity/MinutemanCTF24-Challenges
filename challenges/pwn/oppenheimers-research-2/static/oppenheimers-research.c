@@ -40,7 +40,7 @@ int main(int argc, char* argv[]){
         puts("Password too long!");
         return 1;
     }
-    buffer[len] = 0; //remove \n
+    buffer[len - 1] = 0; //remove \n
     
     puts(buffer);
 
