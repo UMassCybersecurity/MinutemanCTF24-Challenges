@@ -1,5 +1,5 @@
-name: Spire Login 2
-description: I'm building a new SPIRE killer startup, starting with the login page. I've heard that the admin reuses his password for other websites. Can you get it for me?
+name: Manhattan Project
+description: "We've found the manhattan project login page, and have heard that the admin reuses their password for other projects as well. Can you get it for us?"
 
 flags:
   - content: "MINUTEMAN{uN10N123_7H3_c0LUMns}"
