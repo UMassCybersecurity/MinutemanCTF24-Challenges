@@ -1,6 +1,5 @@
-name: Spire Login 3
-description: "I'm building a new SPIRE killer startup, starting with the login page. I've heard that the admin reuses his password for other websites. Can you get it for me?""
-
+name: Manhattan Project: The Sequel
+description: "They've revamped how they deal with usernames and changed the admin's password, but that can't stop us from getting it again!"
 flags:
   - content: "MINUTEMAN{71m1Ng_15_3V3ry7H1NG}"
 
