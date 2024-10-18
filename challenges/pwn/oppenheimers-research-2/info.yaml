@@ -6,7 +6,8 @@ flags:
   - content: MINUTEMAN{HowD_u_g3T_iN?}
 
 hints:
-  - content: How does strlen get the length of a string and what does fgets look for to stop collecting input? 
+  - content: How does strlen get the length of a string and what does fgets look for to stop collecting input?
+  - content: How can you send a null character? (Check out pwntools for python)
 
 value: 200
 
