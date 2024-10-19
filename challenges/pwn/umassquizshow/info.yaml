@@ -1,0 +1,32 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Welcome to the UMass Quiz Show! Can you solve all our questions?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{y0u_w1n_th3_gr4nd_pr1ze}" # required field for every flag
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: umassquizshow
+
+# Category of challenge
+# If not provided it is inferred from folder name
+
+# initial point value of challenge
+value: 200
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: nc hostname 6432
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "" # required field for every hint
+
+# The state of the challenge.
+state: hidden # must be hidden or visible
