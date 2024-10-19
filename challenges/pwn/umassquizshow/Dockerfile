@@ -1,6 +1,8 @@
-FROM docker.io/alpine:3.20.2
+FROM ubuntu:22.04
 
-RUN apk add libc6-compat
+RUN apt-get update -y
+RUN apt-get upgrade -y
+RUN apt-get install ncat -y
 
 USER 1001
 
@@ -11,4 +13,4 @@ COPY flag.txt ./
 
 EXPOSE 6432
 
-CMD nc -p 6432 -lvke ./echo360
+CMD nc -p 6432 -lvke ./umass_quiz_show
