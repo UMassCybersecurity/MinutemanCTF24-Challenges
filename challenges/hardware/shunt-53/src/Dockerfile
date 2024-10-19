@@ -1,11 +1,12 @@
 FROM python:alpine3.19
 
-RUN pip install websocket
+RUN pip install websockets
 
 # Copy assets needed.
-COPY server.py /server.py
-RUN chmod +x /server.py
-COPY flag.txt /flag.txt
+COPY app /app
+COPY flag.txt /app
 
+WORKDIR /app
+EXPOSE 6789
 #
-ENTRYPOINT ["/entrypoint.sh"]
+CMD ["python3","server.py"]

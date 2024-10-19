@@ -5,11 +5,11 @@ import numpy as np
 import json
 
 g_PasswordCorrect = False
+SERVER_IP = "172.17.0.2"
 
 async def plot_updates(plot, guess):
     plt.ion() 
     plt.title('Power Trace Capture')
-    
     line, = plt.plot(plot['x'], plot['y'], label=guess)
     plt.legend()
     plt.xlabel('Time (ms)')
@@ -17,7 +17,7 @@ async def plot_updates(plot, guess):
 
 async def main():
     global g_PasswordCorrect
-    uri = "ws://localhost:6789"
+    uri = f"ws://{SERVER_IP}:6789"
 
     async with websockets.connect(uri) as websocket:
         # Receive the initial message.

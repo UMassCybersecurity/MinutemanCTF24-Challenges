@@ -5,6 +5,9 @@ from util.prompts import *
 import json
 import random
 
+def server_log(message):
+    print(message,flush=True)
+
 def generate_password(length):
     password = ''
     for _ in range(length):
@@ -63,10 +66,10 @@ async def server_main(websocket):
 
     try:
         while g_CurrentAttempts < g_MaxAttempts and not g_CorrectGuess:
-            print(f'Waiting for guess...')
+            server_log(f'Waiting for guess...')
             password_guess = await websocket.recv()
-            print(f'Guessed: {password_guess}')
-            print(f'Actual: {g_Password}')
+            server_log(f'Guessed: {password_guess}')
+            server_log(f'Actual: {g_Password}')
 
             # If the lengths aren't the same, don't send any trace data.
             if len(password_guess) != len(g_Password):
@@ -81,7 +84,7 @@ async def server_main(websocket):
             # If they are, check if the password is right (and send the respective trace data).
             x, y = generate_trace(password_guess, g_Password)
             if password_guess != g_Password:
-                print('Incorrect guess.')
+                server_log('Incorrect guess.')
                 await websocket.send(json.dumps({
                     'kind' : 'password',
                     'is_correct' : False,
@@ -111,11 +114,11 @@ async def server_main(websocket):
         
         await websocket.close()
     except websockets.exceptions.ConnectionClosed as e:
-        print(f"[!] Connection was closed.")
+        server_log(f"[!] Connection was closed.")
 
 async def main():
-    server = await websockets.serve(server_main, "localhost", 6789)
-    print("Server started on ws://localhost:6789")
+    server_log("Server started on ws://0.0.0.0:6789")
+    server = await websockets.serve(server_main, "0.0.0.0", 6789)
     await server.wait_closed()
 
 if __name__ == "__main__":
