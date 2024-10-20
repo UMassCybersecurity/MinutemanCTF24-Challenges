@@ -19,7 +19,7 @@ current_floor = 1   # What floor are they currently on
 num_failures = 0    # How many times as the player guessed incorrectly in total?
 max_failures = 5    # What is the max number of wrong guesses before users is kicked
 num_successes = 0   # How many times has the player guessed correctly in a row?
-win_threshold = 10  # How many times in a row does the player have to guess correctly?
+win_threshold = 3   # How many times in a row does the player have to guess correctly?
 num_floors = 100    # How many floors are there?
 
 def check_tops(floor_num: int):
