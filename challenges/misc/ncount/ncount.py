@@ -1,7 +1,7 @@
 from numpy.random import randint
 import sys
 
-flag = 'UMassCTF{y0u_c@n_c0unt_0n_m3_l1ke_123}'
+flag = 'MINUTEMAN{y0u_c@n_c0unt_0n_m3_l1ke_123}'
 
 num_rounds = 10
 operations_per_round = 100

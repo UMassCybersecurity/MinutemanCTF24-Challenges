@@ -3,7 +3,7 @@ category: misc
 description: Time to do some arithmetic
 
 flags:
-  - content: "UMassCTF{y0u_c@n_c0unt_0n_m3_l1ke_123}"
+  - content: "MINUTEMAN{y0u_c@n_c0unt_0n_m3_l1ke_123}"
 
 value: 200
 
