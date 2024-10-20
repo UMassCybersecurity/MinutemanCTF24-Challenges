@@ -5,7 +5,7 @@ description: This challenge introduces you to nc (netcat). The text below is a t
 value: 100 
 
 flags:
-    - content: "UMassCTF{3T_h@s_ph0n3d_h0m3}"
+    - content: "MINUTEMAN{3T_h@s_ph0n3d_h0m3}"
 
 topics:
     - nc

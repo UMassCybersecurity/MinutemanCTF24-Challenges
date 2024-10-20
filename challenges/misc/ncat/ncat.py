@@ -2,7 +2,7 @@ import sys
 import random
 
 
-flag = 'UMassCTF{3T_h@s_ph0n3d_h0m3}'
+flag = 'MINUTEMAN{3T_h@s_ph0n3d_h0m3}'
 
 questions = [
     (
