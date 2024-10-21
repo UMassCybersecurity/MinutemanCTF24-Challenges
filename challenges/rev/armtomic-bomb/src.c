@@ -1,6 +1,6 @@
 /*
 author: leon
-compile: gcc -o armtomic-bomb -fno-compare-elim -no-pie -fno-omit-frame-pointer src.c
+compile: gcc -o armtomic-bomb -fno-compare-elim -no-pie -fno-stack-protector -fno-omit-frame-pointer src.c && strip armtomic-bomb
 */
 #include <stdint.h>
 #include <stdio.h>
@@ -19,6 +19,7 @@ struct Bomb {
     char solve[22];
 };
 
+
 typedef struct Bomb Bomb;
 
 char flag[] = "defuz_d4_b1n4ry_b0mb!";
@@ -35,7 +36,7 @@ void phase2(register uint64_t a, register uint64_t b) {
     register uint64_t val = 0x5f62316e3472795f;
     for (register char i = 15; i < 8 + 15; i++) {
         the_bomb.solve[i] = val & a; // 0xFF00000000000000
-        val <<= b; // 2
+        val <<= b; // 8
     }
     the_bomb.p2 = val;
 }
