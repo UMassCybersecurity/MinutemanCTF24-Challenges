@@ -1,0 +1,12 @@
+services:
+  backend:
+    build: .
+    ports:
+      - 4041:3000
+    environment:
+      REDIS_URL: redis://cache-storage:6379
+      REDIS_HOST: cache-storage
+      FLAG: MINUTEMAN{D@ta_tRansmi55i0N_b@cK_THr0ugH_th3_W0RMho1e_1s_ruD1ment@ry}
+  cache-storage:
+    image: redis:latest
+    restart: always
