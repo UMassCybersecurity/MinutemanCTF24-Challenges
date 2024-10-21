@@ -4,7 +4,7 @@ description: Can you disARM the ARM'dtomic bomb by finding the secret code?
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "UMASS{defuz_d4_b1n4ry_b0mb!}" # required field for every flag
+    - content: "MINUTEMAN{defuz_d4_b1n4ry_b0mb!}" # required field for every flag
       type: "static" # must be static or regex
 
 # Optional settings (defaults defined in default.yaml)
