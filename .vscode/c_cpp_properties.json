@@ -3,7 +3,9 @@
         {
             "name": "Linux",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/challenges/hardware/led-blink/code/libs/simavr/include/simavr",
+                "${workspaceFolder}/challenges/hardware/led-blink/code/include"
             ],
             "defines": [],
             "compilerPath": "/usr/bin/gcc",
