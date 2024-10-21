@@ -1,0 +1,21 @@
+description: There's a flag scattered across the website. Can you piece it together?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{B3-R3v3lUt10N@rY-572932-0}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Scavenger Hunt
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: misc
+
+connection_info: http://challs.umasscybersec.org:3000
+
+hints:
+    - content: "The flag is made up of 4 parts; each part can be found somewhere on the website with a number corresponding to its order. e.g.: 1: UMass{, 2: abc, 3: def, 4 ghi} would combine to form UMass{abcdefghi}."
+
