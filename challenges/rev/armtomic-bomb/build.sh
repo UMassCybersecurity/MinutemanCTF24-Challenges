@@ -1,4 +1,8 @@
 #! /bin/bash
 
-gcc -Wall -o static/armtomic-bomb-x86-64 -fno-compare-elim -no-pie -fno-stack-protector -fno-omit-frame-pointer src.c
-arm-none-eabi-gcc -Wall -o static/armtomic-bomb-armv7 -fno-compare-elim -no-pie -fno-stack-protector -fno-omit-frame-pointer src.c
+# x86-64
+gcc -Wall -o static/armtomic-bomb-x86-64 -no-pie -fno-stack-protector src.c
+# arm v7 linux
+arm-linux-gnueabihf-gcc -Wall -o static/armtomic-bomb-armv7 -no-pie -fno-stack-protector src.c
+# arm v8 linux
+aarch64-linux-gnu-gcc -Wall -o static/armtomic-bomb-armv8 -no-pie -fno-stack-protector src.c
