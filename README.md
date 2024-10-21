@@ -23,7 +23,7 @@ You can specify the type of challenge in the info.yaml.
         - a static folder with downloadable assets
         - Dockerfile/docker-compose.yml (if dynamic)
         - info.yaml (*see example challenges for required fields*)
-            - The flag should have the following format: MINUTEMANCTF{<FLAG>}
+            - The flag should have the following format: MINUTEMAN{<FLAG>}
         - README.md
         - solve script (if dynamic) (*see example challenges for format*)
 2) Create a PR to merge into the dev branch. 
