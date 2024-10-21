@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"encoding/json"
 	"fmt"
 	"github.com/danielgtaylor/huma/v2"
 	"github.com/danielgtaylor/huma/v2/adapters/humachi"
@@ -13,26 +12,20 @@ import (
 )
 
 /*
-- fix GET password to take in a request parameter, get rid of the boof middleware
-- add a POST endpoint
-- add a PUT endpoint?
 - fix to do proper basic authentication as for the FastAPI spec, update description
-*/
-
-/*
-username: samTheMinuteman
-password: apisAreCool@#88
-c2FtVGhlTWludXRlbWFuOmFwaXNBcmVDb29sQCM4OA==
 */
 
 const (
 	username        = "sAmTh3MiNut3mAn"
 	password        = "apisAreCool@#88"
 	validAuthHeader = "c0FtVGgzTWlOdXQzbUFuOmFwaXNBcmVDb29sQCM4OA==" //TODO: proper var name?
+	flagPart1       = "UMASS{auth0riz"
+	flagPart2       = "At!ion-Is-c00l}"
 )
 
 var (
-	api huma.API
+	api             huma.API
+	returnFlagPart2 = false
 )
 
 func main() {
@@ -47,19 +40,13 @@ func main() {
 // TODO: make sure methods that don't need to be public arent
 func authorizeBearerToken(ctx huma.Context, next func(huma.Context)) {
 	authBearerHeader := ctx.Header("Authorization") //TODO: fix variable name
-	if authBearerHeader != validAuthHeader {
+	if authBearerHeader != fmt.Sprintf("Basic %s", validAuthHeader) {
 		huma.WriteErr(api, ctx, http.StatusForbidden,
 			"Are you sure you are Sam the Minuteman?", fmt.Errorf("unauthorized request"),
 		)
 		return
 	}
 	next(ctx)
-}
-
-func VerifySecretPart1(ctx huma.Context, next func(huma.Context)) {
-	var o TestInput
-	_ = json.NewDecoder(ctx.BodyReader()).Decode(&o)
-	fmt.Println(o)
 }
 
 func GetPasswordMiddleware(ctx huma.Context, next func(huma.Context)) {
@@ -80,15 +67,12 @@ type GetPasswordInput struct {
 }
 
 type GetSecret1Input struct {
-	Auth string `header:"Authorization"`
+	Auth string `header:"Authorization" default:"Basic"`
 }
 type PostSecret2Input struct {
 	Body struct {
 		SecretPart1 string `json:"secretPart1"`
 	}
-}
-type TestInput struct {
-	SecretPart1 string `json:"secretPart1"`
 }
 
 type Output struct {
@@ -124,29 +108,33 @@ func setupEndpoints() {
 	})
 
 	huma.Register(api, huma.Operation{
-		OperationID: "post-secret-part2",
-		Method:      http.MethodPost,
-		Path:        "/secret2",
-		Middlewares: huma.Middlewares{VerifySecretPart1},
-		Summary:     "Get the ending of my secret",
-		Description: "Give me the beginning of my secret so I can give you the end.",
-	}, func(ctx context.Context, input *PostSecret2Input) (*Output, error) {
-		resp := &Output{}
-		resp.Body.Message = "At!ion-Is-c00l}"
-		return resp, nil
-	})
-
-	huma.Register(api, huma.Operation{
 		OperationID: "get-secret-part1",
 		Method:      http.MethodGet,
 		Path:        "/secret1",
 		Middlewares: huma.Middlewares{authorizeBearerToken},
 		Summary:     "Get the beginning of my secret",
-		Description: "I love tokens!",
+		Description: "I love basic tokens!",
 	}, func(ctx context.Context, input *GetSecret1Input) (*Output, error) {
 		resp := &Output{}
-		resp.Body.Message = "UMASS{auth0riz"
+		resp.Body.Message = flagPart1
 		return resp, nil
 	})
 
+	huma.Register(api, huma.Operation{
+		OperationID: "post-secret-part2",
+		Method:      http.MethodPost,
+		Path:        "/secret2",
+		Middlewares: huma.Middlewares{},
+		Summary:     "Get the ending of my secret",
+		Description: "Give me the beginning of my secret so I can give you the end.",
+	}, func(ctx context.Context, input *PostSecret2Input) (*Output, error) {
+		fmt.Print(input)
+		resp := &Output{}
+		if input.Body.SecretPart1 == flagPart1 {
+			resp.Body.Message = flagPart2
+		} else {
+			resp.Body.Message = "Try Again! Are you sure you have the correct beginning of the flag?"
+		}
+		return resp, nil
+	})
 }
