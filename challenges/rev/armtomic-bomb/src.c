@@ -1,6 +1,6 @@
 /*
 author: leon
-compile: gcc -o armtomic-bomb -fno-compare-elim -no-pie -fno-stack-protector -fno-omit-frame-pointer src.c && strip armtomic-bomb
+compile: gcc -Wall -o armtomic-bomb -fno-compare-elim -no-pie -fno-stack-protector -fno-omit-frame-pointer src.c
 */
 #include <stdint.h>
 #include <stdio.h>
@@ -12,17 +12,17 @@ __attribute__((constructor)) void ignore_me() {
 }
 
 struct Bomb {
-    char p1;
-    char p2;
-    char p3;
-    char p4;
+    int p1;
+    int p2;
+    int p3;
+    int p4;
     char solve[22];
 };
 
 
 typedef struct Bomb Bomb;
 
-char flag[] = "defuz_d4_b1n4ry_b0mb!";
+//char flag[] = "defuz_d4_b1n4ry_b0mb!";
 
 Bomb the_bomb = { -1, -1, -1, -1, 0x0 };
 
@@ -34,8 +34,9 @@ void phase1(register unsigned int inp1, register unsigned int inp2) {
 
 void phase2(register uint64_t a, register uint64_t b) {
     register uint64_t val = 0x5f62316e3472795f;
-    for (register char i = 15; i < 8 + 15; i++) {
-        the_bomb.solve[i] = val & a; // 0xFF00000000000000
+    for (register char i = 8; i < 8 + 8; i++) {
+        register char charac = (val & a)>>(64-8); // 0xFF00000000000000
+        the_bomb.solve[i] = charac;
         val <<= b; // 8
     }
     the_bomb.p2 = val;
@@ -44,11 +45,11 @@ void phase2(register uint64_t a, register uint64_t b) {
 void phase3(register uint32_t inp) {
     uint32_t p3_val = 0b01100010001100000110110101100010; // b0mb in ascii
 
-    inp = ~inp; // solve is 0x9dcf929e
+    inp = ~inp; // solve is 0x9DCF929D
     the_bomb.p3 = inp ^ p3_val;
-    for (register int i = 20; i > 20 - 4; i--) {
+    for (register int i = 19; i > 19 - 4; i--) {
         the_bomb.solve[i] = inp & 0xFF;
-        inp >= 8;
+        inp >>= 8;
     }
 }
 
@@ -69,30 +70,31 @@ int main() {
     the_bomb.solve[5] = '_';
     the_bomb.solve[8] = '_';
     the_bomb.solve[15] = '_';
-    the_bomb.solve[21] = '!';
+    the_bomb.solve[20] = '!';
 
     printf("phase 1, input two numbers\n");
-    int a = 0;
-    int b = 0;
+    unsigned int p1a = 0;
+    unsigned int p1b = 0;
     printf("num 1: ");
-    scanf("%u", &a);
+    scanf("%u", &p1a);
     printf("num 2: ");
-    scanf("%u", &b);
-    phase1(a, b);
+    scanf("%u", &p1b);
+    phase1(p1a, p1b);
 
-    printf("phase 2, input two numbers\n");
-    a = 0;
-    b = 0;
+    printf("phase 2, input two numbers in hex\n");
+    uint64_t p2a = 0;
+    uint64_t p2b = 0;
     printf("num 1: ");
-    scanf("%u", &a);
+    scanf("%lx", &p2a);
     printf("num 2: ");
-    scanf("%u", &b);
-    phase2(a, b);
+    scanf("%lx", &p2b);
+    phase2(p2a, p2b);
 
     printf("phase 3, input a number in hex\n");
     printf("num: ");
-    scanf("%x", &a);
-    phase3(a);
+    uint64_t p3a = 0;
+    scanf("%lx", &p3a);
+    phase3(p3a);
 
     printf("phase 4, input a string\n");
     char input[5];

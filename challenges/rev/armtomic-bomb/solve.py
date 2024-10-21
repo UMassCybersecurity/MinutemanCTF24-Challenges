@@ -5,10 +5,15 @@ e = ELF("./armtomic-bomb")
 context.terminal = ['tmux', 'splitw', '-h']
 p = gdb.debug("./armtomic-bomb", gdbscript = '''
         set emulate off
-          b phase2
-          b phase3
-          b phase4
           ''')
+#phase 1
 p.sendline(b'112')
-p.sendline(b'130')
+p.sendline(b'160')
+#phase 2
+p.sendline(b'0xFF00000000000000')
+p.sendline(b'8')
+#phase 3
+p.sendline(b'0x9DCF929D')
+#phase 4
+p.sendline(b'defuz')
 p.interactive()
