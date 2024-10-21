@@ -1,9 +1,12 @@
 /*
 author: leon
-compile: gcc -Wall -o armtomic-bomb -fno-compare-elim -no-pie -fno-stack-protector -fno-omit-frame-pointer src.c
+compile: gcc -Wall -o armtomic-bomb -no-pie -fno-stack-protector src.c
 */
+
 #include <stdint.h>
 #include <stdio.h>
+
+#include "arch.h"
 
 __attribute__((constructor)) void ignore_me() {
     setbuf(stdout, NULL);
@@ -19,10 +22,9 @@ struct Bomb {
     char solve[22];
 };
 
-
 typedef struct Bomb Bomb;
 
-//char flag[] = "defuz_d4_b1n4ry_b0mb!";
+// char flag[] = "defuz_d4_b1n4ry_b0mb!";
 
 Bomb the_bomb = { -1, -1, -1, -1, 0x0 };
 
@@ -35,7 +37,7 @@ void phase1(register unsigned int inp1, register unsigned int inp2) {
 void phase2(register uint64_t a, register uint64_t b) {
     register uint64_t val = 0x5f62316e3472795f;
     for (register char i = 8; i < 8 + 8; i++) {
-        register char charac = (val & a)>>(64-8); // 0xFF00000000000000
+        register char charac = (val & a) >> (64 - 8); // 0xFF00000000000000
         the_bomb.solve[i] = charac;
         val <<= b; // 8
     }
@@ -85,15 +87,28 @@ int main() {
     uint64_t p2a = 0;
     uint64_t p2b = 0;
     printf("num 1: ");
+#if ARM
+    scanf("%llx", &p2a);
+#else
     scanf("%lx", &p2a);
+#endif
+
     printf("num 2: ");
+#if ARM
+    scanf("%llx", &p2b);
+#else
     scanf("%lx", &p2b);
+#endif
     phase2(p2a, p2b);
 
     printf("phase 3, input a number in hex\n");
     printf("num: ");
     uint64_t p3a = 0;
+#if ARM
+    scanf("%llx", &p3a);
+#else
     scanf("%lx", &p3a);
+#endif
     phase3(p3a);
 
     printf("phase 4, input a string\n");
