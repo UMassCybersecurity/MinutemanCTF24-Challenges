@@ -14,8 +14,10 @@ name: Scavenger Hunt
 # If not provided it is inferred from folder name
 category: misc
 
-connection_info: http://challs.umasscybersec.org:3000
+value: 50
+
+tags:
+    - Warmup
 
 hints:
     - content: "The flag is made up of 4 parts; each part can be found somewhere on the website with a number corresponding to its order. e.g.: 1: UMass{, 2: abc, 3: def, 4 ghi} would combine to form UMass{abcdefghi}."
-
