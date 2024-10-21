@@ -5,6 +5,10 @@ flags:
     type: static
     data: "case_insensitive"
 
+
+hints: 
+  - content: "Try making some sets where the current state could be in, and find what numbers they share"
+
 name: nception
 
 value: 400
