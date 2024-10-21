@@ -3,3 +3,8 @@ description: "I put the flag into ChatGPT (GPT4) for safe keeping, but forgot wh
 flag: "MINUTEMAN{f1r3d_by_h1nt0n}"
 
 value: 200
+
+name: 30400
+
+hints:
+  - content: "All neural networks and transformers (GPT) work with numbers. Try looking into how GPT converts text to numbers."
