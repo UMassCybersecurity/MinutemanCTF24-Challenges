@@ -1,9 +1,9 @@
 from pwn import *
 
-e = ELF("./armtomic-bomb")
+e = ELF("./static/armtomic-bomb-x86-64")
 
 context.terminal = ['tmux', 'splitw', '-h']
-p = gdb.debug("./armtomic-bomb", gdbscript = '''
+p = gdb.debug(e.path, gdbscript = '''
         set emulate off
           ''')
 #phase 1

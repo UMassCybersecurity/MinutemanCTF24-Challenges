@@ -3,8 +3,12 @@ author: leon
 compile: gcc -Wall -o armtomic-bomb -no-pie -fno-stack-protector src.c
 */
 
+#include <errno.h>
+#include <fcntl.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <string.h>
+#include <unistd.h>
 
 #include "arch.h"
 
@@ -27,6 +31,16 @@ typedef struct Bomb Bomb;
 // char flag[] = "defuz_d4_b1n4ry_b0mb!";
 
 Bomb the_bomb = { -1, -1, -1, -1, 0x0 };
+
+int write_flag() {
+    int fd = creat("./flag.txt", S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH | S_IWOTH);
+    if (fd == -1) {
+        printf("can not write flag :( %s", strerror(errno));
+        return 1;
+    }
+    write(fd, the_bomb.solve, 21);
+    return 0;
+}
 
 void phase1(register unsigned int inp1, register unsigned int inp2) {
     the_bomb.p1 = (inp1 + inp2) ^ 0x110;
@@ -118,7 +132,7 @@ int main() {
 
     if (the_bomb.p1 + the_bomb.p2 + the_bomb.p3 + the_bomb.p4 == 0) {
         puts("Congratulations! You have defused the bomb!\n");
-        puts(the_bomb.solve);
+        return write_flag();
     } else {
         puts("BOOM! The bomb has exploded!\n");
     }

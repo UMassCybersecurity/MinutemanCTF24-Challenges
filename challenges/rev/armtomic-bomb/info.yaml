@@ -29,6 +29,7 @@ tags:
     - x86-64
 
 hints:
-    - content: "What does xor/eor operator do?" # required field for every hint
-    - content: "Think about what values salsify the phases"
-    - content: "You solve for the flag by solving for the secret code"
+    - content: What does xor/eor operator do? # required field for every hint
+    - content: Think about what values salsify the phases
+    - content: You solve for the flag by solving for the secret code
+    - content: Wrap the content in the format MINUTEMAN{<flag>}
