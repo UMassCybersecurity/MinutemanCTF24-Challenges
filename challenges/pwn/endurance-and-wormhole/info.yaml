@@ -1,0 +1,26 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Can you help the endurance crew calculate the wormhole jump?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{y0u_r3t_thu_th3_h0l}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Endurance & Wormhole
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: nc challs.umasscybersec.org 7878
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: What does "ret" do? # required field for every hint
+    - content: What's a buffer overflow? What's a stack canary? # required field for every hint
