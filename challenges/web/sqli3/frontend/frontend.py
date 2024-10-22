@@ -29,11 +29,11 @@ class DBManager:
         self.username = f'username_{self.db_append_username}'
         self.password = f'password_{self.db_append_password}'
 
-    def init_db(self, database='user_db', host="db", user="root"):
+    def init_db(self, database='user_db', user="root"):
         self.connection = mysql.connector.connect(
             user=user, 
             password='c4cc207db461462f8e22aa3ddc744b66',
-            host=host, 
+            host=os.environ['DATABASE'], 
             database=database
         )
         self.cursor = self.connection.cursor()
