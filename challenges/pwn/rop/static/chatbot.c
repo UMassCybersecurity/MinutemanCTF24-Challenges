@@ -5,6 +5,7 @@ compile: gcc -g -o chatbot chatbot.c -no-pie -fno-stack-protector --static
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 // Just removing buffers on input and output
 // Not important to challenge
@@ -44,6 +45,10 @@ int main(){
     while (1){
         printf("> ");
         fgets(buffer, 0x100, stdin);
+        if(!strncmp(buffer, "exit", 4)){
+            puts("Goodbye :)");
+            break;
+        }
         puts(quotes[rand() % quotes_len]);
     }
 }
