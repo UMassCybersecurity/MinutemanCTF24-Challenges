@@ -8,6 +8,7 @@ services:
       - db
     environment:
       - FLAG=MINUTEMAN{uN10N123_7H3_c0LUMns}
+      - DATABASE=db
   db:
     image: mysql:9.0.1
     container_name: sqli2_db
