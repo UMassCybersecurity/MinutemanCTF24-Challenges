@@ -101,7 +101,7 @@ MAPPING = {
     "\f": "\u001a"
 }
 
-FLAG = list("MINUTEMAN{TH3_S3Cr3T_W4S_H1dd3N_But_N0t_w3ll_3n0ugh}")
+FLAG = list("MINUTEMAN{FLAG_FOR_TESTING}")
 
 for i in range(len(FLAG)):
     char = FLAG[i]
