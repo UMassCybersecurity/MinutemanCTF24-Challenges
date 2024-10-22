@@ -1,0 +1,11 @@
+name: Memory Forensics 1
+category: forensics
+description: """There is an encrypted TrueCrypt volume on the desktop. Can you recover the password and open it?
+
+For this challenge, please use the fork of Volatility found at: https://github.com/stolenfootball/volatility3.git
+
+The memory dump can be found at: https://storage.googleapis.com/minutemanctf-24-static/raw-mem-2.zip
+"""
+# Add a regular flag
+flags:
+  - content: "MINUTEMAN{trucryp7_wAs_r3t1r3d_f0r_a_r3as0n}"
