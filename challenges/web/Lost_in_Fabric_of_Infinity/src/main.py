@@ -13,7 +13,7 @@ def index():
                     
                 return render_template("messages.html", message=message)
             except Exception as e:
-                return e, 500
+                return str(e)
         else:
             return render_template("index.html")
     else:
