@@ -1,0 +1,9 @@
+name: Memory Forensics 1
+category: forensics
+description: """Learn to use Volatility3 to analyze a memory dump of a computer!
+
+Download the memory dump from: https://storage.googleapis.com/minutemanctf-24-static/raw_mem_1.zip
+"""
+# Add a regular flag
+flags:
+  - content: "MINUTEMAN{m3m0ry_f0r3ns1cs_1s_c00l}"
