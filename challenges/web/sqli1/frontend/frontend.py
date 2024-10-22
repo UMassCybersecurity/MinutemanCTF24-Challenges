@@ -23,11 +23,11 @@ class DBManager:
     def __init__(self):
         self.admin_password = ''.join(random.choices(string.ascii_uppercase + string.digits, k=20)) # generates random string
 
-    def init_db(self, database='user_db', host="db", user="root"):
+    def init_db(self, database='user_db', user="root"):
         self.connection = mysql.connector.connect(
             user=user, 
             password='c4cc207db461462f8e22aa3ddc744b66',
-            host=host, 
+            host=os.environ['DATABASE'], 
             database=database
         )
         self.cursor = self.connection.cursor()
