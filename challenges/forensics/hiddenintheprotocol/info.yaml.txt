@@ -1,0 +1,21 @@
+description: My friend just finished watching Interstellar, and he's pinged me AT LEAST 64 times. I know it's a good movie, but he doesn't have to be that big of a fan. I already get so much traffic to my computer, I think all the extra notifications are going to crash it :(
+(Wireshark is useful for completing this challenge).
+
+flags:
+- content: "MINUTEMAN{pACk_paCk37_PAyl0Ad5}"
+  type: "static"
+
+name: Hidden in the Protocol
+
+category: forensics
+
+value:100
+
+max_attempts: 0
+
+tags:
+ - forensics
+ - wireshark
+
+files:
+ -  hiddenintheprotocol/Computer_Packets.pcapng
