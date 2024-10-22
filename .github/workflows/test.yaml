@@ -1,0 +1,37 @@
+name: test 
+on:
+  pull_request:
+    types: [opened, edited, synchronize, reopened]
+jobs:
+  test-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.7
+      - run: |-
+          branch=${{github.head_ref}}
+          tokens=(${branch//'/'/ })
+          
+          echo "category=${tokens[0]}" >> $GITHUB_ENV
+          echo "challenge=${tokens[1]}" >> $GITHUB_ENV
+      - name: test does not exist 
+        run: |-
+          if [ ${{env.category}} == 'web' && [[ ! -v ${{ vars.random}} ]] ]; then 
+            echo "it does exist"
+          else 
+            echo "it does NOT exist"
+          fi 
+      - name: test exists
+        run: |-
+          if [ ${{env.category}} == 'web' && [[ ! -v ${{ vars.test }} ]] ]; then 
+
+            echo "it does exist"
+          else 
+            echo "it does NOT exist"
+          fi
+      - name: test web 
+        run: |-
+          if [ ${{env.category}} == 'web' ]; then 
+            echo "it does exist"
+          else 
+            echo "it does NOT exist"
+          fi
