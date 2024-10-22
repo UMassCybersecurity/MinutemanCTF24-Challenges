@@ -8,7 +8,6 @@ description: I'm sick of making flags, so how about you build your own. Use this
 flags:
     - content: "Minuteman{:\)_([A-Z]|[a-z]){5}_[0-9]{3}_([^A-Z])([^a-z])([^0-9])_\w}" # required field for every flag
       type: "regex" # must be static or regex
-      data: "case_insensitive" # additional data
 
 name: build_a_flag
 
