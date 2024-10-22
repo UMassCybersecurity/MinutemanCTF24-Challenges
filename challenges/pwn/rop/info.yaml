@@ -7,3 +7,9 @@ flags:
 hints:
   - content: I wonder what I can do with control of that stack and return statements?
   - content: You should try this amazing tool ROPgadgets
+
+tags:
+  - ROP
+  - hard
+
+points: 800

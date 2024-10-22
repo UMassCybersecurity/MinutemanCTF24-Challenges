@@ -1,10 +1,19 @@
 /*
 author: om
-compile: gcc -g -o rop rop.c -no-pie -fno-stack-protector --static
+compile: gcc -g -o chatbot chatbot.c -no-pie -fno-stack-protector --static
 */
 
 #include <stdio.h>
 #include <stdlib.h>
+
+// Just removing buffers on input and output
+// Not important to challenge
+__attribute__((constructor)) void ignore_me() {
+    setbuf(stdin, NULL);
+    setbuf(stdout, NULL);
+    setbuf(stderr, NULL);
+}
+
 
 const char* quotes[] = {
     "I can’t do that. It’s not in my programming.",
