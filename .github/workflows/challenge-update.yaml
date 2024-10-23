@@ -51,14 +51,14 @@ jobs:
       - name: Select VM
         if: steps.check_dockercompose.outputs.files_exists == 'true' || steps.check_dockerfile.outputs.files_exists == 'true'
         run: |-
-          if [ ${{ env.category }} == 'web' ] && [ ! -z ${{ vars.WEB_VM_NAME }} ]; then
-            vm_name=${{ vars.WEB_VM_NAME }}
-          elif [ ${{ env.category }} == 'pwn' ] && [ ! -z ${{ vars.PWN_VM_NAME }} ]; then
-            vm_name=${{ vars.PWN_VM_NAME }}
-          elif [ ${{ env.category }} == 'misc' ] && [ ! -z ${{ vars.MISC_VM_NAME }} ]; then
-            vm_name=${{ vars.MISC_VM_NAME }}
+          if [ ${{ env.category }} == 'web' ] && [ ! -z ${{ vars.WEBCHALLSVM }} ]; then
+            vm_name=${{ vars.WEBCHALLSVM }}
+          elif [ ${{ env.category }} == 'pwn' ] && [ ! -z ${{ vars.PWNCHALLSVM }} ]; then
+            vm_name=${{ vars.PWNCHALLSVM }}
+          elif [ ${{ env.category }} == 'misc' ] && [ ! -z ${{ vars.MISCCHALLSVM }} ]; then
+            vm_name=${{ vars.MISCCHALLSVM }}
           else
-            vm_name=${{ vars.MIXED_CHALLS_VM_NAME }}
+            vm_name=${{ vars.MIXEDCHALLSVM }}
           fi
           
           echo "vm_name=$vm_name" >> $GITHUB_ENV
