@@ -15,8 +15,8 @@ category: web
 
 value: 400
 
-tags:
-    - Intermediate
-
 hints:
     - content: "The messages are constructed differently from Solar Transmissions before they are sent to your client."
+
+connection_info: http://web.minuteman.umasscybersec.org:8008
+

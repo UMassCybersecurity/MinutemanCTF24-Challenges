@@ -2,7 +2,7 @@ services:
   backend:
     build: .
     ports:
-      - 4041:3000
+      - 8008:3000
     environment:
       REDIS_URL: redis://cache-storage:6379
       REDIS_HOST: cache-storage
