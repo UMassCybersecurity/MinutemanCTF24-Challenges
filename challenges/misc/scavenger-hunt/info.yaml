@@ -15,6 +15,7 @@ name: Scavenger Hunt
 category: misc
 
 value: 50
+connection_info: http://misc.minuteman.umasscybersec.org:5000
 
 tags:
     - Warmup
