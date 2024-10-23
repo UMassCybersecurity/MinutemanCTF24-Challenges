@@ -3,9 +3,13 @@ category: web
 description: Cooper just came back from Miller's planet, and he received messages that span 23 years. Can you find the secret message Tom and Murph left for him in flag.txt?
 # Add a regular flag
 flags:
-  - content: "MINUTEMAN{V@liD_c0mmAnd_iNj3ct_W}"
+  - content: "MINUTEMAN{L0v3_is_F0r3V3r_0nLy_iNfInIt3}"
 
 connection_info: http://web.minuteman.umasscybersec.org:8002
 value: 200
+
 hints:
-    - content: "I wonder if there's input sanitization for commands?" # required field for every hint
+    - content: "The url parameter field looks interesting..." # required field for every hint
+    - content: "I wonder if I can read any other files on the system?"
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 20 # points to 'This is the first hint'
