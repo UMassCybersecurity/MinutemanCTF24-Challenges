@@ -5,4 +5,6 @@ description: Check out this simple class inspector I made!
 flags:
   - content: "MINUTEMAN{V@liD_c0mmAnd_iNj3ct_W}"
 
+connection_info: http://web.minuteman.umasscybersec.org:8000
+
 value: 100
