@@ -8,3 +8,6 @@ flags:
 connection_info: http://web.minuteman.umasscybersec.org:8000
 
 value: 100
+
+hints:
+    - content: "I wonder if there's input sanitization for commands?" # required field for every hint
