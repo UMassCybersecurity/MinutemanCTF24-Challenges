@@ -12,7 +12,9 @@ jobs:
         uses: andstor/file-existence-action@v3.0.0
         with:
           files: "challenges/${{ github.head_ref }}/Dockerfile"
-      - name: Build docker image
+      - name: Build Docker image
         if: steps.check_dockerfile.outputs.files_exists == 'true'
         run: |
           docker build "challenges/${{ github.head_ref }}"
+      - name: Check info.yaml
+        run: ./scripts/ctf-uploader "challenges" "defaults.yaml"

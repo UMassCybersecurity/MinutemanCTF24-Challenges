@@ -4,7 +4,7 @@ description: This is a sample description
 
 # Add a regular flag
 flags:
-  - content: "UMassCTF{hello}"
+  - content: "UMASS{hello}"
 
 # Make this challenge worth 500 points
 value: 500
