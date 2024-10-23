@@ -1,0 +1,9 @@
+name: "Manhattan Project: The Sequel"
+description: "They've revamped how they deal with usernames and changed the admin's password, but that can't stop us from getting it again!"
+
+flags:
+  - content: "MINUTEMAN{71m1Ng_15_3V3ry7H1NG}"
+
+# hints:
+
+connection_info: http://web-challs.umasscybersec.org:1337
