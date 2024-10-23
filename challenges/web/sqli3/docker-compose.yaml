@@ -3,7 +3,7 @@ services:
     build: "./frontend"
     container_name: sqli2_frontend
     ports:
-      - 1337:1337
+      - 8006:1337
     depends_on:
       - db
     environment:
