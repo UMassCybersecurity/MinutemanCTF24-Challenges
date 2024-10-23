@@ -100,7 +100,7 @@ jobs:
           done;
           #TODO unsudo
           gcloud auth configure-docker us-central1-docker.pkg.dev
-          gcloud compute ssh umasscybersec@${{ env.vm_name }} --zone=${{ vars.VM_ZONE }} --command="docker kill ${{ env.challenge }} || true; sudo docker rm ${{ env.challenge }} || true; sudo docker run --pull=always -d --name ${{ env.challenge }} $PORT_STR ${{ env.image }}"
+          gcloud compute ssh umasscybersec@${{ env.vm_name }} --zone=${{ vars.ZONE }} --command="docker kill ${{ env.challenge }} || true; sudo docker rm ${{ env.challenge }} || true; sudo docker run --pull=always -d --name ${{ env.challenge }} $PORT_STR ${{ env.image }}"
       # Other tasks
       - name: Upload Static Files
         if: steps.check_static.outputs.files_exists == 'true'
