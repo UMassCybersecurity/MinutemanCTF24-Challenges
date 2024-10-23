@@ -7,4 +7,5 @@ flags:
   - content: "MINUTEMAN{Cr0sS1nG_Sp4C3_T0_F0Rg3_R3qu3STS}"
 
 # Make this challenge worth 500 points
-value: 500
+value: 800
+connection_info: http://web.minuteman.umasscybersec.org:8009
