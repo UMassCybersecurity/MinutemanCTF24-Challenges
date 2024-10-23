@@ -9,4 +9,6 @@ hints:
   - content: "Try sending an apostrophe in the username. What happens?"
   - content: "Command injection uses bash operators (&&, ;, etc). What can you use in SQL to break the application?"
 
-connection_info: http://web-challs.umasscybersec.org:1337
+value: 100
+
+connection_info: http://web-challs.umasscybersec.org:8002
