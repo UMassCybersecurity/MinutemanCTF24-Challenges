@@ -48,11 +48,7 @@ app.post('/register', async (req, res) => {
 app.post('/report', async (req, res) => {
   const path = req.body.path;
   if (path && typeof path == 'string') {
-    const timeout = new Promise((res,rej)=>{
-      setTimeout(res,5000,{'error':{'message':'Error occured while Admin was checking page, try again soon.'}});
-    })
-    console.log(`In report...`)
-    const out = await Promise.race([timeout,bot.checkPage(path,client)]);
+    const out = await bot.checkPage(path,client);
     return res.json(out);
   }
   res.json({ 'error': 'Path is invalid.' });
