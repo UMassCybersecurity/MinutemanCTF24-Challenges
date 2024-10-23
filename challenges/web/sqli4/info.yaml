@@ -6,4 +6,5 @@ flags:
 
 # hints:
 
-connection_info: http://web-challs.umasscybersec.org:1337
+connection_info: http://web-challs.umasscybersec.org:8007
+value: 400
