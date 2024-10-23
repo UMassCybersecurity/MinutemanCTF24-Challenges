@@ -10,17 +10,17 @@ flags:
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
-
-# Optional settings (defaults defined in default.yaml)
-
+value: 400
 # Name of the challenge
 # If not provided it is inferred from folder name
 name: Endurance & Wormhole
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: nc challs.umasscybersec.org 7878
+connection_info: nc challs.umasscybersec.org 1337
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
-    - content: What does "ret" do? # required field for every hint
-    - content: What's a buffer overflow? What's a stack canary? # required field for every hint
+    - content: Ghidra and pwntool are stronly recommended for this challange
+    - content: What's a buffer overflow? What's a stack canary? 
+    - content: What does the "ret" assembly instruction do?
+    - content: Solve script may need to be run multiple times to get the flag
