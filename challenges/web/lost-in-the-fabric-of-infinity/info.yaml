@@ -5,7 +5,7 @@ description: Cooper just came back from Miller's planet, and he received message
 flags:
   - content: "MINUTEMAN{L0v3_is_F0r3V3r_0nLy_iNfInIt3}"
 
-connection_info: http://web.minuteman.umasscybersec.org:8002
+connection_info: http://web.minuteman.umasscybersec.org:8003
 value: 200
 
 hints:
