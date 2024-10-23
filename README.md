@@ -1,4 +1,3 @@
-#TODO: clean up branches, delete branch upon merging PR
 ## For Challenge Authors 
 
 ### Our Environment Setup 
@@ -9,7 +8,7 @@ We have a dev and production environment (two CTF environments). You will **NOT*
 Please create a branch for each challenge named: *category*/*challenge-name*. This should correspond to the path to the challenge from the `challenges` folder
 This branch will be merged into the dev branch once your PR is approved. You can then make a PR into prod. 
 
-Flag Format: `MINUTEMAN{<FLAG>}`
+Flag Format: `UMASS{<FLAG>}`
 
 There are two types of challenges: static vs. dynamic. 
 Static challenges simply contain downloadable assets. 
