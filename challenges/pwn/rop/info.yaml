@@ -8,6 +8,8 @@ hints:
   - content: I wonder what I can do with control of that stack and return statements?
   - content: You should try this amazing tool ROPgadgets
 
+connection_info: "nc pwn.minuteman.umasscybersec.org 9000"
+
 tags:
   - ROP
   - hard
