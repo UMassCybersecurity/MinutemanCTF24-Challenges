@@ -69,7 +69,7 @@ jobs:
         if: steps.check_dockercompose.outputs.files_exists == 'true'
         run: |-
           # Clean up old docker compose
-          gcloud compute ssh umasscybersec@$vm_name --zone=$vm_zone --command="if [ -d /home/umasscybersec/challenges/${{ env.challenge }} ]; then (cd /home/umasscybersec/challenges/${{ env.challenge }} && (docker compose down; cd .. && rm -rf ./${{ env.challenge }})); fi"
+          gcloud compute ssh umasscybersec@$vm_name --zone=${{ vars.ZONE }} --command="if [ -d /home/umasscybersec/challenges/${{ env.challenge }} ]; then (cd /home/umasscybersec/challenges/${{ env.challenge }} && (docker compose down; cd .. && rm -rf ./${{ env.challenge }})); fi"
           # Upload and start new one
           gcloud compute scp --zone=${{ vars.ZONE }} --recurse challenges/${{ github.head_ref }} umasscybersec@$vm_name:/home/umasscybersec/challenges/${{ env.challenge }}
           gcloud compute ssh umasscybersec@$vm_name --zone=${{ vars.ZONE }} --command="cd /home/umasscybersec/challenges/${{ env.challenge }} && docker compose up --build -d"       
