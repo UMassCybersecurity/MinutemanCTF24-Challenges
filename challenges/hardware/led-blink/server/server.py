@@ -27,10 +27,13 @@ def upload():
     
     filename = mktemp(dir="uploads")
     file.save(filename)
-    
-    ret = ctf_avrsim.run_sim(filename.encode())
 
-    remove(filename)
+    try:
+        ret = ctf_avrsim.run_sim(filename.encode())
+    except:
+        return Response("Fatal error while trying to simulate your code. Please make sure the file provided is an elf binary for the Arduino Uno(atmega328p).")
+    finally:
+        remove(filename)
 
     match ret:
         case 0:

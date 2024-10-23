@@ -46,12 +46,12 @@ sim_return run_sim(char* firmware_path){
 
     inst.avr = avr_make_mcu_by_name(MCU);
     if(inst.avr == NULL) {
-        fputs("Failed to make MCU.", stderr);
+        fputs(stderr, "Failed to make MCU.");
         return LOAD_ERROR;
     }
     ret = avr_init(inst.avr);
     if(ret != 0){
-        fputs("Failed to initialize MCU.", stderr);
+        fputs(stderr, "Failed to initialize MCU.");
         return LOAD_ERROR;
     }
     avr_load_firmware(inst.avr, &firmware);
@@ -61,7 +61,7 @@ sim_return run_sim(char* firmware_path){
     };
     avr_irq_t *led_irq = avr_alloc_irq(&inst.avr->irq_pool, 0, 1, _led_irq_names);
     if(led_irq == NULL) {
-        fputs("Failed to allocate IRQ.", stderr);
+        fputs(stderr, "Failed to allocate IRQ.");
         return LOAD_ERROR;
     }
     avr_irq_register_notify(led_irq, led_in_hook, &inst);
