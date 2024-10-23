@@ -1,0 +1,16 @@
+name: Message In the Air
+
+description: We received an urgent RF communication about the war. Can you help us decode it?
+
+flags:
+  - content: "MINUTEMAN{ThE_brITish_r_COMing}"
+
+hints:
+  - content: How can you read the data inside of the wav file.
+  - content: I wonder if this is binary data with noise from transmission?
+
+tags:
+  - warmup
+  - RF
+
+value: 200
