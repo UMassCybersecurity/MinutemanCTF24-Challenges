@@ -17,4 +17,4 @@ tags:
   - buffer overflow
 
 # TODO port
-connection_info: ""
+connection_info: "nc pwn.minuteman.umasscybersec.org 9003"
