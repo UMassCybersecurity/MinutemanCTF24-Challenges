@@ -4,3 +4,6 @@ description: Glad to have you here. With edi = 1551273638, can you get the retur
 
 flags:
   - content: "MINUTEMAN{2406449901076243799}"
+
+hints:
+  - content: Which register stores the return value of a function?
