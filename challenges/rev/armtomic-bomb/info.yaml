@@ -13,23 +13,20 @@ flags:
 # If not provided it is inferred from folder name
 name: ARMtomic Bomb
 
-value: 100 
-# Must be either static or dynamic
-# This field is for dynamic challenges.
-# Note: type must be dynamic to use this field
-dynamic:
-  function: linear # must be either linear or logarithmic
-  decay: 100
-  minimum: 50
+value: 400 
 
 # Tags are used to provide additional public tagging to a challenge
 tags:
     - rev
     - arm
     - x86-64
+    - mid
+    - cs230
+    - cs335
 
 hints:
+    - content: Ghidra and pwndbg are your friends, use these tools
     - content: What does xor/eor operator do? # required field for every hint
     - content: Think about what values salsify the phases
     - content: You solve for the flag by solving for the secret code
-    - content: Wrap the content in the format MINUTEMAN{<flag>}
+    - content: Wrap the output in the format MINUTEMAN{<flag>}
