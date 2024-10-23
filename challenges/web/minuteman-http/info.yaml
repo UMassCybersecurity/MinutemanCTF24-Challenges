@@ -5,7 +5,7 @@ description: Learn web exploitation by intercepting, reading, and editing HTTP r
 flags:
   - content: "MINUTEMAN{W3LC0m3_T0_W3B_4T_M1nUt3M4N_CTF!}"
 
-connection_info: http://web.minuteman.umasscybersec.org:8000
+connection_info: http://web.minuteman.umasscybersec.org:8001
 
 value: 100
 
