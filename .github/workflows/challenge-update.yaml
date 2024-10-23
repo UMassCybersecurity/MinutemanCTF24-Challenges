@@ -99,7 +99,7 @@ jobs:
             PORT_STR="$PORT_STR -p $port:$port"
           done;
           #TODO unsudo
-          gcloud auth configure-docker us-central1-docker.pkg.dev
+          gcloud auth configure-docker us-east1-docker.pkg.dev
           gcloud compute ssh umasscybersec@${{ env.vm_name }} --zone=${{ vars.ZONE }} --command="docker kill ${{ env.challenge }} || true; sudo docker rm ${{ env.challenge }} || true; sudo docker run --pull=always -d --name ${{ env.challenge }} $PORT_STR ${{ env.image }}"
       # Other tasks
       - name: Upload Static Files
