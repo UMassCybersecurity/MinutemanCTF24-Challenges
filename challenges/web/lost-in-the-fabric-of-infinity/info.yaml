@@ -6,4 +6,6 @@ flags:
   - content: "MINUTEMAN{V@liD_c0mmAnd_iNj3ct_W}"
 
 connection_info: http://web.minuteman.umasscybersec.org:8002
-value: 200 
+value: 200
+hints:
+    - content: "I wonder if there's input sanitization for commands?" # required field for every hint
