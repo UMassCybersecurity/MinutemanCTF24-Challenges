@@ -5,7 +5,7 @@ flags:
     - content: MINUTEMAN{nOW_w3_CaN_cOmmuNicATE}
 
 hints:
-    - contnet: Check out ArduinoIDE or PlatformIO to write and compile code for micro-controllers.
+    - content: Check out ArduinoIDE or PlatformIO to write and compile code for micro-controllers.
     - content: How long do you need to wait before flipping the pin to have it blink 5 times a second. (5Hz means it should take 200 ms to complete 1 cycle)
 
 value: 100
