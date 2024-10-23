@@ -96,7 +96,7 @@ jobs:
           source "challenges/${{ github.head_ref }}/config.env"
           for port in ${PORTS[@]};
           do
-            PORT_STR="$PORT_STR -p $port:$port"
+            PORT_STR="$PORT_STR -p $port"
           done;
           #TODO unsudo
           gcloud auth configure-docker us-east1-docker.pkg.dev
