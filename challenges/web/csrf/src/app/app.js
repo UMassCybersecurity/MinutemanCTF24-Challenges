@@ -51,6 +51,7 @@ app.post('/report', async (req, res) => {
     const timeout = new Promise((res,rej)=>{
       setTimeout(res,5000,{'error':{'message':'Error occured while Admin was checking page, try again soon.'}});
     })
+    console.log(`In report...`)
     const out = await Promise.race([timeout,bot.checkPage(path,client)]);
     return res.json(out);
   }
