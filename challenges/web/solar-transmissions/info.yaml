@@ -12,6 +12,7 @@ name: Solar Transmissions
 # Category of challenge
 # If not provided it is inferred from folder name
 category: web
+connection_info: http://web.minuteman.umasscybersec.org:8004
 
 value: 200
 
