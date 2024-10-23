@@ -15,4 +15,4 @@ tags:
     - Arduino
 
 # TODO get port
-connection_info: ""
+connection_info: "http://challs.minuteman.umasscybersec.org:6000"
