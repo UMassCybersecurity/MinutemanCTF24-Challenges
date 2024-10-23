@@ -1,10 +1,5 @@
 services:
   app:
-    deploy:
-      resources:
-        limits:
-          cpus: '.5'
-          memory: 1GB
     build: src
     ports:
       - 1337:1337
