@@ -11,12 +11,13 @@ flags:
       data: "case_insensitive" # additional data
 
 value: 400
+
 # Name of the challenge
 # If not provided it is inferred from folder name
 name: Endurance & Wormhole
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: nc challs.umasscybersec.org 1337
+connection_info: "nc pwn.minuteman.umasscybersec.org 9004"
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
