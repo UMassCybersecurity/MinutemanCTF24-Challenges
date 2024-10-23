@@ -1,0 +1,18 @@
+name: Minuteman Signal
+description: We are trying to setup a new signaling system to warn our minutemen when the British are coming. We have an Arduino Uno with a LED hooked up to pin 8. Can you write some code to blink the led 5 times a second?
+
+flags:
+    - content: MINUTEMAN{nOW_w3_CaN_cOmmuNicATE}
+
+hints:
+    - contnet: Check out ArduinoIDE or PlatformIO to write and compile code for micro-controllers.
+    - content: How long do you need to wait before flipping the pin to have it blink 5 times a second. (5Hz means it should take 200 ms to complete 1 cycle)
+
+value: 100
+
+tags:
+    - warmup
+    - Arduino
+
+# TODO get port
+connection_info: "http://challs.minuteman.umasscybersec.org:6000"
