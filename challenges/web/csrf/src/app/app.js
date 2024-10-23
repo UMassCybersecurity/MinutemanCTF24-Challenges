@@ -86,6 +86,8 @@ app.get('/transfer/:user/:amount', utils.authMiddleware, async (req, res) => {
     from_user.tokens = (from_user.tokens - amount).toString();
     await client.hSet(from_user.username, from_user);
     let to_user = await client.hGetAll(to_username);
+    console.log(from_user);
+    console.log(to_user);
     to_user.tokens += amount;
     await client.hSet(to_username, to_user);
     return res.send("Tokens successfully transfered.");

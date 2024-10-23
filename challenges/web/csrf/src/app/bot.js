@@ -3,6 +3,7 @@ const utils = require('./utils.js')
 
 function checkPage(path, client) {
     return new Promise(async (res, rej) => {
+        console.log('Starting bot...');
         const browser = await puppeteer.launch({
             executablePath: '/usr/bin/chromium',
             args: ['--no-sandbox']
