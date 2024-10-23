@@ -110,5 +110,5 @@ jobs:
           destination: '${{vars.static_assets_bucket_name}}/${{github.head_ref}}'
       - name: Update CTFd
         run: |-
-          ctfd_url="${{env.ctfd_url}}"
+          ctfd_url="${{ vars.CTFD_URL }}"
           ./scripts/ctf-uploader "challenges" "defaults.yaml" $ctfd_url "${{ secrets.ctfd_token }}" "${{ vars.static_assets_bucket_name }}"
