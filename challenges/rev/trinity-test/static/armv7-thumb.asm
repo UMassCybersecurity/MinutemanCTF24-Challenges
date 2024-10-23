@@ -14,7 +14,7 @@ main:
         ldr     r0, .L4+4
         ldr     r6, .L4+8
         mov     r1, sp
-        bl      scanf
+        bl      __isoc99_scanf
         mov     r5, sp
         movs    r4, #7
 .L2:
