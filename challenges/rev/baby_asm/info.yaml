@@ -1,7 +1,13 @@
 name: baby_asm
 category: rev
-description: Glad to have you here. With edi = 1551273638, can you get the return value of the following function? (and wrap it in `MINUTEMAN{}`)
+description: Glad to have you here. With initial value of edi = 1551273638, can you get the return value of the following function? (and wrap it in `MINUTEMAN{}`)
 
+tags:
+  - rev
+  - x86
+  - cs230
+
+value: 100
 flags:
   - content: "MINUTEMAN{2406449901076243799}"
 
