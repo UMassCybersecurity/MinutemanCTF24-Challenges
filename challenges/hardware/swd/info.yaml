@@ -1,0 +1,16 @@
+name: Nuclear Password
+
+description: We created a super secure password system for our nuclear control computers where the passwords are injected at runtime. To ensure that the communication between the devices is secure to spying, we have tapped it and given you a recording. Can you decode what the password is? 
+
+flags:
+  - content: MINUTEMAN{DebuGgInG_is_C0oL}
+
+hints:
+  - content: "Look at Saleae Logic 2: https://support.saleae.com/logic-software/sw-download"
+  - content: This protocol is a hardware debug standard defined in the ARM Debug Interface v5 that only needs 2 wires.
+
+tags:
+  - medium
+  - Saleae Logic 2
+
+value: 400

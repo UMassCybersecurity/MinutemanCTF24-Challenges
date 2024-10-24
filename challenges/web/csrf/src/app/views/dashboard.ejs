@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./header.ejs') %>
+
+    <body>
+        <div class="container">
+            <p>Welcome <%= user.username %>!</p>
+            <p id="info">
+
+            </p>
+            <button id="refresh_button">Refresh balance.</button>
+        </div>
+    </body>
+    <script>
+        function parseResp(data) {
+            if (Object.keys(data).indexOf("success") >= 0) {
+                return data['success'];
+            }
+            else if (Object.keys(data).indexOf("error") >= 0) {
+                throw new Error(data["error"])
+            }
+            else {
+                throw new Error("Malformed JSON in response.")
+            }
+        }
+
+        window.addEventListener("load", async () => {
+            const resp = await fetch("/balance/<%= user.username %>");
+            try {
+                const raw_data = await resp.json();
+                const data = parseResp(raw_data)
+                info.innerText = `You have ${data['tokens']} tokens.`
+            }
+            catch (e) {
+                alert(e)
+            }
+            refresh_button.onclick = async () => {
+                const resp = await fetch("/refresh");
+                const raw_data = await resp.json();
+                const data = parseResp(raw_data);
+                deleteAllCookies();
+                document.cookie = `user=${data['token']};path=/`;
+                window.location.reload();
+            }
+        });
+    </script>
+    <%- include('./footer.ejs') %>
+
+</html>

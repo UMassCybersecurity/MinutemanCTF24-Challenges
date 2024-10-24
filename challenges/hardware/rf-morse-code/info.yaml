@@ -1,0 +1,26 @@
+name: The Magicians Code
+
+description: |-
+  Angier has a new trick! Borden stole a machine from Angier's workshop that he's 
+  sure is the key to understanding the trick. But when he turned it on he couldn't
+  figure out how it worked. It just repeated the same pattern over and over again.
+  Help Borden find the secret message Angier left in the machine so he can finally
+  become the greatest magician.
+
+  The wave file contains a text message. The flag is the message wrapped in the
+  standard flag format. If the message was `MARY HAD A LITTLE LAMB` then you
+  should submit `MINUTEMAN{MARY HAD A LITTLE LAMB}`.
+
+flags:
+  - content: "MINUTEMAN{YOU WANT TO BE FOOLED}"
+
+hints:
+  - content: This uses a very common code, commonly used for communication.
+  - content: It was developed in the 1840s.
+  - content: This message is encoded using Morse code.
+
+tags:
+  - easy
+  - RF
+
+value: 200

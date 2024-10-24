@@ -1,0 +1,13 @@
+name: "Manhattan Project: The SQL"
+description: "They've revamped how they deal with usernames and changed the admin's password, but that can't stop us from getting it again!"
+
+tags: 
+  - medium
+
+flags:
+  - content: "MINUTEMAN{71m1Ng_15_3V3ry7H1NG}"
+
+# hints:
+
+connection_info: http://manhattan-project2.web-challenges.minuteman.umasscybersec.org/ 
+value: 400
