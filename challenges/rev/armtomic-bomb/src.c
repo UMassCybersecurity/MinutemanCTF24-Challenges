@@ -9,14 +9,9 @@ compile: gcc -Wall -o armtomic-bomb -no-pie -fno-stack-protector src.c
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
+#include <stdlib.h>
 
 #include "arch.h"
-
-__attribute__((constructor)) void ignore_me() {
-    setbuf(stdout, NULL);
-    setbuf(stdin, NULL);
-    setbuf(stderr, NULL);
-}
 
 struct Bomb {
     int p1;
@@ -43,15 +38,15 @@ int write_flag() {
 }
 
 void phase1(register unsigned int inp1, register unsigned int inp2) {
-    the_bomb.p1 = (inp1 + inp2) ^ 0x110;
+    the_bomb.p1 = (inp1 * inp2) ^ 0x4600;
     the_bomb.solve[6] = 0xd4 - inp1; // 112
     the_bomb.solve[7] = 0xd4 - inp2; // 160
 }
 
 void phase2(register uint64_t a, register uint64_t b) {
     register uint64_t val = 0x5f62316e3472795f;
-    for (register char i = 8; i < 8 + 8; i++) {
-        register char charac = (val & a) >> (64 - 8); // 0xFF00000000000000
+    for (register int i = 8; i < 8 + 8; i++) {
+        register int charac = (val & a) >> (64 - 8); // 0xFF00000000000000
         the_bomb.solve[i] = charac;
         val <<= b; // 8
     }
@@ -95,6 +90,10 @@ int main() {
     scanf("%u", &p1a);
     printf("num 2: ");
     scanf("%u", &p1b);
+        if ((p1a < 0x61 || p1a > 0x7a) || (p1b < 0x30 || p1b > 0x39)) {
+        puts("phase 1 input out of range");
+        return 1;
+    }
     phase1(p1a, p1b);
 
     printf("phase 2, input two numbers in hex\n");
