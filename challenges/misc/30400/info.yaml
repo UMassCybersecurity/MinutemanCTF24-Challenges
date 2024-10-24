@@ -1,0 +1,10 @@
+description: "I put the flag into ChatGPT (GPT4) for safe keeping, but forgot what it was. When I checked back into the model's internals, the input showed up as this list of numbers...Can you get the flag back for me? `[8586, 374, 279, 5292, 25, 17116, 1406, 2783, 1111, 90, 69, 16, 81, 18, 67, 3795, 1552, 16, 406, 15, 77, 92]`"
+
+flag: "MINUTEMAN{f1r3d_by_h1nt0n}"
+
+value: 200
+
+name: 30400
+
+hints:
+  - content: "All neural networks and transformers (GPT) work with numbers. Try looking into how GPT converts text to numbers."
