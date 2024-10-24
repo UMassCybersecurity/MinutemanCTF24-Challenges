@@ -6,7 +6,7 @@ flags:
   - content: MINUTEMAN{DebuGgInG_is_C0oL}
 
 hints:
-  - content: Look at Saleae Logic 2
+  - content: "Look at Saleae Logic 2: https://support.saleae.com/logic-software/sw-download"
   - content: This protocol is a hardware debug standard defined in the ARM Debug Interface v5 that only needs 2 wires.
 
 tags:
