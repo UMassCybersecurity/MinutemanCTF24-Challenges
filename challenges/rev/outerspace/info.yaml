@@ -1,6 +1,13 @@
-name: outerspace
+name: Dr. Mann's message
 category: rev
-description: You received a reply from your long time friend in outerspace. Thing is, the C code is long gone, and you only have assembly from the binary. Can you try decoding the message, and wrap it in MINUTEMAN{}?
+description: On the new found planet, Dr. Mann's sent his words outerspace before entering deep sleep. Unfortunately, the decoder that the crew has is broken, and assembly is the only thing recovered. Can you try decoding the message, and wrap it in `MINUTEMAN{}` ?
 
+tags:
+  - Mid
+  - rev
+  - arm
+  - cs335
+
+value: 400
 flags:
-  - content: "MINUTEMAN{W3lc0me_t0_Base64-NextGen!}"
+  - content: "MINUTEMAN{KIPP!!This_i5_about_all_mankind!!}"
