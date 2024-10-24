@@ -12,7 +12,7 @@ hints:
   - content: "If you know propositional logic, try to turn it into a proposition and solve."
   - content: "See if theres a way to analyze the circuit in Logisim."
 
-value: 200
+value: 100
 
 tags:
   - warmup
