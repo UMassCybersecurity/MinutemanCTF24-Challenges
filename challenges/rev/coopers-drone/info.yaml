@@ -1,4 +1,4 @@
-name: "Cooper's Drone"
+name: Coopers Drone
 category: rev
 description: Cooper captured a drone, but can you crack the secret key to get root access? Recommended tools - GDB, Ghidra
 
