@@ -15,5 +15,5 @@ RUN chown -R root:root /home/ctf
 RUN chmod +x /home/ctf/ynetd
 
 USER ctf
-EXPOSE 5001
+EXPOSE 4444
 CMD ./ynetd -p 4444 "python3 ncat.py"
