@@ -1,9 +1,9 @@
 name: Dr. Mann's message
 category: rev
-description: On the new found planet, Dr. Mann's sent his words outerspace before entering deep sleep. Unfortunately, the reading code is lost along with his base, and assembly is the only thing you retrieved. Can you try decoding the message, and wrap it in `MINUTEMAN{}` ?
+description: On the new found planet, Dr. Mann's sent his words outerspace before entering deep sleep. Unfortunately, the decoder that the crew said broke, and assembly is the only thing retrieved. Can you try decoding the message, and wrap it in `MINUTEMAN{}` ?
 
 tags:
-  - mid
+  - Mid
   - rev
   - arm
   - cs335
