@@ -1,0 +1,57 @@
+/* This is a comment */
+/* Credit to: https://codepen.io/achristian/pen/WbzgMx for bouncing keyframe code*/
+
+.box{
+  margin: 0 auto;
+  width: 800px;
+  height: 600px;
+  background-image: url('3: R3v3lUt10N@rY-.jpg');
+  /*don't include the .jpg*/
+  background-size: cover;
+  position: relative;
+  box-shadow: inset 0 0 20px #155;
+  border-radius: 20px;
+  border: 4px solid #572932;
+  overflow: hidden;
+}
+
+.box b {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: url('SAMHEAD.png');
+  background-size: cover;
+  position: absolute;
+  -webkit-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -moz-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  -o-animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+  animation: moveX 2s linear 0s infinite alternate, moveY 3.4s linear 0s infinite alternate;
+}
+
+@-webkit-keyframes moveX {
+  from { left: 0; } to { left: 700px; }
+}
+@-moz-keyframes moveX {
+  from { left: 0; } to { left: 700px; }
+}
+@-o-keyframes moveX {
+  from { left: 0; } to { left: 700px; }
+}
+@keyframes moveX {
+  from { left: 0; } to { left: 700px; }
+}
+
+@-webkit-keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
+@-moz-keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+  /* 4: <The fourth part of the flag is the color of the campus image's border in RGB (6 numbers, no spaces, base 16)> */
+}
+@-o-keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
+@keyframes moveY {
+  from { top: 0; } to { top: 500px; }
+}
+

@@ -1,0 +1,17 @@
+name: "Docker 1"
+description: I just made this cool docker image! Can you see what the container serves on port 80?
+
+# Flags specify answers that your challenge use. You should generally provide at least one.
+flags:
+    - content: "MINUTEMAN{d0N7_f0r937_70_p422_7H3_P0r7}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+- content: search up `docker run container from dockerfile`
+- content: "The three most popular answers are missing an important point: you need to expose port 80 from the container to the host."
+
+
+tags:
+    - misc

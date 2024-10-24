@@ -1,0 +1,19 @@
+# Required sections
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+
+name: "Statues 2"
+description: "I found this image of a statue, but it's too far away to read the name. Can you find it for me?\n\nFlag format: `MINUTEMAN{Title from Wikipedia Page}`, eg https://en.wikipedia.org/wiki/Cristo_de_la_Concordia is `MINUTEMAN{Cristo de la Concordia}`\nor https://en.wikipedia.org/wiki/Jeanne_d%27Arc_(Fr%C3%A9miet) is `MINUTEMAN{Jeanne d'Arc (Frémiet)}`"
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{Antoine de la Mothe Cadillac}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+# hints:
+
+tags:
+    - osint

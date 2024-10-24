@@ -1,0 +1,13 @@
+value: 100
+dynamic:
+  function: linear
+  decay: 10
+  minimum: 50
+max_attempts: 0
+flags:
+  - type: static
+hints:
+  - cost: 0
+requirements:
+  anonymize: true
+state: hidden
