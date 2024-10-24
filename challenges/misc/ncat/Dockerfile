@@ -16,4 +16,4 @@ RUN chmod +x /home/ctf/ynetd
 
 USER ctf
 EXPOSE 5001
-CMD ./ynetd -p 5001 "python3 ncat.py"
+CMD ./ynetd -p 4444 "python3 ncat.py"
