@@ -39,8 +39,8 @@ int write_flag() {
 
 void phase1(register unsigned int inp1, register unsigned int inp2) {
     the_bomb.p1 = (inp1 * inp2) ^ 0x4600;
-    the_bomb.solve[6] = 0xd4 - inp1; // 112
-    the_bomb.solve[7] = 0xd4 - inp2; // 160
+    the_bomb.solve[6] = 0xd4 - inp1; // d4 - 112 = 'd'
+    the_bomb.solve[7] = 0xd4 - inp2; // d4 - 160 = '4'
 }
 
 void phase2(register uint64_t a, register uint64_t b) {
@@ -90,9 +90,9 @@ int main() {
     scanf("%u", &p1a);
     printf("num 2: ");
     scanf("%u", &p1b);
-        if ((p1a < 0x61 || p1a > 0x7a) || (p1b < 0x30 || p1b > 0x39)) {
+    if ((p1a < 100 || p1a > 200) || (p1b < 100 || p1b > 200)) {
         puts("phase 1 input out of range");
-        return 1;
+        return 0;
     }
     phase1(p1a, p1b);
 
