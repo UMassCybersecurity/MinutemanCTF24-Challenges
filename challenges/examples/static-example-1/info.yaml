@@ -4,7 +4,7 @@ description: This is a sample description
 
 # Add a case insensitive flag
 flags:
-  - content: "UMassCTF{hello2}"
+  - content: "UMASS{hello2}"
     data: "case_insensitive"
 
 # Make this challenge a static challenge worth 300 points

@@ -1,0 +1,6 @@
+name: dimension
+category: rev
+description: Another extraterrestrial message! This time, it was sent from the N-dimension space. Can you read the message?
+
+flags:
+  - content: "MINUTEMAN{38.8355556,-104.6975000}"
