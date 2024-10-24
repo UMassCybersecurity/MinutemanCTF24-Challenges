@@ -1,4 +1,4 @@
-name: coopers-drone
+name: Coopers Drone
 category: rev
 description: Cooper captured a drone, but can you crack the secret key to get root access? Recommended tools - GDB, Ghidra
 
@@ -9,7 +9,7 @@ flags:
 
 tags:
     - rev
-    - x86-66
-    - hard
+    - x86-64
+    - Hard
 
-value: 300
+value: 800
