@@ -1,0 +1,39 @@
+body {
+    background-image: url('/images/wallpaper.jpg');
+    background-size: 100%;
+    color: white;
+}
+
+nav {
+    background-image: url('/images/topbar.jpg');
+    background-size: 200% auto;
+}
+
+.navbar-toggler {
+    background-color: grey;
+    opacity: .9;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-brand {
+	color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+	color: white;
+}
+
+.container {
+    background-color: grey;
+    opacity: .7;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+button {
+	background-image: linear-gradient(white,grey);
+    border-radius: 3px;
+}
