@@ -9,7 +9,6 @@ flags:
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
-- content: search up `docker run container from dockerfile`
 - content: "You will have to build the container before running it. You can check what images you have built with `docker images`."
 - content: "Once you have the image id/tag, you can run it." 
 - content: "Make sure to map port 80 from host to container. Search up `docker map port to localhost` and note that http uses port 80."
