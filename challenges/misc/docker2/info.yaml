@@ -12,6 +12,8 @@ hints:
 - content: "How can you see files inside the docker container?"
 - content: "Search up `docker container shell`"
 
-
 tags:
     - misc
+    - Docker
+
+value: 100
