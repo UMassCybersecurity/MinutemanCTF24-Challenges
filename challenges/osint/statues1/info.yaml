@@ -20,5 +20,7 @@ hints:
     - content: "How could you 'search' using an image?" # required field for every hint
     - content: "See google lens/reverse image search"
 
+value: 200
+
 tags:
     - osint
