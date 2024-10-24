@@ -5,8 +5,8 @@
   margin: 0 auto;
   width: 800px;
   height: 600px;
-  background-image: url('3: R3v3lUt10N@rY-.jpg');
-  /*don't include the .jpg*/
+  background-image: url('head.jpg');
+  /*3: LuT10nAR*/
   background-size: cover;
   position: relative;
   box-shadow: inset 0 0 20px #155;
@@ -46,7 +46,7 @@
 }
 @-moz-keyframes moveY {
   from { top: 0; } to { top: 500px; }
-  /* 4: <The fourth part of the flag is the color of the campus image's border in RGB (6 numbers, no spaces, base 16)> */
+  /* 4: Y_1N_Cyb3rS */
 }
 @-o-keyframes moveY {
   from { top: 0; } to { top: 500px; }
