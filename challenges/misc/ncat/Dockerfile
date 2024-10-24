@@ -2,6 +2,6 @@ FROM python
  
 COPY . .
 
-EXPOSE 8000
+EXPOSE 4444 
 
 CMD ["python", "ncat.py"]
