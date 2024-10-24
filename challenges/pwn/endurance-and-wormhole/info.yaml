@@ -19,6 +19,10 @@ name: Endurance & Wormhole
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
 connection_info: "nc pwn.minuteman.umasscybersec.org 9004"
 
+tags:
+  - pwn
+  - ret2win
+  - stack-canary
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
     - content: Ghidra and pwntool are stronly recommended for this challange
