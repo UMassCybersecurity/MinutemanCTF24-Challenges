@@ -1,0 +1,19 @@
+# This is a list of ports that should be mapped from the docker container
+ports:
+  - 80 # allow HTTP requests
+  - 443 # allow HTTPs requests
+  - 22 # allow SSH
+  - 4000 # some nc connection
+
+# This is a list of services that should be created outside the docker container
+# Currently the following services are supported: SQL, redis
+
+# This creates a cloud SQL DB instance for your challenge
+# It will add the SQL_URL environment variable to access the DB (this contains the credentials)
+SQL:
+  bootstrap: "./assets/bootstrap.sql" # SQL dump to bootstrap the database 
+  database_version: "POSTGRES_13" # refer to https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/sql_database_instance#database_version for all options
+
+# This creates a Memorystore instance (redis cache) 
+# It will add the REDIS_URL environment variable to access the cache
+cache: Null

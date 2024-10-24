@@ -1,0 +1,14 @@
+name: static-example-1
+category: examples
+description: This is a sample description
+
+# Add a case insensitive flag
+flags:
+  - content: "UMassCTF{hello2}"
+    data: "case_insensitive"
+
+# Make this challenge a static challenge worth 300 points
+value: 300
+
+# Add connection info
+connection_info: nc localhost:9000
