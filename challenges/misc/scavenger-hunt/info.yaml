@@ -1,8 +1,8 @@
-description: There's a flag scattered across the website. Can you piece it together?
+description: "There's a flag scattered across the website. Can you piece it together?"
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "MINUTEMAN{B3-R3v3lUt10N@rY-572932-0}" # required field for every flag
+    - content: "MINUTEMAN{B3_R3V0LuT10nARY_1N_Cyb3rS3CUR1Ty}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
@@ -14,11 +14,11 @@ name: Scavenger Hunt
 # If not provided it is inferred from folder name
 category: misc
 
-value: 50
+value: 100
 connection_info: http://misc.minuteman.umasscybersec.org:5000
 
 tags:
-    - Warmup
+    - warmup
 
 hints:
-    - content: "The flag is made up of 4 parts; each part can be found somewhere on the website with a number corresponding to its order. e.g.: 1: UMass{, 2: abc, 3: def, 4 ghi} would combine to form UMass{abcdefghi}."
+    - content: "The flag is made up of 4 parts; each part can be found somewhere on the website with a number corresponding to its order. e.g.: 1: MINUTEMAN{, 2: abc, 3: def, 4 ghi} would combine to form MINUTEMAN{abcdefghi}."
