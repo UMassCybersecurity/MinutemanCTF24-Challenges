@@ -19,3 +19,5 @@ name: inception
 # Category of challenge
 # If not provided it is inferred from folder name
 category: forensics
+
+value: 400
