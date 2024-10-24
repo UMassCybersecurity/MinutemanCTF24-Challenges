@@ -3,7 +3,7 @@ category: rev
 description: My intelligent CS friend solved *baby_asm* and said it delivers a special message. Can you help me find out the message? (and wrap it in `MINUTEMAN{}` again).
 
 tags:
-  - easy
+  - Easy
   - rev
   - x86-64
   - cs230
