@@ -1,11 +1,10 @@
-name: cross-space-request-forge
+name: Cross Space Request Forge
 category: web
-description: TARS made an interesting site to request currency throughout 
+description: TARS utilized the wormhole to create a token exchange across the universe, it should be perfectly secure... right?
 dynamic: {}
 # Add a regular flag
 flags:
   - content: "MINUTEMAN{Cr0sS1nG_Sp4C3_T0_F0Rg3_R3qu3STS}"
 
-# Make this challenge worth 500 points
 value: 800
 connection_info: http://web.minuteman.umasscybersec.org:8009
