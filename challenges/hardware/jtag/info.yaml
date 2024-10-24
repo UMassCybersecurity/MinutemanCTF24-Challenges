@@ -6,6 +6,7 @@ flags:
   - content: "MINUTEMAN{0x3481:2_JTaG_oR_n0t_2_jTAg}"
 
 hints:
+  - content: "The file can be opened using pulseview: https://sigrok.org/wiki/Downloads"
   - content: "The device was attached to a port labeled JTAG. I wonder what what that is?"
   - content: "Our computers are using ARM CPUs which implement the ARMv5 debug spec. Here is a great reference: https://piolabs.com/blog/engineering/diving-into-arm-debug-access-port.html"
 
