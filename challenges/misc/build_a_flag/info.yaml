@@ -2,11 +2,11 @@
 
 # Required sections
 
-description: "I'm sick of making flags, so how about you build your own. Use this regex: Minuteman{:\)_([A-Z]|[a-z]){5}_[0-9]{3}_([^A-Z])([^a-z])([^0-9])_\w}"
+description: "I'm sick of making flags, so how about you build your own. Use this regex: Minuteman{:\\)_([A-Z]|[a-z]){5}_[0-9]{3}_([^A-Z])([^a-z])([^0-9])_\\w}"
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "Minuteman{:\)_([A-Z]|[a-z]){5}_[0-9]{3}_([^A-Z])([^a-z])([^0-9])_\w}" # required field for every flag
+    - content: "Minuteman{:\\)_([A-Z]|[a-z]){5}_[0-9]{3}_([^A-Z])([^a-z])([^0-9])_\\w}" # required field for every flag
       type: "regex" # must be static or regex
 
 name: build_a_flag
