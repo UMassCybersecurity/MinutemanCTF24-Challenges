@@ -11,9 +11,9 @@ flags:
 hints:
 - content: search up `docker run container from dockerfile`
 - content: "You will have to build the container before running it. You can check what images you have built with `docker images`."
-- content: "You will need to run `docker run <image-id>` to run the container." 
-- content: "You will need to pass through the port for http (port 80) with `docker run <image-id> -p [host-port]:[container-port]`."
-- content: "Once the container is running with the port passed through, go to `http://127.0.0.1`."
+- content: "Once you have the image id/tag, you can run it." 
+- content: "Make sure to map port 80 from host to container. Search up `docker map port to localhost` and note that http uses port 80."
+- content: "Once the container is running with the port passed through, go to `http://127.0.0.1:[port-number]`."
 
 value: 100
 
