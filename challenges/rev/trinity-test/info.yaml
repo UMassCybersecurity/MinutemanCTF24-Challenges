@@ -17,7 +17,7 @@ value: 200
 
 # Tags are used to provide additional public tagging to a challenge
 tags:
-    - easy
+    - Easy
     - rev
     - arm
     - x86-64
@@ -28,3 +28,4 @@ hints:
     - content: The two assembly files are the same, one is ARM(CS335) and one is x86(CS230)
     - content: x86 assembly is provided in both intel and AT&T syntax
     - content: What does xor/eor operator do? Refer to the crypto challange. # required field for every hint
+    - content: The flag is in the binary, wrap it in MINUTEMAN{}, similar to baby_asm.
