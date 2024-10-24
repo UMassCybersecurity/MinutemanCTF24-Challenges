@@ -1,9 +1,9 @@
-name: dimension
+name: Dimension
 category: rev
 description: Another extraterrestrial message! This time, it was sent from the N-dimension space. Can you read the message?
 
 tags:
-  - hard
+  - Hard
   - rev
 
 value: 800
