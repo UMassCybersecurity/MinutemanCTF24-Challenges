@@ -1,6 +1,9 @@
 name: Spire Login 1
 description: I'm building a new SPIRE killer startup, starting with the login page. Surely nobody can login as admin, right?
 
+tags: 
+  - "warmup"
+  - "sql_injection"
 flags:
   - content: "MINUTEMAN{S1mpL3_sql_1NJ3c710N}"
 
@@ -11,4 +14,4 @@ hints:
 
 value: 100
 
-connection_info: http://web-challs.umasscybersec.org:8002
+connection_info: http://spire1.web-challenges.minuteman.umasscybersec.org/

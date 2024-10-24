@@ -1,5 +1,9 @@
 description: Command seems to be hiding some information from us...
 
+tags:
+  - easy
+  - xss
+
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
     - content: "MINUTEMAN{wELl_f1Nd_A_w@y_w3_alW@yS_h@v3}" # required field for every flag
@@ -12,9 +16,7 @@ name: Solar Transmissions
 # Category of challenge
 # If not provided it is inferred from folder name
 category: web
-connection_info: http://web.minuteman.umasscybersec.org:8004
+connection_info: http://solar-transmission.web-challenges.minuteman.umasscybersec.org/ 
 
 value: 200
 
-tags:
-    - Easy

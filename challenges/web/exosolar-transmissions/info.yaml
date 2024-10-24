@@ -18,5 +18,5 @@ value: 400
 hints:
     - content: "The messages are constructed differently from Solar Transmissions before they are sent to your client."
 
-connection_info: http://web.minuteman.umasscybersec.org:8008
+connection_info: http://exosolar-transmission.web-challenges.minuteman.umasscybersec.org/
 
