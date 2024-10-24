@@ -1,8 +1,12 @@
 name: Minuteman Auditorium
 category: web
 description: Welcome to Minuteman Auditorium, a vip only movie streaming platform!
+
+tags: 
+  - medium
+
 flags:
   - content: "MINUTEMAN{i_H@t3_fR0nT3nD!}"
 
-connection_info: http://web.minuteman.umasscybersec.org:8005
+connection_info: http://auditorium.web-challenges.minuteman.umasscybersec.org/
 value: 400 
