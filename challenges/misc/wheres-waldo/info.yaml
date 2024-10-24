@@ -1,0 +1,34 @@
+# This file represents the base specification of your challenge
+# Thanks to: Theo (AKA Oruga) for providing this challenge!
+
+description: >
+  Per line of like chars
+  Sits a lonesome, single byte
+  Can you find Waldo?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "minuteman{power_the_shell_master_the_unix}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Where's Waldo?
+
+# Category of challenge
+# If not provided it is inferred from folder name
+value: 200
+
+tags:
+    - misc
+    - Easy
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "This is a scripting challenge! We would recommend bash." # required field for every hint
+    - content: "Translation of Haiku: Each line of the file (other than the haiku) has a single character that shows up only once."
+
+
