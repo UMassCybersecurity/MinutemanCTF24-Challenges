@@ -20,14 +20,6 @@ limiter = Limiter(
 )
 
 class DBManager:
-    def __init__(self):
-        self.admin_password = ''.join(random.choices(string.ascii_uppercase + string.digits, k=20)) # generates random string
-        self.db_append_table = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10)) # generates random string
-        self.db_append_username = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10)) # generates random string
-        self.db_append_password = ''.join(random.choices(string.ascii_uppercase + string.digits, k=10)) # generates random string
-        self.table = f'users_{self.db_append_table}'
-        self.username = f'username_{self.db_append_username}'
-        self.password = f'password_{self.db_append_password}'
 
     def init_db(self, database='user_db', user="root"):
         self.connection = mysql.connector.connect(
@@ -44,22 +36,22 @@ class DBManager:
 
     def populate_db(self):
         self.init_db()
-        self.cursor.execute(f'DROP TABLE IF EXISTS {self.table}')
-        self.cursor.execute(f'CREATE TABLE {self.table} ({self.username} VARCHAR(255) primary key, {self.password} VARCHAR(255))')
-        self.cursor.executemany(f'INSERT INTO {self.table} ({self.username}, {self.password}) VALUES (%s, %s);', [('admin', FLAG), ('user1', 'password1')])
+        self.cursor.execute(f'DROP TABLE IF EXISTS users')
+        self.cursor.execute(f'CREATE TABLE users (username VARCHAR(255) primary key, password VARCHAR(255))')
+        self.cursor.executemany(f'INSERT INTO users (username, password) VALUES (%s, %s);', [('admin', FLAG), ('user1', 'password1')])
         self.connection.commit()
         self.close_db()
 
     def make_query(self, username, password):
         self.init_db()
-        self.cursor.execute(f"select {self.username} from {self.table} where {self.username}='{username}' and {self.password}='{password}';")
+        self.cursor.execute(f"select username from users where username='{username}' and password='{password}';")
         res = [x[0] for x in self.cursor]
         self.close_db()
         return res
 
     def create_user(self, username, password):
         self.init_db()
-        self.cursor.execute(f"insert into {self.table} ({self.username}, {self.password}) values ('{username}', '{password}');")
+        self.cursor.execute(f"insert into users (username, password) values ('{username}', '{password}');")
         self.close_db()
 
 print("""sample text debug line 
