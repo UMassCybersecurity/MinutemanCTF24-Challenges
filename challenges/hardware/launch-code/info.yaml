@@ -1,0 +1,18 @@
+name: Secret Communications
+description: While behind enemy territory, our brave minuteman were able to intercept some communications between 2 foreign devices. Can you help us decode the message and figure out what they were doing.
+
+flags: 
+  - content: MINUTEMAN{sEcreT_meSsag3}
+
+hints:
+  - content: "I have a feeling this file can be opened in Saleae Logic 2: https://support.saleae.com/logic-software/sw-download"
+  - content: "The wires are communicating using a popular 2 wire serial protocol that is asynchronous and has a 4 letter acronym."
+  - content: "Saleae should have a way to decode this traffic."
+  - content: "I wonder how to decrypt an XOR encrypted message?"
+
+tags:
+  - easy
+  - Saleae Logic 2
+  - logic analyzer
+
+value: 200
