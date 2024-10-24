@@ -13,3 +13,5 @@ topics:
 tags:
     - nc
     - osint
+
+connection_info: http://misc.minuteman.umasscybersec.org:5001 
