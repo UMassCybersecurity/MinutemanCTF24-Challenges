@@ -1,10 +1,9 @@
 from pwn import *
 
+context.arch = 'amd64'
 if args.REMOTE:
     host = "pwn-challenges.minuteman.umasscybersec.org"
-    port = 9002
+    port = 9005
     p = remote(host, port)
 else:
-    p = gdb.debug('./einsteins-calculator')
-
-p.interactive()
+    p = process("./static/umass_quiz_show")

@@ -29,3 +29,4 @@ hints:
     - content: What happens when you try to represent a number outside of the range of MAX_INT? 
     - content: Think about what happends when number get really large and really small
     - content: pwntools is stronly recommended for this challenge, you may compile and run locally to test your exploit
+    - content: "Run chmod +x einsteins-calculator to make the binary executable"
