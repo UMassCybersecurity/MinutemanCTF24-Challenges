@@ -28,6 +28,7 @@ value: 100
 tags:
     - forensics
     - network
+    - warmup
 
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
