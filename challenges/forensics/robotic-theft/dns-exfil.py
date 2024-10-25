@@ -9,7 +9,7 @@ CHUNK_SIZE = 24
 DATA = b"""Do not go gentle into that good night,
 Old age should burn and rave at close of day;
 Rage, rage against the dying of the light.
-UMASS{dnS_3xf1l7r4t10n_15_4w3s0m3}
+MINUTEMAN{dnS_3xf1l7r4t10n_15_4w3s0m3}
 Though wise men at their end know dark is right,
 Because their words had forked no lightning they
 Do not go gentle into that good night.
