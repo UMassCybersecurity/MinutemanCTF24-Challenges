@@ -14,6 +14,7 @@ client.on('error', err => console.log('Redis Client Error', err));
 client.connect();
 client.hSet("TARS", { 'username': 'TARS', 'tokens': +Infinity });
 
+const WAF = ["..","transfer"]
 
 app.use(cookieParser());
 app.use(express.json());
@@ -48,6 +49,9 @@ app.post('/register', async (req, res) => {
 app.post('/report', async (req, res) => {
   const path = req.body.path;
   if (path && typeof path == 'string') {
+    if (WAF.some(item=>path.includes(item))) {
+      return res.json({'error':'no hacking allowed >:('})
+    }
     const out = await bot.checkPage(path,client);
     return res.json(out);
   }
