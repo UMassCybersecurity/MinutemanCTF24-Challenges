@@ -3,6 +3,8 @@ category: forensics
 description: |-
   Impressed with your previous work, Batman has asked you for another favor.  He believes the Joker might have hacked into his computer!  Can you figure out what happened?
 
+  Connect to the Netcat listener and answer all of the questions to get the flag!
+
   This challenge uses the same disk image as the "Where's Batman" challenge.
 # Add a regular flag
 
