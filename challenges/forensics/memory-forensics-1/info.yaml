@@ -4,6 +4,8 @@
 
 description: |-
   Learn to use Volatility3 to analyze a memory dump of a computer! 
+
+  Connect to the Netcat listener and answer all of the questions to get the flag!
   
   https://storage.googleapis.com/minutemanctf-24-static/raw_mem_1.zip
 
