@@ -5,7 +5,7 @@ if args.REMOTE:
     port = 9002
     p = remote(host, port)
 else:
-    p = process('./einsteins-calculator')
+    p = process('./static/einsteins-calculator')
 
 p.sendline(b'0') # input
 p.sendline(b'2147483647') # t1
