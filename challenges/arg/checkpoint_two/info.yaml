@@ -1,4 +1,4 @@
-description: Submit the final flag in the ARG here! Format: MINUTEMAN{Flag_Contents}
+description: "Submit the final flag in the ARG here! Format: MINUTEMAN{Flag_Contents}"
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
