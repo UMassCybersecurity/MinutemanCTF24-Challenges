@@ -2,5 +2,5 @@ services:
   server:
     build: .
     ports: 
-      - "48423:48423"
+      - "31663:31663"
     restart: always

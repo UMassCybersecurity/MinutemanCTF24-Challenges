@@ -3,7 +3,7 @@ import threading
 
 
 HOST = "0.0.0.0"
-PORT = 48423
+PORT = 31663
 
 QA = [
     { "What is the exact Major / Minor version of Windows that was running on the computer this memory image came from? (in the format MAJOR_VERSION.MINOR_VERSION)": "15.19041" }, 

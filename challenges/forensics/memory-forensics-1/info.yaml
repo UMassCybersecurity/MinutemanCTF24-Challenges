@@ -2,7 +2,9 @@
 
 # Required sections
 
-description: Learn to use Volatility3 to analyze a memory dump of a computer!
+description: 
+  Learn to use Volatility3 to analyze a memory dump of a computer! 
+  https://storage.googleapis.com/minutemanctf-24-static/raw_mem_1.zip
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
@@ -10,7 +12,7 @@ flags:
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
-connection_info: "https://storage.googleapis.com/minutemanctf-24-static/raw_mem_1.zip"
+connection_info: "nc forensics-challenges.minutemanctf.com 31663" 
 
 # Optional settings (defaults defined in default.yaml)
 
