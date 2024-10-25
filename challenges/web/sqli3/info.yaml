@@ -9,6 +9,6 @@ flags:
 
 # hints:
 
-connection_info: http://web-challs.umasscybersec.org:8006
+connection_info: http://manhattan-project.web-challenges.minuteman.umasscybersec.org/
 value: 200
 
