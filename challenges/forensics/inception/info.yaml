@@ -6,7 +6,7 @@ description: You ever get a dream inside a dream???
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "UMASS{I_B1NW@LK_MY_D0G}" # required field for every flag
+    - content: "MINUTEMAN{I_B1NW@LK_MY_D0G}" # required field for every flag
       type: "static" # must be static or regex
 
 
@@ -19,3 +19,5 @@ name: inception
 # Category of challenge
 # If not provided it is inferred from folder name
 category: forensics
+
+value: 400
