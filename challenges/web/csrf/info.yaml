@@ -6,5 +6,8 @@ dynamic: {}
 flags:
   - content: "MINUTEMAN{W41T_T4RS_G4V3_4W4Y_4LL_0UR_t0K3Ns}"
 
-value: 800
+tags: 
+  - easy
+  
+value: 200
 connection_info: http://csrf.web-challenges.minuteman.umasscybersec.org/
