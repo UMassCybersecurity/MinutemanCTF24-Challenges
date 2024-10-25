@@ -1,0 +1,26 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Welcome to the UMass Quiz Show! Can you solve all our questions?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{y0u_w1n_th3_gr4nd_pr1ze}" # required field for every flag
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: umassquizshow
+
+# Category of challenge
+# If not provided it is inferred from folder name
+
+# initial point value of challenge
+value: 400
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9005"
+

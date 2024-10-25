@@ -1,0 +1,22 @@
+description: We're getting some interference. Command must know what's up...
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{D@ta_tRansmi55i0N_b@cK_THr0ugH_th3_W0RMho1e_1s_ruD1ment@ry}" # required field for every flag
+      type: "static" # must be static or regex
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Exosolar Transmissions
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: web
+
+value: 400
+
+hints:
+    - content: "The messages are constructed differently from Solar Transmissions before they are sent to your client."
+
+connection_info: http://exosolar-transmission.web-challenges.minuteman.umasscybersec.org/
+

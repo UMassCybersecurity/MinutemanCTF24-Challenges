@@ -1,0 +1,31 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Einstein has a calculator, it does some weird calculations, can you break it?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{y0u_br0k3_th3_c4lcul4at0r}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+value: 200
+
+tags:
+    - easy
+    - pwn
+    - x86-64
+    - cs230
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Einstein's Calculator
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9002"
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: What happens when you try to represent a number outside of the range of MAX_INT? 
+    - content: Think about what happends when number get really large and really small
+    - content: pwntools is stronly recommended for this challenge, you may compile and run locally to test your exploit

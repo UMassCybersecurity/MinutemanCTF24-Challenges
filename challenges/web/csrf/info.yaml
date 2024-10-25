@@ -1,0 +1,14 @@
+name: Cross Space Request Forge
+category: web
+description: TARS utilized the wormhole to create a token exchange across the universe, it should be perfectly secure... right?
+dynamic: {}
+# Add a regular flag
+
+tags:
+  - hard
+  
+flags:
+  - content: "MINUTEMAN{Cr0sS1nG_Sp4C3_T0_F0Rg3_R3qu3STS}"
+
+value: 800
+connection_info: http://csrf.web-challenges.minuteman.umasscybersec.org/

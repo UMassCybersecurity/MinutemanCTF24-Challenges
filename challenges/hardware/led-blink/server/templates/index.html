@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Led Blink</title>
+</head>
+
+<body>
+    <script>
+        function update_server_status() {
+            upload_firmware.hidden = true
+            server_status.innerHTML = "Server is running your code..."
+        }
+    </script>
+
+    <style>
+        body {
+            text-align: center;
+            background-color: #881c1c;
+        }
+        h1 {
+            color:azure
+        }
+        p {
+            color:azure
+        }
+    </style>
+
+    <h1>Signal Our Fellow Minutemen</h1>
+    <div>
+        <p>We are trying to setup a new signaling system to warn our minutemen when the British are coming. We have an
+            Arduino Uno with a LED hooked up to pin 8. Can you write some code to blink the led 5 times a second?</p>
+            <p>Submit your code below as an ELF binary.</p>
+    </div>
+    <form id='upload_firmware' action="/upload" method=post enctype=multipart/form-data>
+        <input type=file name=file>
+        <input type=submit value=Upload onclick="update_server_status();">
+    </form>
+    <div id='server_status'></div>
+
+</body>
+
+</html>
