@@ -15,7 +15,7 @@ flags:
 
 # Name of the challenge
 # If not provided it is inferred from folder name
-name: tcp-packet
+name: TCP Packet
 
 # Category of challenge
 # If not provided it is inferred from folder name
