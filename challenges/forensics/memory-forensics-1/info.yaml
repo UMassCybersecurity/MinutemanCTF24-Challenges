@@ -1,0 +1,40 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Learn to use Volatility3 to analyze a memory dump of a computer!
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{m3m0ry_f0r3ns1cs_1s_c00l}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+connection_info: "https://storage.googleapis.com/minutemanctf-24-static/raw_mem_1.zip"
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Memory Forensics 1
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: forensics
+
+# initial point value of challenge
+value: 300 
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - forensics
+    - network
+    - medium
+
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "Download Volatility3 from here: https://github.com/volatilityfoundation/volatility3" # required field for every hint
+    - content: "use python3 vol.py -f raw_mem_1.mem --help for a list of plugins" # required field for every hint
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'

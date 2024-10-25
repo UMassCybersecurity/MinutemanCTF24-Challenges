@@ -1,0 +1,6 @@
+services:
+  server:
+    build: .
+    ports: 
+      - "41451:41451"
+    restart: always

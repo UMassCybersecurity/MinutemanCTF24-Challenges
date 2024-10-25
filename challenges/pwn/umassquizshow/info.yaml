@@ -25,7 +25,7 @@ tags:
   - mid
   - shellcoding
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: "nc pwn.minuteman.umasscybersec.org 9005"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9005"
 
 
 hints:
