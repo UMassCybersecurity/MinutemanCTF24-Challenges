@@ -1,0 +1,19 @@
+# Required sections
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+
+name: "Statues 5"
+description: "I found a minuteman in Canada! Can you tell me the address of the square it's in?\n\nFlag format: `MINUTEMAN{copy address on google maps}` eg https://maps.app.goo.gl/ifL7iM1uvMs5nV7a9 is to `MINUTEMAN{Old Chapel, 144 Hicks Way, Amherst, MA 01002}`"
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{Main St, Corner Brook, NL A2H 0C1, Canada}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+# hints:
+
+tags:
+    - osint

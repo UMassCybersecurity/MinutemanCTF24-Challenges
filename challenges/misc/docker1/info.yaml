@@ -1,0 +1,21 @@
+name: "Docker 1"
+description: I just made this cool docker image! Can you see what the container serves on port 80?
+
+# Flags specify answers that your challenge use. You should generally provide at least one.
+flags:
+    - content: "MINUTEMAN{d0N7_f0r937_70_p422_7H3_P0r7}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+- content: search up `docker run container from dockerfile`
+- content: "You will have to build the container before running it. You can check what images you have built with `docker images`."
+- content: "You will need to run `docker run <image-id>` to run the container." 
+- content: "You will need to pass through the port for http (port 80) with `docker run <image-id> -p [host-port]:[container-port]`."
+- content: "Once the container is running with the port passed through, go to `http://127.0.0.1`."
+
+value: 100
+
+tags:
+    - misc
