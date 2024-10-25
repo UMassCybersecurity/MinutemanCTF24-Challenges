@@ -1,5 +1,5 @@
 services:
-  ncat:
+  radicalstuff:
     build: .
     ports:
-      - 10002:10002
+      - 10002:4444
