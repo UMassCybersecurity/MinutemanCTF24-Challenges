@@ -9,4 +9,8 @@ tags:
   - hard
   - power analysis
 
+hints:
+  - content: "There's an (undisclosed) maximum number of attempts per connection."
+  - content: "If an attempt is not made within 2 minutes, the connection will close."
+
 value: 800
