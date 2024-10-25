@@ -31,3 +31,4 @@ connection_info: "nc pwn.minuteman.umasscybersec.org 9005"
 hints:
   - content: What happens if you can execute arbitrary code?
   - content: How do can you send code to this program and execute it?
+  - content: "Run chmod +x umass_quiz_show to make the binary executable"
