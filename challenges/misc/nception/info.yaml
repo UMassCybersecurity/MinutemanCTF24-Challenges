@@ -12,3 +12,5 @@ hints:
 name: nception
 
 value: 400
+
+connection_info: `nc misc-challenges.minuteman.umasscybersec.org 5003`
