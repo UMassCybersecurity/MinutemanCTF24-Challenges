@@ -1,10 +1,9 @@
 from pwn import *
 
 if args.REMOTE:
-    host = "challs.umasscybersec.org"
-    port = 1337
+    host = "pwn-challenges.minuteman.umasscybersec.org"
+    port = 9004
     p = remote(host, port)
 else:
-    e = ELF("./static/wormhole")
-    context.terminal = ["tmux","splitw","-h"]
+    e = ELF("./wormhole")
     p = process(e.path)

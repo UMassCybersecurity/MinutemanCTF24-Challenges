@@ -11,4 +11,4 @@ hints:
   - content: Have you ever heard of two's complement
 
 # TODO port number
-connection_info: TODO
+connection_info: http://rev-challenges.minuteman.umasscybersec.org:7000/

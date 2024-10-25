@@ -8,7 +8,7 @@ You will **NOT** be able to promote a challenge to production (the main branch) 
 Please create a branch for each challenge named: *category*/*challenge-name*. This should correspond to the path to the challenge from the `challenges` folder
 This branch will be merged into the dev branch once your PR is approved. You can then make a PR into prod. 
 
-Flag Format: `UMASS{<FLAG>}`
+Flag Format: `MINUTEMAN{<FLAG>}`
 
 There are two types of challenges: static vs. dynamic. 
 Static challenges simply contain downloadable assets. 

@@ -12,7 +12,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: my-node-app-container
-    restart: unless-stopped
+    restart: always
     ports:
       - "8005:3000"
     environment:

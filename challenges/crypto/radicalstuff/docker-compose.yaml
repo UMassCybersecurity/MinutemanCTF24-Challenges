@@ -1,0 +1,5 @@
+services:
+  ncat:
+    build: .
+    ports:
+      - 10002:10002

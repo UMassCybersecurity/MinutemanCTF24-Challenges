@@ -10,4 +10,4 @@ hints:
   - cost: 0
 requirements:
   anonymize: true
-state: hidden
+state: visible

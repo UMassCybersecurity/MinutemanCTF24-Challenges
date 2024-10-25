@@ -8,6 +8,7 @@ flags:
 hints:
   - content: I hope we properly accounted for adding the password prompt to our input buffer.
   - content: I wonder what would happen if the password was really long.
+  - content: "Run chmod +x oppenheimers-research to make the binary executable"
 
 value: 100
 
@@ -16,4 +17,4 @@ tags:
   - C
   - buffer overflow
 
-connection_info: "nc pwn.minuteman.umasscybersec.org 9000"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9000"

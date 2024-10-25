@@ -1,0 +1,18 @@
+name: Impeccable timing
+
+description: The system time is like super random, surely there's no way the system logs will give any information away...
+
+flags:
+  - content: MINUTEMAN{side_channel_attacks_go_so_hard_please_properly_seed_your_PRNG}
+
+hints:
+  - content: there aren't exactly that many possible timestamps between the messages
+
+value: 200
+
+tags:
+  - PRNG
+  - side-channel attacks
+  - easy
+
+connection_info: "nc crypto-challenges.minuteman.umasscybersec.org 10000"

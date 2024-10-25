@@ -1,10 +1,17 @@
 name: Class Lookup
 category: web
 description: Check out this simple class inspector I made!
-
+tags: 
+  - warmup
+  - command-injection
 flags:
   - content: "MINUTEMAN{V@liD_c0mmAnd_iNj3ct_W}"
 
-connection_info: http://web.minuteman.umasscybersec.org:8000
+connection_info: http://class-lookup.web-challenges.minuteman.umasscybersec.org/ 
 
 value: 100
+
+hints:
+    - content: "Download the source for this challenge and read the main.py file"
+    - content: "This website has a command injection vulnerability, research what this means and how it appears in the code." 
+    - content: "How do you exploit a command injection vulnerabity?"

@@ -1,5 +1,5 @@
 name: TARS Chatbot
-description: I made this amazing chatbot that uses TARS so the astronauts don't get lonely out in space. Do you want to give it a try?
+description: I made this amazing chatbot called TARS so the astronauts don't get lonely out in space. Do you want to give it a try?
 
 flags:
   - content: MINUTEMAN{My_aMZinG_cHatb0T}
@@ -8,7 +8,7 @@ hints:
   - content: I wonder what I can do with control of that stack and return statements?
   - content: You should try this amazing tool ROPgadgets
 
-connection_info: "nc pwn.minuteman.umasscybersec.org 9006"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9006"
 
 tags:
   - ROP
