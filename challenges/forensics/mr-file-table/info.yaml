@@ -15,7 +15,7 @@ flags:
 
 # Name of the challenge
 # If not provided it is inferred from folder name
-name: mr-file-table
+name: Mr. File Table
 
 # Category of challenge
 # If not provided it is inferred from folder name
