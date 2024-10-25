@@ -1,0 +1,28 @@
+name: Where's Batman?
+category: forensics
+description: |-
+  We're in the middle of a crime spree in Gotham, and Batman has disappeared!  Desparate, Alfred has sent you a disk image of the Batcomputer.  Can you find out what happened to Batman?
+
+  Connect to the Netcat listener and answer all of the questions to get the flag!
+
+  Batman's disk image can be found here: http://bit.ly/48kFWQE
+# Add a regular flag
+
+tags:
+  - forensics
+  - disk-forensics
+  - medium
+
+flags:
+  - content: "MINUTEMAN{wh7_f1gh7_cr1m3_wh3n_c4ncun_1s_an_0pt10n}"
+    type: static
+    data: case_insensitive
+
+value: 400
+
+connection_info: "nc forensics.minuteman.umasscybersec.org 48090"
+
+hints:
+  - content: Autopsy is a great tool for disk forensics
+  - content: Autopsy's analysis tools are great, but sometimes you need to look at the file system
+  - content: If you don't know where something is stored, don't be afraid to Google it

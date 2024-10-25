@@ -1,0 +1,38 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: My super secure network lets me download whatever I want, including the flag!
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{1f_th3_p4ck3t_d03Snt_f1t_y0u_must_AquIt}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Intro Pcap
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: forensics
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - forensics
+    - network
+    - pcap
+
+value: 100
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: Wireshark is a great tool for analyzing network traffic.
+    - content: "What protocol is most commonly used to download files on the internet?" # required field for every hint
+    - content: "How do you filter in Wireshark?"
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'
+        

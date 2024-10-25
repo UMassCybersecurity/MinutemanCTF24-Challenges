@@ -4,6 +4,9 @@
 
 description: You ever get a dream inside a dream??? 
 
+tags:
+  - medium
+ 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
     - content: "MINUTEMAN{I_B1NW@LK_MY_D0G}" # required field for every flag
@@ -21,3 +24,4 @@ name: inception
 category: forensics
 
 value: 400
+

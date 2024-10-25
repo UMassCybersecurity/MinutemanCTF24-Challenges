@@ -1,0 +1,51 @@
+<meta
+  http-equiv="Content-Security-Policy"
+  content="defaul-src 'none';" />
+
+<style>
+    @font-face {
+        font-family: Futura;
+        src: local('Futura Std');
+    }
+    span {
+        font-family: Futura;
+    }
+</style>
+
+<script>
+    window.onload = (e) =>{
+        let uid = window.location.href.split('/').pop();
+        document.getElementById('report').setAttribute('href',`/report/${uid}`);
+    }
+
+    async function clearNotes(){
+        document.location="/clear";
+    }
+</script>
+
+<body style="text-align: center;background-color: black; color: green ;">
+    <h3> Exosolar Transmissions</h3>
+    Mission status is critical, but messages to and from earth are coming out garbled from the wormhole. Seems like they're all being cut off past a certain length...'<br />
+
+    If you want command to look at your messages, click <a href = "" id='report'>here</a>.<br>
+    <h2> Send a new message</h2>
+
+    <form id="note-taker" action="/create" method="POST">
+        <label for="note">Enter your message content.</label>
+        <br>
+        <input name="note" id= "note" value="Your Message">
+
+    </form>
+
+    <h1>
+        Your messages:
+    </h1>
+    <div id="notes"> </div>
+
+    <h2>Clear your messages:</h2>
+    <button onclick="clearNotes()">Clear Notes</button>
+    <br>
+    <br>
+
+    <img src = "../images/gargantua.webp">
+</body>

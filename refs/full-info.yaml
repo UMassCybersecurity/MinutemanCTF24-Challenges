@@ -1,0 +1,75 @@
+# This file contains the FULL specification for the info.yaml file which defines all the challenge data for CTFd.
+# NOTE: You should NOT just copy and paste this file into your challenge as it defines a lot of extra fields you probably don't want.
+#       If you want a file for a good baseline check out info.yaml
+
+# Required sections
+
+description: This is a sample description
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "flag{hello}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+
+# Optional settings (defaults defined in defaults.yaml)
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: category
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: hello
+
+# initial point value of challenge
+value: 100 
+
+# This field is for dynamic challenges.
+# If defined the challenge will automatically become dynamic meaning the more people solve it the fewer points it will be worth
+# In yaml you can define a tag with an empty map using 'dynamic: {}' if you want all values to be inherited from defaults.yaml 
+dynamic:            
+  function: linear # must be either linear or logarithmic
+  decay: 100
+  minimum: 50
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: nc hostname 12345
+
+# The maximum number of attempts a user gets (set to 0 for unlimited)
+max_attempts: 5
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - web
+    - sandbox
+    - js
+
+# Provide paths to files from the same directory that info.yaml is in (root of challenge)
+# Files in the static folder are automatically added and should NOT be defined here
+# Note: may not be used
+files:
+    - dist/source.py
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "This is the first hint" # required field for every hint
+    - content: "This hint costs points"
+      cost: 10
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'
+
+# Requirements are used to make a challenge require another challenge to be solved before being available.
+requirements:
+  anonymize: true
+  prerequisites:
+    - "warmup" # prerequisites should be challenge names
+    - "are you alive" 
+
+# The state of the challenge.
+state: hidden # must be hidden or visible
+
+# The next challenge a user should play once they complete this one
+# Should be the name of another challenge
+next: red50

@@ -1,0 +1,16 @@
+name: shunt-53
+category: hardware
+description: My buddy Jaquiese started making phones, but locked himself out of his prototype.
+
+flags:
+  - content: "MINUTEMAN{wh053_5hun7_!5_d47_0n_d3_1090_cu2_j02d4n_n3v32_d!d_7h4t_m0v3!_WWSC}"
+
+tags:
+  - hard
+  - power analysis
+
+hints:
+  - content: "There's an (undisclosed) maximum number of attempts per connection."
+  - content: "If an attempt is not made within 2 minutes, the connection will close."
+
+value: 800
