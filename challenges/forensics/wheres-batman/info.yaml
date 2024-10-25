@@ -3,6 +3,8 @@ category: forensics
 description: |-
   We're in the middle of a crime spree in Gotham, and Batman has disappeared!  Desparate, Alfred has sent you a disk image of the Batcomputer.  Can you find out what happened to Batman?
 
+  Connect to the Netcat listener and answer all of the questions to get the flag!
+
   Batman's disk image can be found here: http://bit.ly/48kFWQE
 # Add a regular flag
 
