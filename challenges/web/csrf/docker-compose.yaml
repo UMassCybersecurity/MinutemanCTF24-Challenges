@@ -2,7 +2,7 @@ services:
   app:
     build: src
     ports:
-      - 8009:1337
+      - 8010:1337
     environment:
       REDIS_URL: redis://db:6379
       SECRET_TOKEN: DO_NOT_GO_GENTLE_INTO_THAT_GOOD_NIGHT_5612780561278
