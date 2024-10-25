@@ -17,9 +17,12 @@ flags:
 # If not provided it is inferred from folder name
 name: minute-meta
 
+value: 100
+
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
+    - content: Files can contain more than just the data you see
     - content: "Everything on a computer is a bunch of numbers" # required field for every hint
     - content: "How does a PNG file store data?"
       prerequisites: # index of other hints for this challenge (0 based)
