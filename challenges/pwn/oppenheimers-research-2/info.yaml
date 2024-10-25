@@ -8,6 +8,7 @@ flags:
 hints:
   - content: How does strlen get the length of a string and what does fgets look for to stop collecting input?
   - content: How can you send a null character? (Check out pwntools for python)
+  - content: "Run chmod +x oppenheimers-research-2 to make the binary executable"
 
 value: 200
 
