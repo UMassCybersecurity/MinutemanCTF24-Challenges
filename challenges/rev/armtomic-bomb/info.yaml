@@ -1,6 +1,6 @@
 # Required sections
 
-description: Can you disARM the ARM'dtomic bomb by finding the secret code?
+description: "Can you disARM the ARM'dtomic bomb by finding the secret code? Wrap the output in the format `MINUTEMAN{<flag>}`"
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
@@ -29,4 +29,3 @@ hints:
     - content: What does xor/eor operator do? # required field for every hint
     - content: Think about what values salsify the phases
     - content: You solve for the flag by solving for the secret code
-    - content: Wrap the output in the format MINUTEMAN{<flag>}
