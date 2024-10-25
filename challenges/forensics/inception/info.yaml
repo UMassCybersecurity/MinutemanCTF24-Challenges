@@ -23,5 +23,8 @@ name: inception
 # If not provided it is inferred from folder name
 category: forensics
 
-value: 400
+value: 300
+hints:
+    - content: "I think binwalk might be useful for figuring out what's going on"
+    - content: "I heard there's steghide for password steganography"
 
