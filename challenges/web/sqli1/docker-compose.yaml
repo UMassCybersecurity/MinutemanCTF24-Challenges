@@ -1,0 +1,18 @@
+services:
+  frontend:
+    build: "./frontend"
+    container_name: sqli1_frontend
+    ports:
+      - 8002:1337
+    depends_on:
+      - db
+    environment:
+      - FLAG=MINUTEMAN{S1mpL3_sql_1NJ3c710N}
+      - DATABASE=db
+  db:
+    image: mysql:9.0.1
+    container_name: sqli1_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: c4cc207db461462f8e22aa3ddc744b66
+      MYSQL_DATABASE: user_db

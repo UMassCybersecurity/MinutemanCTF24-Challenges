@@ -1,0 +1,33 @@
+  # This file represents the base specification of your challenge
+
+# Required sections
+
+description: Everyone knows the best way to send secret messages is to hide them in a picture!
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{m3tata7a_1s_da7a_abou7_da7a}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Minute Meta
+
+value: 100
+
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: Files can contain more than just the data you see
+    - content: "Everything on a computer is a bunch of numbers" # required field for every hint
+    - content: "How does a PNG file store data?"
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'
+tags: 
+    - forensics 
+    - image
+    - warmup
