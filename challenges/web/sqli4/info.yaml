@@ -7,7 +7,5 @@ tags:
 flags:
   - content: "MINUTEMAN{71m1Ng_15_3V3ry7H1NG}"
 
-# hints:
-
 connection_info: http://manhattan-project2.web-challenges.minuteman.umasscybersec.org/ 
 value: 400

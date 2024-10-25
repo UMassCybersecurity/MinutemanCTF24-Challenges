@@ -1,6 +1,7 @@
 services:
   frontend:
     build: "./frontend"
+    restart: always
     container_name: sqli2_frontend
     ports:
       - 8006:1337
