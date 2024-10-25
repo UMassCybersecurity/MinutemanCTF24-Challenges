@@ -1,0 +1,23 @@
+name: Batman Begins Again
+category: forensics
+description: Thanks to your work, Batman is back.  But he thinks someone may have been using his computer while he was gone.  Can you help him find out what they were up to?
+# Add a regular flag
+
+tags:
+  - forensics
+  - disk-forensics
+  - medium-hard
+
+flags:
+  - content: "MINUTEMAN{4lw4ys_p4y_y0ur_empl0y33s_w3ll}"
+    type: static
+    data: case_insensitive
+
+value: 500
+
+connection_info: "nc forensics.minuteman.umasscybersec.org 41451"
+
+hints:
+  - content: Autopsy is a great tool for disk forensics
+  - content: Autopsy's analysis tools are great, but sometimes you need to look at the file system
+  - content: If you don't know where something is stored, don't be afraid to Google it
