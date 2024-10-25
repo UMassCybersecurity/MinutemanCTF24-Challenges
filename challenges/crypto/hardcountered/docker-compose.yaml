@@ -1,5 +1,5 @@
 services:
-  ncat:
+  hardcountered:
     build: .
     ports:
-      - 10001:10001
+      - 10001:4444
