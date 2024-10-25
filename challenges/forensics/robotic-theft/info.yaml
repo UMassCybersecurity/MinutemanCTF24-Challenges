@@ -6,7 +6,7 @@ description: I got into an argument with Matthew McConaughey and he sent a robot
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "UMASS{dnS_3xf1l7r4t10n_15_4w3s0m3}" # required field for every flag
+    - content: "MINUTEMAN{dnS_3xf1l7r4t10n_15_4w3s0m3}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
