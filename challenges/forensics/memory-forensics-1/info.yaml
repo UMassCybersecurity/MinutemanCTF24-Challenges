@@ -13,7 +13,7 @@ flags:
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
-connection_info: "nc forensics-challenges.minutemanctf.com 31663" 
+connection_info: "nc forensics-challenges.minuteman.umasscybersec.org 31663" 
 
 # Optional settings (defaults defined in default.yaml)
 
