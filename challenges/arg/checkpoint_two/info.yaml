@@ -8,7 +8,7 @@ flags:
 
 # Name of the challenge
 # If not provided it is inferred from folder name
-name: "ARG Checkcpoint 2"
+name: ARG Checkcpoint 2
 
 # Category of challenge
 # If not provided it is inferred from folder name
