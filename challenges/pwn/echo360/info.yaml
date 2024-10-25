@@ -22,7 +22,7 @@ name: echo360
 value: 100 
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: "nc pwn.minuteman.umasscybersec.org 9001"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9001"
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:

@@ -16,4 +16,4 @@ tags:
   - C
   - buffer overflow
 
-connection_info: "nc pwn.minuteman.umasscybersec.org 9003"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9003"
