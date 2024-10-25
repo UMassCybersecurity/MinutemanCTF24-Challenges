@@ -3,6 +3,10 @@ category: web
 description: TARS HAS SECURED THE REQUEST FORGE AGAINST ALL HACKING, THEREFORE NOBODY SHOULD BE ABLE TO GAIN UNSANCTIONED TOKENS
 dynamic: {}
 # Add a regular flag
+
+tags:
+  - hard
+  
 flags:
   - content: "MINUTEMAN{Cr0sS1nG_Sp4C3_T0_F0Rg3_R3qu3STS}"
 

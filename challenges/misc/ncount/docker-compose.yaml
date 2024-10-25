@@ -1,0 +1,5 @@
+services:
+  ncount:
+    build: .
+    ports:
+      - 5002:5002
