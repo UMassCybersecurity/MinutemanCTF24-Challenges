@@ -1,0 +1,20 @@
+name: Gates!!
+
+description: |-
+  I found this cool circuit that unlocks a mysterious door. Can you help me get the right input so I can open the door?
+  Use the flag format 'MINUTEMAN{input_bits}' for example if all 1's where correct then the flag would be 'MINUTEMAN{111111}'. The bits should be in order from top to bottom.
+
+flags:
+  - content: "MINUTEMAN{001010}"
+
+hints:
+  - content: "This file seems like it can be opened in Logisim Evolution: https://github.com/logisim-evolution/logisim-evolution"
+  - content: "If you know propositional logic, try to turn it into a proposition and solve."
+  - content: "See if theres a way to analyze the circuit in Logisim."
+
+value: 100
+
+tags:
+  - warmup
+  - Logisim
+  - gates

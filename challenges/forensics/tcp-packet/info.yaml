@@ -1,0 +1,39 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: I found a hexdump of a TCP packet.  Can you tell me some information about it?  The flag is in the following format - MINUTEMAN{SOURCE-IP_DESTINATION-IP_SOURCE-PORT_DESTINATION-PORT} (for example UMASS{192.168.1.1_192.168.1.2_1234_5678})
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{192.168.1.118_162.159.136.234_51297_443}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: TCP Packet
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: forensics
+
+# initial point value of challenge
+value: 100 
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - forensics
+    - network
+    - warmup
+
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "How is a hexdump different from raw bytes?" # required field for every hint
+    - content: "Look up TCP packet formats on Google."
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'
