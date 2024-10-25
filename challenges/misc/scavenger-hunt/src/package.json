@@ -1,0 +1,12 @@
+{
+  "name": "Scavenger-Hunt",
+  "version": "1.0.0",
+  "description": "My docker image with dependencies for the Scavenger-Hunt UMass Cybersec Training Platform Challenge",
+  "main": "app.js",
+  "author": "MrLarryMan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.3"
+  }
+}

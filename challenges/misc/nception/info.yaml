@@ -1,0 +1,14 @@
+description: Help Achilles and the Tortoise escape (i)nception
+
+flags:
+  - content: "MINUTEMAN{why_1s_c1ll1@n_murphy_h3r3}"
+    type: static
+    data: "case_insensitive"
+
+
+hints: 
+  - content: "Try making some sets where the current state could be in, and find what numbers they share"
+
+name: nception
+
+value: 400

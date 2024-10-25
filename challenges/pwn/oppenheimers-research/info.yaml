@@ -1,0 +1,19 @@
+name: Oppenheimer's Research
+
+description: We just upgraded our research management software to better protect our nuclear research from foreign enemies. Can you find a flaw in our system and get the flag we planted? If you can, you will be rewarded handsomely.
+
+flags:
+  - content: MINUTEMAN{COnfIdenTiAL_r3sEaRch}
+
+hints:
+  - content: I hope we properly accounted for adding the password prompt to our input buffer.
+  - content: I wonder what would happen if the password was really long.
+
+value: 100
+
+tags:
+  - warmup
+  - C
+  - buffer overflow
+
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9000"
