@@ -10,8 +10,8 @@ name: Hidden in the Protocol
 
 category: forensics
 
-value: 100
+value: 200
 
 tags:
-  - Warmup
+  - Easy
   - Wireshark
