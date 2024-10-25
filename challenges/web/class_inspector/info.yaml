@@ -13,4 +13,5 @@ value: 100
 
 hints:
     - content: "Download the source for this challenge and read the main.py file"
-    - content: "This website has a command injection vulnerability, research what this means and how it appears in the code." # required field for every hint
+    - content: "This website has a command injection vulnerability, research what this means and how it appears in the code." 
+    - content: "How do you exploit a command injection vulnerabity?"

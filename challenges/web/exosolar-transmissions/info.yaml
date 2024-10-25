@@ -1,5 +1,8 @@
 description: We're getting some interference. Command must know what's up...
 
+tags:
+    - medium
+    
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
     - content: "MINUTEMAN{D@ta_tRansmi55i0N_b@cK_THr0ugH_th3_W0RMho1e_1s_ruD1ment@ry}" # required field for every flag
