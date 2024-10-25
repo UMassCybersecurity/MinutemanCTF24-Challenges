@@ -20,7 +20,7 @@ flags:
 
 value: 400
 
-connection_info: "nc forensics.minuteman.umasscybersec.org 48090"
+connection_info: "nc forensics-challenges.minuteman.umasscybersec.org 48090"
 
 hints:
   - content: Autopsy is a great tool for disk forensics
