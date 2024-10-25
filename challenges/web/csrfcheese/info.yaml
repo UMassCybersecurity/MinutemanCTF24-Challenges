@@ -1,7 +1,6 @@
 name: Cross Space Request Forge
 category: web
 description: TARS utilized the wormhole to create a token exchange across the universe, it should be perfectly secure... right?
-dynamic: {}
 # Add a regular flag
   
 flags:

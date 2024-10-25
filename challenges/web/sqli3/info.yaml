@@ -2,7 +2,7 @@ name: Manhattan Project
 description: "We've found the manhattan project login page, and have heard that the admin reuses their password for other projects as well. Can you get it for us?"
 
 tags:
-  - medium
+  - easy
   
 flags:
   - content: "MINUTEMAN{uN10N123_7H3_c0LUMns}"
