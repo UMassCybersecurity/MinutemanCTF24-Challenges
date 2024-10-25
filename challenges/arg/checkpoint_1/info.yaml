@@ -1,0 +1,20 @@
+description: We’ve lost contact with our expeditionary team. With a breathable atmosphere and a temperate climate, this mission to Edmunds was meant to have no hiccups. Attached is the last photo they sent to us. It appears to be taken from one of the many ancient edifices that are now ruins throughout the planet. They mentioned leaving a marking on the posts below. We’re sending you back to Edmunds to figure out what happened to the crew. You’ll have enough resources in your ship to recover the mission survivors…… or to just recover what’s left. May your journey be blessed in the stars. (Follow this hint to find the first stage in the ARG. Then, once you get to the first checkpoint, submit the flag here. It will be the common name of the flower species. Format: MINUTEMAN{Cherry_Blossom})
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{Staring_Chrysanthemum}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: ARG Checkcpoint 1
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: arg
+
+value: 200
+
+tags:
+    - arg
