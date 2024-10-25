@@ -3,6 +3,7 @@ FROM python:latest
 COPY ynetd .
 COPY flag.txt .
 COPY main.py .
+RUN chmod 755 ynetd
 
 RUN pip3 install pycryptodome
 

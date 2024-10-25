@@ -1,5 +1,5 @@
 services:
-  ncat:
+  macforgery:
     build: .
     ports:
-      - 10003:10003
+      - 10003:4444
