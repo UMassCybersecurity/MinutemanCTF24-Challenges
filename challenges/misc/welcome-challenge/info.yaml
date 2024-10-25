@@ -11,6 +11,6 @@ name: Welcome Challenge!
 
 # Category of challenge
 # If not provided it is inferred from folder name
-category: misc
+category: welcome
 
 value: 100
