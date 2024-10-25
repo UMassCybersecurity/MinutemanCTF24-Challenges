@@ -14,4 +14,4 @@ tags:
     - nc
     - osint
 
-connection_info: "`nc misc-challenges.minuteman.umasscybersec.org 5001`"
+connection_info: nc misc-challenges.minuteman.umasscybersec.org 5001
