@@ -20,6 +20,8 @@ name: robotic-theft
 # If not provided it is inferred from folder name
 category: forensics
 
+value: 200
+
 # Tags are used to provide additional public tagging to a challenge
 tags:
     - forensics
