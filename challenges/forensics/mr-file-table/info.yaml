@@ -24,7 +24,14 @@ category: forensics
 # initial point value of challenge
 value: 100 
 
+hints:
+  - content: "What is the Master File Table?"
+  - content: "What programs can be used to analyze the MFT?"
+    prerequisites:
+      - 0
+
 # Tags are used to provide additional public tagging to a challenge
 tags:
     - forensics
     - disk
+    - easy
