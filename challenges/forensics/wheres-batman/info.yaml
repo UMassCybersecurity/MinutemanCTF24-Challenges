@@ -10,8 +10,8 @@ tags:
 
 flags:
   - content: "MINUTEMAN{wh7_f1gh7_cr1m3_wh3n_c4ncun_1s_an_0pt10n}"
-  - type: static
-  - data: case_insensitive
+    type: static
+    data: case_insensitive
 
 value: 300
 
