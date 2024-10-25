@@ -4,7 +4,7 @@ description: TARS utilized the wormhole to create a token exchange across the un
 dynamic: {}
 # Add a regular flag
 flags:
-  - content: "MINUTEMAN{Cr0sS1nG_Sp4C3_T0_F0Rg3_R3qu3STS}"
+  - content: "MINUTEMAN{W41T_T4RS_G4V3_4W4Y_4LL_0UR_t0K3Ns}"
 
 value: 800
-connection_info: http://web.minuteman.umasscybersec.org:8009
+connection_info: http://csrf.web-challenges.minuteman.umasscybersec.org/

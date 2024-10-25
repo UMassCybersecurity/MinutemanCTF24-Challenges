@@ -14,8 +14,6 @@ client.on('error', err => console.log('Redis Client Error', err));
 client.connect();
 client.hSet("TARS", { 'username': 'TARS', 'tokens': +Infinity });
 
-const WAF = ["..","transfer"]
-
 app.use(cookieParser());
 app.use(express.json());
 app.use(express.static('public'))
