@@ -67,7 +67,7 @@ async def server_main(websocket):
     try:
         while g_CurrentAttempts < g_MaxAttempts and not g_CorrectGuess:
             server_log(f'Waiting for guess...')
-            password_guess = await websocket.recv()
+            password_guess = await asyncio.wait_for(websocket.recv(), timeout=120)
             server_log(f'Guessed: {password_guess}')
             server_log(f'Actual: {g_Password}')
 
