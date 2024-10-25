@@ -30,3 +30,4 @@ hints:
     - content: What's a buffer overflow? What's a stack canary? 
     - content: What does the "ret" assembly instruction do?
     - content: Solve script may need to be run multiple times to get the flag
+    - content: "Run chmod +x wormhole to make the binary executable"
