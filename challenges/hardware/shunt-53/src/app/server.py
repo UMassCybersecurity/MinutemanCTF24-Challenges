@@ -117,8 +117,8 @@ async def server_main(websocket):
 
 async def main():
     server_log("Server started on ws://0.0.0.0:6789")
-    server = await websockets.serve(server_main, "0.0.0.0", 6789)
-    await server.wait_closed()
+    async with websockets.serve(server_main, "0.0.0.0", 6789, ping_timeout=120):
+        await asyncio.get_running_loop().create_future()
 
 if __name__ == "__main__":
     asyncio.run(main())
