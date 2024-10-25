@@ -2,7 +2,7 @@
 
 # Required sections
 
-description: I found a hexdump of a TCP packet.  Can you tell me some information about it?  The flag is in the following format - MINUTEMAN{SOURCE-IP_DESTINATION-IP_SOURCE-PORT_DESTINATION-PORT} (for example UMASS{192.168.1.1_192.168.1.2_1234_5678})
+description: "I found a hexdump of a TCP packet.  Can you tell me some information about it?  The flag is in the following format - `MINUTEMAN{SOURCE-IP_DESTINATION-IP_SOURCE-PORT_DESTINATION-PORT}` (for example `UMASS{192.168.1.1_192.168.1.2_1234_5678}`)"
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
