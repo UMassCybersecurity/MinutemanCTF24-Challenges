@@ -1,6 +1,9 @@
 name: Batman's Gone Fishing
 category: forensics
-description: "Impressed with your previous work, Batman has asked you for another favor.  He believes the Joker might have hacked into his computer!  Can you figure out what happened?"
+description: |-
+  Impressed with your previous work, Batman has asked you for another favor.  He believes the Joker might have hacked into his computer!  Can you figure out what happened?
+
+  This challenge uses the same disk image as the "Where's Batman" challenge.
 # Add a regular flag
 
 tags:
