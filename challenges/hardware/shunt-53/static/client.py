@@ -19,7 +19,7 @@ async def main():
     global g_PasswordCorrect
     uri = f"ws://{SERVER_IP}:6789"
 
-    async with websockets.connect(uri) as websocket:
+    async with websockets.connect(uri, ping_timeout=120) as websocket:
         # Receive the initial message.
         initial_message = json.loads(await websocket.recv())
         assert('kind' in initial_message and initial_message['kind'] == 'boot')
