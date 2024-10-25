@@ -20,7 +20,7 @@ flags:
 
 value: 800
 
-connection_info: "nc forensics.minuteman.umasscybersec.org 43800"
+connection_info: "nc forensics-challenges.minuteman.umasscybersec.org 43800"
 
 hints:
   - content: What is a common method of initial access for attackers?
