@@ -22,7 +22,7 @@ name: Mr. File Table
 category: forensics
 
 # initial point value of challenge
-value: 100 
+value: 200 
 
 hints:
   - content: "What is the Master File Table?"
