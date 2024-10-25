@@ -14,7 +14,7 @@ flags:
 
 # Name of the challenge
 # If not provided it is inferred from folder name
-name: robotic-theft
+name: Robotic Theft
 
 # Category of challenge
 # If not provided it is inferred from folder name
