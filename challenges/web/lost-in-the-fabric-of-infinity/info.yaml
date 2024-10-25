@@ -10,3 +10,4 @@ value: 200
 hints:
     - content: "The url parameter field looks interesting, it seems like it's referencing files" 
     - content: "I wonder if I can read any other files on the system?"
+    
