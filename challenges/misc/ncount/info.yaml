@@ -12,4 +12,4 @@ hints:
   - content: "nc expects to receive your response in a particular encoding. Your terminal does it for you, but you need to make sure the text you send and receive is in the correct encoding when you script."
   - content: how can you break up the text? what patterns does the output follow?
 
-connection_info: `nc misc-challenges.minuteman.umasscybersec.org 5002`
+connection_info: "`nc misc-challenges.minuteman.umasscybersec.org 5002`"
