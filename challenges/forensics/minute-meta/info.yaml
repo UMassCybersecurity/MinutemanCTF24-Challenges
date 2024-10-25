@@ -29,4 +29,5 @@ hints:
         - 0 # points to 'This is the first hint'
 tags: 
     - forensics 
-    - imag
+    - image
+    - warmup
