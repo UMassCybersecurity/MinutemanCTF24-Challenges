@@ -6,5 +6,4 @@ if args.REMOTE:
     p = remote(host, port)
 else:
     e = ELF("./wormhole")
-    context.terminal = ["tmux","splitw","-h"]
     p = process(e.path)

@@ -7,8 +7,3 @@ if args.REMOTE:
     p = remote(host, port)
 else:
     p = process("./static/umass_quiz_show")
-
-if args.GDB:
-    gdb.attach(p, gdbscript=f'''
-        b main
-    ''')
