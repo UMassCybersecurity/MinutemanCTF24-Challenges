@@ -54,20 +54,20 @@ async def server_main(websocket):
     g_Password = generate_password(5)
     g_CorrectGuess = False
 
-    # Only allow k * n (characters * slots) attempts.
-    g_MaxAttempts = 26 * len(g_Password)
+    # Only allow k * n (characters * slots) + 25 attempts.
+    g_MaxAttempts = 26 * len(g_Password) + 25
     g_CurrentAttempts = 0
 
     # Send boot logs.
     await websocket.send(json.dumps({
         'kind': 'boot',
-        'content' : uboot_logs_1() + uboot_logs_2() + uboot_logs_3() + logo() + 'Enter password (5 characters):'
+        'content' : uboot_logs_1() + uboot_logs_2() + uboot_logs_3() + logo() + 'Enter password (5 characters, ALPHABETICAL...):'
     }))  
 
     try:
         while g_CurrentAttempts < g_MaxAttempts and not g_CorrectGuess:
             server_log(f'Waiting for guess...')
-            password_guess = await websocket.recv()
+            password_guess = await websocket.recv(timeout=120)
             server_log(f'Guessed: {password_guess}')
             server_log(f'Actual: {g_Password}')
 
@@ -111,7 +111,6 @@ async def server_main(websocket):
                         },
                         'content' : f'Login successful!\nMessage of the day: {flag}'
                     }))
-        
         await websocket.close()
     except websockets.exceptions.ConnectionClosed as e:
         server_log(f"[!] Connection was closed.")
