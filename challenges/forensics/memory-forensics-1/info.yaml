@@ -2,8 +2,9 @@
 
 # Required sections
 
-description: 
+description: |-
   Learn to use Volatility3 to analyze a memory dump of a computer! 
+  
   https://storage.googleapis.com/minutemanctf-24-static/raw_mem_1.zip
 
 # Flags specify answers that your challenge use. You must provide at least one.
@@ -25,12 +26,12 @@ name: Memory Forensics 1
 category: forensics
 
 # initial point value of challenge
-value: 300 
+value: 400 
 
 # Tags are used to provide additional public tagging to a challenge
 tags:
     - forensics
-    - network
+    - memory
     - medium
 
 
