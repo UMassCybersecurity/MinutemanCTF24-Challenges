@@ -1,6 +1,9 @@
 name: Batman Begins Again
 category: forensics
-description: Thanks to your work, Batman is back.  But he thinks someone may have been using his computer while he was gone.  Can you help him find out what they were up to?
+description: |-
+  Thanks to your work, Batman is back.  But he thinks someone may have been using his computer while he was gone.  Can you help him find out what they were up to?
+
+  This challenge uses the same disk image as the "Where's Batman" challenge.
 # Add a regular flag
 
 tags:
