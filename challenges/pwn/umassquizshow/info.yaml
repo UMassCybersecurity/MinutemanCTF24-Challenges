@@ -24,3 +24,4 @@ value: 400
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
 connection_info: "nc pwn.minuteman.umasscybersec.org 9005"
 
+
