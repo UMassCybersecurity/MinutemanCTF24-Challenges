@@ -2,7 +2,7 @@ name: Gates!!
 
 description: |-
   I found this cool circuit that unlocks a mysterious door. Can you help me get the right input so I can open the door?
-  Use the flag format 'MINUTEMAN{input_bits}' for example if all 1's where correct then the flag would be 'MINUTEMAN{111111}'. The bits should be in order from top to bottom.
+  Use the flag format `MINUTEMAN{input_bits}` for example if all 1s where correct then the flag would be `MINUTEMAN{111111}`. The bits should be in order from top to bottom.
 
 flags:
   - content: "MINUTEMAN{001010}"
