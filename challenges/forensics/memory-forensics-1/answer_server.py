@@ -12,8 +12,7 @@ QA = [
     { "What IP address was this Google Chrome process connected to?": "142.251.35.174" }, 
     { "What is the PID of the Microsoft Word (WINWORD) process running on the computer?": "7924" }, 
     { "What is the name of the document open in Word?": "rizz" }, 
-    { "What is the name of the user who had this document open?": "oppenheimer" }, 
-    { "What is the last line of the document?": "note to self" }
+    { "What is the name of the user who had this document open?": "oppenheimer" }
 ]
 
 
