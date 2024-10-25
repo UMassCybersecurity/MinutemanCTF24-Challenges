@@ -37,6 +37,6 @@ tags:
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
     - content: "Download Volatility3 from here: https://github.com/volatilityfoundation/volatility3" # required field for every hint
-    - content: "use python3 vol.py -f raw_mem_1.mem --help for a list of plugins" # required field for every hint
+    - content: "use `python3 vol.py -f raw_mem_1.mem --help` for a list of plugins" # required field for every hint
       prerequisites: # index of other hints for this challenge (0 based)
         - 0 # points to 'This is the first hint'
