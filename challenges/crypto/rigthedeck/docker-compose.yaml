@@ -1,5 +1,5 @@
 services:
-  ncat:
+  rigthedeck:
     build: .
     ports:
-      - 10004:10004
+      - 10004:4444
