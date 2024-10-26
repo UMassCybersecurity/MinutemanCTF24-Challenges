@@ -4,7 +4,7 @@ import json, random
 # make a random username
 USERNAME = "".join(list(map(lambda x: random.choice(list("0123456789")),range(0,25))))
 
-URL = "http://localhost:8009"
+URL = "http://localhost:1337"
 
 # register a user and get the token
 r1 = r.post(f"{URL}/register", headers = {

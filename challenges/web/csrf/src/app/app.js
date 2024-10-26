@@ -14,7 +14,7 @@ client.on('error', err => console.log('Redis Client Error', err));
 client.connect();
 client.hSet("TARS", { 'username': 'TARS', 'tokens': +Infinity });
 
-const WAF = ["..","transfer"]
+const WAF = [".","transfer","\n","\t","\r"]
 
 app.use(cookieParser());
 app.use(express.json());
@@ -48,8 +48,15 @@ app.post('/register', async (req, res) => {
 
 app.post('/report', async (req, res) => {
   const path = req.body.path;
-  if (path && typeof path == 'string') {
-    if (WAF.some(item=>path.includes(item))) {
+  if (path && typeof path === 'string') {
+    let url;
+    try {
+      url = new URL(`http://umasscybersec.org/${path}`);
+    }
+    catch(e){
+      return res.json({'error':'invalid path.'})
+    }
+    if (path !== url.pathname && WAF.some(item=>path.toLowerCase().includes(item))) {
       return res.json({'error':'no hacking allowed >:('})
     }
     const out = await bot.checkPage(path,client);
