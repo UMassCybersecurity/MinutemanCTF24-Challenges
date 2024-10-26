@@ -47,16 +47,17 @@ app.post('/register', async (req, res) => {
 })
 
 app.post('/report', async (req, res) => {
-  const path = req.body.path;
+  let path = req.body.path;
   if (path && typeof path === 'string') {
     let url;
+    path = path.startsWith('/') ? path : `/${path}` ;
     try {
-      url = new URL(`http://umasscybersec.org/${path}`);
+      url = new URL(`http://umasscybersec.org${path}`);
     }
     catch(e){
       return res.json({'error':'invalid path.'})
     }
-    if (path !== url.pathname && WAF.some(item=>path.toLowerCase().includes(item))) {
+    if (path !== url.pathname || WAF.some(item=>path.toLowerCase().includes(item))) {
       return res.json({'error':'no hacking allowed >:('})
     }
     const out = await bot.checkPage(path,client);

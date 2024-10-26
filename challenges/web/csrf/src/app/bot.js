@@ -16,7 +16,6 @@ function checkPage(path, client) {
             page.setExtraHTTPHeaders({
                 'Cookie': `user=${token}`
             });
-            path = path.startsWith('/') ? path : `/${path}` ;
             await page.goto(`http://127.0.0.1:${process.env.SERVER_PORT}${path}`,{
                 timeout: 3000
             });
