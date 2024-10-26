@@ -7,7 +7,7 @@ tags:
   - hard
   
 flags:
-  - content: "MINUTEMAN{Cr0sS1nG_Sp4C3_T0_F0Rg3_R3qu3STS}"
+  - content: "MINUTEMAN{T4RS_D1D_N0T_4CC0UNT_4_URL_3NC0D1NG}"
 
 value: 800
 connection_info: http://csrfv2.web-challenges.minuteman.umasscybersec.org/
