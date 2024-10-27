@@ -1,19 +1,13 @@
 # This file represents the base specification of your challenge
 
+name: "Oppenheimer's Lecture"
 # Required sections
 
-description: Echo, echo, echo...
+description: Oppenheimer recorded his lectures on echo360 but it's locked, can you break the program to get the recordings?
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
     - content: "MINUTEMAN{1_sh0uld_g0_t0_l3ctur3_1nst34d}" # required field for every flag
-
-
-# Optional settings (defaults defined in default.yaml)
-
-# Name of the challenge
-# If not provided it is inferred from folder name
-name: echo360
 
 # Category of challenge
 # If not provided it is inferred from folder name
@@ -21,9 +15,14 @@ name: echo360
 # initial point value of challenge
 value: 100 
 
+tags:
+  - pwn
+  - warmup
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: "nc pwn.minuteman.umasscybersec.org 9001"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9001"
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
     - content: "Why does the man page for gets() tell us to never use it?" # required field for every hint
+    - content: "What is a signal handler?"
+    - content: "Run chmod +x echo360 to make the binary executable"

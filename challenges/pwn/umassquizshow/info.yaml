@@ -21,6 +21,16 @@ name: umassquizshow
 # initial point value of challenge
 value: 400
 
+tags:
+  - mid
+  - shellcoding
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: "nc pwn.minuteman.umasscybersec.org 9005"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9005"
+
+hints:
+  - content: What happens if you can execute arbitrary code?
+  - content: How do can you send code to this program and execute it?
+  - content: "Run chmod +x umass_quiz_show to make the binary executable"
+
+
 

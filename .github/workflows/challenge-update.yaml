@@ -51,19 +51,8 @@ jobs:
       - name: Select VM
         if: steps.check_dockercompose.outputs.files_exists == 'true' || steps.check_dockerfile.outputs.files_exists == 'true'
         run: |-
-          if [ ${{ env.category }} == 'web' ] && [ ! -z ${{ vars.WEBCHALLSVM }} ]; then
-            vm_name=${{ vars.WEBCHALLSVM }}
-          elif [ ${{ env.category }} == 'pwn' ] && [ ! -z ${{ vars.PWNCHALLSVM }} ]; then
-            vm_name=${{ vars.PWNCHALLSVM }}
-          elif [ ${{ env.category }} == 'misc' ] && [ ! -z ${{ vars.MISCCHALLSVM }} ]; then
-            vm_name=${{ vars.MISCCHALLSVM }}
-          else
-            vm_name=${{ vars.MIXEDCHALLSVM }}
-          fi
-          
+          vm_name=${{ vars.MIXEDCHALLSVM }}
           echo "vm_name=$vm_name" >> $GITHUB_ENV
-      
-
       # For docker-compose
       - name: Update Dockercompose
         if: steps.check_dockercompose.outputs.files_exists == 'true'
@@ -107,7 +96,7 @@ jobs:
         with:
           path: 'challenges/${{github.head_ref}}/static'
           destination: '${{vars.static_assets_bucket_name}}/${{github.head_ref}}'
-      - name: Update CTFd
-        run: |-
-          ctfd_url="${{ vars.CTFD_URL }}"
-          ./scripts/ctf-uploader "challenges" "defaults.yaml" $ctfd_url "${{ secrets.ctfd_token }}" "${{ vars.static_assets_bucket_name }}"
+      # - name: Update CTFd
+      #   run: |-
+      #     ctfd_url="${{ vars.CTFD_URL }}"
+      #     ./scripts/ctf-uploader "challenges" "defaults.yaml" $ctfd_url "${{ secrets.ctfd_token }}" "${{ vars.static_assets_bucket_name }}"

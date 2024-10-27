@@ -78,7 +78,7 @@ app.get('/report/:id',async (req,res)=>{
 })
 
 app.get('/clear',async (req,res)=>{
-  if(!req.cookies || !(await client.exists(req.cookies.user))){
+  if(!req.cookies || !req.cookies.user || !(typeof req.cookies.user === 'string') || !(await client.exists(req.cookies.user))){
     return res.send("Hmm are you even a user? Go to /");
   }
 
@@ -92,7 +92,7 @@ app.get('/clear',async (req,res)=>{
 })
 
 app.post('/create',async (req,res)=>{
-  if(!req.cookies || !(client.exists(req.cookies.user))){
+  if(!req.cookies || !req.cookies.user || !(typeof req.cookies.user === 'string') || !(client.exists(req.cookies.user))){
     return res.send("Hmm are you even a user? Go to /");
   }
   if(!req.body.note){

