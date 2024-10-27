@@ -51,19 +51,8 @@ jobs:
       - name: Select VM
         if: steps.check_dockercompose.outputs.files_exists == 'true' || steps.check_dockerfile.outputs.files_exists == 'true'
         run: |-
-          if [ ${{ env.category }} == 'web' ] && [ ! -z ${{ vars.WEBCHALLSVM }} ]; then
-            vm_name=${{ vars.WEBCHALLSVM }}
-          elif [ ${{ env.category }} == 'pwn' ] && [ ! -z ${{ vars.PWNCHALLSVM }} ]; then
-            vm_name=${{ vars.PWNCHALLSVM }}
-          elif [ ${{ env.category }} == 'misc' ] && [ ! -z ${{ vars.MISCCHALLSVM }} ]; then
-            vm_name=${{ vars.MISCCHALLSVM }}
-          else
-            vm_name=${{ vars.MIXEDCHALLSVM }}
-          fi
-          
+          vm_name=${{ vars.MIXEDCHALLSVM }}
           echo "vm_name=$vm_name" >> $GITHUB_ENV
-      
-
       # For docker-compose
       - name: Update Dockercompose
         if: steps.check_dockercompose.outputs.files_exists == 'true'
