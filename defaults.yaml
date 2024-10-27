@@ -1,27 +1,13 @@
-# Flags specify answers that your challenge use. You must provide at least one.
-flags:
-    - type: "static" # must be static or regex
-
-# Initial point value of challenge
-value: 100 
-# Must be either static or dynamic
-# This field is for dynamic challenges.
-# Note: type must be dynamic to use this field
+value: 100
 dynamic:
-  function: linear # must be either linear or logarithmic
-  decay: 100
+  function: linear
+  decay: 10
   minimum: 50
-
-# The maximum number of attempts a user gets (set to 0 or remove for unlimited)
 max_attempts: 0
-
-# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+flags:
+  - type: static
 hints:
-    - cost: 0
-
-# Requirements are used to make a challenge require another challenge to be solved before being available.
+  - cost: 0
 requirements:
   anonymize: true
-
-# The state of the challenge.
-state: hidden # must be hidden or visible
+state: visible

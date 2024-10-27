@@ -1,0 +1,25 @@
+name: Memento-Mirror-World
+
+description: |-
+  Leonard Shelby dropped his hotel keycard before he drove off. Get the hidden 
+  message off the key card so you can break into his hotel room and find out where
+  he's going.
+
+  The wave file contains a text message. The flag is the message wrapped in the
+  standard flag format. If the message was `MARY HAD A LITTLE LAMB` then you
+  should submit `MINUTEMAN{MARY HAD A LITTLE LAMB}`. The message is in ASCII
+  characters.
+
+flags:
+  - content: MINUTEMAN{YOU MAKE UP YOUR OWN TRUTH}
+
+hints:
+  - content: This uses an encoding scheme that is common in RFID and NFC products.
+  - content: It was developed in the 1950s in England.
+  - content: This message is encoded using Manchester encoding.
+
+tags:
+  - RF
+  - easy
+
+value: 200
