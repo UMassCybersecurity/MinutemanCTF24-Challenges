@@ -1,0 +1,45 @@
+# This file outlines a good start configuration that you can use for most challenges
+# NOTE: This is NOT a full specification. Check full-info.yaml for more fields and options.
+
+# Required section
+# You MUST have these fields defined in your info.yaml 
+
+description: This is a sample description
+
+# Flags specify answers that your challenge use. You must provide at least one but can have more than one.
+flags:
+    - content: "flag{hello}"
+
+# Optional settings
+# Still good to have but not required
+
+# Name of the challenge
+# If not provided it is inferred from path to challenge
+name: NAME
+
+# Category of challenge
+# If not provided it is inferred from path to challenge
+category: CATEGORY
+
+# Initial point value of challenge
+value: 100 
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+# You don't need this if your challenge only has static assets
+connection_info: nc hostname 12345
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - web
+    - sandbox
+    - js
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "This is the first hint" # required field for every hint
+    - content: "This hint costs points"
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'
+
+# The state of the challenge.
+state: hidden # must be hidden or visible

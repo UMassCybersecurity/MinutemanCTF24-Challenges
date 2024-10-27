@@ -1,0 +1,20 @@
+name: Radical stuff
+
+description: As it turns out, encrypting identical messages with RSA is not usually a good idea... Use Chinese Remainder Theorem to reconstruct the message before modulus operations, then take its 257th root to recover the flag!
+
+flags:
+  - content: MINUTEMAN{modern_rsa_inserts_extra_noise_for_each_encryption_to_avoid_this}
+
+hints:
+  - content: To use Chinese Remainder Theorem, you need the moduli (plural of modulus) and corresponding remainders
+  - content: Modify the given cube root function to take the 257th root instead, and don't forget to adjust the range!
+
+value: 400
+
+tags:
+  - Chinese Remainder Theorem
+  - RSA
+  - Broadcast attack
+  - mid
+
+connection_info: "nc crypto-challenges.minuteman.umasscybersec.org 10002"

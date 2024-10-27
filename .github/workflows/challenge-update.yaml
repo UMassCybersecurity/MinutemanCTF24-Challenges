@@ -1,0 +1,102 @@
+name: Challenge Update
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main 
+jobs:
+  Update-Challenge:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+    steps:
+      # Basic setup
+      - uses: actions/checkout@v4.1.7
+      - run: |-
+          branch=${{github.head_ref}}
+          tokens=(${branch//'/'/ })
+          
+          echo "category=${tokens[0]}" >> $GITHUB_ENV
+          echo "challenge=${tokens[1]}" >> $GITHUB_ENV
+      # Check for files
+      - name: Check for Dockerfile
+        id: check_dockerfile
+        uses: andstor/file-existence-action@v3.0.0
+        with:
+          files: "challenges/${{ github.head_ref }}/Dockerfile"
+      - name: Check for Dockercompose
+        id: check_dockercompose
+        uses: andstor/file-existence-action@v3.0.0
+        with:
+          files: "challenges/${{ github.head_ref }}/docker-compose.yaml"
+      - name: Check for Static Folder
+        id: check_static
+        uses: andstor/file-existence-action@v3.0.0
+        with:
+          files: "challenges/${{ github.head_ref }}/static" 
+      # GCP Authentication
+      - name: Authenticate with GCP
+        id: gcp-auth
+        uses: 'google-github-actions/auth@v2'
+        with:
+          token_format: 'access_token'
+          workload_identity_provider: ${{ vars.workload_identity_provider_name}}
+          project_id:  ${{ vars.project_id }}
+          service_account: ${{ vars.workload_identity_provider_sa_name }}
+      - name: 'Set up Cloud SDK'
+        uses: 'google-github-actions/setup-gcloud@v2'
+      # Updating Challenge...
+      - name: Select VM
+        if: steps.check_dockercompose.outputs.files_exists == 'true' || steps.check_dockerfile.outputs.files_exists == 'true'
+        run: |-
+          vm_name=${{ vars.MIXEDCHALLSVM }}
+          echo "vm_name=$vm_name" >> $GITHUB_ENV
+      # For docker-compose
+      - name: Update Dockercompose
+        if: steps.check_dockercompose.outputs.files_exists == 'true'
+        run: |-
+          # Clean up old docker compose
+          gcloud compute ssh umasscybersec@$vm_name --zone=${{ vars.ZONE }} --command="(cd /home/umasscybersec/challenges/${{ env.challenge }} && (docker compose down; cd .. && rm -rf ./${{ env.challenge }})) || true"         
+          gcloud compute scp --zone=${{ vars.ZONE }} --recurse challenges/${{ github.head_ref }} umasscybersec@$vm_name:/home/umasscybersec/challenges/${{ env.challenge }}
+          gcloud compute ssh umasscybersec@$vm_name --zone=${{ vars.ZONE }} --command="cd /home/umasscybersec/challenges/${{ env.challenge }} && docker compose up --build -d"       
+      # For docker
+      - name: Docker Auth
+        if: steps.check_dockercompose.outputs.files_exists != 'true' && steps.check_dockerfile.outputs.files_exists == 'true'
+        id: docker-auth
+        uses: 'docker/login-action@v1'
+        with:
+          username: 'oauth2accesstoken'
+          password: ${{ steps.gcp-auth.outputs.access_token }}
+          registry: ${{ vars.docker_repo_hostname}}
+      - name: Build and Push Container
+        if: steps.check_dockercompose.outputs.files_exists != 'true' && steps.check_dockerfile.outputs.files_exists == 'true'
+        run: |-
+          image="${{ vars.docker_repo_hostname }}/${{ vars.project_id }}/${{ vars.docker_repo_name}}/${{ github.head_ref }}:latest"
+          docker build -t $image "challenges/${{github.head_ref}}"
+          docker push $image
+          echo "image=$image" >> $GITHUB_ENV
+      - name: Update Docker
+        if: steps.check_dockercompose.outputs.files_exists != 'true' && steps.check_dockerfile.outputs.files_exists == 'true'
+        run: |-
+          PORT_STR=""
+          source "challenges/${{ github.head_ref }}/config.env"
+          for port in ${PORTS[@]};
+          do
+            PORT_STR="$PORT_STR -p $port"
+          done;
+          #TODO unsudo
+          gcloud auth configure-docker us-east1-docker.pkg.dev
+          gcloud compute ssh umasscybersec@${{ env.vm_name }} --zone=${{ vars.ZONE }} --command="docker kill ${{ env.challenge }} || true; sudo docker rm ${{ env.challenge }} || true; sudo docker run --pull=always -d --name ${{ env.challenge }} $PORT_STR ${{ env.image }}"
+      # Other tasks
+      - name: Upload Static Files
+        if: steps.check_static.outputs.files_exists == 'true'
+        uses: google-github-actions/upload-cloud-storage@v2
+        with:
+          path: 'challenges/${{github.head_ref}}/static'
+          destination: '${{vars.static_assets_bucket_name}}/${{github.head_ref}}'
+      # - name: Update CTFd
+      #   run: |-
+      #     ctfd_url="${{ vars.CTFD_URL }}"
+      #     ./scripts/ctf-uploader "challenges" "defaults.yaml" $ctfd_url "${{ secrets.ctfd_token }}" "${{ vars.static_assets_bucket_name }}"

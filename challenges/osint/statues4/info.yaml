@@ -1,0 +1,21 @@
+# Required sections
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+
+name: "Statues 4"
+description: "I wanted to get a good view of this statue but a bus and sign are in the way. All I know is that there are 'four plaques' on the base of the statue. Can you tell me the full name of the sculptor?\n\nFlag format: `MINUTEMAN{Title from Wikipedia Page}`, eg https://en.wikipedia.org/wiki/John_Cullen_Nugent is `MINUTEMAN{John Cullen Nugent}`\nor https://en.wikipedia.org/wiki/Emmanuel_Fr%C3%A9miet is `MINUTEMAN{Emmanuel Frémiet}`"
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{Allen George Newman}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+# hints:
+
+value: 400
+
+tags:
+    - osint

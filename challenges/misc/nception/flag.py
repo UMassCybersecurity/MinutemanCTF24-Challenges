@@ -1,0 +1,1 @@
+FLAG = "MINUTEMAN{why_1s_c1ll1@n_murphy_h3r3}"

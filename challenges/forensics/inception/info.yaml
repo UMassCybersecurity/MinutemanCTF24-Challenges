@@ -1,0 +1,30 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: You ever get a dream inside a dream??? 
+
+tags:
+  - medium
+ 
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{I_B1NW@LK_MY_D0G}" # required field for every flag
+      type: "static" # must be static or regex
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: inception
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: forensics
+
+value: 300
+hints:
+    - content: "I think binwalk might be useful for figuring out what's going on"
+    - content: "I heard there's steghide for password steganography"
+
