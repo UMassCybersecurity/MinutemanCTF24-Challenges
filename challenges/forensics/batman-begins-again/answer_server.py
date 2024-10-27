@@ -7,7 +7,7 @@ PORT = 41451
 
 QA = [
     { "According to the prefetch files, which program was run for the FIRST TIME after 2:00PM on 2024-10-24?": "vnc" },
-    { "What was the device ID USB device was connected to the computer just before VNC Server was installed?": "07038579B2019540" },
+    { "What was the device ID USB device was connected to the computer just before VNC Server was installed?": "07038579b2019540" },
     { "After VNC server was installed, what the next non-system program run?": "notepad" },
     { "What is the name of the file that was opened in Notepad after VNC server was installed?": "todo.txt" },
     { "What is the first line of todo.txt?": ["pay", "alfred"] },
