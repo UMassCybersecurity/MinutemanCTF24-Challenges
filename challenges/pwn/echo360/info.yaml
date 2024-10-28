@@ -26,3 +26,6 @@ hints:
     - content: "Why does the man page for gets() tell us to never use it?" # required field for every hint
     - content: "What is a signal handler?"
     - content: "Run chmod +x echo360 to make the binary executable"
+
+
+
