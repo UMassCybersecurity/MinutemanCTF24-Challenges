@@ -1,0 +1,59 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/images/inception_big.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.logo{
+    width: 170px;
+    margin-top: 18px;
+}
+.header{
+    height: 10%;
+}
+.movie-details{
+    margin: 3% 0;
+}
+.left-box{
+    color: #fff;
+    margin: 15px 0;
+    padding: 20px;
+}
+.casting img{
+    height: 60px;
+    width: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.left-box a{
+    text-decoration: none !important;
+    border-radius: 30px;
+    padding: 7px 20px;
+    margin-top: 35px;
+    color: #fff !important;
+    background: #107afd;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 10px;
+}
+.movie-img{
+    height: 350px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+.series h3{
+    color: #fff;
+}
+.series img{
+    height: 300px;
+    width: 200px;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+}
+.series img:hover{
+    transform: translateY(-10px);
+}

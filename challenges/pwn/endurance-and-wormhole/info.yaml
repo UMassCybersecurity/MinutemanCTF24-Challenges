@@ -17,14 +17,21 @@ value: 400
 name: Endurance & Wormhole
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: "nc pwn.minuteman.umasscybersec.org 9004"
+connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9004"
 
+tags:
+  - pwn
+  - ret2win
+  - stack-canary
+  - mid
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
     - content: Ghidra and pwntool are stronly recommended for this challange
     - content: What's a buffer overflow? What's a stack canary? 
     - content: What does the "ret" assembly instruction do?
     - content: Solve script may need to be run multiple times to get the flag
+    - content: "Run chmod +x wormhole to make the binary executable"
 
 
-    
+
+

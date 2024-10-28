@@ -1,0 +1,5 @@
+services:
+  rigthedeck:
+    build: .
+    ports:
+      - 10004:4444

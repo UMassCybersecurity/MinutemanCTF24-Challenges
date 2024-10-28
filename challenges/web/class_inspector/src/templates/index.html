@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <h1>Classes Inspector</h1>
+    <h2>Enter a UMass Amherst CS professor's last name to look up for classes he's teaching this semester!</h2>
+    <form action="" method="Get">
+        <input type="text" name="input">
+        <input type="submit" value="Look Up">
+    </form>
+    <p>Here are the classes the professor's teaching this semester: {{ value }}</p>
+</body>
+</html>
