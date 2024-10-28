@@ -1,0 +1,40 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: I got into an argument with Matthew McConaughey and he sent a robot to steal my data!  Can you figure out what they took?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{dnS_3xf1l7r4t10n_15_4w3s0m3}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Robotic Theft
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: forensics
+
+value: 200
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - forensics
+    - network
+    - pcap
+
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "Use Wireshark to open the packet capture" # required field for every hint
+    - content: "Are there any packets that seem strange?"
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'
+        
+
+

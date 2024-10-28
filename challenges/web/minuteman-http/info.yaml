@@ -1,0 +1,25 @@
+name: Minuteman HTTP v1.1
+category: web
+description: Learn web exploitation by intercepting, reading, and editing HTTP requests!
+
+tags:
+  - warmup
+  - http
+  - burpsuite
+
+flags:
+  - content: "MINUTEMAN{W3LC0m3_T0_W3B_4T_M1nUt3M4N_CTF!}"
+
+connection_info: http://minuteman-http.web-challenges.minuteman.umasscybersec.org/ 
+
+value: 100
+
+hints: 
+  - content: "Download and install Burpsuite Community Edition for this challenge."
+  - content: "Your goal is to intercept a request, send it to repeater, edit, and resend it with the request changes. Use this tutorial to help: https://portswigger.net/burp/documentation/desktop/getting-started"
+
+
+
+
+
+
