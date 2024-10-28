@@ -1,0 +1,29 @@
+name: Batman's Gone Fishing
+category: forensics
+description: |-
+  Impressed with your previous work, Batman has asked you for another favor.  He believes the Joker might have hacked into his computer!  Can you figure out what happened?
+
+  Connect to the Netcat listener and answer all of the questions to get the flag!
+
+  This challenge uses the same disk image as the "Where's Batman" challenge.
+# Add a regular flag
+
+tags:
+  - forensics
+  - disk-forensics
+  - hard
+
+flags:
+  - content: "MINUTEMAN{wh3n_1n_d0ub7_em4il_1s_alw4ys_th3_pr0bl3m}"
+    type: static
+    data: case_insensitive
+
+value: 800
+
+connection_info: "nc forensics-challenges.minuteman.umasscybersec.org 43800"
+
+hints:
+  - content: What is a common method of initial access for attackers?
+  - content: You may want to export the Windows Event Logs and use Hayabusa (https://github.com/Yamato-Security/hayabusa) to analyze them
+    prerequisites:
+      - 0

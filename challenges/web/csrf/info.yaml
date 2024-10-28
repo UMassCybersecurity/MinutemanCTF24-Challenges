@@ -1,0 +1,15 @@
+name: SECURED Cross Space Request Forge 
+category: web
+description: TARS HAS SECURED THE REQUEST FORGE AGAINST ALL HACKING, THEREFORE NOBODY SHOULD BE ABLE TO GAIN UNSANCTIONED ACCESS TO THE FLAG.
+# Add a regular flag
+
+tags:
+  - hard
+  
+flags:
+  - content: "MINUTEMAN{T4RS_D1D_N0T_4CC0UNT_4_URL_3NC0D1NG}"
+
+value: 800
+connection_info: http://csrfv2.web-challenges.minuteman.umasscybersec.org/
+
+

@@ -1,0 +1,17 @@
+name: Rig the deck
+description: Come and learn mental poker! If you're lucky, you might even win the flag from me...
+flags:
+  - content: MINUTEMAN{never_reuse_encryption_keys_for_one_time_pad}
+
+hints:
+  - content: XOR-ing with the same pad is never really secure...
+
+
+value: 800
+
+tags:
+  - mental poker
+  - reused key attack
+  - hard
+
+connection_info: "nc crypto-challenges.minuteman.umasscybersec.org 10004"

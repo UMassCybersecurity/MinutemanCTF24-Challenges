@@ -1,0 +1,37 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: I needed to get some information from a computer, but I only had time to download the MFT.  Can you help me get the data I need?  The flag should be on the Desktop...
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "MINUTEMAN{th3_Mf7_1s_y0uR_fr13nd}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Mr. File Table
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: forensics
+
+# initial point value of challenge
+value: 200 
+
+hints:
+  - content: "What is the Master File Table?"
+  - content: "What programs can be used to analyze the MFT?"
+    prerequisites:
+      - 0
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+    - forensics
+    - disk
+    - easy

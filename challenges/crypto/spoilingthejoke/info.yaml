@@ -1,0 +1,17 @@
+name: Spoiling the joke
+
+description: Unlike the one on the training platform, Vigenère skips non-alphabetical characters and isn't space-sensitive this time. The key is longer and not an English word anymore, though.
+flags:
+  - content: MINUTEMAN{English is honestly the most cursed language ever}
+
+hints:
+  - content: There aren't that many 1 letter words...
+  - content: There aren't that many letters that often go after an apostrophe either...
+
+
+value: 200
+
+tags:
+  - classical cryptanalysis
+  - Vigenère cipher
+  - easy
