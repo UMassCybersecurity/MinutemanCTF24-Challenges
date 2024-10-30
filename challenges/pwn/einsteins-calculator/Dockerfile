@@ -7,7 +7,7 @@ WORKDIR /home/ctf
 RUN useradd -d /home/ctf/ ctf
 RUN echo "ctf:ctf43533241375f98gd9f8gds0f989089dzxdf0v8sd" | chpasswd
 
-COPY einsteins-calculator .
+COPY ./static/einsteins-calculator .
 COPY ynetd .
 COPY flag.txt .
 
