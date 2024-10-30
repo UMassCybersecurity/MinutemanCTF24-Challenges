@@ -7,7 +7,7 @@ WORKDIR /home/ctf
 RUN useradd -d /home/ctf/ ctf
 RUN echo "ctf:ctf4353254387438958902" | chpasswd
 
-COPY static/oppenheimers-research .
+COPY ./static/oppenheimers-research .
 COPY ynetd .
 COPY flag.txt .
 COPY password.txt .
