@@ -13,4 +13,5 @@ hints:
   - content: "There's an (undisclosed) maximum number of attempts per connection."
   - content: "If an attempt is not made within 2 minutes, the connection will close."
 
+connection_info: "nc 34.26.74.126 6789" 
 value: 800
