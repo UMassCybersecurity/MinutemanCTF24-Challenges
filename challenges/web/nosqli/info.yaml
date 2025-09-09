@@ -5,4 +5,4 @@ description: I'm super bad at making frontends so I wasn't able to get it done f
 flags:
   - content: "UMASS{1_TH0UGHT_N0SQL_M34NT_N0_1NJ3CT10N$!}"
 
-connection_info: http://web-challs.umasscybersec.org:3000
+connection_info: http://34.73.80.0:3008

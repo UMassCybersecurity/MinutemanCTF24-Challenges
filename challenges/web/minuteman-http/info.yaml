@@ -5,7 +5,6 @@ description: Learn web exploitation by intercepting, reading, and editing HTTP r
 flags:
   - content: "UMASS{MINUTEMAN_HTTP_GURU}"
 
-connection_info: http://web-challs.umasscybersec.org:4444/
-
+connection_info: http://34.73.80.0:4444
 
 

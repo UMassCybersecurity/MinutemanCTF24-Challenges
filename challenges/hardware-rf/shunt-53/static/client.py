@@ -5,7 +5,7 @@ import numpy as np
 import json
 
 g_PasswordCorrect = False
-SERVER_IP = "hardware-challenges.minuteman.umasscybersec.org"
+SERVER_IP = "34.26.74.126"
 
 async def plot_updates(plot, guess):
     plt.ion() 
