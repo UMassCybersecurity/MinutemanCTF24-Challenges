@@ -15,5 +15,5 @@ RUN chmod -R 555 /home/ctf
 RUN chown -R root:root /home/ctf
 
 # TODO port
-EXPOSE 4444
-CMD ./ynetd -p 4444 "su - ctf -c ./chatbot"
+EXPOSE 4445 
+CMD ./ynetd -p 4445 "su - ctf -c ./chatbot"

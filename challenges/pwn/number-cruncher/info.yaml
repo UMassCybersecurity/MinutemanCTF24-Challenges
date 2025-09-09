@@ -18,7 +18,7 @@ flags:
 name: number-cruncher
 
 # connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-connection_info: nc challs.umasscybersec.org 7878
+connection_info: "nc 34.73.195.3 7878"
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:

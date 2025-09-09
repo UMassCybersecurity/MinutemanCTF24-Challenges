@@ -8,7 +8,7 @@ hints:
   - content: I wonder what I can do with control of that stack and return statements?
   - content: You should try this amazing tool ROPgadgets
 
-connection_info: "nc pwn-challenges.minuteman.umasscybersec.org 9006"
+connection_info: "nc 34.73.195.3 4445"
 
 tags:
   - ROP

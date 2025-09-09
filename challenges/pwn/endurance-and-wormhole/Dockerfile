@@ -15,5 +15,5 @@ RUN chmod -R 555 /home/ctf
 RUN chown -R root:root /home/ctf
 
 # TODO port
-EXPOSE 1337
+EXPOSE 1338
 CMD ./ynetd -p 1337 "su - ctf -c ./wormhole"
