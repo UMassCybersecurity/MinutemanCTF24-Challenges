@@ -16,4 +16,4 @@ RUN chown -R root:root /home/ctf
 
 # TODO port
 EXPOSE 1338
-CMD ./ynetd -p 1337 "su - ctf -c ./wormhole"
+CMD ./ynetd -p 1338 "su - ctf -c ./wormhole"
