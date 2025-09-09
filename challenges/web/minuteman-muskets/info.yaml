@@ -7,7 +7,7 @@ flags:
   - content: "UMASS{CR4CK3D_TH3_C0D3_T0_Th3_MUSK3TS}"
 hints:
   - content: "You have to guess the number 0 through 999, you should use the python requests library to script this out. https://pypi.org/project/requests/"
-connection_info: https://34.73.80.0:8080
+connection_info: https://35.196.121.193:8080
 
 
 

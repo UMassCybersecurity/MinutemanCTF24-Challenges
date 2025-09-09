@@ -6,5 +6,5 @@ description: Check out this simple class lookup system I made!
 flags:
   - content: "UMASS{V@liD_cS_sTuD3nt_W}"
 
-connection_info: http://34.73.80.0:9000
+connection_info: http://35.196.121.193:9000
 

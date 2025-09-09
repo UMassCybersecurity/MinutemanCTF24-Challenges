@@ -6,4 +6,4 @@ value: 200
 flags:
   - content: "UMASS{1_TH0UGHT_PR3P4R3D_QU3R13S_W3R3_S4F3!}"
 
-connection_info: http://34.73.80.0:3001
+connection_info: http://35.196.121.193:3001

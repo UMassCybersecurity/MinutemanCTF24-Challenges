@@ -8,7 +8,7 @@ tags:
 flags:
   - content: "MINUTEMAN{i_H@t3_fR0nT3nD!}"
 
-connection_info: http://34.73.80.0:8005
+connection_info: http://35.196.121.193:8005
 value: 400 
 
 

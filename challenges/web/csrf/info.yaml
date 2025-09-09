@@ -10,6 +10,6 @@ flags:
   - content: "MINUTEMAN{T4RS_D1D_N0T_4CC0UNT_4_URL_3NC0D1NG}"
 
 value: 800
-connection_info: http://34.73.80.0:8009
+connection_info: http://35.196.121.193:8009
 
 
