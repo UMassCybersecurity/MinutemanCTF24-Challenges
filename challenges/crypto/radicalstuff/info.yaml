@@ -17,4 +17,4 @@ tags:
   - Broadcast attack
   - mid
 
-connection_info: "nc crypto-challenges.minuteman.umasscybersec.org 10002"
+connection_info: "nc 34.73.195.3 4446" 

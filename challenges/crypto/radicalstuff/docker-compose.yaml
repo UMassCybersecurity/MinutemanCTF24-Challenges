@@ -2,4 +2,4 @@ services:
   radicalstuff:
     build: .
     ports:
-      - 10002:4444
+      - 4446:4446

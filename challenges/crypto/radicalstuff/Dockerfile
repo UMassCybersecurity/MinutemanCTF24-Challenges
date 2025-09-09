@@ -8,5 +8,5 @@ RUN chmod 755 ynetd
 
 RUN pip3 install pycryptodome
 
-EXPOSE 4444
-CMD ./ynetd -p 4444 "python main.py"
+EXPOSE 4446 
+CMD ./ynetd -p 4446 "python main.py"

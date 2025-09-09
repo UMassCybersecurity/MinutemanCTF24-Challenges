@@ -2,4 +2,4 @@ services:
   rigthedeck:
     build: .
     ports:
-      - 10004:4444
+      - 4447:4447

@@ -14,4 +14,4 @@ tags:
   - reused key attack
   - hard
 
-connection_info: "nc crypto-challenges.minuteman.umasscybersec.org 10004"
+connection_info: "nc 34.73.195.3 4447"
