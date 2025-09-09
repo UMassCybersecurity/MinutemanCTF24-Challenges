@@ -1,5 +1,0 @@
-services:
-  macforgery:
-    build: .
-    ports:
-      - 10003:4444

@@ -1,0 +1,17 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Sam The Minuteman discovered that his rival dropped a secret flag, luckily he also found the machine (code) they used to encrypt it. Can you figure out how to decrypt it?
+
+flags:
+  - content: "UMASS{Subst1tut3_unt1l_y0u_f1nd_th3_s3cr3t_fl4g}" 
+
+name: Rival Simple Cipher
+
+tags:
+  - crypto
+  - substitution cipher
+
+hints:
+  - content: "We know how the mapping to encrypt letters, how can we change that mapping to get one that decrypts letters?"

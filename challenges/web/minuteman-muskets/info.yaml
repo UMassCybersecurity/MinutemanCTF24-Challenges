@@ -1,0 +1,14 @@
+name: Minuteman Muskets
+category: web
+description: Help Sam The Minuteman unlock a smart lockbox by automating web requests!!!
+
+# Add a regular flag
+flags:
+  - content: "UMASS{CR4CK3D_TH3_C0D3_T0_Th3_MUSK3TS}"
+hints:
+  - content: "You have to guess the number 0 through 999, you should use the python requests library to script this out. https://pypi.org/project/requests/"
+connection_info: https://minuteman-muskets.umasscybersec.org
+
+
+
+

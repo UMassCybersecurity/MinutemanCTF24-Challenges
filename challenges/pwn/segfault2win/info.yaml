@@ -1,0 +1,21 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Echo, echo, echo...
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "UMASS{m4yb3_1_sh0uld_g0_t0_l3ctur3}" # required field for every flag
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: echo360
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: nc challs.umasscybersec.org 8787
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "Why does the man page for gets() tell us to never use it?" # required field for every hint
+    - content: "Are there other types of overflows other than integer overflows?"

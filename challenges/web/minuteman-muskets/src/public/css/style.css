@@ -1,0 +1,56 @@
+* {
+    margin: 0
+}
+
+.istok-web-regular {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.istok-web-bold {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.istok-web-regular-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.istok-web-bold-italic {
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.header {
+    background-image: url('/static/images/image.jpg');
+    height: 400px;
+    color: white;
+    position: relative;
+    background-size: cover;
+}
+
+.title_text {
+    opacity: .8;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 80px;
+}
+
+.container{
+    background-color: #881c1c;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.container > *{
+    margin: 10px;
+}
+    

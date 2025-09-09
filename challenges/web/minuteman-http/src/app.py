@@ -15,22 +15,22 @@ CHALLENGE_ARRAY = [
     },
     {
         'chall': lambda req: req.method == "POST",
-        'message': "Thank you, but could you authenticate your requests with a cookie... How about one named 'best_ctf' with the value 'minuteman_ctf'."
+        'message': "Thank you, but could you authenticate your requests with a cookie... How about one named 'mascot' with the value 'sam_the_minuteman'."
     },
     {
-        'chall': lambda req: 'best_ctf' in req.cookies,
-        'message': "You sent the cookie with the name mascot but I expected the value 'minuteman_ctf'"
+        'chall': lambda req: 'mascot' in req.cookies,
+        'message': "You sent the cookie with the name mascot but I expected the value 'sam_the_minuteman'"
     },
     {
-        'chall': lambda req: req.cookies.get('best_ctf') == 'minuteman_ctf',
-        'message': "Thank you for the cookie, but could you send me a url parameter with the name 'best_category' and the value 'web_of_course'."
+        'chall': lambda req: req.cookies.get('mascot') == 'sam_the_minuteman',
+        'message': "Thank you for the cookie, but could you send me a url parameter with the name 'number_one' and the value 'in_student_dining'."
     }, 
     {
-        'chall': lambda req: 'best_category' in req.args,
-        'message': "You sent the url parameter with the name 'best_category' but I expected the value 'web_of_course'."
+        'chall': lambda req: 'number_one' in req.args,
+        'message': "You sent the url parameter with the name 'number_one' but I expected the value 'in_student_dining'."
     },
     {
-        'chall': lambda req: req.args.get('best_category') == 'web_of_course',
+        'chall': lambda req: req.args.get('number_one') == 'in_student_dining',
         'message': "Thank you for the url parameter, but could you send me a JSON in the body of your post request with the key 'deservesFlag' and value true."
     },
     {

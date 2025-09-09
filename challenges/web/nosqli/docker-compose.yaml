@@ -1,0 +1,26 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  app:
+    build: .
+    restart: always
+    ports:
+      - 3000:3000
+    environment:
+      SERVER_PORT: 3000
+      MONGO_HOST: mongo
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: NO_SQL_THEREFORE_THERE_IS_NO_SQLI
+      SECRET_TOKEN: NO_SQL_THEREFORE_THERE_IS_NO_SQLI
+      FLAG: UMASS{1_TH0UGHT_N0SQL_M34NT_N0_1NJ3CT10N$!}
+  mongo:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: NO_SQL_THEREFORE_THERE_IS_NO_SQLI
+      MONGO_INITDB_DATABASE: minuteman_database
+      ADMIN_PASSWORD: SAM_THE_MINUTEMAN_WITH_A_MINUTEPLAN_123
+    volumes:
+      - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js

@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+
+</head>
+<title>
+    Minuteman Muskets
+</title>
+
+<body>
+    <div class="header">
+        <h1 class="title_text istok-web-bold">
+            Minuteman Muskets
+        </h1>
+    </div>
+    <div class="container istok-web-regular">
+        <p>
+            Sam the Minuteman lost the code to the lockbox that has his musket inside, help him guess the code to get
+            his
+            musket and the flag! The code has to be some number 0 through 999.
+        </p>
+        <img src="/static/images/sam_the_minuteman.jpg" height="400px">
+        <p id="response">
+
+        </p>
+        <div>
+            <input type="text" id="guess" placeholder="999">
+            <button id="guess_button">Submit</button>
+        </div>
+    </div>
+
+    <script>
+        window.onload = () => {
+            guess_button.onclick = async () => {
+                const resp = await fetch("/guess", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        'code': parseInt(guess.value)
+                    })
+                });
+                const data = await resp.json()
+                response.innerText = 'correct' in data ? data['correct'] : data['incorrect'];
+            }
+        }
+    </script>
+</body>
+
+</html>

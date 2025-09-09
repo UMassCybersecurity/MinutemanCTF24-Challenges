@@ -1,0 +1,22 @@
+description: Can you figure out how to make a challenge?
+
+flags:
+    - content: "flag{epic}"
+
+name: hello
+
+value: 100 
+
+connection_info: nc challs.umasscybersec.org 12345
+
+tags:
+    - web
+
+hints:
+    - content: "This is the first hint" # required field for every hint
+    - content: "This hint costs points"
+      cost: 10
+      prerequisites: # index of other hints for this challenge (0 based)
+        - 0 # points to 'This is the first hint'
+
+state: hidden

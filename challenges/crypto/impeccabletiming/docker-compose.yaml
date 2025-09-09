@@ -1,5 +1,0 @@
-services:
-  impeccabletiming:
-    build: .
-    ports:
-      - 10000:4444

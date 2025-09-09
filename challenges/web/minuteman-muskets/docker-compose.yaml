@@ -1,0 +1,7 @@
+services: 
+  app: 
+    build: .
+    environment: 
+      FLAG: "UMASS{CR4CK3D_TH3_C0D3_T0_Th3_MUSK3TS}"
+    ports: 
+      - 8080:8080

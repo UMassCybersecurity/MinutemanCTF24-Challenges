@@ -1,0 +1,13 @@
+name: Obfuscated Giveaway
+
+description: "Someone is hosting a giveaway for a million dollars!! Can you help me deobfuscate the site and find the right guess?"
+
+flags:
+  - content: "UMASS{S3curE_jS_Xor}"
+
+hints:
+  - content: Funny that the values printed start with 0x and go from 0 to f
+  - content: I wonder how they represent negative numbers
+  - content: Have you ever heard of two's complement
+
+connection_info: http://challs.umasscybersec.org:93

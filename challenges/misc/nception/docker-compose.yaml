@@ -1,5 +1,0 @@
-services:
-  nception:
-    build: .
-    ports:
-      - 5003:5003

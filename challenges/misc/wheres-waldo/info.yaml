@@ -1,14 +1,13 @@
 # This file represents the base specification of your challenge
 # Thanks to: Theo (AKA Oruga) for providing this challenge!
 
-description: >
-  Per line of like chars
-  Sits a lonesome, single byte
-  Can you find Waldo?
+description: "Per line of like chars
+Sits a lonesome, single byte
+Can you find Waldo?"
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "minuteman{power_the_shell_master_the_unix}" # required field for every flag
+    - content: "UMASS{coreutils_more_like_coolutils}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
@@ -20,11 +19,7 @@ name: Where's Waldo?
 
 # Category of challenge
 # If not provided it is inferred from folder name
-value: 200
-
-tags:
-    - misc
-    - Easy
+category: misc
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:

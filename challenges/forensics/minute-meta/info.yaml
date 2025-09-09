@@ -6,7 +6,7 @@ description: Everyone knows the best way to send secret messages is to hide them
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "MINUTEMAN{m3tata7a_1s_da7a_abou7_da7a}" # required field for every flag
+    - content: "UMASS{m3tata7a_1s_da7a_abou7_da7a}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
@@ -15,14 +15,11 @@ flags:
 
 # Name of the challenge
 # If not provided it is inferred from folder name
-name: Minute Meta
-
-value: 100
+name: minute-meta
 
 
 # Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
 hints:
-    - content: Files can contain more than just the data you see
     - content: "Everything on a computer is a bunch of numbers" # required field for every hint
     - content: "How does a PNG file store data?"
       prerequisites: # index of other hints for this challenge (0 based)
@@ -30,4 +27,4 @@ hints:
 tags: 
     - forensics 
     - image
-    - warmup
+

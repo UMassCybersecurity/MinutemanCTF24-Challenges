@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: app
+    restart: always
+    depends_on:
+      - db
+    environment:
+      SERVER_PORT: 3000
+      MYSQL_ROOT_PASSWORD: V3RY_s3cur3_1_h0p3
+      JWT_SECRET: M1N3CR4FT_1S_GR3aT
+      FLAG: UMASS{1_TH0UGHT_PR3P4R3D_QU3R13S_W3R3_S4F3!}
+      DEBUG_HEADER: Th1S_1S_A_S3cR3t_H3ad3r
+    ports:
+      - "80:80"
+  db:
+    image: mysql:8.0.32
+    restart: always
+    command: --init-file /tmp/db/init.sql
+    environment:
+      MYSQL_ROOT_PASSWORD: V3RY_s3cur3_1_h0p3
+    volumes:
+      - "./db:/tmp/db"

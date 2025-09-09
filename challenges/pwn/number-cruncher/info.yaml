@@ -1,0 +1,29 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: I heard you like numbers. So I put some numbers in your numbers so you can number while you number.
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+    - content: "UMASS{l3t_th3_f1n1t3_l4rg3_0v3rfl0w}" # required field for every flag
+      type: "static" # must be static or regex
+      data: "case_insensitive" # additional data
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: number-cruncher
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+connection_info: nc challs.umasscybersec.org 7878
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+    - content: "What happens when you try to represent a number outside of the range of MAX_INT?" # required field for every hint
+    - content: "What flows over can flow under."
+    - content: "Think about what happends when number get really large and really small" # required field for every hint
+   
+    

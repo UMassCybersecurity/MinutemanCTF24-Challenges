@@ -1,0 +1,10 @@
+name: Class Lookup
+category: web
+description: Check out this simple class lookup system I made!
+
+# Add a regular flag
+flags:
+  - content: "UMASS{V@liD_cS_sTuD3nt_W}"
+
+connection_info: http://web-challs.umasscybersec.org:9000
+

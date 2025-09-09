@@ -1,0 +1,9 @@
+name: Blast From The Past
+category: Database Security Workshop
+description: I went back to my old UMass CTF challenge and removed the vuln so it should be unhackable... right?
+# Add a regular flag
+value: 200
+flags:
+  - content: "UMASS{1_TH0UGHT_PR3P4R3D_QU3R13S_W3R3_S4F3!}"
+
+connection_info: http://web-challs.umasscybersec.org:80

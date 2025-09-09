@@ -1,0 +1,39 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Variants of Vigenère ciphers can be really secure if your keys are long and random. Unfortunately, our challenge is not built like that =((. Brute force all the keys and recover the flag! Each line has a number representing key length followed by the encrypted ciphertext of a random key of that length.
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+  - content: "UMASS{we_hold_these_evidences_to_mean_self_true}" # required field for every flag
+    type: "static" # must be static or regex
+    data: "case_insensitive" # additional data
+
+
+# Optional settings (defaults defined in default.yaml)
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Almost Vigenere
+
+# Category of challenge
+# If not provided it is inferred from folder name
+category: crypto
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+  - crypto
+  - classical-cryptography
+  - dictionary-attack
+  - bruteforce
+# Provide paths to files from the same directory that info.yaml is in (root of challenge)
+# Files in the static folder are automatically added and should NOT be defined here
+# Note: may not be used
+#files:
+#  - dist/source.py
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+  - content: "The keys are common English words and are ascending in length. The plaintext is also in English, with no symbols."
+  - content: "Spaces changes the encryption, what does the encrypt function do diffrently when it encounters a space"

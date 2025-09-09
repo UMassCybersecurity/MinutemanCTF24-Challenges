@@ -4,7 +4,7 @@
 
 OUTF="challenge_data.txt"
 CHARS_PER_LINE=10000
-FLAG="identifying_exploiting_patching_minuteman{power_the_shell_master_the_unix}_reporting_collaborating"
+FLAG="filler_padding_cushioning_lining_umass{coreutils_more_like_coolutils}_wadding_stuffing"
 FLAG_LENGTH=$(printf "$FLAG" | wc -c)
 
 # translation of hint:

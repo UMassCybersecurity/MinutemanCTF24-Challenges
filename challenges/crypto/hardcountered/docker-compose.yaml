@@ -1,5 +1,0 @@
-services:
-  hardcountered:
-    build: .
-    ports:
-      - 10001:4444

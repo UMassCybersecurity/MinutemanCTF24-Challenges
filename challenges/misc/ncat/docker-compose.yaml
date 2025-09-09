@@ -1,5 +1,0 @@
-services:
-  ncat:
-    build: .
-    ports:
-      - 5001:5001

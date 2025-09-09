@@ -1,8 +1,8 @@
 services:
   server:
-    restart: always
     build: .
     ports: 
-      - "8001:4444"
+      - "4444:4444"
     environment:
-      FLAG: "MINUTEMAN{W3LC0m3_T0_W3B_4T_M1nUt3M4N_CTF!}"
+      FLAG: "UMASS{MINUTEMAN_HTTP_GURU}"
+    restart: always

@@ -1,0 +1,5 @@
+FROM python
+
+HEALTHCHECK CMD curl http://localhost:4000
+
+CMD python -m http.server 4000

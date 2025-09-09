@@ -1,1 +1,0 @@
-MINUTEMAN{side_channel_attacks_go_so_hard_please_properly_seed_your_PRNG}

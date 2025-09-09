@@ -1,0 +1,24 @@
+# This file represents the base specification of your challenge
+
+# Required sections
+
+description: Sam the minuteman found a letter to Benedict Arnold! We don't know why it's been encrypted, but those unprintable symbols reminds us of a secret document the British leaked recently along with a weird list that had a bunch of 4-letter words. It should still be fine if we just delivered it to him, right? Or do you suppose something is amiss here...?
+
+# Flags specify answers that your challenge use. You must provide at least one.
+flags:
+  - content: "UMASS{cooked_up_some_eggs_benedict_with_english_muffins}" # required field for every flag
+
+# Name of the challenge
+# If not provided it is inferred from folder name
+name: Dear Arnold
+
+
+# Tags are used to provide additional public tagging to a challenge
+tags:
+  - crypto
+  - known-plaintext
+
+# Hints are used to give players a way to buy or have suggestions. They are not required but can be nice.
+hints:
+  - content: "We know how the secret is meant to be formatted, so maybe we can use that to our advantage?"
+  
