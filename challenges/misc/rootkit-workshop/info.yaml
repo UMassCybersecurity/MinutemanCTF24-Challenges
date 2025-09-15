@@ -1,0 +1,16 @@
+name: Rootkit Workshop Challenge
+category: misc
+description: | 
+  I think there is some fishy network activity on my machine but I can't quite put my finger on it. Can you help me investigate?
+
+  The flag should be the first part of the domain 
+
+flags:
+  - content: "MINUTEMAN{y0u_c@n_c0unt_0n_m3_l1ke_123}"
+
+value: 200
+
+hints:
+  - content: ""
+
+connection_info: 

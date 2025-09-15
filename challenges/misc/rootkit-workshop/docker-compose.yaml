@@ -1,0 +1,20 @@
+services:
+  rootkit-workshop-chall:
+    build: ./chall
+    command: ${LISTEN_PORT} ${REV_SHELL_PORT}
+    ports:
+      - ${LISTEN_PORT}:${LISTEN_PORT}
+    networks:
+      internal:
+      default:
+
+  ev1l-Pr0c-h1der:
+    image: subfuzion/netcat
+    command: -lvk ${REV_SHELL_PORT}
+    networks:
+      internal:
+    
+networks:
+  internal:
+    internal: true
+  default:
