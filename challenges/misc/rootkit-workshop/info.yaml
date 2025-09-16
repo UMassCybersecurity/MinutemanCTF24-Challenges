@@ -3,14 +3,11 @@ category: misc
 description: | 
   I think there is some fishy network activity on my machine but I can't quite put my finger on it. Can you help me investigate?
 
-  The flag should be the first part of the domain 
+  The flag should be the domain the nc connection is reaching out to. For example, if the connection is reaching out to hello.world, the flag would be UMASS{hello.world}.
 
 flags:
-  - content: "MINUTEMAN{y0u_c@n_c0unt_0n_m3_l1ke_123}"
+  - content: "UMASS{ev1l-Pr0c-h1der}"
 
 value: 200
 
-hints:
-  - content: ""
-
-connection_info: 
+connection_info: ssh -p 4444 root@misc.training.umasscybersec.org
