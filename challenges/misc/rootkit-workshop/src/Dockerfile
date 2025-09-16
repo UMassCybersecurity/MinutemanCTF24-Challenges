@@ -1,14 +1,17 @@
 FROM ubuntu:24.04 AS build
 
-RUN apt-get update && apt-get install -y build-essential
+RUN apt-get update
+RUN apt-get install -y build-essential
 WORKDIR /build
 
 COPY mod.c mod.c
-RUN gcc -shared -fPIC mod.c -o mod.so
+RUN gcc -shared -fPIC -g mod.c -o mod.so
 
-FROM ubuntu:24.04
 
-RUN apt-get update && apt-get install -y netcat-traditional wget lsof
+FROM ubuntu:24.04 AS challenge
+
+RUN apt-get update
+RUN apt-get install -y netcat-traditional wget lsof openssh-server
 
 RUN echo 'root:aidsovnfjniowrfpeqicnjkdvbkboufQEFKJSB' | chpasswd
 RUN echo 'ubuntu:kdlsamvioenlkdsnosacimpwevnslkdvn' | chpasswd
@@ -21,6 +24,7 @@ WORKDIR /ctf
 
 COPY ynetd ynetd
 COPY entrypoint.sh entrypoint.sh
+COPY spawn-user.sh spawn-user.sh
 RUN chmod 700 *
 
 COPY --from=build /build/mod.so mod.so

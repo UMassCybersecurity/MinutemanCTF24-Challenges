@@ -5,7 +5,6 @@ if [ $# -ne 2 ]; then
     exit 1
 fi
 
-USER="ubuntu"
 LISTEN_PORT=$1
 REV_SHELL_PORT=$2
 
@@ -15,5 +14,5 @@ while true; do
     sleep 1
 done &
 
-echo "[INFO] Starting ynetd on port $LISTEN_PORT for user $USER"
-./ynetd -p $LISTEN_PORT -u $USER "/bin/sh 2>&1"
+echo "[INFO] Starting ynetd on port $LISTEN_PORT"
+./ynetd -p $LISTEN_PORT "./spawn-user.sh"
