@@ -13,26 +13,34 @@ FROM ubuntu:24.04 AS challenge
 RUN apt-get update
 RUN apt-get install -y netcat-traditional wget lsof openssh-server
 
-RUN echo 'root:aidsovnfjniowrfpeqicnjkdvbkboufQEFKJSB' | chpasswd
-RUN echo 'ubuntu:kdlsamvioenlkdsnosacimpwevnslkdvn' | chpasswd
-
-# WORKDIR /home/ubuntu
-# RUN wget https://busybox.net/downloads/binaries/1.35.0-x86_64-linux-musl/busybox
-# RUN chmod +x busybox
+# TODO: switch to ubuntu user for ssh?
+RUN passwd -d root
 
 WORKDIR /ctf
 
 COPY ynetd ynetd
 COPY entrypoint.sh entrypoint.sh
-COPY spawn-user.sh spawn-user.sh
 RUN chmod 700 *
 
 COPY --from=build /build/mod.so mod.so
 RUN chmod 755 mod.so
 
+COPY spawn-user.sh spawn-user.sh
+RUN chmod +x spawn-user.sh
+
 RUN chown root:root *
 
 RUN echo "/ctf/mod.so" > /etc/ld.so.preload
 RUN chmod 644 /etc/ld.so.preload
+
+# Set as user shell
+RUN usermod --shell /ctf/spawn-user.sh root
+
+# Configure SSH
+RUN mkdir /var/run/sshd
+RUN echo "PermitRootLogin yes" > /etc/ssh/sshd_config
+RUN echo "AllowUsers root" >> /etc/ssh/sshd_config
+RUN echo "ClientAliveInterval 3600" >> /etc/ssh/sshd_config
+RUN echo "PermitEmptyPasswords yes" >> /etc/ssh/sshd_config
 
 ENTRYPOINT [ "./entrypoint.sh" ]

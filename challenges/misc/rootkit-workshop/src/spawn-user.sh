@@ -9,7 +9,7 @@ useradd -m $USERNAME
 echo "$USERNAME:$PASSWORD" | chpasswd
 
 echo "[INFO] Spawned user!"
-su - $USERNAME -s /bin/bash 2>&1
+su - $USERNAME -s /bin/bash
 
 echo "[INFO] Cleaning up user"
 userdel -rf $USERNAME

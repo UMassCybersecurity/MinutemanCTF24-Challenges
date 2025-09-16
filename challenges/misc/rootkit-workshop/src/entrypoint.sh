@@ -14,5 +14,5 @@ while true; do
     sleep 1
 done &
 
-echo "[INFO] Starting ynetd on port $LISTEN_PORT"
-./ynetd -p $LISTEN_PORT "./spawn-user.sh"
+echo "[INFO] Starting SSH server on port $LISTEN_PORT"
+/usr/sbin/sshd -D -p $LISTEN_PORT
