@@ -1,0 +1,13 @@
+name: Rootkit Workshop Challenge
+category: misc
+description: | 
+  I think there is some fishy network activity on my machine but I can't quite put my finger on it. Can you help me investigate?
+
+  The flag should be the domain the nc connection is reaching out to. For example, if the connection is reaching out to hello.world, the flag would be UMASS{hello.world}.
+
+flags:
+  - content: "UMASS{ev1l-Pr0c-h1der}"
+
+value: 200
+
+connection_info: ssh -p 4444 root@misc.training.umasscybersec.org
