@@ -11,7 +11,7 @@ description: |-
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "MINUTEMAN{m3m0ry_f0r3ns1cs_1s_c00l}" # required field for every flag
+    - content: "UMASS{m3m0ry_f0r3ns1cs_1s_c00l}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 
