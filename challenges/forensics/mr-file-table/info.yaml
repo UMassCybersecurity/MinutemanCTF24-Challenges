@@ -6,7 +6,7 @@ description: I needed to get some information from a computer, but I only had ti
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-    - content: "MINUTEMAN{th3_Mf7_1s_y0uR_fr13nd}" # required field for every flag
+    - content: "UMASS{th3_Mf7_1s_y0uR_fr13nd}" # required field for every flag
       type: "static" # must be static or regex
       data: "case_insensitive" # additional data
 

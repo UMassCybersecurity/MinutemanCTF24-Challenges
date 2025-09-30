@@ -6,7 +6,7 @@ description: Variants of Vigenère ciphers can be really secure if your keys are
 
 # Flags specify answers that your challenge use. You must provide at least one.
 flags:
-  - content: "UMASS{we_hold_these_evidences_to_mean_self_true}" # required field for every flag
+  - content: "MINUTEMAN{we_hold_these_evidences_to_mean_self_true}" # required field for every flag
     type: "static" # must be static or regex
     data: "case_insensitive" # additional data
 

@@ -27,7 +27,7 @@ def handle_client(conn):
         conn.sendall("Correct!\n".encode())
         i += 1
     conn.sendall("Congratulations! You have answered all questions correctly.\n".encode())
-    conn.sendall("Flag: MINUTEMAN{4lw4ys_p4y_y0ur_empl0y33s_w3ll}\n".encode())
+    conn.sendall("Flag: UMASS{4lw4ys_p4y_y0ur_empl0y33s_w3ll}\n".encode())
     conn.close()
 
 

@@ -1,6 +1,6 @@
 name: Baby_asm_2
 category: rev
-description: My intelligent CS friend solved *baby_asm* and said it delivers a special message. Can you help me find out the message? (and wrap it in `MINUTEMAN{}` again).
+description: My intelligent CS friend solved *baby_asm* and said it delivers a special message. Can you help me find out the message? (and wrap it in `UMASS{}` again).
 
 tags:
   - Easy
@@ -10,7 +10,7 @@ tags:
 
 value: 200
 flags:
-  - content: "MINUTEMAN{Welcome!}"
+  - content: "UMASS{Welcome!}"
 
 hints:
   - content: What is endianness?
