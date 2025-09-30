@@ -1,0 +1,6323 @@
+opendir(/sys/devices/system/node)
+	Real path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+readdir(0x5625a5e5f070)
+	Directory path: /sys/devices/system/node
+open(/proc/self/stat, 0)
+	Real path: /proc/1380/stat
+	Command: ps
+stat(/proc/self/task, 0x7ffd8a31ace0)
+	Real path: /proc/1380/task
+	Command: ps
+open(/proc/1380/status, 0)
+	Real path: /proc/1380/status
+	Command: ps
+stat(/proc/1380, 0x7f29b7eb0d50)
+	Real path: /proc/1380
+	Command: ps
+open(/proc/1380/stat, 0)
+	Real path: /proc/1380/stat
+	Command: ps
+opendir(/proc)
+	Real path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd
+stat(/proc/1, 0x7f29b7eb0d50)
+	Real path: /proc/1
+	Command: systemd
+open(/proc/1/stat, 0)
+	Real path: /proc/1/stat
+	Command: systemd
+open(/proc/1/status, 0)
+	Real path: /proc/1/status
+	Command: systemd
+open(/proc/1/environ, 0)
+	Real path: /proc/1/environ
+	Command: systemd
+open(/proc/1/cmdline, 0)
+	Real path: /proc/1/cmdline
+	Command: systemd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kthreadd
+stat(/proc/2, 0x7f29b7eb0d50)
+	Real path: /proc/2
+	Command: kthreadd
+open(/proc/2/stat, 0)
+	Real path: /proc/2/stat
+	Command: kthreadd
+open(/proc/2/status, 0)
+	Real path: /proc/2/status
+	Command: kthreadd
+open(/proc/2/environ, 0)
+	Real path: /proc/2/environ
+	Command: kthreadd
+open(/proc/2/cmdline, 0)
+	Real path: /proc/2/cmdline
+	Command: kthreadd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: pool_workqueue_release
+stat(/proc/3, 0x7f29b7eb0d50)
+	Real path: /proc/3
+	Command: pool_workqueue_release
+open(/proc/3/stat, 0)
+	Real path: /proc/3/stat
+	Command: pool_workqueue_release
+open(/proc/3/status, 0)
+	Real path: /proc/3/status
+	Command: pool_workqueue_release
+open(/proc/3/environ, 0)
+	Real path: /proc/3/environ
+	Command: pool_workqueue_release
+open(/proc/3/cmdline, 0)
+	Real path: /proc/3/cmdline
+	Command: pool_workqueue_release
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-rcu_gp
+stat(/proc/4, 0x7f29b7eb0d50)
+	Real path: /proc/4
+	Command: kworker/R-rcu_gp
+open(/proc/4/stat, 0)
+	Real path: /proc/4/stat
+	Command: kworker/R-rcu_gp
+open(/proc/4/status, 0)
+	Real path: /proc/4/status
+	Command: kworker/R-rcu_gp
+open(/proc/4/environ, 0)
+	Real path: /proc/4/environ
+	Command: kworker/R-rcu_gp
+open(/proc/4/cmdline, 0)
+	Real path: /proc/4/cmdline
+	Command: kworker/R-rcu_gp
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-sync_wq
+stat(/proc/5, 0x7f29b7eb0d50)
+	Real path: /proc/5
+	Command: kworker/R-sync_wq
+open(/proc/5/stat, 0)
+	Real path: /proc/5/stat
+	Command: kworker/R-sync_wq
+open(/proc/5/status, 0)
+	Real path: /proc/5/status
+	Command: kworker/R-sync_wq
+open(/proc/5/environ, 0)
+	Real path: /proc/5/environ
+	Command: kworker/R-sync_wq
+open(/proc/5/cmdline, 0)
+	Real path: /proc/5/cmdline
+	Command: kworker/R-sync_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-kvfree_rcu_reclaim
+stat(/proc/6, 0x7f29b7eb0d50)
+	Real path: /proc/6
+	Command: kworker/R-kvfree_rcu_reclaim
+open(/proc/6/stat, 0)
+	Real path: /proc/6/stat
+	Command: kworker/R-kvfree_rcu_reclaim
+open(/proc/6/status, 0)
+	Real path: /proc/6/status
+	Command: kworker/R-kvfree_rcu_reclaim
+open(/proc/6/environ, 0)
+	Real path: /proc/6/environ
+	Command: kworker/R-kvfree_rcu_reclaim
+open(/proc/6/cmdline, 0)
+	Real path: /proc/6/cmdline
+	Command: kworker/R-kvfree_rcu_reclaim
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-slub_flushwq
+stat(/proc/7, 0x7f29b7eb0d50)
+	Real path: /proc/7
+	Command: kworker/R-slub_flushwq
+open(/proc/7/stat, 0)
+	Real path: /proc/7/stat
+	Command: kworker/R-slub_flushwq
+open(/proc/7/status, 0)
+	Real path: /proc/7/status
+	Command: kworker/R-slub_flushwq
+open(/proc/7/environ, 0)
+	Real path: /proc/7/environ
+	Command: kworker/R-slub_flushwq
+open(/proc/7/cmdline, 0)
+	Real path: /proc/7/cmdline
+	Command: kworker/R-slub_flushwq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-netns
+stat(/proc/8, 0x7f29b7eb0d50)
+	Real path: /proc/8
+	Command: kworker/R-netns
+open(/proc/8/stat, 0)
+	Real path: /proc/8/stat
+	Command: kworker/R-netns
+open(/proc/8/status, 0)
+	Real path: /proc/8/status
+	Command: kworker/R-netns
+open(/proc/8/environ, 0)
+	Real path: /proc/8/environ
+	Command: kworker/R-netns
+open(/proc/8/cmdline, 0)
+	Real path: /proc/8/cmdline
+	Command: kworker/R-netns
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/0:0H-events_highpri
+stat(/proc/10, 0x7f29b7eb0d50)
+	Real path: /proc/10
+	Command: kworker/0:0H-events_highpri
+open(/proc/10/stat, 0)
+	Real path: /proc/10/stat
+	Command: kworker/0:0H-events_highpri
+open(/proc/10/status, 0)
+	Real path: /proc/10/status
+	Command: kworker/0:0H-events_highpri
+open(/proc/10/environ, 0)
+	Real path: /proc/10/environ
+	Command: kworker/0:0H-events_highpri
+open(/proc/10/cmdline, 0)
+	Real path: /proc/10/cmdline
+	Command: kworker/0:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-mm_percpu_wq
+stat(/proc/13, 0x7f29b7eb0d50)
+	Real path: /proc/13
+	Command: kworker/R-mm_percpu_wq
+open(/proc/13/stat, 0)
+	Real path: /proc/13/stat
+	Command: kworker/R-mm_percpu_wq
+open(/proc/13/status, 0)
+	Real path: /proc/13/status
+	Command: kworker/R-mm_percpu_wq
+open(/proc/13/environ, 0)
+	Real path: /proc/13/environ
+	Command: kworker/R-mm_percpu_wq
+open(/proc/13/cmdline, 0)
+	Real path: /proc/13/cmdline
+	Command: kworker/R-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/0
+stat(/proc/15, 0x7f29b7eb0d50)
+	Real path: /proc/15
+	Command: ksoftirqd/0
+open(/proc/15/stat, 0)
+	Real path: /proc/15/stat
+	Command: ksoftirqd/0
+open(/proc/15/status, 0)
+	Real path: /proc/15/status
+	Command: ksoftirqd/0
+open(/proc/15/environ, 0)
+	Real path: /proc/15/environ
+	Command: ksoftirqd/0
+open(/proc/15/cmdline, 0)
+	Real path: /proc/15/cmdline
+	Command: ksoftirqd/0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcu_preempt
+stat(/proc/16, 0x7f29b7eb0d50)
+	Real path: /proc/16
+	Command: rcu_preempt
+open(/proc/16/stat, 0)
+	Real path: /proc/16/stat
+	Command: rcu_preempt
+open(/proc/16/status, 0)
+	Real path: /proc/16/status
+	Command: rcu_preempt
+open(/proc/16/environ, 0)
+	Real path: /proc/16/environ
+	Command: rcu_preempt
+open(/proc/16/cmdline, 0)
+	Real path: /proc/16/cmdline
+	Command: rcu_preempt
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcub/1
+stat(/proc/17, 0x7f29b7eb0d50)
+	Real path: /proc/17
+	Command: rcub/1
+open(/proc/17/stat, 0)
+	Real path: /proc/17/stat
+	Command: rcub/1
+open(/proc/17/status, 0)
+	Real path: /proc/17/status
+	Command: rcub/1
+open(/proc/17/environ, 0)
+	Real path: /proc/17/environ
+	Command: rcub/1
+open(/proc/17/cmdline, 0)
+	Real path: /proc/17/cmdline
+	Command: rcub/1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcu_exp_par_gp_kthread_worker/1
+stat(/proc/18, 0x7f29b7eb0d50)
+	Real path: /proc/18
+	Command: rcu_exp_par_gp_kthread_worker/1
+open(/proc/18/stat, 0)
+	Real path: /proc/18/stat
+	Command: rcu_exp_par_gp_kthread_worker/1
+open(/proc/18/status, 0)
+	Real path: /proc/18/status
+	Command: rcu_exp_par_gp_kthread_worker/1
+open(/proc/18/environ, 0)
+	Real path: /proc/18/environ
+	Command: rcu_exp_par_gp_kthread_worker/1
+open(/proc/18/cmdline, 0)
+	Real path: /proc/18/cmdline
+	Command: rcu_exp_par_gp_kthread_worker/1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcu_exp_gp_kthread_worker
+stat(/proc/19, 0x7f29b7eb0d50)
+	Real path: /proc/19
+	Command: rcu_exp_gp_kthread_worker
+open(/proc/19/stat, 0)
+	Real path: /proc/19/stat
+	Command: rcu_exp_gp_kthread_worker
+open(/proc/19/status, 0)
+	Real path: /proc/19/status
+	Command: rcu_exp_gp_kthread_worker
+open(/proc/19/environ, 0)
+	Real path: /proc/19/environ
+	Command: rcu_exp_gp_kthread_worker
+open(/proc/19/cmdline, 0)
+	Real path: /proc/19/cmdline
+	Command: rcu_exp_gp_kthread_worker
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/0
+stat(/proc/20, 0x7f29b7eb0d50)
+	Real path: /proc/20
+	Command: migration/0
+open(/proc/20/stat, 0)
+	Real path: /proc/20/stat
+	Command: migration/0
+open(/proc/20/status, 0)
+	Real path: /proc/20/status
+	Command: migration/0
+open(/proc/20/environ, 0)
+	Real path: /proc/20/environ
+	Command: migration/0
+open(/proc/20/cmdline, 0)
+	Real path: /proc/20/cmdline
+	Command: migration/0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/0
+stat(/proc/21, 0x7f29b7eb0d50)
+	Real path: /proc/21
+	Command: idle_inject/0
+open(/proc/21/stat, 0)
+	Real path: /proc/21/stat
+	Command: idle_inject/0
+open(/proc/21/status, 0)
+	Real path: /proc/21/status
+	Command: idle_inject/0
+open(/proc/21/environ, 0)
+	Real path: /proc/21/environ
+	Command: idle_inject/0
+open(/proc/21/cmdline, 0)
+	Real path: /proc/21/cmdline
+	Command: idle_inject/0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/0
+stat(/proc/22, 0x7f29b7eb0d50)
+	Real path: /proc/22
+	Command: cpuhp/0
+open(/proc/22/stat, 0)
+	Real path: /proc/22/stat
+	Command: cpuhp/0
+open(/proc/22/status, 0)
+	Real path: /proc/22/status
+	Command: cpuhp/0
+open(/proc/22/environ, 0)
+	Real path: /proc/22/environ
+	Command: cpuhp/0
+open(/proc/22/cmdline, 0)
+	Real path: /proc/22/cmdline
+	Command: cpuhp/0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/2
+stat(/proc/23, 0x7f29b7eb0d50)
+	Real path: /proc/23
+	Command: cpuhp/2
+open(/proc/23/stat, 0)
+	Real path: /proc/23/stat
+	Command: cpuhp/2
+open(/proc/23/status, 0)
+	Real path: /proc/23/status
+	Command: cpuhp/2
+open(/proc/23/environ, 0)
+	Real path: /proc/23/environ
+	Command: cpuhp/2
+open(/proc/23/cmdline, 0)
+	Real path: /proc/23/cmdline
+	Command: cpuhp/2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/2
+stat(/proc/24, 0x7f29b7eb0d50)
+	Real path: /proc/24
+	Command: idle_inject/2
+open(/proc/24/stat, 0)
+	Real path: /proc/24/stat
+	Command: idle_inject/2
+open(/proc/24/status, 0)
+	Real path: /proc/24/status
+	Command: idle_inject/2
+open(/proc/24/environ, 0)
+	Real path: /proc/24/environ
+	Command: idle_inject/2
+open(/proc/24/cmdline, 0)
+	Real path: /proc/24/cmdline
+	Command: idle_inject/2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/2
+stat(/proc/25, 0x7f29b7eb0d50)
+	Real path: /proc/25
+	Command: migration/2
+open(/proc/25/stat, 0)
+	Real path: /proc/25/stat
+	Command: migration/2
+open(/proc/25/status, 0)
+	Real path: /proc/25/status
+	Command: migration/2
+open(/proc/25/environ, 0)
+	Real path: /proc/25/environ
+	Command: migration/2
+open(/proc/25/cmdline, 0)
+	Real path: /proc/25/cmdline
+	Command: migration/2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/2
+stat(/proc/26, 0x7f29b7eb0d50)
+	Real path: /proc/26
+	Command: ksoftirqd/2
+open(/proc/26/stat, 0)
+	Real path: /proc/26/stat
+	Command: ksoftirqd/2
+open(/proc/26/status, 0)
+	Real path: /proc/26/status
+	Command: ksoftirqd/2
+open(/proc/26/environ, 0)
+	Real path: /proc/26/environ
+	Command: ksoftirqd/2
+open(/proc/26/cmdline, 0)
+	Real path: /proc/26/cmdline
+	Command: ksoftirqd/2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/2:0H-events_highpri
+stat(/proc/28, 0x7f29b7eb0d50)
+	Real path: /proc/28
+	Command: kworker/2:0H-events_highpri
+open(/proc/28/stat, 0)
+	Real path: /proc/28/stat
+	Command: kworker/2:0H-events_highpri
+open(/proc/28/status, 0)
+	Real path: /proc/28/status
+	Command: kworker/2:0H-events_highpri
+open(/proc/28/environ, 0)
+	Real path: /proc/28/environ
+	Command: kworker/2:0H-events_highpri
+open(/proc/28/cmdline, 0)
+	Real path: /proc/28/cmdline
+	Command: kworker/2:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/4
+stat(/proc/29, 0x7f29b7eb0d50)
+	Real path: /proc/29
+	Command: cpuhp/4
+open(/proc/29/stat, 0)
+	Real path: /proc/29/stat
+	Command: cpuhp/4
+open(/proc/29/status, 0)
+	Real path: /proc/29/status
+	Command: cpuhp/4
+open(/proc/29/environ, 0)
+	Real path: /proc/29/environ
+	Command: cpuhp/4
+open(/proc/29/cmdline, 0)
+	Real path: /proc/29/cmdline
+	Command: cpuhp/4
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/4
+stat(/proc/30, 0x7f29b7eb0d50)
+	Real path: /proc/30
+	Command: idle_inject/4
+open(/proc/30/stat, 0)
+	Real path: /proc/30/stat
+	Command: idle_inject/4
+open(/proc/30/status, 0)
+	Real path: /proc/30/status
+	Command: idle_inject/4
+open(/proc/30/environ, 0)
+	Real path: /proc/30/environ
+	Command: idle_inject/4
+open(/proc/30/cmdline, 0)
+	Real path: /proc/30/cmdline
+	Command: idle_inject/4
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/4
+stat(/proc/31, 0x7f29b7eb0d50)
+	Real path: /proc/31
+	Command: migration/4
+open(/proc/31/stat, 0)
+	Real path: /proc/31/stat
+	Command: migration/4
+open(/proc/31/status, 0)
+	Real path: /proc/31/status
+	Command: migration/4
+open(/proc/31/environ, 0)
+	Real path: /proc/31/environ
+	Command: migration/4
+open(/proc/31/cmdline, 0)
+	Real path: /proc/31/cmdline
+	Command: migration/4
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/4
+stat(/proc/32, 0x7f29b7eb0d50)
+	Real path: /proc/32
+	Command: ksoftirqd/4
+open(/proc/32/stat, 0)
+	Real path: /proc/32/stat
+	Command: ksoftirqd/4
+open(/proc/32/status, 0)
+	Real path: /proc/32/status
+	Command: ksoftirqd/4
+open(/proc/32/environ, 0)
+	Real path: /proc/32/environ
+	Command: ksoftirqd/4
+open(/proc/32/cmdline, 0)
+	Real path: /proc/32/cmdline
+	Command: ksoftirqd/4
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/4:0H-events_highpri
+stat(/proc/34, 0x7f29b7eb0d50)
+	Real path: /proc/34
+	Command: kworker/4:0H-events_highpri
+open(/proc/34/stat, 0)
+	Real path: /proc/34/stat
+	Command: kworker/4:0H-events_highpri
+open(/proc/34/status, 0)
+	Real path: /proc/34/status
+	Command: kworker/4:0H-events_highpri
+open(/proc/34/environ, 0)
+	Real path: /proc/34/environ
+	Command: kworker/4:0H-events_highpri
+open(/proc/34/cmdline, 0)
+	Real path: /proc/34/cmdline
+	Command: kworker/4:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/6
+stat(/proc/35, 0x7f29b7eb0d50)
+	Real path: /proc/35
+	Command: cpuhp/6
+open(/proc/35/stat, 0)
+	Real path: /proc/35/stat
+	Command: cpuhp/6
+open(/proc/35/status, 0)
+	Real path: /proc/35/status
+	Command: cpuhp/6
+open(/proc/35/environ, 0)
+	Real path: /proc/35/environ
+	Command: cpuhp/6
+open(/proc/35/cmdline, 0)
+	Real path: /proc/35/cmdline
+	Command: cpuhp/6
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/6
+stat(/proc/36, 0x7f29b7eb0d50)
+	Real path: /proc/36
+	Command: idle_inject/6
+open(/proc/36/stat, 0)
+	Real path: /proc/36/stat
+	Command: idle_inject/6
+open(/proc/36/status, 0)
+	Real path: /proc/36/status
+	Command: idle_inject/6
+open(/proc/36/environ, 0)
+	Real path: /proc/36/environ
+	Command: idle_inject/6
+open(/proc/36/cmdline, 0)
+	Real path: /proc/36/cmdline
+	Command: idle_inject/6
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/6
+stat(/proc/37, 0x7f29b7eb0d50)
+	Real path: /proc/37
+	Command: migration/6
+open(/proc/37/stat, 0)
+	Real path: /proc/37/stat
+	Command: migration/6
+open(/proc/37/status, 0)
+	Real path: /proc/37/status
+	Command: migration/6
+open(/proc/37/environ, 0)
+	Real path: /proc/37/environ
+	Command: migration/6
+open(/proc/37/cmdline, 0)
+	Real path: /proc/37/cmdline
+	Command: migration/6
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/6
+stat(/proc/38, 0x7f29b7eb0d50)
+	Real path: /proc/38
+	Command: ksoftirqd/6
+open(/proc/38/stat, 0)
+	Real path: /proc/38/stat
+	Command: ksoftirqd/6
+open(/proc/38/status, 0)
+	Real path: /proc/38/status
+	Command: ksoftirqd/6
+open(/proc/38/environ, 0)
+	Real path: /proc/38/environ
+	Command: ksoftirqd/6
+open(/proc/38/cmdline, 0)
+	Real path: /proc/38/cmdline
+	Command: ksoftirqd/6
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/6:0H-events_highpri
+stat(/proc/40, 0x7f29b7eb0d50)
+	Real path: /proc/40
+	Command: kworker/6:0H-events_highpri
+open(/proc/40/stat, 0)
+	Real path: /proc/40/stat
+	Command: kworker/6:0H-events_highpri
+open(/proc/40/status, 0)
+	Real path: /proc/40/status
+	Command: kworker/6:0H-events_highpri
+open(/proc/40/environ, 0)
+	Real path: /proc/40/environ
+	Command: kworker/6:0H-events_highpri
+open(/proc/40/cmdline, 0)
+	Real path: /proc/40/cmdline
+	Command: kworker/6:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/8
+stat(/proc/41, 0x7f29b7eb0d50)
+	Real path: /proc/41
+	Command: cpuhp/8
+open(/proc/41/stat, 0)
+	Real path: /proc/41/stat
+	Command: cpuhp/8
+open(/proc/41/status, 0)
+	Real path: /proc/41/status
+	Command: cpuhp/8
+open(/proc/41/environ, 0)
+	Real path: /proc/41/environ
+	Command: cpuhp/8
+open(/proc/41/cmdline, 0)
+	Real path: /proc/41/cmdline
+	Command: cpuhp/8
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/8
+stat(/proc/42, 0x7f29b7eb0d50)
+	Real path: /proc/42
+	Command: idle_inject/8
+open(/proc/42/stat, 0)
+	Real path: /proc/42/stat
+	Command: idle_inject/8
+open(/proc/42/status, 0)
+	Real path: /proc/42/status
+	Command: idle_inject/8
+open(/proc/42/environ, 0)
+	Real path: /proc/42/environ
+	Command: idle_inject/8
+open(/proc/42/cmdline, 0)
+	Real path: /proc/42/cmdline
+	Command: idle_inject/8
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/8
+stat(/proc/43, 0x7f29b7eb0d50)
+	Real path: /proc/43
+	Command: migration/8
+open(/proc/43/stat, 0)
+	Real path: /proc/43/stat
+	Command: migration/8
+open(/proc/43/status, 0)
+	Real path: /proc/43/status
+	Command: migration/8
+open(/proc/43/environ, 0)
+	Real path: /proc/43/environ
+	Command: migration/8
+open(/proc/43/cmdline, 0)
+	Real path: /proc/43/cmdline
+	Command: migration/8
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/8
+stat(/proc/44, 0x7f29b7eb0d50)
+	Real path: /proc/44
+	Command: ksoftirqd/8
+open(/proc/44/stat, 0)
+	Real path: /proc/44/stat
+	Command: ksoftirqd/8
+open(/proc/44/status, 0)
+	Real path: /proc/44/status
+	Command: ksoftirqd/8
+open(/proc/44/environ, 0)
+	Real path: /proc/44/environ
+	Command: ksoftirqd/8
+open(/proc/44/cmdline, 0)
+	Real path: /proc/44/cmdline
+	Command: ksoftirqd/8
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/8:0H-events_highpri
+stat(/proc/46, 0x7f29b7eb0d50)
+	Real path: /proc/46
+	Command: kworker/8:0H-events_highpri
+open(/proc/46/stat, 0)
+	Real path: /proc/46/stat
+	Command: kworker/8:0H-events_highpri
+open(/proc/46/status, 0)
+	Real path: /proc/46/status
+	Command: kworker/8:0H-events_highpri
+open(/proc/46/environ, 0)
+	Real path: /proc/46/environ
+	Command: kworker/8:0H-events_highpri
+open(/proc/46/cmdline, 0)
+	Real path: /proc/46/cmdline
+	Command: kworker/8:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/10
+stat(/proc/47, 0x7f29b7eb0d50)
+	Real path: /proc/47
+	Command: cpuhp/10
+open(/proc/47/stat, 0)
+	Real path: /proc/47/stat
+	Command: cpuhp/10
+open(/proc/47/status, 0)
+	Real path: /proc/47/status
+	Command: cpuhp/10
+open(/proc/47/environ, 0)
+	Real path: /proc/47/environ
+	Command: cpuhp/10
+open(/proc/47/cmdline, 0)
+	Real path: /proc/47/cmdline
+	Command: cpuhp/10
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/10
+stat(/proc/48, 0x7f29b7eb0d50)
+	Real path: /proc/48
+	Command: idle_inject/10
+open(/proc/48/stat, 0)
+	Real path: /proc/48/stat
+	Command: idle_inject/10
+open(/proc/48/status, 0)
+	Real path: /proc/48/status
+	Command: idle_inject/10
+open(/proc/48/environ, 0)
+	Real path: /proc/48/environ
+	Command: idle_inject/10
+open(/proc/48/cmdline, 0)
+	Real path: /proc/48/cmdline
+	Command: idle_inject/10
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/10
+stat(/proc/49, 0x7f29b7eb0d50)
+	Real path: /proc/49
+	Command: migration/10
+open(/proc/49/stat, 0)
+	Real path: /proc/49/stat
+	Command: migration/10
+open(/proc/49/status, 0)
+	Real path: /proc/49/status
+	Command: migration/10
+open(/proc/49/environ, 0)
+	Real path: /proc/49/environ
+	Command: migration/10
+open(/proc/49/cmdline, 0)
+	Real path: /proc/49/cmdline
+	Command: migration/10
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/10
+stat(/proc/50, 0x7f29b7eb0d50)
+	Real path: /proc/50
+	Command: ksoftirqd/10
+open(/proc/50/stat, 0)
+	Real path: /proc/50/stat
+	Command: ksoftirqd/10
+open(/proc/50/status, 0)
+	Real path: /proc/50/status
+	Command: ksoftirqd/10
+open(/proc/50/environ, 0)
+	Real path: /proc/50/environ
+	Command: ksoftirqd/10
+open(/proc/50/cmdline, 0)
+	Real path: /proc/50/cmdline
+	Command: ksoftirqd/10
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/10:0-events
+stat(/proc/51, 0x7f29b7eb0d50)
+	Real path: /proc/51
+	Command: kworker/10:0-events
+open(/proc/51/stat, 0)
+	Real path: /proc/51/stat
+	Command: kworker/10:0-events
+open(/proc/51/status, 0)
+	Real path: /proc/51/status
+	Command: kworker/10:0-events
+open(/proc/51/environ, 0)
+	Real path: /proc/51/environ
+	Command: kworker/10:0-events
+open(/proc/51/cmdline, 0)
+	Real path: /proc/51/cmdline
+	Command: kworker/10:0-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/10:0H-events_highpri
+stat(/proc/52, 0x7f29b7eb0d50)
+	Real path: /proc/52
+	Command: kworker/10:0H-events_highpri
+open(/proc/52/stat, 0)
+	Real path: /proc/52/stat
+	Command: kworker/10:0H-events_highpri
+open(/proc/52/status, 0)
+	Real path: /proc/52/status
+	Command: kworker/10:0H-events_highpri
+open(/proc/52/environ, 0)
+	Real path: /proc/52/environ
+	Command: kworker/10:0H-events_highpri
+open(/proc/52/cmdline, 0)
+	Real path: /proc/52/cmdline
+	Command: kworker/10:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcub/2
+stat(/proc/53, 0x7f29b7eb0d50)
+	Real path: /proc/53
+	Command: rcub/2
+open(/proc/53/stat, 0)
+	Real path: /proc/53/stat
+	Command: rcub/2
+open(/proc/53/status, 0)
+	Real path: /proc/53/status
+	Command: rcub/2
+open(/proc/53/environ, 0)
+	Real path: /proc/53/environ
+	Command: rcub/2
+open(/proc/53/cmdline, 0)
+	Real path: /proc/53/cmdline
+	Command: rcub/2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcu_exp_par_gp_kthread_worker/2
+stat(/proc/54, 0x7f29b7eb0d50)
+	Real path: /proc/54
+	Command: rcu_exp_par_gp_kthread_worker/2
+open(/proc/54/stat, 0)
+	Real path: /proc/54/stat
+	Command: rcu_exp_par_gp_kthread_worker/2
+open(/proc/54/status, 0)
+	Real path: /proc/54/status
+	Command: rcu_exp_par_gp_kthread_worker/2
+open(/proc/54/environ, 0)
+	Real path: /proc/54/environ
+	Command: rcu_exp_par_gp_kthread_worker/2
+open(/proc/54/cmdline, 0)
+	Real path: /proc/54/cmdline
+	Command: rcu_exp_par_gp_kthread_worker/2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/12
+stat(/proc/55, 0x7f29b7eb0d50)
+	Real path: /proc/55
+	Command: cpuhp/12
+open(/proc/55/stat, 0)
+	Real path: /proc/55/stat
+	Command: cpuhp/12
+open(/proc/55/status, 0)
+	Real path: /proc/55/status
+	Command: cpuhp/12
+open(/proc/55/environ, 0)
+	Real path: /proc/55/environ
+	Command: cpuhp/12
+open(/proc/55/cmdline, 0)
+	Real path: /proc/55/cmdline
+	Command: cpuhp/12
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/12
+stat(/proc/56, 0x7f29b7eb0d50)
+	Real path: /proc/56
+	Command: idle_inject/12
+open(/proc/56/stat, 0)
+	Real path: /proc/56/stat
+	Command: idle_inject/12
+open(/proc/56/status, 0)
+	Real path: /proc/56/status
+	Command: idle_inject/12
+open(/proc/56/environ, 0)
+	Real path: /proc/56/environ
+	Command: idle_inject/12
+open(/proc/56/cmdline, 0)
+	Real path: /proc/56/cmdline
+	Command: idle_inject/12
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/12
+stat(/proc/57, 0x7f29b7eb0d50)
+	Real path: /proc/57
+	Command: migration/12
+open(/proc/57/stat, 0)
+	Real path: /proc/57/stat
+	Command: migration/12
+open(/proc/57/status, 0)
+	Real path: /proc/57/status
+	Command: migration/12
+open(/proc/57/environ, 0)
+	Real path: /proc/57/environ
+	Command: migration/12
+open(/proc/57/cmdline, 0)
+	Real path: /proc/57/cmdline
+	Command: migration/12
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/12
+stat(/proc/58, 0x7f29b7eb0d50)
+	Real path: /proc/58
+	Command: ksoftirqd/12
+open(/proc/58/stat, 0)
+	Real path: /proc/58/stat
+	Command: ksoftirqd/12
+open(/proc/58/status, 0)
+	Real path: /proc/58/status
+	Command: ksoftirqd/12
+open(/proc/58/environ, 0)
+	Real path: /proc/58/environ
+	Command: ksoftirqd/12
+open(/proc/58/cmdline, 0)
+	Real path: /proc/58/cmdline
+	Command: ksoftirqd/12
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/12:0-mm_percpu_wq
+stat(/proc/59, 0x7f29b7eb0d50)
+	Real path: /proc/59
+	Command: kworker/12:0-mm_percpu_wq
+open(/proc/59/stat, 0)
+	Real path: /proc/59/stat
+	Command: kworker/12:0-mm_percpu_wq
+open(/proc/59/status, 0)
+	Real path: /proc/59/status
+	Command: kworker/12:0-mm_percpu_wq
+open(/proc/59/environ, 0)
+	Real path: /proc/59/environ
+	Command: kworker/12:0-mm_percpu_wq
+open(/proc/59/cmdline, 0)
+	Real path: /proc/59/cmdline
+	Command: kworker/12:0-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/12:0H-events_highpri
+stat(/proc/60, 0x7f29b7eb0d50)
+	Real path: /proc/60
+	Command: kworker/12:0H-events_highpri
+open(/proc/60/stat, 0)
+	Real path: /proc/60/stat
+	Command: kworker/12:0H-events_highpri
+open(/proc/60/status, 0)
+	Real path: /proc/60/status
+	Command: kworker/12:0H-events_highpri
+open(/proc/60/environ, 0)
+	Real path: /proc/60/environ
+	Command: kworker/12:0H-events_highpri
+open(/proc/60/cmdline, 0)
+	Real path: /proc/60/cmdline
+	Command: kworker/12:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/13
+stat(/proc/61, 0x7f29b7eb0d50)
+	Real path: /proc/61
+	Command: cpuhp/13
+open(/proc/61/stat, 0)
+	Real path: /proc/61/stat
+	Command: cpuhp/13
+open(/proc/61/status, 0)
+	Real path: /proc/61/status
+	Command: cpuhp/13
+open(/proc/61/environ, 0)
+	Real path: /proc/61/environ
+	Command: cpuhp/13
+open(/proc/61/cmdline, 0)
+	Real path: /proc/61/cmdline
+	Command: cpuhp/13
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/13
+stat(/proc/62, 0x7f29b7eb0d50)
+	Real path: /proc/62
+	Command: idle_inject/13
+open(/proc/62/stat, 0)
+	Real path: /proc/62/stat
+	Command: idle_inject/13
+open(/proc/62/status, 0)
+	Real path: /proc/62/status
+	Command: idle_inject/13
+open(/proc/62/environ, 0)
+	Real path: /proc/62/environ
+	Command: idle_inject/13
+open(/proc/62/cmdline, 0)
+	Real path: /proc/62/cmdline
+	Command: idle_inject/13
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/13
+stat(/proc/63, 0x7f29b7eb0d50)
+	Real path: /proc/63
+	Command: migration/13
+open(/proc/63/stat, 0)
+	Real path: /proc/63/stat
+	Command: migration/13
+open(/proc/63/status, 0)
+	Real path: /proc/63/status
+	Command: migration/13
+open(/proc/63/environ, 0)
+	Real path: /proc/63/environ
+	Command: migration/13
+open(/proc/63/cmdline, 0)
+	Real path: /proc/63/cmdline
+	Command: migration/13
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/13
+stat(/proc/64, 0x7f29b7eb0d50)
+	Real path: /proc/64
+	Command: ksoftirqd/13
+open(/proc/64/stat, 0)
+	Real path: /proc/64/stat
+	Command: ksoftirqd/13
+open(/proc/64/status, 0)
+	Real path: /proc/64/status
+	Command: ksoftirqd/13
+open(/proc/64/environ, 0)
+	Real path: /proc/64/environ
+	Command: ksoftirqd/13
+open(/proc/64/cmdline, 0)
+	Real path: /proc/64/cmdline
+	Command: ksoftirqd/13
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/13:0H-events_highpri
+stat(/proc/66, 0x7f29b7eb0d50)
+	Real path: /proc/66
+	Command: kworker/13:0H-events_highpri
+open(/proc/66/stat, 0)
+	Real path: /proc/66/stat
+	Command: kworker/13:0H-events_highpri
+open(/proc/66/status, 0)
+	Real path: /proc/66/status
+	Command: kworker/13:0H-events_highpri
+open(/proc/66/environ, 0)
+	Real path: /proc/66/environ
+	Command: kworker/13:0H-events_highpri
+open(/proc/66/cmdline, 0)
+	Real path: /proc/66/cmdline
+	Command: kworker/13:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/14
+stat(/proc/67, 0x7f29b7eb0d50)
+	Real path: /proc/67
+	Command: cpuhp/14
+open(/proc/67/stat, 0)
+	Real path: /proc/67/stat
+	Command: cpuhp/14
+open(/proc/67/status, 0)
+	Real path: /proc/67/status
+	Command: cpuhp/14
+open(/proc/67/environ, 0)
+	Real path: /proc/67/environ
+	Command: cpuhp/14
+open(/proc/67/cmdline, 0)
+	Real path: /proc/67/cmdline
+	Command: cpuhp/14
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/14
+stat(/proc/68, 0x7f29b7eb0d50)
+	Real path: /proc/68
+	Command: idle_inject/14
+open(/proc/68/stat, 0)
+	Real path: /proc/68/stat
+	Command: idle_inject/14
+open(/proc/68/status, 0)
+	Real path: /proc/68/status
+	Command: idle_inject/14
+open(/proc/68/environ, 0)
+	Real path: /proc/68/environ
+	Command: idle_inject/14
+open(/proc/68/cmdline, 0)
+	Real path: /proc/68/cmdline
+	Command: idle_inject/14
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/14
+stat(/proc/69, 0x7f29b7eb0d50)
+	Real path: /proc/69
+	Command: migration/14
+open(/proc/69/stat, 0)
+	Real path: /proc/69/stat
+	Command: migration/14
+open(/proc/69/status, 0)
+	Real path: /proc/69/status
+	Command: migration/14
+open(/proc/69/environ, 0)
+	Real path: /proc/69/environ
+	Command: migration/14
+open(/proc/69/cmdline, 0)
+	Real path: /proc/69/cmdline
+	Command: migration/14
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/14
+stat(/proc/70, 0x7f29b7eb0d50)
+	Real path: /proc/70
+	Command: ksoftirqd/14
+open(/proc/70/stat, 0)
+	Real path: /proc/70/stat
+	Command: ksoftirqd/14
+open(/proc/70/status, 0)
+	Real path: /proc/70/status
+	Command: ksoftirqd/14
+open(/proc/70/environ, 0)
+	Real path: /proc/70/environ
+	Command: ksoftirqd/14
+open(/proc/70/cmdline, 0)
+	Real path: /proc/70/cmdline
+	Command: ksoftirqd/14
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/14:0-kacpi_notify
+stat(/proc/71, 0x7f29b7eb0d50)
+	Real path: /proc/71
+	Command: kworker/14:0-kacpi_notify
+open(/proc/71/stat, 0)
+	Real path: /proc/71/stat
+	Command: kworker/14:0-kacpi_notify
+open(/proc/71/status, 0)
+	Real path: /proc/71/status
+	Command: kworker/14:0-kacpi_notify
+open(/proc/71/environ, 0)
+	Real path: /proc/71/environ
+	Command: kworker/14:0-kacpi_notify
+open(/proc/71/cmdline, 0)
+	Real path: /proc/71/cmdline
+	Command: kworker/14:0-kacpi_notify
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/14:0H-events_highpri
+stat(/proc/72, 0x7f29b7eb0d50)
+	Real path: /proc/72
+	Command: kworker/14:0H-events_highpri
+open(/proc/72/stat, 0)
+	Real path: /proc/72/stat
+	Command: kworker/14:0H-events_highpri
+open(/proc/72/status, 0)
+	Real path: /proc/72/status
+	Command: kworker/14:0H-events_highpri
+open(/proc/72/environ, 0)
+	Real path: /proc/72/environ
+	Command: kworker/14:0H-events_highpri
+open(/proc/72/cmdline, 0)
+	Real path: /proc/72/cmdline
+	Command: kworker/14:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/15
+stat(/proc/73, 0x7f29b7eb0d50)
+	Real path: /proc/73
+	Command: cpuhp/15
+open(/proc/73/stat, 0)
+	Real path: /proc/73/stat
+	Command: cpuhp/15
+open(/proc/73/status, 0)
+	Real path: /proc/73/status
+	Command: cpuhp/15
+open(/proc/73/environ, 0)
+	Real path: /proc/73/environ
+	Command: cpuhp/15
+open(/proc/73/cmdline, 0)
+	Real path: /proc/73/cmdline
+	Command: cpuhp/15
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/15
+stat(/proc/74, 0x7f29b7eb0d50)
+	Real path: /proc/74
+	Command: idle_inject/15
+open(/proc/74/stat, 0)
+	Real path: /proc/74/stat
+	Command: idle_inject/15
+open(/proc/74/status, 0)
+	Real path: /proc/74/status
+	Command: idle_inject/15
+open(/proc/74/environ, 0)
+	Real path: /proc/74/environ
+	Command: idle_inject/15
+open(/proc/74/cmdline, 0)
+	Real path: /proc/74/cmdline
+	Command: idle_inject/15
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/15
+stat(/proc/75, 0x7f29b7eb0d50)
+	Real path: /proc/75
+	Command: migration/15
+open(/proc/75/stat, 0)
+	Real path: /proc/75/stat
+	Command: migration/15
+open(/proc/75/status, 0)
+	Real path: /proc/75/status
+	Command: migration/15
+open(/proc/75/environ, 0)
+	Real path: /proc/75/environ
+	Command: migration/15
+open(/proc/75/cmdline, 0)
+	Real path: /proc/75/cmdline
+	Command: migration/15
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/15
+stat(/proc/76, 0x7f29b7eb0d50)
+	Real path: /proc/76
+	Command: ksoftirqd/15
+open(/proc/76/stat, 0)
+	Real path: /proc/76/stat
+	Command: ksoftirqd/15
+open(/proc/76/status, 0)
+	Real path: /proc/76/status
+	Command: ksoftirqd/15
+open(/proc/76/environ, 0)
+	Real path: /proc/76/environ
+	Command: ksoftirqd/15
+open(/proc/76/cmdline, 0)
+	Real path: /proc/76/cmdline
+	Command: ksoftirqd/15
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/15:0-mm_percpu_wq
+stat(/proc/77, 0x7f29b7eb0d50)
+	Real path: /proc/77
+	Command: kworker/15:0-mm_percpu_wq
+open(/proc/77/stat, 0)
+	Real path: /proc/77/stat
+	Command: kworker/15:0-mm_percpu_wq
+open(/proc/77/status, 0)
+	Real path: /proc/77/status
+	Command: kworker/15:0-mm_percpu_wq
+open(/proc/77/environ, 0)
+	Real path: /proc/77/environ
+	Command: kworker/15:0-mm_percpu_wq
+open(/proc/77/cmdline, 0)
+	Real path: /proc/77/cmdline
+	Command: kworker/15:0-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/15:0H-events_highpri
+stat(/proc/78, 0x7f29b7eb0d50)
+	Real path: /proc/78
+	Command: kworker/15:0H-events_highpri
+open(/proc/78/stat, 0)
+	Real path: /proc/78/stat
+	Command: kworker/15:0H-events_highpri
+open(/proc/78/status, 0)
+	Real path: /proc/78/status
+	Command: kworker/15:0H-events_highpri
+open(/proc/78/environ, 0)
+	Real path: /proc/78/environ
+	Command: kworker/15:0H-events_highpri
+open(/proc/78/cmdline, 0)
+	Real path: /proc/78/cmdline
+	Command: kworker/15:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/16
+stat(/proc/79, 0x7f29b7eb0d50)
+	Real path: /proc/79
+	Command: cpuhp/16
+open(/proc/79/stat, 0)
+	Real path: /proc/79/stat
+	Command: cpuhp/16
+open(/proc/79/status, 0)
+	Real path: /proc/79/status
+	Command: cpuhp/16
+open(/proc/79/environ, 0)
+	Real path: /proc/79/environ
+	Command: cpuhp/16
+open(/proc/79/cmdline, 0)
+	Real path: /proc/79/cmdline
+	Command: cpuhp/16
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/16
+stat(/proc/80, 0x7f29b7eb0d50)
+	Real path: /proc/80
+	Command: idle_inject/16
+open(/proc/80/stat, 0)
+	Real path: /proc/80/stat
+	Command: idle_inject/16
+open(/proc/80/status, 0)
+	Real path: /proc/80/status
+	Command: idle_inject/16
+open(/proc/80/environ, 0)
+	Real path: /proc/80/environ
+	Command: idle_inject/16
+open(/proc/80/cmdline, 0)
+	Real path: /proc/80/cmdline
+	Command: idle_inject/16
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/16
+stat(/proc/81, 0x7f29b7eb0d50)
+	Real path: /proc/81
+	Command: migration/16
+open(/proc/81/stat, 0)
+	Real path: /proc/81/stat
+	Command: migration/16
+open(/proc/81/status, 0)
+	Real path: /proc/81/status
+	Command: migration/16
+open(/proc/81/environ, 0)
+	Real path: /proc/81/environ
+	Command: migration/16
+open(/proc/81/cmdline, 0)
+	Real path: /proc/81/cmdline
+	Command: migration/16
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/16
+stat(/proc/82, 0x7f29b7eb0d50)
+	Real path: /proc/82
+	Command: ksoftirqd/16
+open(/proc/82/stat, 0)
+	Real path: /proc/82/stat
+	Command: ksoftirqd/16
+open(/proc/82/status, 0)
+	Real path: /proc/82/status
+	Command: ksoftirqd/16
+open(/proc/82/environ, 0)
+	Real path: /proc/82/environ
+	Command: ksoftirqd/16
+open(/proc/82/cmdline, 0)
+	Real path: /proc/82/cmdline
+	Command: ksoftirqd/16
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/16:0H-events_highpri
+stat(/proc/84, 0x7f29b7eb0d50)
+	Real path: /proc/84
+	Command: kworker/16:0H-events_highpri
+open(/proc/84/stat, 0)
+	Real path: /proc/84/stat
+	Command: kworker/16:0H-events_highpri
+open(/proc/84/status, 0)
+	Real path: /proc/84/status
+	Command: kworker/16:0H-events_highpri
+open(/proc/84/environ, 0)
+	Real path: /proc/84/environ
+	Command: kworker/16:0H-events_highpri
+open(/proc/84/cmdline, 0)
+	Real path: /proc/84/cmdline
+	Command: kworker/16:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/17
+stat(/proc/85, 0x7f29b7eb0d50)
+	Real path: /proc/85
+	Command: cpuhp/17
+open(/proc/85/stat, 0)
+	Real path: /proc/85/stat
+	Command: cpuhp/17
+open(/proc/85/status, 0)
+	Real path: /proc/85/status
+	Command: cpuhp/17
+open(/proc/85/environ, 0)
+	Real path: /proc/85/environ
+	Command: cpuhp/17
+open(/proc/85/cmdline, 0)
+	Real path: /proc/85/cmdline
+	Command: cpuhp/17
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/17
+stat(/proc/86, 0x7f29b7eb0d50)
+	Real path: /proc/86
+	Command: idle_inject/17
+open(/proc/86/stat, 0)
+	Real path: /proc/86/stat
+	Command: idle_inject/17
+open(/proc/86/status, 0)
+	Real path: /proc/86/status
+	Command: idle_inject/17
+open(/proc/86/environ, 0)
+	Real path: /proc/86/environ
+	Command: idle_inject/17
+open(/proc/86/cmdline, 0)
+	Real path: /proc/86/cmdline
+	Command: idle_inject/17
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/17
+stat(/proc/87, 0x7f29b7eb0d50)
+	Real path: /proc/87
+	Command: migration/17
+open(/proc/87/stat, 0)
+	Real path: /proc/87/stat
+	Command: migration/17
+open(/proc/87/status, 0)
+	Real path: /proc/87/status
+	Command: migration/17
+open(/proc/87/environ, 0)
+	Real path: /proc/87/environ
+	Command: migration/17
+open(/proc/87/cmdline, 0)
+	Real path: /proc/87/cmdline
+	Command: migration/17
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/17
+stat(/proc/88, 0x7f29b7eb0d50)
+	Real path: /proc/88
+	Command: ksoftirqd/17
+open(/proc/88/stat, 0)
+	Real path: /proc/88/stat
+	Command: ksoftirqd/17
+open(/proc/88/status, 0)
+	Real path: /proc/88/status
+	Command: ksoftirqd/17
+open(/proc/88/environ, 0)
+	Real path: /proc/88/environ
+	Command: ksoftirqd/17
+open(/proc/88/cmdline, 0)
+	Real path: /proc/88/cmdline
+	Command: ksoftirqd/17
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/17:0H-events_highpri
+stat(/proc/90, 0x7f29b7eb0d50)
+	Real path: /proc/90
+	Command: kworker/17:0H-events_highpri
+open(/proc/90/stat, 0)
+	Real path: /proc/90/stat
+	Command: kworker/17:0H-events_highpri
+open(/proc/90/status, 0)
+	Real path: /proc/90/status
+	Command: kworker/17:0H-events_highpri
+open(/proc/90/environ, 0)
+	Real path: /proc/90/environ
+	Command: kworker/17:0H-events_highpri
+open(/proc/90/cmdline, 0)
+	Real path: /proc/90/cmdline
+	Command: kworker/17:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/18
+stat(/proc/91, 0x7f29b7eb0d50)
+	Real path: /proc/91
+	Command: cpuhp/18
+open(/proc/91/stat, 0)
+	Real path: /proc/91/stat
+	Command: cpuhp/18
+open(/proc/91/status, 0)
+	Real path: /proc/91/status
+	Command: cpuhp/18
+open(/proc/91/environ, 0)
+	Real path: /proc/91/environ
+	Command: cpuhp/18
+open(/proc/91/cmdline, 0)
+	Real path: /proc/91/cmdline
+	Command: cpuhp/18
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/18
+stat(/proc/92, 0x7f29b7eb0d50)
+	Real path: /proc/92
+	Command: idle_inject/18
+open(/proc/92/stat, 0)
+	Real path: /proc/92/stat
+	Command: idle_inject/18
+open(/proc/92/status, 0)
+	Real path: /proc/92/status
+	Command: idle_inject/18
+open(/proc/92/environ, 0)
+	Real path: /proc/92/environ
+	Command: idle_inject/18
+open(/proc/92/cmdline, 0)
+	Real path: /proc/92/cmdline
+	Command: idle_inject/18
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/18
+stat(/proc/93, 0x7f29b7eb0d50)
+	Real path: /proc/93
+	Command: migration/18
+open(/proc/93/stat, 0)
+	Real path: /proc/93/stat
+	Command: migration/18
+open(/proc/93/status, 0)
+	Real path: /proc/93/status
+	Command: migration/18
+open(/proc/93/environ, 0)
+	Real path: /proc/93/environ
+	Command: migration/18
+open(/proc/93/cmdline, 0)
+	Real path: /proc/93/cmdline
+	Command: migration/18
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/18
+stat(/proc/94, 0x7f29b7eb0d50)
+	Real path: /proc/94
+	Command: ksoftirqd/18
+open(/proc/94/stat, 0)
+	Real path: /proc/94/stat
+	Command: ksoftirqd/18
+open(/proc/94/status, 0)
+	Real path: /proc/94/status
+	Command: ksoftirqd/18
+open(/proc/94/environ, 0)
+	Real path: /proc/94/environ
+	Command: ksoftirqd/18
+open(/proc/94/cmdline, 0)
+	Real path: /proc/94/cmdline
+	Command: ksoftirqd/18
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/18:0-mm_percpu_wq
+stat(/proc/95, 0x7f29b7eb0d50)
+	Real path: /proc/95
+	Command: kworker/18:0-mm_percpu_wq
+open(/proc/95/stat, 0)
+	Real path: /proc/95/stat
+	Command: kworker/18:0-mm_percpu_wq
+open(/proc/95/status, 0)
+	Real path: /proc/95/status
+	Command: kworker/18:0-mm_percpu_wq
+open(/proc/95/environ, 0)
+	Real path: /proc/95/environ
+	Command: kworker/18:0-mm_percpu_wq
+open(/proc/95/cmdline, 0)
+	Real path: /proc/95/cmdline
+	Command: kworker/18:0-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/18:0H-events_highpri
+stat(/proc/96, 0x7f29b7eb0d50)
+	Real path: /proc/96
+	Command: kworker/18:0H-events_highpri
+open(/proc/96/stat, 0)
+	Real path: /proc/96/stat
+	Command: kworker/18:0H-events_highpri
+open(/proc/96/status, 0)
+	Real path: /proc/96/status
+	Command: kworker/18:0H-events_highpri
+open(/proc/96/environ, 0)
+	Real path: /proc/96/environ
+	Command: kworker/18:0H-events_highpri
+open(/proc/96/cmdline, 0)
+	Real path: /proc/96/cmdline
+	Command: kworker/18:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/19
+stat(/proc/97, 0x7f29b7eb0d50)
+	Real path: /proc/97
+	Command: cpuhp/19
+open(/proc/97/stat, 0)
+	Real path: /proc/97/stat
+	Command: cpuhp/19
+open(/proc/97/status, 0)
+	Real path: /proc/97/status
+	Command: cpuhp/19
+open(/proc/97/environ, 0)
+	Real path: /proc/97/environ
+	Command: cpuhp/19
+open(/proc/97/cmdline, 0)
+	Real path: /proc/97/cmdline
+	Command: cpuhp/19
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/19
+stat(/proc/98, 0x7f29b7eb0d50)
+	Real path: /proc/98
+	Command: idle_inject/19
+open(/proc/98/stat, 0)
+	Real path: /proc/98/stat
+	Command: idle_inject/19
+open(/proc/98/status, 0)
+	Real path: /proc/98/status
+	Command: idle_inject/19
+open(/proc/98/environ, 0)
+	Real path: /proc/98/environ
+	Command: idle_inject/19
+open(/proc/98/cmdline, 0)
+	Real path: /proc/98/cmdline
+	Command: idle_inject/19
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/19
+stat(/proc/99, 0x7f29b7eb0d50)
+	Real path: /proc/99
+	Command: migration/19
+open(/proc/99/stat, 0)
+	Real path: /proc/99/stat
+	Command: migration/19
+open(/proc/99/status, 0)
+	Real path: /proc/99/status
+	Command: migration/19
+open(/proc/99/environ, 0)
+	Real path: /proc/99/environ
+	Command: migration/19
+open(/proc/99/cmdline, 0)
+	Real path: /proc/99/cmdline
+	Command: migration/19
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/19
+stat(/proc/100, 0x7f29b7eb0d50)
+	Real path: /proc/100
+	Command: ksoftirqd/19
+open(/proc/100/stat, 0)
+	Real path: /proc/100/stat
+	Command: ksoftirqd/19
+open(/proc/100/status, 0)
+	Real path: /proc/100/status
+	Command: ksoftirqd/19
+open(/proc/100/environ, 0)
+	Real path: /proc/100/environ
+	Command: ksoftirqd/19
+open(/proc/100/cmdline, 0)
+	Real path: /proc/100/cmdline
+	Command: ksoftirqd/19
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/19:0H-events_highpri
+stat(/proc/102, 0x7f29b7eb0d50)
+	Real path: /proc/102
+	Command: kworker/19:0H-events_highpri
+open(/proc/102/stat, 0)
+	Real path: /proc/102/stat
+	Command: kworker/19:0H-events_highpri
+open(/proc/102/status, 0)
+	Real path: /proc/102/status
+	Command: kworker/19:0H-events_highpri
+open(/proc/102/environ, 0)
+	Real path: /proc/102/environ
+	Command: kworker/19:0H-events_highpri
+open(/proc/102/cmdline, 0)
+	Real path: /proc/102/cmdline
+	Command: kworker/19:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/1
+stat(/proc/103, 0x7f29b7eb0d50)
+	Real path: /proc/103
+	Command: cpuhp/1
+open(/proc/103/stat, 0)
+	Real path: /proc/103/stat
+	Command: cpuhp/1
+open(/proc/103/status, 0)
+	Real path: /proc/103/status
+	Command: cpuhp/1
+open(/proc/103/environ, 0)
+	Real path: /proc/103/environ
+	Command: cpuhp/1
+open(/proc/103/cmdline, 0)
+	Real path: /proc/103/cmdline
+	Command: cpuhp/1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/1
+stat(/proc/104, 0x7f29b7eb0d50)
+	Real path: /proc/104
+	Command: idle_inject/1
+open(/proc/104/stat, 0)
+	Real path: /proc/104/stat
+	Command: idle_inject/1
+open(/proc/104/status, 0)
+	Real path: /proc/104/status
+	Command: idle_inject/1
+open(/proc/104/environ, 0)
+	Real path: /proc/104/environ
+	Command: idle_inject/1
+open(/proc/104/cmdline, 0)
+	Real path: /proc/104/cmdline
+	Command: idle_inject/1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/1
+stat(/proc/105, 0x7f29b7eb0d50)
+	Real path: /proc/105
+	Command: migration/1
+open(/proc/105/stat, 0)
+	Real path: /proc/105/stat
+	Command: migration/1
+open(/proc/105/status, 0)
+	Real path: /proc/105/status
+	Command: migration/1
+open(/proc/105/environ, 0)
+	Real path: /proc/105/environ
+	Command: migration/1
+open(/proc/105/cmdline, 0)
+	Real path: /proc/105/cmdline
+	Command: migration/1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/1
+stat(/proc/106, 0x7f29b7eb0d50)
+	Real path: /proc/106
+	Command: ksoftirqd/1
+open(/proc/106/stat, 0)
+	Real path: /proc/106/stat
+	Command: ksoftirqd/1
+open(/proc/106/status, 0)
+	Real path: /proc/106/status
+	Command: ksoftirqd/1
+open(/proc/106/environ, 0)
+	Real path: /proc/106/environ
+	Command: ksoftirqd/1
+open(/proc/106/cmdline, 0)
+	Real path: /proc/106/cmdline
+	Command: ksoftirqd/1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/1:0H-events_highpri
+stat(/proc/108, 0x7f29b7eb0d50)
+	Real path: /proc/108
+	Command: kworker/1:0H-events_highpri
+open(/proc/108/stat, 0)
+	Real path: /proc/108/stat
+	Command: kworker/1:0H-events_highpri
+open(/proc/108/status, 0)
+	Real path: /proc/108/status
+	Command: kworker/1:0H-events_highpri
+open(/proc/108/environ, 0)
+	Real path: /proc/108/environ
+	Command: kworker/1:0H-events_highpri
+open(/proc/108/cmdline, 0)
+	Real path: /proc/108/cmdline
+	Command: kworker/1:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/3
+stat(/proc/109, 0x7f29b7eb0d50)
+	Real path: /proc/109
+	Command: cpuhp/3
+open(/proc/109/stat, 0)
+	Real path: /proc/109/stat
+	Command: cpuhp/3
+open(/proc/109/status, 0)
+	Real path: /proc/109/status
+	Command: cpuhp/3
+open(/proc/109/environ, 0)
+	Real path: /proc/109/environ
+	Command: cpuhp/3
+open(/proc/109/cmdline, 0)
+	Real path: /proc/109/cmdline
+	Command: cpuhp/3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/3
+stat(/proc/110, 0x7f29b7eb0d50)
+	Real path: /proc/110
+	Command: idle_inject/3
+open(/proc/110/stat, 0)
+	Real path: /proc/110/stat
+	Command: idle_inject/3
+open(/proc/110/status, 0)
+	Real path: /proc/110/status
+	Command: idle_inject/3
+open(/proc/110/environ, 0)
+	Real path: /proc/110/environ
+	Command: idle_inject/3
+open(/proc/110/cmdline, 0)
+	Real path: /proc/110/cmdline
+	Command: idle_inject/3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/3
+stat(/proc/111, 0x7f29b7eb0d50)
+	Real path: /proc/111
+	Command: migration/3
+open(/proc/111/stat, 0)
+	Real path: /proc/111/stat
+	Command: migration/3
+open(/proc/111/status, 0)
+	Real path: /proc/111/status
+	Command: migration/3
+open(/proc/111/environ, 0)
+	Real path: /proc/111/environ
+	Command: migration/3
+open(/proc/111/cmdline, 0)
+	Real path: /proc/111/cmdline
+	Command: migration/3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/3
+stat(/proc/112, 0x7f29b7eb0d50)
+	Real path: /proc/112
+	Command: ksoftirqd/3
+open(/proc/112/stat, 0)
+	Real path: /proc/112/stat
+	Command: ksoftirqd/3
+open(/proc/112/status, 0)
+	Real path: /proc/112/status
+	Command: ksoftirqd/3
+open(/proc/112/environ, 0)
+	Real path: /proc/112/environ
+	Command: ksoftirqd/3
+open(/proc/112/cmdline, 0)
+	Real path: /proc/112/cmdline
+	Command: ksoftirqd/3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/3:0-mm_percpu_wq
+stat(/proc/113, 0x7f29b7eb0d50)
+	Real path: /proc/113
+	Command: kworker/3:0-mm_percpu_wq
+open(/proc/113/stat, 0)
+	Real path: /proc/113/stat
+	Command: kworker/3:0-mm_percpu_wq
+open(/proc/113/status, 0)
+	Real path: /proc/113/status
+	Command: kworker/3:0-mm_percpu_wq
+open(/proc/113/environ, 0)
+	Real path: /proc/113/environ
+	Command: kworker/3:0-mm_percpu_wq
+open(/proc/113/cmdline, 0)
+	Real path: /proc/113/cmdline
+	Command: kworker/3:0-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/3:0H-events_highpri
+stat(/proc/114, 0x7f29b7eb0d50)
+	Real path: /proc/114
+	Command: kworker/3:0H-events_highpri
+open(/proc/114/stat, 0)
+	Real path: /proc/114/stat
+	Command: kworker/3:0H-events_highpri
+open(/proc/114/status, 0)
+	Real path: /proc/114/status
+	Command: kworker/3:0H-events_highpri
+open(/proc/114/environ, 0)
+	Real path: /proc/114/environ
+	Command: kworker/3:0H-events_highpri
+open(/proc/114/cmdline, 0)
+	Real path: /proc/114/cmdline
+	Command: kworker/3:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/5
+stat(/proc/115, 0x7f29b7eb0d50)
+	Real path: /proc/115
+	Command: cpuhp/5
+open(/proc/115/stat, 0)
+	Real path: /proc/115/stat
+	Command: cpuhp/5
+open(/proc/115/status, 0)
+	Real path: /proc/115/status
+	Command: cpuhp/5
+open(/proc/115/environ, 0)
+	Real path: /proc/115/environ
+	Command: cpuhp/5
+open(/proc/115/cmdline, 0)
+	Real path: /proc/115/cmdline
+	Command: cpuhp/5
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/5
+stat(/proc/116, 0x7f29b7eb0d50)
+	Real path: /proc/116
+	Command: idle_inject/5
+open(/proc/116/stat, 0)
+	Real path: /proc/116/stat
+	Command: idle_inject/5
+open(/proc/116/status, 0)
+	Real path: /proc/116/status
+	Command: idle_inject/5
+open(/proc/116/environ, 0)
+	Real path: /proc/116/environ
+	Command: idle_inject/5
+open(/proc/116/cmdline, 0)
+	Real path: /proc/116/cmdline
+	Command: idle_inject/5
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/5
+stat(/proc/117, 0x7f29b7eb0d50)
+	Real path: /proc/117
+	Command: migration/5
+open(/proc/117/stat, 0)
+	Real path: /proc/117/stat
+	Command: migration/5
+open(/proc/117/status, 0)
+	Real path: /proc/117/status
+	Command: migration/5
+open(/proc/117/environ, 0)
+	Real path: /proc/117/environ
+	Command: migration/5
+open(/proc/117/cmdline, 0)
+	Real path: /proc/117/cmdline
+	Command: migration/5
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/5
+stat(/proc/118, 0x7f29b7eb0d50)
+	Real path: /proc/118
+	Command: ksoftirqd/5
+open(/proc/118/stat, 0)
+	Real path: /proc/118/stat
+	Command: ksoftirqd/5
+open(/proc/118/status, 0)
+	Real path: /proc/118/status
+	Command: ksoftirqd/5
+open(/proc/118/environ, 0)
+	Real path: /proc/118/environ
+	Command: ksoftirqd/5
+open(/proc/118/cmdline, 0)
+	Real path: /proc/118/cmdline
+	Command: ksoftirqd/5
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/5:0H-events_highpri
+stat(/proc/120, 0x7f29b7eb0d50)
+	Real path: /proc/120
+	Command: kworker/5:0H-events_highpri
+open(/proc/120/stat, 0)
+	Real path: /proc/120/stat
+	Command: kworker/5:0H-events_highpri
+open(/proc/120/status, 0)
+	Real path: /proc/120/status
+	Command: kworker/5:0H-events_highpri
+open(/proc/120/environ, 0)
+	Real path: /proc/120/environ
+	Command: kworker/5:0H-events_highpri
+open(/proc/120/cmdline, 0)
+	Real path: /proc/120/cmdline
+	Command: kworker/5:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/7
+stat(/proc/121, 0x7f29b7eb0d50)
+	Real path: /proc/121
+	Command: cpuhp/7
+open(/proc/121/stat, 0)
+	Real path: /proc/121/stat
+	Command: cpuhp/7
+open(/proc/121/status, 0)
+	Real path: /proc/121/status
+	Command: cpuhp/7
+open(/proc/121/environ, 0)
+	Real path: /proc/121/environ
+	Command: cpuhp/7
+open(/proc/121/cmdline, 0)
+	Real path: /proc/121/cmdline
+	Command: cpuhp/7
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/7
+stat(/proc/122, 0x7f29b7eb0d50)
+	Real path: /proc/122
+	Command: idle_inject/7
+open(/proc/122/stat, 0)
+	Real path: /proc/122/stat
+	Command: idle_inject/7
+open(/proc/122/status, 0)
+	Real path: /proc/122/status
+	Command: idle_inject/7
+open(/proc/122/environ, 0)
+	Real path: /proc/122/environ
+	Command: idle_inject/7
+open(/proc/122/cmdline, 0)
+	Real path: /proc/122/cmdline
+	Command: idle_inject/7
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/7
+stat(/proc/123, 0x7f29b7eb0d50)
+	Real path: /proc/123
+	Command: migration/7
+open(/proc/123/stat, 0)
+	Real path: /proc/123/stat
+	Command: migration/7
+open(/proc/123/status, 0)
+	Real path: /proc/123/status
+	Command: migration/7
+open(/proc/123/environ, 0)
+	Real path: /proc/123/environ
+	Command: migration/7
+open(/proc/123/cmdline, 0)
+	Real path: /proc/123/cmdline
+	Command: migration/7
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/7
+stat(/proc/124, 0x7f29b7eb0d50)
+	Real path: /proc/124
+	Command: ksoftirqd/7
+open(/proc/124/stat, 0)
+	Real path: /proc/124/stat
+	Command: ksoftirqd/7
+open(/proc/124/status, 0)
+	Real path: /proc/124/status
+	Command: ksoftirqd/7
+open(/proc/124/environ, 0)
+	Real path: /proc/124/environ
+	Command: ksoftirqd/7
+open(/proc/124/cmdline, 0)
+	Real path: /proc/124/cmdline
+	Command: ksoftirqd/7
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/7:0H-events_highpri
+stat(/proc/126, 0x7f29b7eb0d50)
+	Real path: /proc/126
+	Command: kworker/7:0H-events_highpri
+open(/proc/126/stat, 0)
+	Real path: /proc/126/stat
+	Command: kworker/7:0H-events_highpri
+open(/proc/126/status, 0)
+	Real path: /proc/126/status
+	Command: kworker/7:0H-events_highpri
+open(/proc/126/environ, 0)
+	Real path: /proc/126/environ
+	Command: kworker/7:0H-events_highpri
+open(/proc/126/cmdline, 0)
+	Real path: /proc/126/cmdline
+	Command: kworker/7:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/9
+stat(/proc/127, 0x7f29b7eb0d50)
+	Real path: /proc/127
+	Command: cpuhp/9
+open(/proc/127/stat, 0)
+	Real path: /proc/127/stat
+	Command: cpuhp/9
+open(/proc/127/status, 0)
+	Real path: /proc/127/status
+	Command: cpuhp/9
+open(/proc/127/environ, 0)
+	Real path: /proc/127/environ
+	Command: cpuhp/9
+open(/proc/127/cmdline, 0)
+	Real path: /proc/127/cmdline
+	Command: cpuhp/9
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/9
+stat(/proc/128, 0x7f29b7eb0d50)
+	Real path: /proc/128
+	Command: idle_inject/9
+open(/proc/128/stat, 0)
+	Real path: /proc/128/stat
+	Command: idle_inject/9
+open(/proc/128/status, 0)
+	Real path: /proc/128/status
+	Command: idle_inject/9
+open(/proc/128/environ, 0)
+	Real path: /proc/128/environ
+	Command: idle_inject/9
+open(/proc/128/cmdline, 0)
+	Real path: /proc/128/cmdline
+	Command: idle_inject/9
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/9
+stat(/proc/129, 0x7f29b7eb0d50)
+	Real path: /proc/129
+	Command: migration/9
+open(/proc/129/stat, 0)
+	Real path: /proc/129/stat
+	Command: migration/9
+open(/proc/129/status, 0)
+	Real path: /proc/129/status
+	Command: migration/9
+open(/proc/129/environ, 0)
+	Real path: /proc/129/environ
+	Command: migration/9
+open(/proc/129/cmdline, 0)
+	Real path: /proc/129/cmdline
+	Command: migration/9
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/9
+stat(/proc/130, 0x7f29b7eb0d50)
+	Real path: /proc/130
+	Command: ksoftirqd/9
+open(/proc/130/stat, 0)
+	Real path: /proc/130/stat
+	Command: ksoftirqd/9
+open(/proc/130/status, 0)
+	Real path: /proc/130/status
+	Command: ksoftirqd/9
+open(/proc/130/environ, 0)
+	Real path: /proc/130/environ
+	Command: ksoftirqd/9
+open(/proc/130/cmdline, 0)
+	Real path: /proc/130/cmdline
+	Command: ksoftirqd/9
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/9:0H-events_highpri
+stat(/proc/132, 0x7f29b7eb0d50)
+	Real path: /proc/132
+	Command: kworker/9:0H-events_highpri
+open(/proc/132/stat, 0)
+	Real path: /proc/132/stat
+	Command: kworker/9:0H-events_highpri
+open(/proc/132/status, 0)
+	Real path: /proc/132/status
+	Command: kworker/9:0H-events_highpri
+open(/proc/132/environ, 0)
+	Real path: /proc/132/environ
+	Command: kworker/9:0H-events_highpri
+open(/proc/132/cmdline, 0)
+	Real path: /proc/132/cmdline
+	Command: kworker/9:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: cpuhp/11
+stat(/proc/133, 0x7f29b7eb0d50)
+	Real path: /proc/133
+	Command: cpuhp/11
+open(/proc/133/stat, 0)
+	Real path: /proc/133/stat
+	Command: cpuhp/11
+open(/proc/133/status, 0)
+	Real path: /proc/133/status
+	Command: cpuhp/11
+open(/proc/133/environ, 0)
+	Real path: /proc/133/environ
+	Command: cpuhp/11
+open(/proc/133/cmdline, 0)
+	Real path: /proc/133/cmdline
+	Command: cpuhp/11
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: idle_inject/11
+stat(/proc/134, 0x7f29b7eb0d50)
+	Real path: /proc/134
+	Command: idle_inject/11
+open(/proc/134/stat, 0)
+	Real path: /proc/134/stat
+	Command: idle_inject/11
+open(/proc/134/status, 0)
+	Real path: /proc/134/status
+	Command: idle_inject/11
+open(/proc/134/environ, 0)
+	Real path: /proc/134/environ
+	Command: idle_inject/11
+open(/proc/134/cmdline, 0)
+	Real path: /proc/134/cmdline
+	Command: idle_inject/11
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: migration/11
+stat(/proc/135, 0x7f29b7eb0d50)
+	Real path: /proc/135
+	Command: migration/11
+open(/proc/135/stat, 0)
+	Real path: /proc/135/stat
+	Command: migration/11
+open(/proc/135/status, 0)
+	Real path: /proc/135/status
+	Command: migration/11
+open(/proc/135/environ, 0)
+	Real path: /proc/135/environ
+	Command: migration/11
+open(/proc/135/cmdline, 0)
+	Real path: /proc/135/cmdline
+	Command: migration/11
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksoftirqd/11
+stat(/proc/136, 0x7f29b7eb0d50)
+	Real path: /proc/136
+	Command: ksoftirqd/11
+open(/proc/136/stat, 0)
+	Real path: /proc/136/stat
+	Command: ksoftirqd/11
+open(/proc/136/status, 0)
+	Real path: /proc/136/status
+	Command: ksoftirqd/11
+open(/proc/136/environ, 0)
+	Real path: /proc/136/environ
+	Command: ksoftirqd/11
+open(/proc/136/cmdline, 0)
+	Real path: /proc/136/cmdline
+	Command: ksoftirqd/11
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/11:0-mm_percpu_wq
+stat(/proc/137, 0x7f29b7eb0d50)
+	Real path: /proc/137
+	Command: kworker/11:0-mm_percpu_wq
+open(/proc/137/stat, 0)
+	Real path: /proc/137/stat
+	Command: kworker/11:0-mm_percpu_wq
+open(/proc/137/status, 0)
+	Real path: /proc/137/status
+	Command: kworker/11:0-mm_percpu_wq
+open(/proc/137/environ, 0)
+	Real path: /proc/137/environ
+	Command: kworker/11:0-mm_percpu_wq
+open(/proc/137/cmdline, 0)
+	Real path: /proc/137/cmdline
+	Command: kworker/11:0-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/11:0H-events_highpri
+stat(/proc/138, 0x7f29b7eb0d50)
+	Real path: /proc/138
+	Command: kworker/11:0H-events_highpri
+open(/proc/138/stat, 0)
+	Real path: /proc/138/stat
+	Command: kworker/11:0H-events_highpri
+open(/proc/138/status, 0)
+	Real path: /proc/138/status
+	Command: kworker/11:0H-events_highpri
+open(/proc/138/environ, 0)
+	Real path: /proc/138/environ
+	Command: kworker/11:0H-events_highpri
+open(/proc/138/cmdline, 0)
+	Real path: /proc/138/cmdline
+	Command: kworker/11:0H-events_highpri
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kdevtmpfs
+stat(/proc/139, 0x7f29b7eb0d50)
+	Real path: /proc/139
+	Command: kdevtmpfs
+open(/proc/139/stat, 0)
+	Real path: /proc/139/stat
+	Command: kdevtmpfs
+open(/proc/139/status, 0)
+	Real path: /proc/139/status
+	Command: kdevtmpfs
+open(/proc/139/environ, 0)
+	Real path: /proc/139/environ
+	Command: kdevtmpfs
+open(/proc/139/cmdline, 0)
+	Real path: /proc/139/cmdline
+	Command: kdevtmpfs
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-inet_frag_wq
+stat(/proc/140, 0x7f29b7eb0d50)
+	Real path: /proc/140
+	Command: kworker/R-inet_frag_wq
+open(/proc/140/stat, 0)
+	Real path: /proc/140/stat
+	Command: kworker/R-inet_frag_wq
+open(/proc/140/status, 0)
+	Real path: /proc/140/status
+	Command: kworker/R-inet_frag_wq
+open(/proc/140/environ, 0)
+	Real path: /proc/140/environ
+	Command: kworker/R-inet_frag_wq
+open(/proc/140/cmdline, 0)
+	Real path: /proc/140/cmdline
+	Command: kworker/R-inet_frag_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcu_tasks_kthread
+stat(/proc/141, 0x7f29b7eb0d50)
+	Real path: /proc/141
+	Command: rcu_tasks_kthread
+open(/proc/141/stat, 0)
+	Real path: /proc/141/stat
+	Command: rcu_tasks_kthread
+open(/proc/141/status, 0)
+	Real path: /proc/141/status
+	Command: rcu_tasks_kthread
+open(/proc/141/environ, 0)
+	Real path: /proc/141/environ
+	Command: rcu_tasks_kthread
+open(/proc/141/cmdline, 0)
+	Real path: /proc/141/cmdline
+	Command: rcu_tasks_kthread
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcu_tasks_rude_kthread
+stat(/proc/142, 0x7f29b7eb0d50)
+	Real path: /proc/142
+	Command: rcu_tasks_rude_kthread
+open(/proc/142/stat, 0)
+	Real path: /proc/142/stat
+	Command: rcu_tasks_rude_kthread
+open(/proc/142/status, 0)
+	Real path: /proc/142/status
+	Command: rcu_tasks_rude_kthread
+open(/proc/142/environ, 0)
+	Real path: /proc/142/environ
+	Command: rcu_tasks_rude_kthread
+open(/proc/142/cmdline, 0)
+	Real path: /proc/142/cmdline
+	Command: rcu_tasks_rude_kthread
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rcu_tasks_trace_kthread
+stat(/proc/143, 0x7f29b7eb0d50)
+	Real path: /proc/143
+	Command: rcu_tasks_trace_kthread
+open(/proc/143/stat, 0)
+	Real path: /proc/143/stat
+	Command: rcu_tasks_trace_kthread
+open(/proc/143/status, 0)
+	Real path: /proc/143/status
+	Command: rcu_tasks_trace_kthread
+open(/proc/143/environ, 0)
+	Real path: /proc/143/environ
+	Command: rcu_tasks_trace_kthread
+open(/proc/143/cmdline, 0)
+	Real path: /proc/143/cmdline
+	Command: rcu_tasks_trace_kthread
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kauditd
+stat(/proc/144, 0x7f29b7eb0d50)
+	Real path: /proc/144
+	Command: kauditd
+open(/proc/144/stat, 0)
+	Real path: /proc/144/stat
+	Command: kauditd
+open(/proc/144/status, 0)
+	Real path: /proc/144/status
+	Command: kauditd
+open(/proc/144/environ, 0)
+	Real path: /proc/144/environ
+	Command: kauditd
+open(/proc/144/cmdline, 0)
+	Real path: /proc/144/cmdline
+	Command: kauditd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: khungtaskd
+stat(/proc/145, 0x7f29b7eb0d50)
+	Real path: /proc/145
+	Command: khungtaskd
+open(/proc/145/stat, 0)
+	Real path: /proc/145/stat
+	Command: khungtaskd
+open(/proc/145/status, 0)
+	Real path: /proc/145/status
+	Command: khungtaskd
+open(/proc/145/environ, 0)
+	Real path: /proc/145/environ
+	Command: khungtaskd
+open(/proc/145/cmdline, 0)
+	Real path: /proc/145/cmdline
+	Command: khungtaskd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: oom_reaper
+stat(/proc/146, 0x7f29b7eb0d50)
+	Real path: /proc/146
+	Command: oom_reaper
+open(/proc/146/stat, 0)
+	Real path: /proc/146/stat
+	Command: oom_reaper
+open(/proc/146/status, 0)
+	Real path: /proc/146/status
+	Command: oom_reaper
+open(/proc/146/environ, 0)
+	Real path: /proc/146/environ
+	Command: oom_reaper
+open(/proc/146/cmdline, 0)
+	Real path: /proc/146/cmdline
+	Command: oom_reaper
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-writeback
+stat(/proc/148, 0x7f29b7eb0d50)
+	Real path: /proc/148
+	Command: kworker/R-writeback
+open(/proc/148/stat, 0)
+	Real path: /proc/148/stat
+	Command: kworker/R-writeback
+open(/proc/148/status, 0)
+	Real path: /proc/148/status
+	Command: kworker/R-writeback
+open(/proc/148/environ, 0)
+	Real path: /proc/148/environ
+	Command: kworker/R-writeback
+open(/proc/148/cmdline, 0)
+	Real path: /proc/148/cmdline
+	Command: kworker/R-writeback
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kcompactd0
+stat(/proc/149, 0x7f29b7eb0d50)
+	Real path: /proc/149
+	Command: kcompactd0
+open(/proc/149/stat, 0)
+	Real path: /proc/149/stat
+	Command: kcompactd0
+open(/proc/149/status, 0)
+	Real path: /proc/149/status
+	Command: kcompactd0
+open(/proc/149/environ, 0)
+	Real path: /proc/149/environ
+	Command: kcompactd0
+open(/proc/149/cmdline, 0)
+	Real path: /proc/149/cmdline
+	Command: kcompactd0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ksmd
+stat(/proc/150, 0x7f29b7eb0d50)
+	Real path: /proc/150
+	Command: ksmd
+open(/proc/150/stat, 0)
+	Real path: /proc/150/stat
+	Command: ksmd
+open(/proc/150/status, 0)
+	Real path: /proc/150/status
+	Command: ksmd
+open(/proc/150/environ, 0)
+	Real path: /proc/150/environ
+	Command: ksmd
+open(/proc/150/cmdline, 0)
+	Real path: /proc/150/cmdline
+	Command: ksmd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: khugepaged
+stat(/proc/151, 0x7f29b7eb0d50)
+	Real path: /proc/151
+	Command: khugepaged
+open(/proc/151/stat, 0)
+	Real path: /proc/151/stat
+	Command: khugepaged
+open(/proc/151/status, 0)
+	Real path: /proc/151/status
+	Command: khugepaged
+open(/proc/151/environ, 0)
+	Real path: /proc/151/environ
+	Command: khugepaged
+open(/proc/151/cmdline, 0)
+	Real path: /proc/151/cmdline
+	Command: khugepaged
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/1:1-events
+stat(/proc/152, 0x7f29b7eb0d50)
+	Real path: /proc/152
+	Command: kworker/1:1-events
+open(/proc/152/stat, 0)
+	Real path: /proc/152/stat
+	Command: kworker/1:1-events
+open(/proc/152/status, 0)
+	Real path: /proc/152/status
+	Command: kworker/1:1-events
+open(/proc/152/environ, 0)
+	Real path: /proc/152/environ
+	Command: kworker/1:1-events
+open(/proc/152/cmdline, 0)
+	Real path: /proc/152/cmdline
+	Command: kworker/1:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-kblockd
+stat(/proc/153, 0x7f29b7eb0d50)
+	Real path: /proc/153
+	Command: kworker/R-kblockd
+open(/proc/153/stat, 0)
+	Real path: /proc/153/stat
+	Command: kworker/R-kblockd
+open(/proc/153/status, 0)
+	Real path: /proc/153/status
+	Command: kworker/R-kblockd
+open(/proc/153/environ, 0)
+	Real path: /proc/153/environ
+	Command: kworker/R-kblockd
+open(/proc/153/cmdline, 0)
+	Real path: /proc/153/cmdline
+	Command: kworker/R-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-blkcg_punt_bio
+stat(/proc/154, 0x7f29b7eb0d50)
+	Real path: /proc/154
+	Command: kworker/R-blkcg_punt_bio
+open(/proc/154/stat, 0)
+	Real path: /proc/154/stat
+	Command: kworker/R-blkcg_punt_bio
+open(/proc/154/status, 0)
+	Real path: /proc/154/status
+	Command: kworker/R-blkcg_punt_bio
+open(/proc/154/environ, 0)
+	Real path: /proc/154/environ
+	Command: kworker/R-blkcg_punt_bio
+open(/proc/154/cmdline, 0)
+	Real path: /proc/154/cmdline
+	Command: kworker/R-blkcg_punt_bio
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-kintegrityd
+stat(/proc/155, 0x7f29b7eb0d50)
+	Real path: /proc/155
+	Command: kworker/R-kintegrityd
+open(/proc/155/stat, 0)
+	Real path: /proc/155/stat
+	Command: kworker/R-kintegrityd
+open(/proc/155/status, 0)
+	Real path: /proc/155/status
+	Command: kworker/R-kintegrityd
+open(/proc/155/environ, 0)
+	Real path: /proc/155/environ
+	Command: kworker/R-kintegrityd
+open(/proc/155/cmdline, 0)
+	Real path: /proc/155/cmdline
+	Command: kworker/R-kintegrityd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/2:1-events
+stat(/proc/156, 0x7f29b7eb0d50)
+	Real path: /proc/156
+	Command: kworker/2:1-events
+open(/proc/156/stat, 0)
+	Real path: /proc/156/stat
+	Command: kworker/2:1-events
+open(/proc/156/status, 0)
+	Real path: /proc/156/status
+	Command: kworker/2:1-events
+open(/proc/156/environ, 0)
+	Real path: /proc/156/environ
+	Command: kworker/2:1-events
+open(/proc/156/cmdline, 0)
+	Real path: /proc/156/cmdline
+	Command: kworker/2:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/16:1-mm_percpu_wq
+stat(/proc/157, 0x7f29b7eb0d50)
+	Real path: /proc/157
+	Command: kworker/16:1-mm_percpu_wq
+open(/proc/157/stat, 0)
+	Real path: /proc/157/stat
+	Command: kworker/16:1-mm_percpu_wq
+open(/proc/157/status, 0)
+	Real path: /proc/157/status
+	Command: kworker/16:1-mm_percpu_wq
+open(/proc/157/environ, 0)
+	Real path: /proc/157/environ
+	Command: kworker/16:1-mm_percpu_wq
+open(/proc/157/cmdline, 0)
+	Real path: /proc/157/cmdline
+	Command: kworker/16:1-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/9-acpi
+stat(/proc/158, 0x7f29b7eb0d50)
+	Real path: /proc/158
+	Command: irq/9-acpi
+open(/proc/158/stat, 0)
+	Real path: /proc/158/stat
+	Command: irq/9-acpi
+open(/proc/158/status, 0)
+	Real path: /proc/158/status
+	Command: irq/9-acpi
+open(/proc/158/environ, 0)
+	Real path: /proc/158/environ
+	Command: irq/9-acpi
+open(/proc/158/cmdline, 0)
+	Real path: /proc/158/cmdline
+	Command: irq/9-acpi
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-tpm_dev_wq
+stat(/proc/159, 0x7f29b7eb0d50)
+	Real path: /proc/159
+	Command: kworker/R-tpm_dev_wq
+open(/proc/159/stat, 0)
+	Real path: /proc/159/stat
+	Command: kworker/R-tpm_dev_wq
+open(/proc/159/status, 0)
+	Real path: /proc/159/status
+	Command: kworker/R-tpm_dev_wq
+open(/proc/159/environ, 0)
+	Real path: /proc/159/environ
+	Command: kworker/R-tpm_dev_wq
+open(/proc/159/cmdline, 0)
+	Real path: /proc/159/cmdline
+	Command: kworker/R-tpm_dev_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-ata_sff
+stat(/proc/160, 0x7f29b7eb0d50)
+	Real path: /proc/160
+	Command: kworker/R-ata_sff
+open(/proc/160/stat, 0)
+	Real path: /proc/160/stat
+	Command: kworker/R-ata_sff
+open(/proc/160/status, 0)
+	Real path: /proc/160/status
+	Command: kworker/R-ata_sff
+open(/proc/160/environ, 0)
+	Real path: /proc/160/environ
+	Command: kworker/R-ata_sff
+open(/proc/160/cmdline, 0)
+	Real path: /proc/160/cmdline
+	Command: kworker/R-ata_sff
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-edac-poller
+stat(/proc/161, 0x7f29b7eb0d50)
+	Real path: /proc/161
+	Command: kworker/R-edac-poller
+open(/proc/161/stat, 0)
+	Real path: /proc/161/stat
+	Command: kworker/R-edac-poller
+open(/proc/161/status, 0)
+	Real path: /proc/161/status
+	Command: kworker/R-edac-poller
+open(/proc/161/environ, 0)
+	Real path: /proc/161/environ
+	Command: kworker/R-edac-poller
+open(/proc/161/cmdline, 0)
+	Real path: /proc/161/cmdline
+	Command: kworker/R-edac-poller
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-devfreq_wq
+stat(/proc/162, 0x7f29b7eb0d50)
+	Real path: /proc/162
+	Command: kworker/R-devfreq_wq
+open(/proc/162/stat, 0)
+	Real path: /proc/162/stat
+	Command: kworker/R-devfreq_wq
+open(/proc/162/status, 0)
+	Real path: /proc/162/status
+	Command: kworker/R-devfreq_wq
+open(/proc/162/environ, 0)
+	Real path: /proc/162/environ
+	Command: kworker/R-devfreq_wq
+open(/proc/162/cmdline, 0)
+	Real path: /proc/162/cmdline
+	Command: kworker/R-devfreq_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: watchdogd
+stat(/proc/163, 0x7f29b7eb0d50)
+	Real path: /proc/163
+	Command: watchdogd
+open(/proc/163/stat, 0)
+	Real path: /proc/163/stat
+	Command: watchdogd
+open(/proc/163/status, 0)
+	Real path: /proc/163/status
+	Command: watchdogd
+open(/proc/163/environ, 0)
+	Real path: /proc/163/environ
+	Command: watchdogd
+open(/proc/163/cmdline, 0)
+	Real path: /proc/163/cmdline
+	Command: watchdogd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/1:2-kacpi_notify
+stat(/proc/164, 0x7f29b7eb0d50)
+	Real path: /proc/164
+	Command: kworker/1:2-kacpi_notify
+open(/proc/164/stat, 0)
+	Real path: /proc/164/stat
+	Command: kworker/1:2-kacpi_notify
+open(/proc/164/status, 0)
+	Real path: /proc/164/status
+	Command: kworker/1:2-kacpi_notify
+open(/proc/164/environ, 0)
+	Real path: /proc/164/environ
+	Command: kworker/1:2-kacpi_notify
+open(/proc/164/cmdline, 0)
+	Real path: /proc/164/cmdline
+	Command: kworker/1:2-kacpi_notify
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/11:1-events
+stat(/proc/165, 0x7f29b7eb0d50)
+	Real path: /proc/165
+	Command: kworker/11:1-events
+open(/proc/165/stat, 0)
+	Real path: /proc/165/stat
+	Command: kworker/11:1-events
+open(/proc/165/status, 0)
+	Real path: /proc/165/status
+	Command: kworker/11:1-events
+open(/proc/165/environ, 0)
+	Real path: /proc/165/environ
+	Command: kworker/11:1-events
+open(/proc/165/cmdline, 0)
+	Real path: /proc/165/cmdline
+	Command: kworker/11:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/17:1-events
+stat(/proc/166, 0x7f29b7eb0d50)
+	Real path: /proc/166
+	Command: kworker/17:1-events
+open(/proc/166/stat, 0)
+	Real path: /proc/166/stat
+	Command: kworker/17:1-events
+open(/proc/166/status, 0)
+	Real path: /proc/166/status
+	Command: kworker/17:1-events
+open(/proc/166/environ, 0)
+	Real path: /proc/166/environ
+	Command: kworker/17:1-events
+open(/proc/166/cmdline, 0)
+	Real path: /proc/166/cmdline
+	Command: kworker/17:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/16:1H-kblockd
+stat(/proc/167, 0x7f29b7eb0d50)
+	Real path: /proc/167
+	Command: kworker/16:1H-kblockd
+open(/proc/167/stat, 0)
+	Real path: /proc/167/stat
+	Command: kworker/16:1H-kblockd
+open(/proc/167/status, 0)
+	Real path: /proc/167/status
+	Command: kworker/16:1H-kblockd
+open(/proc/167/environ, 0)
+	Real path: /proc/167/environ
+	Command: kworker/16:1H-kblockd
+open(/proc/167/cmdline, 0)
+	Real path: /proc/167/cmdline
+	Command: kworker/16:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kswapd0
+stat(/proc/168, 0x7f29b7eb0d50)
+	Real path: /proc/168
+	Command: kswapd0
+open(/proc/168/stat, 0)
+	Real path: /proc/168/stat
+	Command: kswapd0
+open(/proc/168/status, 0)
+	Real path: /proc/168/status
+	Command: kswapd0
+open(/proc/168/environ, 0)
+	Real path: /proc/168/environ
+	Command: kswapd0
+open(/proc/168/cmdline, 0)
+	Real path: /proc/168/cmdline
+	Command: kswapd0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-kthrotld
+stat(/proc/169, 0x7f29b7eb0d50)
+	Real path: /proc/169
+	Command: kworker/R-kthrotld
+open(/proc/169/stat, 0)
+	Real path: /proc/169/stat
+	Command: kworker/R-kthrotld
+open(/proc/169/status, 0)
+	Real path: /proc/169/status
+	Command: kworker/R-kthrotld
+open(/proc/169/environ, 0)
+	Real path: /proc/169/environ
+	Command: kworker/R-kthrotld
+open(/proc/169/cmdline, 0)
+	Real path: /proc/169/cmdline
+	Command: kworker/R-kthrotld
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/122-aerdrv
+stat(/proc/170, 0x7f29b7eb0d50)
+	Real path: /proc/170
+	Command: irq/122-aerdrv
+open(/proc/170/stat, 0)
+	Real path: /proc/170/stat
+	Command: irq/122-aerdrv
+open(/proc/170/status, 0)
+	Real path: /proc/170/status
+	Command: irq/122-aerdrv
+open(/proc/170/environ, 0)
+	Real path: /proc/170/environ
+	Command: irq/122-aerdrv
+open(/proc/170/cmdline, 0)
+	Real path: /proc/170/cmdline
+	Command: irq/122-aerdrv
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/123-aerdrv
+stat(/proc/171, 0x7f29b7eb0d50)
+	Real path: /proc/171
+	Command: irq/123-aerdrv
+open(/proc/171/stat, 0)
+	Real path: /proc/171/stat
+	Command: irq/123-aerdrv
+open(/proc/171/status, 0)
+	Real path: /proc/171/status
+	Command: irq/123-aerdrv
+open(/proc/171/environ, 0)
+	Real path: /proc/171/environ
+	Command: irq/123-aerdrv
+open(/proc/171/cmdline, 0)
+	Real path: /proc/171/cmdline
+	Command: irq/123-aerdrv
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/124-pciehp
+stat(/proc/172, 0x7f29b7eb0d50)
+	Real path: /proc/172
+	Command: irq/124-pciehp
+open(/proc/172/stat, 0)
+	Real path: /proc/172/stat
+	Command: irq/124-pciehp
+open(/proc/172/status, 0)
+	Real path: /proc/172/status
+	Command: irq/124-pciehp
+open(/proc/172/environ, 0)
+	Real path: /proc/172/environ
+	Command: irq/124-pciehp
+open(/proc/172/cmdline, 0)
+	Real path: /proc/172/cmdline
+	Command: irq/124-pciehp
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/125-pciehp
+stat(/proc/173, 0x7f29b7eb0d50)
+	Real path: /proc/173
+	Command: irq/125-pciehp
+open(/proc/173/stat, 0)
+	Real path: /proc/173/stat
+	Command: irq/125-pciehp
+open(/proc/173/status, 0)
+	Real path: /proc/173/status
+	Command: irq/125-pciehp
+open(/proc/173/environ, 0)
+	Real path: /proc/173/environ
+	Command: irq/125-pciehp
+open(/proc/173/cmdline, 0)
+	Real path: /proc/173/cmdline
+	Command: irq/125-pciehp
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/126-pciehp
+stat(/proc/174, 0x7f29b7eb0d50)
+	Real path: /proc/174
+	Command: irq/126-pciehp
+open(/proc/174/stat, 0)
+	Real path: /proc/174/stat
+	Command: irq/126-pciehp
+open(/proc/174/status, 0)
+	Real path: /proc/174/status
+	Command: irq/126-pciehp
+open(/proc/174/environ, 0)
+	Real path: /proc/174/environ
+	Command: irq/126-pciehp
+open(/proc/174/cmdline, 0)
+	Real path: /proc/174/cmdline
+	Command: irq/126-pciehp
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-acpi_thermal_pm
+stat(/proc/175, 0x7f29b7eb0d50)
+	Real path: /proc/175
+	Command: kworker/R-acpi_thermal_pm
+open(/proc/175/stat, 0)
+	Real path: /proc/175/stat
+	Command: kworker/R-acpi_thermal_pm
+open(/proc/175/status, 0)
+	Real path: /proc/175/status
+	Command: kworker/R-acpi_thermal_pm
+open(/proc/175/environ, 0)
+	Real path: /proc/175/environ
+	Command: kworker/R-acpi_thermal_pm
+open(/proc/175/cmdline, 0)
+	Real path: /proc/175/cmdline
+	Command: kworker/R-acpi_thermal_pm
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:3-btrfs-endio
+stat(/proc/176, 0x7f29b7eb0d50)
+	Real path: /proc/176
+	Command: kworker/u80:3-btrfs-endio
+open(/proc/176/stat, 0)
+	Real path: /proc/176/stat
+	Command: kworker/u80:3-btrfs-endio
+open(/proc/176/status, 0)
+	Real path: /proc/176/status
+	Command: kworker/u80:3-btrfs-endio
+open(/proc/176/environ, 0)
+	Real path: /proc/176/environ
+	Command: kworker/u80:3-btrfs-endio
+open(/proc/176/cmdline, 0)
+	Real path: /proc/176/cmdline
+	Command: kworker/u80:3-btrfs-endio
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: hwrng
+stat(/proc/178, 0x7f29b7eb0d50)
+	Real path: /proc/178
+	Command: hwrng
+open(/proc/178/stat, 0)
+	Real path: /proc/178/stat
+	Command: hwrng
+open(/proc/178/status, 0)
+	Real path: /proc/178/status
+	Command: hwrng
+open(/proc/178/environ, 0)
+	Real path: /proc/178/environ
+	Command: hwrng
+open(/proc/178/cmdline, 0)
+	Real path: /proc/178/cmdline
+	Command: hwrng
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-hfi-updates
+stat(/proc/182, 0x7f29b7eb0d50)
+	Real path: /proc/182
+	Command: kworker/R-hfi-updates
+open(/proc/182/stat, 0)
+	Real path: /proc/182/stat
+	Command: kworker/R-hfi-updates
+open(/proc/182/status, 0)
+	Real path: /proc/182/status
+	Command: kworker/R-hfi-updates
+open(/proc/182/environ, 0)
+	Real path: /proc/182/environ
+	Command: kworker/R-hfi-updates
+open(/proc/182/cmdline, 0)
+	Real path: /proc/182/cmdline
+	Command: kworker/R-hfi-updates
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-mld
+stat(/proc/184, 0x7f29b7eb0d50)
+	Real path: /proc/184
+	Command: kworker/R-mld
+open(/proc/184/stat, 0)
+	Real path: /proc/184/stat
+	Command: kworker/R-mld
+open(/proc/184/status, 0)
+	Real path: /proc/184/status
+	Command: kworker/R-mld
+open(/proc/184/environ, 0)
+	Real path: /proc/184/environ
+	Command: kworker/R-mld
+open(/proc/184/cmdline, 0)
+	Real path: /proc/184/cmdline
+	Command: kworker/R-mld
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/2:1H-kblockd
+stat(/proc/185, 0x7f29b7eb0d50)
+	Real path: /proc/185
+	Command: kworker/2:1H-kblockd
+open(/proc/185/stat, 0)
+	Real path: /proc/185/stat
+	Command: kworker/2:1H-kblockd
+open(/proc/185/status, 0)
+	Real path: /proc/185/status
+	Command: kworker/2:1H-kblockd
+open(/proc/185/environ, 0)
+	Real path: /proc/185/environ
+	Command: kworker/2:1H-kblockd
+open(/proc/185/cmdline, 0)
+	Real path: /proc/185/cmdline
+	Command: kworker/2:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-ipv6_addrconf
+stat(/proc/186, 0x7f29b7eb0d50)
+	Real path: /proc/186
+	Command: kworker/R-ipv6_addrconf
+open(/proc/186/stat, 0)
+	Real path: /proc/186/stat
+	Command: kworker/R-ipv6_addrconf
+open(/proc/186/status, 0)
+	Real path: /proc/186/status
+	Command: kworker/R-ipv6_addrconf
+open(/proc/186/environ, 0)
+	Real path: /proc/186/environ
+	Command: kworker/R-ipv6_addrconf
+open(/proc/186/cmdline, 0)
+	Real path: /proc/186/cmdline
+	Command: kworker/R-ipv6_addrconf
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-kstrp
+stat(/proc/193, 0x7f29b7eb0d50)
+	Real path: /proc/193
+	Command: kworker/R-kstrp
+open(/proc/193/stat, 0)
+	Real path: /proc/193/stat
+	Command: kworker/R-kstrp
+open(/proc/193/status, 0)
+	Real path: /proc/193/status
+	Command: kworker/R-kstrp
+open(/proc/193/environ, 0)
+	Real path: /proc/193/environ
+	Command: kworker/R-kstrp
+open(/proc/193/cmdline, 0)
+	Real path: /proc/193/cmdline
+	Command: kworker/R-kstrp
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/8:1-i915-unordered
+stat(/proc/196, 0x7f29b7eb0d50)
+	Real path: /proc/196
+	Command: kworker/8:1-i915-unordered
+open(/proc/196/stat, 0)
+	Real path: /proc/196/stat
+	Command: kworker/8:1-i915-unordered
+open(/proc/196/status, 0)
+	Real path: /proc/196/status
+	Command: kworker/8:1-i915-unordered
+open(/proc/196/environ, 0)
+	Real path: /proc/196/environ
+	Command: kworker/8:1-i915-unordered
+open(/proc/196/cmdline, 0)
+	Real path: /proc/196/cmdline
+	Command: kworker/8:1-i915-unordered
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/5:1-events
+stat(/proc/201, 0x7f29b7eb0d50)
+	Real path: /proc/201
+	Command: kworker/5:1-events
+open(/proc/201/stat, 0)
+	Real path: /proc/201/stat
+	Command: kworker/5:1-events
+open(/proc/201/status, 0)
+	Real path: /proc/201/status
+	Command: kworker/5:1-events
+open(/proc/201/environ, 0)
+	Real path: /proc/201/environ
+	Command: kworker/5:1-events
+open(/proc/201/cmdline, 0)
+	Real path: /proc/201/cmdline
+	Command: kworker/5:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/6:1-events
+stat(/proc/202, 0x7f29b7eb0d50)
+	Real path: /proc/202
+	Command: kworker/6:1-events
+open(/proc/202/stat, 0)
+	Real path: /proc/202/stat
+	Command: kworker/6:1-events
+open(/proc/202/status, 0)
+	Real path: /proc/202/status
+	Command: kworker/6:1-events
+open(/proc/202/environ, 0)
+	Real path: /proc/202/environ
+	Command: kworker/6:1-events
+open(/proc/202/cmdline, 0)
+	Real path: /proc/202/cmdline
+	Command: kworker/6:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/15:1-cgroup_destroy
+stat(/proc/205, 0x7f29b7eb0d50)
+	Real path: /proc/205
+	Command: kworker/15:1-cgroup_destroy
+open(/proc/205/stat, 0)
+	Real path: /proc/205/stat
+	Command: kworker/15:1-cgroup_destroy
+open(/proc/205/status, 0)
+	Real path: /proc/205/status
+	Command: kworker/15:1-cgroup_destroy
+open(/proc/205/environ, 0)
+	Real path: /proc/205/environ
+	Command: kworker/15:1-cgroup_destroy
+open(/proc/205/cmdline, 0)
+	Real path: /proc/205/cmdline
+	Command: kworker/15:1-cgroup_destroy
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u81:0-ttm
+stat(/proc/209, 0x7f29b7eb0d50)
+	Real path: /proc/209
+	Command: kworker/u81:0-ttm
+open(/proc/209/stat, 0)
+	Real path: /proc/209/stat
+	Command: kworker/u81:0-ttm
+open(/proc/209/status, 0)
+	Real path: /proc/209/status
+	Command: kworker/u81:0-ttm
+open(/proc/209/environ, 0)
+	Real path: /proc/209/environ
+	Command: kworker/u81:0-ttm
+open(/proc/209/cmdline, 0)
+	Real path: /proc/209/cmdline
+	Command: kworker/u81:0-ttm
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/0:1H-kblockd
+stat(/proc/210, 0x7f29b7eb0d50)
+	Real path: /proc/210
+	Command: kworker/0:1H-kblockd
+open(/proc/210/stat, 0)
+	Real path: /proc/210/stat
+	Command: kworker/0:1H-kblockd
+open(/proc/210/status, 0)
+	Real path: /proc/210/status
+	Command: kworker/0:1H-kblockd
+open(/proc/210/environ, 0)
+	Real path: /proc/210/environ
+	Command: kworker/0:1H-kblockd
+open(/proc/210/cmdline, 0)
+	Real path: /proc/210/cmdline
+	Command: kworker/0:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/14:1H-i915_cleanup
+stat(/proc/243, 0x7f29b7eb0d50)
+	Real path: /proc/243
+	Command: kworker/14:1H-i915_cleanup
+open(/proc/243/stat, 0)
+	Real path: /proc/243/stat
+	Command: kworker/14:1H-i915_cleanup
+open(/proc/243/status, 0)
+	Real path: /proc/243/status
+	Command: kworker/14:1H-i915_cleanup
+open(/proc/243/environ, 0)
+	Real path: /proc/243/environ
+	Command: kworker/14:1H-i915_cleanup
+open(/proc/243/cmdline, 0)
+	Real path: /proc/243/cmdline
+	Command: kworker/14:1H-i915_cleanup
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/12:1H-kblockd
+stat(/proc/250, 0x7f29b7eb0d50)
+	Real path: /proc/250
+	Command: kworker/12:1H-kblockd
+open(/proc/250/stat, 0)
+	Real path: /proc/250/stat
+	Command: kworker/12:1H-kblockd
+open(/proc/250/status, 0)
+	Real path: /proc/250/status
+	Command: kworker/12:1H-kblockd
+open(/proc/250/environ, 0)
+	Real path: /proc/250/environ
+	Command: kworker/12:1H-kblockd
+open(/proc/250/cmdline, 0)
+	Real path: /proc/250/cmdline
+	Command: kworker/12:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/4:1H-kblockd
+stat(/proc/278, 0x7f29b7eb0d50)
+	Real path: /proc/278
+	Command: kworker/4:1H-kblockd
+open(/proc/278/stat, 0)
+	Real path: /proc/278/stat
+	Command: kworker/4:1H-kblockd
+open(/proc/278/status, 0)
+	Real path: /proc/278/status
+	Command: kworker/4:1H-kblockd
+open(/proc/278/environ, 0)
+	Real path: /proc/278/environ
+	Command: kworker/4:1H-kblockd
+open(/proc/278/cmdline, 0)
+	Real path: /proc/278/cmdline
+	Command: kworker/4:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/19:1H-kblockd
+stat(/proc/280, 0x7f29b7eb0d50)
+	Real path: /proc/280
+	Command: kworker/19:1H-kblockd
+open(/proc/280/stat, 0)
+	Real path: /proc/280/stat
+	Command: kworker/19:1H-kblockd
+open(/proc/280/status, 0)
+	Real path: /proc/280/status
+	Command: kworker/19:1H-kblockd
+open(/proc/280/environ, 0)
+	Real path: /proc/280/environ
+	Command: kworker/19:1H-kblockd
+open(/proc/280/cmdline, 0)
+	Real path: /proc/280/cmdline
+	Command: kworker/19:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/6:1H-kblockd
+stat(/proc/281, 0x7f29b7eb0d50)
+	Real path: /proc/281
+	Command: kworker/6:1H-kblockd
+open(/proc/281/stat, 0)
+	Real path: /proc/281/stat
+	Command: kworker/6:1H-kblockd
+open(/proc/281/status, 0)
+	Real path: /proc/281/status
+	Command: kworker/6:1H-kblockd
+open(/proc/281/environ, 0)
+	Real path: /proc/281/environ
+	Command: kworker/6:1H-kblockd
+open(/proc/281/cmdline, 0)
+	Real path: /proc/281/cmdline
+	Command: kworker/6:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/8:1H-kblockd
+stat(/proc/282, 0x7f29b7eb0d50)
+	Real path: /proc/282
+	Command: kworker/8:1H-kblockd
+open(/proc/282/stat, 0)
+	Real path: /proc/282/stat
+	Command: kworker/8:1H-kblockd
+open(/proc/282/status, 0)
+	Real path: /proc/282/status
+	Command: kworker/8:1H-kblockd
+open(/proc/282/environ, 0)
+	Real path: /proc/282/environ
+	Command: kworker/8:1H-kblockd
+open(/proc/282/cmdline, 0)
+	Real path: /proc/282/cmdline
+	Command: kworker/8:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/10:1H-kblockd
+stat(/proc/283, 0x7f29b7eb0d50)
+	Real path: /proc/283
+	Command: kworker/10:1H-kblockd
+open(/proc/283/stat, 0)
+	Real path: /proc/283/stat
+	Command: kworker/10:1H-kblockd
+open(/proc/283/status, 0)
+	Real path: /proc/283/status
+	Command: kworker/10:1H-kblockd
+open(/proc/283/environ, 0)
+	Real path: /proc/283/environ
+	Command: kworker/10:1H-kblockd
+open(/proc/283/cmdline, 0)
+	Real path: /proc/283/cmdline
+	Command: kworker/10:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/2:2-mm_percpu_wq
+stat(/proc/286, 0x7f29b7eb0d50)
+	Real path: /proc/286
+	Command: kworker/2:2-mm_percpu_wq
+open(/proc/286/stat, 0)
+	Real path: /proc/286/stat
+	Command: kworker/2:2-mm_percpu_wq
+open(/proc/286/status, 0)
+	Real path: /proc/286/status
+	Command: kworker/2:2-mm_percpu_wq
+open(/proc/286/environ, 0)
+	Real path: /proc/286/environ
+	Command: kworker/2:2-mm_percpu_wq
+open(/proc/286/cmdline, 0)
+	Real path: /proc/286/cmdline
+	Command: kworker/2:2-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-nvme-wq
+stat(/proc/292, 0x7f29b7eb0d50)
+	Real path: /proc/292
+	Command: kworker/R-nvme-wq
+open(/proc/292/stat, 0)
+	Real path: /proc/292/stat
+	Command: kworker/R-nvme-wq
+open(/proc/292/status, 0)
+	Real path: /proc/292/status
+	Command: kworker/R-nvme-wq
+open(/proc/292/environ, 0)
+	Real path: /proc/292/environ
+	Command: kworker/R-nvme-wq
+open(/proc/292/cmdline, 0)
+	Real path: /proc/292/cmdline
+	Command: kworker/R-nvme-wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-nvme-reset-wq
+stat(/proc/293, 0x7f29b7eb0d50)
+	Real path: /proc/293
+	Command: kworker/R-nvme-reset-wq
+open(/proc/293/stat, 0)
+	Real path: /proc/293/stat
+	Command: kworker/R-nvme-reset-wq
+open(/proc/293/status, 0)
+	Real path: /proc/293/status
+	Command: kworker/R-nvme-reset-wq
+open(/proc/293/environ, 0)
+	Real path: /proc/293/environ
+	Command: kworker/R-nvme-reset-wq
+open(/proc/293/cmdline, 0)
+	Real path: /proc/293/cmdline
+	Command: kworker/R-nvme-reset-wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-nvme-delete-wq
+stat(/proc/294, 0x7f29b7eb0d50)
+	Real path: /proc/294
+	Command: kworker/R-nvme-delete-wq
+open(/proc/294/stat, 0)
+	Real path: /proc/294/stat
+	Command: kworker/R-nvme-delete-wq
+open(/proc/294/status, 0)
+	Real path: /proc/294/status
+	Command: kworker/R-nvme-delete-wq
+open(/proc/294/environ, 0)
+	Real path: /proc/294/environ
+	Command: kworker/R-nvme-delete-wq
+open(/proc/294/cmdline, 0)
+	Real path: /proc/294/cmdline
+	Command: kworker/R-nvme-delete-wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-nvme-auth-wq
+stat(/proc/295, 0x7f29b7eb0d50)
+	Real path: /proc/295
+	Command: kworker/R-nvme-auth-wq
+open(/proc/295/stat, 0)
+	Real path: /proc/295/stat
+	Command: kworker/R-nvme-auth-wq
+open(/proc/295/status, 0)
+	Real path: /proc/295/status
+	Command: kworker/R-nvme-auth-wq
+open(/proc/295/environ, 0)
+	Real path: /proc/295/environ
+	Command: kworker/R-nvme-auth-wq
+open(/proc/295/cmdline, 0)
+	Real path: /proc/295/cmdline
+	Command: kworker/R-nvme-auth-wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/17:1H-kblockd
+stat(/proc/296, 0x7f29b7eb0d50)
+	Real path: /proc/296
+	Command: kworker/17:1H-kblockd
+open(/proc/296/stat, 0)
+	Real path: /proc/296/stat
+	Command: kworker/17:1H-kblockd
+open(/proc/296/status, 0)
+	Real path: /proc/296/status
+	Command: kworker/17:1H-kblockd
+open(/proc/296/environ, 0)
+	Real path: /proc/296/environ
+	Command: kworker/17:1H-kblockd
+open(/proc/296/cmdline, 0)
+	Real path: /proc/296/cmdline
+	Command: kworker/17:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/6:2-kacpi_notify
+stat(/proc/297, 0x7f29b7eb0d50)
+	Real path: /proc/297
+	Command: kworker/6:2-kacpi_notify
+open(/proc/297/stat, 0)
+	Real path: /proc/297/stat
+	Command: kworker/6:2-kacpi_notify
+open(/proc/297/status, 0)
+	Real path: /proc/297/status
+	Command: kworker/6:2-kacpi_notify
+open(/proc/297/environ, 0)
+	Real path: /proc/297/environ
+	Command: kworker/6:2-kacpi_notify
+open(/proc/297/cmdline, 0)
+	Real path: /proc/297/cmdline
+	Command: kworker/6:2-kacpi_notify
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/15:1H-kblockd
+stat(/proc/298, 0x7f29b7eb0d50)
+	Real path: /proc/298
+	Command: kworker/15:1H-kblockd
+open(/proc/298/stat, 0)
+	Real path: /proc/298/stat
+	Command: kworker/15:1H-kblockd
+open(/proc/298/status, 0)
+	Real path: /proc/298/status
+	Command: kworker/15:1H-kblockd
+open(/proc/298/environ, 0)
+	Real path: /proc/298/environ
+	Command: kworker/15:1H-kblockd
+open(/proc/298/cmdline, 0)
+	Real path: /proc/298/cmdline
+	Command: kworker/15:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/13:1H-kblockd
+stat(/proc/299, 0x7f29b7eb0d50)
+	Real path: /proc/299
+	Command: kworker/13:1H-kblockd
+open(/proc/299/stat, 0)
+	Real path: /proc/299/stat
+	Command: kworker/13:1H-kblockd
+open(/proc/299/status, 0)
+	Real path: /proc/299/status
+	Command: kworker/13:1H-kblockd
+open(/proc/299/environ, 0)
+	Real path: /proc/299/environ
+	Command: kworker/13:1H-kblockd
+open(/proc/299/cmdline, 0)
+	Real path: /proc/299/cmdline
+	Command: kworker/13:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-ttm
+stat(/proc/301, 0x7f29b7eb0d50)
+	Real path: /proc/301
+	Command: kworker/R-ttm
+open(/proc/301/stat, 0)
+	Real path: /proc/301/stat
+	Command: kworker/R-ttm
+open(/proc/301/status, 0)
+	Real path: /proc/301/status
+	Command: kworker/R-ttm
+open(/proc/301/environ, 0)
+	Real path: /proc/301/environ
+	Command: kworker/R-ttm
+open(/proc/301/cmdline, 0)
+	Real path: /proc/301/cmdline
+	Command: kworker/R-ttm
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card1-crtc0
+stat(/proc/303, 0x7f29b7eb0d50)
+	Real path: /proc/303
+	Command: card1-crtc0
+open(/proc/303/stat, 0)
+	Real path: /proc/303/stat
+	Command: card1-crtc0
+open(/proc/303/status, 0)
+	Real path: /proc/303/status
+	Command: card1-crtc0
+open(/proc/303/environ, 0)
+	Real path: /proc/303/environ
+	Command: card1-crtc0
+open(/proc/303/cmdline, 0)
+	Real path: /proc/303/cmdline
+	Command: card1-crtc0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card1-crtc1
+stat(/proc/304, 0x7f29b7eb0d50)
+	Real path: /proc/304
+	Command: card1-crtc1
+open(/proc/304/stat, 0)
+	Real path: /proc/304/stat
+	Command: card1-crtc1
+open(/proc/304/status, 0)
+	Real path: /proc/304/status
+	Command: card1-crtc1
+open(/proc/304/environ, 0)
+	Real path: /proc/304/environ
+	Command: card1-crtc1
+open(/proc/304/cmdline, 0)
+	Real path: /proc/304/cmdline
+	Command: card1-crtc1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card1-crtc2
+stat(/proc/305, 0x7f29b7eb0d50)
+	Real path: /proc/305
+	Command: card1-crtc2
+open(/proc/305/stat, 0)
+	Real path: /proc/305/stat
+	Command: card1-crtc2
+open(/proc/305/status, 0)
+	Real path: /proc/305/status
+	Command: card1-crtc2
+open(/proc/305/environ, 0)
+	Real path: /proc/305/environ
+	Command: card1-crtc2
+open(/proc/305/cmdline, 0)
+	Real path: /proc/305/cmdline
+	Command: card1-crtc2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card1-crtc3
+stat(/proc/306, 0x7f29b7eb0d50)
+	Real path: /proc/306
+	Command: card1-crtc3
+open(/proc/306/stat, 0)
+	Real path: /proc/306/stat
+	Command: card1-crtc3
+open(/proc/306/status, 0)
+	Real path: /proc/306/status
+	Command: card1-crtc3
+open(/proc/306/environ, 0)
+	Real path: /proc/306/environ
+	Command: card1-crtc3
+open(/proc/306/cmdline, 0)
+	Real path: /proc/306/cmdline
+	Command: card1-crtc3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/18:1H-kblockd
+stat(/proc/307, 0x7f29b7eb0d50)
+	Real path: /proc/307
+	Command: kworker/18:1H-kblockd
+open(/proc/307/stat, 0)
+	Real path: /proc/307/stat
+	Command: kworker/18:1H-kblockd
+open(/proc/307/status, 0)
+	Real path: /proc/307/status
+	Command: kworker/18:1H-kblockd
+open(/proc/307/environ, 0)
+	Real path: /proc/307/environ
+	Command: kworker/18:1H-kblockd
+open(/proc/307/cmdline, 0)
+	Real path: /proc/307/cmdline
+	Command: kworker/18:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/7:1-events
+stat(/proc/308, 0x7f29b7eb0d50)
+	Real path: /proc/308
+	Command: kworker/7:1-events
+open(/proc/308/stat, 0)
+	Real path: /proc/308/stat
+	Command: kworker/7:1-events
+open(/proc/308/status, 0)
+	Real path: /proc/308/status
+	Command: kworker/7:1-events
+open(/proc/308/environ, 0)
+	Real path: /proc/308/environ
+	Command: kworker/7:1-events
+open(/proc/308/cmdline, 0)
+	Real path: /proc/308/cmdline
+	Command: kworker/7:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-ttm
+stat(/proc/311, 0x7f29b7eb0d50)
+	Real path: /proc/311
+	Command: kworker/R-ttm
+open(/proc/311/stat, 0)
+	Real path: /proc/311/stat
+	Command: kworker/R-ttm
+open(/proc/311/status, 0)
+	Real path: /proc/311/status
+	Command: kworker/R-ttm
+open(/proc/311/environ, 0)
+	Real path: /proc/311/environ
+	Command: kworker/R-ttm
+open(/proc/311/cmdline, 0)
+	Real path: /proc/311/cmdline
+	Command: kworker/R-ttm
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card0-crtc0
+stat(/proc/312, 0x7f29b7eb0d50)
+	Real path: /proc/312
+	Command: card0-crtc0
+open(/proc/312/stat, 0)
+	Real path: /proc/312/stat
+	Command: card0-crtc0
+open(/proc/312/status, 0)
+	Real path: /proc/312/status
+	Command: card0-crtc0
+open(/proc/312/environ, 0)
+	Real path: /proc/312/environ
+	Command: card0-crtc0
+open(/proc/312/cmdline, 0)
+	Real path: /proc/312/cmdline
+	Command: card0-crtc0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card0-crtc1
+stat(/proc/313, 0x7f29b7eb0d50)
+	Real path: /proc/313
+	Command: card0-crtc1
+open(/proc/313/stat, 0)
+	Real path: /proc/313/stat
+	Command: card0-crtc1
+open(/proc/313/status, 0)
+	Real path: /proc/313/status
+	Command: card0-crtc1
+open(/proc/313/environ, 0)
+	Real path: /proc/313/environ
+	Command: card0-crtc1
+open(/proc/313/cmdline, 0)
+	Real path: /proc/313/cmdline
+	Command: card0-crtc1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card0-crtc2
+stat(/proc/314, 0x7f29b7eb0d50)
+	Real path: /proc/314
+	Command: card0-crtc2
+open(/proc/314/stat, 0)
+	Real path: /proc/314/stat
+	Command: card0-crtc2
+open(/proc/314/status, 0)
+	Real path: /proc/314/status
+	Command: card0-crtc2
+open(/proc/314/environ, 0)
+	Real path: /proc/314/environ
+	Command: card0-crtc2
+open(/proc/314/cmdline, 0)
+	Real path: /proc/314/cmdline
+	Command: card0-crtc2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: card0-crtc3
+stat(/proc/315, 0x7f29b7eb0d50)
+	Real path: /proc/315
+	Command: card0-crtc3
+open(/proc/315/stat, 0)
+	Real path: /proc/315/stat
+	Command: card0-crtc3
+open(/proc/315/status, 0)
+	Real path: /proc/315/status
+	Command: card0-crtc3
+open(/proc/315/environ, 0)
+	Real path: /proc/315/environ
+	Command: card0-crtc3
+open(/proc/315/cmdline, 0)
+	Real path: /proc/315/cmdline
+	Command: card0-crtc3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/13:2-cgroup_destroy
+stat(/proc/317, 0x7f29b7eb0d50)
+	Real path: /proc/317
+	Command: kworker/13:2-cgroup_destroy
+open(/proc/317/stat, 0)
+	Real path: /proc/317/stat
+	Command: kworker/13:2-cgroup_destroy
+open(/proc/317/status, 0)
+	Real path: /proc/317/status
+	Command: kworker/13:2-cgroup_destroy
+open(/proc/317/environ, 0)
+	Real path: /proc/317/environ
+	Command: kworker/13:2-cgroup_destroy
+open(/proc/317/cmdline, 0)
+	Real path: /proc/317/cmdline
+	Command: kworker/13:2-cgroup_destroy
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-worker
+stat(/proc/363, 0x7f29b7eb0d50)
+	Real path: /proc/363
+	Command: kworker/R-btrfs-worker
+open(/proc/363/stat, 0)
+	Real path: /proc/363/stat
+	Command: kworker/R-btrfs-worker
+open(/proc/363/status, 0)
+	Real path: /proc/363/status
+	Command: kworker/R-btrfs-worker
+open(/proc/363/environ, 0)
+	Real path: /proc/363/environ
+	Command: kworker/R-btrfs-worker
+open(/proc/363/cmdline, 0)
+	Real path: /proc/363/cmdline
+	Command: kworker/R-btrfs-worker
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-delalloc
+stat(/proc/364, 0x7f29b7eb0d50)
+	Real path: /proc/364
+	Command: kworker/R-btrfs-delalloc
+open(/proc/364/stat, 0)
+	Real path: /proc/364/stat
+	Command: kworker/R-btrfs-delalloc
+open(/proc/364/status, 0)
+	Real path: /proc/364/status
+	Command: kworker/R-btrfs-delalloc
+open(/proc/364/environ, 0)
+	Real path: /proc/364/environ
+	Command: kworker/R-btrfs-delalloc
+open(/proc/364/cmdline, 0)
+	Real path: /proc/364/cmdline
+	Command: kworker/R-btrfs-delalloc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-flush_delalloc
+stat(/proc/365, 0x7f29b7eb0d50)
+	Real path: /proc/365
+	Command: kworker/R-btrfs-flush_delalloc
+open(/proc/365/stat, 0)
+	Real path: /proc/365/stat
+	Command: kworker/R-btrfs-flush_delalloc
+open(/proc/365/status, 0)
+	Real path: /proc/365/status
+	Command: kworker/R-btrfs-flush_delalloc
+open(/proc/365/environ, 0)
+	Real path: /proc/365/environ
+	Command: kworker/R-btrfs-flush_delalloc
+open(/proc/365/cmdline, 0)
+	Real path: /proc/365/cmdline
+	Command: kworker/R-btrfs-flush_delalloc
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-cache
+stat(/proc/366, 0x7f29b7eb0d50)
+	Real path: /proc/366
+	Command: kworker/R-btrfs-cache
+open(/proc/366/stat, 0)
+	Real path: /proc/366/stat
+	Command: kworker/R-btrfs-cache
+open(/proc/366/status, 0)
+	Real path: /proc/366/status
+	Command: kworker/R-btrfs-cache
+open(/proc/366/environ, 0)
+	Real path: /proc/366/environ
+	Command: kworker/R-btrfs-cache
+open(/proc/366/cmdline, 0)
+	Real path: /proc/366/cmdline
+	Command: kworker/R-btrfs-cache
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-fixup
+stat(/proc/367, 0x7f29b7eb0d50)
+	Real path: /proc/367
+	Command: kworker/R-btrfs-fixup
+open(/proc/367/stat, 0)
+	Real path: /proc/367/stat
+	Command: kworker/R-btrfs-fixup
+open(/proc/367/status, 0)
+	Real path: /proc/367/status
+	Command: kworker/R-btrfs-fixup
+open(/proc/367/environ, 0)
+	Real path: /proc/367/environ
+	Command: kworker/R-btrfs-fixup
+open(/proc/367/cmdline, 0)
+	Real path: /proc/367/cmdline
+	Command: kworker/R-btrfs-fixup
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-endio
+stat(/proc/368, 0x7f29b7eb0d50)
+	Real path: /proc/368
+	Command: kworker/R-btrfs-endio
+open(/proc/368/stat, 0)
+	Real path: /proc/368/stat
+	Command: kworker/R-btrfs-endio
+open(/proc/368/status, 0)
+	Real path: /proc/368/status
+	Command: kworker/R-btrfs-endio
+open(/proc/368/environ, 0)
+	Real path: /proc/368/environ
+	Command: kworker/R-btrfs-endio
+open(/proc/368/cmdline, 0)
+	Real path: /proc/368/cmdline
+	Command: kworker/R-btrfs-endio
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-endio-meta
+stat(/proc/369, 0x7f29b7eb0d50)
+	Real path: /proc/369
+	Command: kworker/R-btrfs-endio-meta
+open(/proc/369/stat, 0)
+	Real path: /proc/369/stat
+	Command: kworker/R-btrfs-endio-meta
+open(/proc/369/status, 0)
+	Real path: /proc/369/status
+	Command: kworker/R-btrfs-endio-meta
+open(/proc/369/environ, 0)
+	Real path: /proc/369/environ
+	Command: kworker/R-btrfs-endio-meta
+open(/proc/369/cmdline, 0)
+	Real path: /proc/369/cmdline
+	Command: kworker/R-btrfs-endio-meta
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-rmw
+stat(/proc/370, 0x7f29b7eb0d50)
+	Real path: /proc/370
+	Command: kworker/R-btrfs-rmw
+open(/proc/370/stat, 0)
+	Real path: /proc/370/stat
+	Command: kworker/R-btrfs-rmw
+open(/proc/370/status, 0)
+	Real path: /proc/370/status
+	Command: kworker/R-btrfs-rmw
+open(/proc/370/environ, 0)
+	Real path: /proc/370/environ
+	Command: kworker/R-btrfs-rmw
+open(/proc/370/cmdline, 0)
+	Real path: /proc/370/cmdline
+	Command: kworker/R-btrfs-rmw
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-endio-write
+stat(/proc/371, 0x7f29b7eb0d50)
+	Real path: /proc/371
+	Command: kworker/R-btrfs-endio-write
+open(/proc/371/stat, 0)
+	Real path: /proc/371/stat
+	Command: kworker/R-btrfs-endio-write
+open(/proc/371/status, 0)
+	Real path: /proc/371/status
+	Command: kworker/R-btrfs-endio-write
+open(/proc/371/environ, 0)
+	Real path: /proc/371/environ
+	Command: kworker/R-btrfs-endio-write
+open(/proc/371/cmdline, 0)
+	Real path: /proc/371/cmdline
+	Command: kworker/R-btrfs-endio-write
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-compressed-write
+stat(/proc/372, 0x7f29b7eb0d50)
+	Real path: /proc/372
+	Command: kworker/R-btrfs-compressed-write
+open(/proc/372/stat, 0)
+	Real path: /proc/372/stat
+	Command: kworker/R-btrfs-compressed-write
+open(/proc/372/status, 0)
+	Real path: /proc/372/status
+	Command: kworker/R-btrfs-compressed-write
+open(/proc/372/environ, 0)
+	Real path: /proc/372/environ
+	Command: kworker/R-btrfs-compressed-write
+open(/proc/372/cmdline, 0)
+	Real path: /proc/372/cmdline
+	Command: kworker/R-btrfs-compressed-write
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-freespace-write
+stat(/proc/373, 0x7f29b7eb0d50)
+	Real path: /proc/373
+	Command: kworker/R-btrfs-freespace-write
+open(/proc/373/stat, 0)
+	Real path: /proc/373/stat
+	Command: kworker/R-btrfs-freespace-write
+open(/proc/373/status, 0)
+	Real path: /proc/373/status
+	Command: kworker/R-btrfs-freespace-write
+open(/proc/373/environ, 0)
+	Real path: /proc/373/environ
+	Command: kworker/R-btrfs-freespace-write
+open(/proc/373/cmdline, 0)
+	Real path: /proc/373/cmdline
+	Command: kworker/R-btrfs-freespace-write
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-delayed-meta
+stat(/proc/374, 0x7f29b7eb0d50)
+	Real path: /proc/374
+	Command: kworker/R-btrfs-delayed-meta
+open(/proc/374/stat, 0)
+	Real path: /proc/374/stat
+	Command: kworker/R-btrfs-delayed-meta
+open(/proc/374/status, 0)
+	Real path: /proc/374/status
+	Command: kworker/R-btrfs-delayed-meta
+open(/proc/374/environ, 0)
+	Real path: /proc/374/environ
+	Command: kworker/R-btrfs-delayed-meta
+open(/proc/374/cmdline, 0)
+	Real path: /proc/374/cmdline
+	Command: kworker/R-btrfs-delayed-meta
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-btrfs-qgroup-rescan
+stat(/proc/375, 0x7f29b7eb0d50)
+	Real path: /proc/375
+	Command: kworker/R-btrfs-qgroup-rescan
+open(/proc/375/stat, 0)
+	Real path: /proc/375/stat
+	Command: kworker/R-btrfs-qgroup-rescan
+open(/proc/375/status, 0)
+	Real path: /proc/375/status
+	Command: kworker/R-btrfs-qgroup-rescan
+open(/proc/375/environ, 0)
+	Real path: /proc/375/environ
+	Command: kworker/R-btrfs-qgroup-rescan
+open(/proc/375/cmdline, 0)
+	Real path: /proc/375/cmdline
+	Command: kworker/R-btrfs-qgroup-rescan
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: btrfs-cleaner
+stat(/proc/376, 0x7f29b7eb0d50)
+	Real path: /proc/376
+	Command: btrfs-cleaner
+open(/proc/376/stat, 0)
+	Real path: /proc/376/stat
+	Command: btrfs-cleaner
+open(/proc/376/status, 0)
+	Real path: /proc/376/status
+	Command: btrfs-cleaner
+open(/proc/376/environ, 0)
+	Real path: /proc/376/environ
+	Command: btrfs-cleaner
+open(/proc/376/cmdline, 0)
+	Real path: /proc/376/cmdline
+	Command: btrfs-cleaner
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: btrfs-transaction
+stat(/proc/377, 0x7f29b7eb0d50)
+	Real path: /proc/377
+	Command: btrfs-transaction
+open(/proc/377/stat, 0)
+	Real path: /proc/377/stat
+	Command: btrfs-transaction
+open(/proc/377/status, 0)
+	Real path: /proc/377/status
+	Command: btrfs-transaction
+open(/proc/377/environ, 0)
+	Real path: /proc/377/environ
+	Command: btrfs-transaction
+open(/proc/377/cmdline, 0)
+	Real path: /proc/377/cmdline
+	Command: btrfs-transaction
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/3:1H-kblockd
+stat(/proc/384, 0x7f29b7eb0d50)
+	Real path: /proc/384
+	Command: kworker/3:1H-kblockd
+open(/proc/384/stat, 0)
+	Real path: /proc/384/stat
+	Command: kworker/3:1H-kblockd
+open(/proc/384/status, 0)
+	Real path: /proc/384/status
+	Command: kworker/3:1H-kblockd
+open(/proc/384/environ, 0)
+	Real path: /proc/384/environ
+	Command: kworker/3:1H-kblockd
+open(/proc/384/cmdline, 0)
+	Real path: /proc/384/cmdline
+	Command: kworker/3:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/5:1H-kblockd
+stat(/proc/385, 0x7f29b7eb0d50)
+	Real path: /proc/385
+	Command: kworker/5:1H-kblockd
+open(/proc/385/stat, 0)
+	Real path: /proc/385/stat
+	Command: kworker/5:1H-kblockd
+open(/proc/385/status, 0)
+	Real path: /proc/385/status
+	Command: kworker/5:1H-kblockd
+open(/proc/385/environ, 0)
+	Real path: /proc/385/environ
+	Command: kworker/5:1H-kblockd
+open(/proc/385/cmdline, 0)
+	Real path: /proc/385/cmdline
+	Command: kworker/5:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/9:1H-kblockd
+stat(/proc/386, 0x7f29b7eb0d50)
+	Real path: /proc/386
+	Command: kworker/9:1H-kblockd
+open(/proc/386/stat, 0)
+	Real path: /proc/386/stat
+	Command: kworker/9:1H-kblockd
+open(/proc/386/status, 0)
+	Real path: /proc/386/status
+	Command: kworker/9:1H-kblockd
+open(/proc/386/environ, 0)
+	Real path: /proc/386/environ
+	Command: kworker/9:1H-kblockd
+open(/proc/386/cmdline, 0)
+	Real path: /proc/386/cmdline
+	Command: kworker/9:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/1:1H-kblockd
+stat(/proc/387, 0x7f29b7eb0d50)
+	Real path: /proc/387
+	Command: kworker/1:1H-kblockd
+open(/proc/387/stat, 0)
+	Real path: /proc/387/stat
+	Command: kworker/1:1H-kblockd
+open(/proc/387/status, 0)
+	Real path: /proc/387/status
+	Command: kworker/1:1H-kblockd
+open(/proc/387/environ, 0)
+	Real path: /proc/387/environ
+	Command: kworker/1:1H-kblockd
+open(/proc/387/cmdline, 0)
+	Real path: /proc/387/cmdline
+	Command: kworker/1:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/7:1H-kblockd
+stat(/proc/388, 0x7f29b7eb0d50)
+	Real path: /proc/388
+	Command: kworker/7:1H-kblockd
+open(/proc/388/stat, 0)
+	Real path: /proc/388/stat
+	Command: kworker/7:1H-kblockd
+open(/proc/388/status, 0)
+	Real path: /proc/388/status
+	Command: kworker/7:1H-kblockd
+open(/proc/388/environ, 0)
+	Real path: /proc/388/environ
+	Command: kworker/7:1H-kblockd
+open(/proc/388/cmdline, 0)
+	Real path: /proc/388/cmdline
+	Command: kworker/7:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/11:1H-kblockd
+stat(/proc/389, 0x7f29b7eb0d50)
+	Real path: /proc/389
+	Command: kworker/11:1H-kblockd
+open(/proc/389/stat, 0)
+	Real path: /proc/389/stat
+	Command: kworker/11:1H-kblockd
+open(/proc/389/status, 0)
+	Real path: /proc/389/status
+	Command: kworker/11:1H-kblockd
+open(/proc/389/environ, 0)
+	Real path: /proc/389/environ
+	Command: kworker/11:1H-kblockd
+open(/proc/389/cmdline, 0)
+	Real path: /proc/389/cmdline
+	Command: kworker/11:1H-kblockd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/4:7-kacpi_notify
+stat(/proc/404, 0x7f29b7eb0d50)
+	Real path: /proc/404
+	Command: kworker/4:7-kacpi_notify
+open(/proc/404/stat, 0)
+	Real path: /proc/404/stat
+	Command: kworker/4:7-kacpi_notify
+open(/proc/404/status, 0)
+	Real path: /proc/404/status
+	Command: kworker/4:7-kacpi_notify
+open(/proc/404/environ, 0)
+	Real path: /proc/404/environ
+	Command: kworker/4:7-kacpi_notify
+open(/proc/404/cmdline, 0)
+	Real path: /proc/404/cmdline
+	Command: kworker/4:7-kacpi_notify
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/4:8-events
+stat(/proc/405, 0x7f29b7eb0d50)
+	Real path: /proc/405
+	Command: kworker/4:8-events
+open(/proc/405/stat, 0)
+	Real path: /proc/405/stat
+	Command: kworker/4:8-events
+open(/proc/405/status, 0)
+	Real path: /proc/405/status
+	Command: kworker/4:8-events
+open(/proc/405/environ, 0)
+	Real path: /proc/405/environ
+	Command: kworker/4:8-events
+open(/proc/405/cmdline, 0)
+	Real path: /proc/405/cmdline
+	Command: kworker/4:8-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/19:2-events
+stat(/proc/434, 0x7f29b7eb0d50)
+	Real path: /proc/434
+	Command: kworker/19:2-events
+open(/proc/434/stat, 0)
+	Real path: /proc/434/stat
+	Command: kworker/19:2-events
+open(/proc/434/status, 0)
+	Real path: /proc/434/status
+	Command: kworker/19:2-events
+open(/proc/434/environ, 0)
+	Real path: /proc/434/environ
+	Command: kworker/19:2-events
+open(/proc/434/cmdline, 0)
+	Real path: /proc/434/cmdline
+	Command: kworker/19:2-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-journal
+stat(/proc/447, 0x7f29b7eb0d50)
+	Real path: /proc/447
+	Command: systemd-journal
+open(/proc/447/stat, 0)
+	Real path: /proc/447/stat
+	Command: systemd-journal
+open(/proc/447/status, 0)
+	Real path: /proc/447/status
+	Command: systemd-journal
+open(/proc/447/environ, 0)
+	Real path: /proc/447/environ
+	Command: systemd-journal
+open(/proc/447/cmdline, 0)
+	Real path: /proc/447/cmdline
+	Command: systemd-journal
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/8:2-i915-unordered
+stat(/proc/455, 0x7f29b7eb0d50)
+	Real path: /proc/455
+	Command: kworker/8:2-i915-unordered
+open(/proc/455/stat, 0)
+	Real path: /proc/455/stat
+	Command: kworker/8:2-i915-unordered
+open(/proc/455/status, 0)
+	Real path: /proc/455/status
+	Command: kworker/8:2-i915-unordered
+open(/proc/455/environ, 0)
+	Real path: /proc/455/environ
+	Command: kworker/8:2-i915-unordered
+open(/proc/455/cmdline, 0)
+	Real path: /proc/455/cmdline
+	Command: kworker/8:2-i915-unordered
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-userdbd
+stat(/proc/462, 0x7f29b7eb0d50)
+	Real path: /proc/462
+	Command: systemd-userdbd
+open(/proc/462/stat, 0)
+	Real path: /proc/462/stat
+	Command: systemd-userdbd
+open(/proc/462/status, 0)
+	Real path: /proc/462/status
+	Command: systemd-userdbd
+open(/proc/462/environ, 0)
+	Real path: /proc/462/environ
+	Command: systemd-userdbd
+open(/proc/462/cmdline, 0)
+	Real path: /proc/462/cmdline
+	Command: systemd-userdbd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: psimon
+stat(/proc/466, 0x7f29b7eb0d50)
+	Real path: /proc/466
+	Command: psimon
+open(/proc/466/stat, 0)
+	Real path: /proc/466/stat
+	Command: psimon
+open(/proc/466/status, 0)
+	Real path: /proc/466/status
+	Command: psimon
+open(/proc/466/environ, 0)
+	Real path: /proc/466/environ
+	Command: psimon
+open(/proc/466/cmdline, 0)
+	Real path: /proc/466/cmdline
+	Command: psimon
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/14:2-events
+stat(/proc/485, 0x7f29b7eb0d50)
+	Real path: /proc/485
+	Command: kworker/14:2-events
+open(/proc/485/stat, 0)
+	Real path: /proc/485/stat
+	Command: kworker/14:2-events
+open(/proc/485/status, 0)
+	Real path: /proc/485/status
+	Command: kworker/14:2-events
+open(/proc/485/environ, 0)
+	Real path: /proc/485/environ
+	Command: kworker/14:2-events
+open(/proc/485/cmdline, 0)
+	Real path: /proc/485/cmdline
+	Command: kworker/14:2-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-timesyn
+stat(/proc/488, 0x7f29b7eb0d50)
+	Real path: /proc/488
+	Command: systemd-timesyn
+open(/proc/488/stat, 0)
+	Real path: /proc/488/stat
+	Command: systemd-timesyn
+open(/proc/488/status, 0)
+	Real path: /proc/488/status
+	Command: systemd-timesyn
+open(/proc/488/environ, 0)
+	Real path: /proc/488/environ
+	Command: systemd-timesyn
+open(/proc/488/cmdline, 0)
+	Real path: /proc/488/cmdline
+	Command: systemd-timesyn
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-resolve
+stat(/proc/494, 0x7f29b7eb0d50)
+	Real path: /proc/494
+	Command: systemd-resolve
+open(/proc/494/stat, 0)
+	Real path: /proc/494/stat
+	Command: systemd-resolve
+open(/proc/494/status, 0)
+	Real path: /proc/494/status
+	Command: systemd-resolve
+open(/proc/494/environ, 0)
+	Real path: /proc/494/environ
+	Command: systemd-resolve
+open(/proc/494/cmdline, 0)
+	Real path: /proc/494/cmdline
+	Command: systemd-resolve
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-udevd
+stat(/proc/498, 0x7f29b7eb0d50)
+	Real path: /proc/498
+	Command: systemd-udevd
+open(/proc/498/stat, 0)
+	Real path: /proc/498/stat
+	Command: systemd-udevd
+open(/proc/498/status, 0)
+	Real path: /proc/498/status
+	Command: systemd-udevd
+open(/proc/498/environ, 0)
+	Real path: /proc/498/environ
+	Command: systemd-udevd
+open(/proc/498/cmdline, 0)
+	Real path: /proc/498/cmdline
+	Command: systemd-udevd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: psimon
+stat(/proc/500, 0x7f29b7eb0d50)
+	Real path: /proc/500
+	Command: psimon
+open(/proc/500/stat, 0)
+	Real path: /proc/500/stat
+	Command: psimon
+open(/proc/500/status, 0)
+	Real path: /proc/500/status
+	Command: psimon
+open(/proc/500/environ, 0)
+	Real path: /proc/500/environ
+	Command: psimon
+open(/proc/500/cmdline, 0)
+	Real path: /proc/500/cmdline
+	Command: psimon
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/5:2
+stat(/proc/577, 0x7f29b7eb0d50)
+	Real path: /proc/577
+	Command: kworker/5:2
+open(/proc/577/stat, 0)
+	Real path: /proc/577/stat
+	Command: kworker/5:2
+open(/proc/577/status, 0)
+	Real path: /proc/577/status
+	Command: kworker/5:2
+open(/proc/577/environ, 0)
+	Real path: /proc/577/environ
+	Command: kworker/5:2
+open(/proc/577/cmdline, 0)
+	Real path: /proc/577/cmdline
+	Command: kworker/5:2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/182-mei_me
+stat(/proc/595, 0x7f29b7eb0d50)
+	Real path: /proc/595
+	Command: irq/182-mei_me
+open(/proc/595/stat, 0)
+	Real path: /proc/595/stat
+	Command: irq/182-mei_me
+open(/proc/595/status, 0)
+	Real path: /proc/595/status
+	Command: irq/182-mei_me
+open(/proc/595/environ, 0)
+	Real path: /proc/595/environ
+	Command: irq/182-mei_me
+open(/proc/595/cmdline, 0)
+	Real path: /proc/595/cmdline
+	Command: irq/182-mei_me
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-cfg80211
+stat(/proc/603, 0x7f29b7eb0d50)
+	Real path: /proc/603
+	Command: kworker/R-cfg80211
+open(/proc/603/stat, 0)
+	Real path: /proc/603/stat
+	Command: kworker/R-cfg80211
+open(/proc/603/status, 0)
+	Real path: /proc/603/status
+	Command: kworker/R-cfg80211
+open(/proc/603/environ, 0)
+	Real path: /proc/603/environ
+	Command: kworker/R-cfg80211
+open(/proc/603/cmdline, 0)
+	Real path: /proc/603/cmdline
+	Command: kworker/R-cfg80211
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/183-iwlwifi:default_queue
+stat(/proc/604, 0x7f29b7eb0d50)
+	Real path: /proc/604
+	Command: irq/183-iwlwifi:default_queue
+open(/proc/604/stat, 0)
+	Real path: /proc/604/stat
+	Command: irq/183-iwlwifi:default_queue
+open(/proc/604/status, 0)
+	Real path: /proc/604/status
+	Command: irq/183-iwlwifi:default_queue
+open(/proc/604/environ, 0)
+	Real path: /proc/604/environ
+	Command: irq/183-iwlwifi:default_queue
+open(/proc/604/cmdline, 0)
+	Real path: /proc/604/cmdline
+	Command: irq/183-iwlwifi:default_queue
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/184-iwlwifi:queue_1
+stat(/proc/605, 0x7f29b7eb0d50)
+	Real path: /proc/605
+	Command: irq/184-iwlwifi:queue_1
+open(/proc/605/stat, 0)
+	Real path: /proc/605/stat
+	Command: irq/184-iwlwifi:queue_1
+open(/proc/605/status, 0)
+	Real path: /proc/605/status
+	Command: irq/184-iwlwifi:queue_1
+open(/proc/605/environ, 0)
+	Real path: /proc/605/environ
+	Command: irq/184-iwlwifi:queue_1
+open(/proc/605/cmdline, 0)
+	Real path: /proc/605/cmdline
+	Command: irq/184-iwlwifi:queue_1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/185-iwlwifi:queue_2
+stat(/proc/606, 0x7f29b7eb0d50)
+	Real path: /proc/606
+	Command: irq/185-iwlwifi:queue_2
+open(/proc/606/stat, 0)
+	Real path: /proc/606/stat
+	Command: irq/185-iwlwifi:queue_2
+open(/proc/606/status, 0)
+	Real path: /proc/606/status
+	Command: irq/185-iwlwifi:queue_2
+open(/proc/606/environ, 0)
+	Real path: /proc/606/environ
+	Command: irq/185-iwlwifi:queue_2
+open(/proc/606/cmdline, 0)
+	Real path: /proc/606/cmdline
+	Command: irq/185-iwlwifi:queue_2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/186-iwlwifi:queue_3
+stat(/proc/609, 0x7f29b7eb0d50)
+	Real path: /proc/609
+	Command: irq/186-iwlwifi:queue_3
+open(/proc/609/stat, 0)
+	Real path: /proc/609/stat
+	Command: irq/186-iwlwifi:queue_3
+open(/proc/609/status, 0)
+	Real path: /proc/609/status
+	Command: irq/186-iwlwifi:queue_3
+open(/proc/609/environ, 0)
+	Real path: /proc/609/environ
+	Command: irq/186-iwlwifi:queue_3
+open(/proc/609/cmdline, 0)
+	Real path: /proc/609/cmdline
+	Command: irq/186-iwlwifi:queue_3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/187-iwlwifi:queue_4
+stat(/proc/610, 0x7f29b7eb0d50)
+	Real path: /proc/610
+	Command: irq/187-iwlwifi:queue_4
+open(/proc/610/stat, 0)
+	Real path: /proc/610/stat
+	Command: irq/187-iwlwifi:queue_4
+open(/proc/610/status, 0)
+	Real path: /proc/610/status
+	Command: irq/187-iwlwifi:queue_4
+open(/proc/610/environ, 0)
+	Real path: /proc/610/environ
+	Command: irq/187-iwlwifi:queue_4
+open(/proc/610/cmdline, 0)
+	Real path: /proc/610/cmdline
+	Command: irq/187-iwlwifi:queue_4
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/188-iwlwifi:queue_5
+stat(/proc/612, 0x7f29b7eb0d50)
+	Real path: /proc/612
+	Command: irq/188-iwlwifi:queue_5
+open(/proc/612/stat, 0)
+	Real path: /proc/612/stat
+	Command: irq/188-iwlwifi:queue_5
+open(/proc/612/status, 0)
+	Real path: /proc/612/status
+	Command: irq/188-iwlwifi:queue_5
+open(/proc/612/environ, 0)
+	Real path: /proc/612/environ
+	Command: irq/188-iwlwifi:queue_5
+open(/proc/612/cmdline, 0)
+	Real path: /proc/612/cmdline
+	Command: irq/188-iwlwifi:queue_5
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/189-iwlwifi:queue_6
+stat(/proc/613, 0x7f29b7eb0d50)
+	Real path: /proc/613
+	Command: irq/189-iwlwifi:queue_6
+open(/proc/613/stat, 0)
+	Real path: /proc/613/stat
+	Command: irq/189-iwlwifi:queue_6
+open(/proc/613/status, 0)
+	Real path: /proc/613/status
+	Command: irq/189-iwlwifi:queue_6
+open(/proc/613/environ, 0)
+	Real path: /proc/613/environ
+	Command: irq/189-iwlwifi:queue_6
+open(/proc/613/cmdline, 0)
+	Real path: /proc/613/cmdline
+	Command: irq/189-iwlwifi:queue_6
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/190-iwlwifi:queue_7
+stat(/proc/614, 0x7f29b7eb0d50)
+	Real path: /proc/614
+	Command: irq/190-iwlwifi:queue_7
+open(/proc/614/stat, 0)
+	Real path: /proc/614/stat
+	Command: irq/190-iwlwifi:queue_7
+open(/proc/614/status, 0)
+	Real path: /proc/614/status
+	Command: irq/190-iwlwifi:queue_7
+open(/proc/614/environ, 0)
+	Real path: /proc/614/environ
+	Command: irq/190-iwlwifi:queue_7
+open(/proc/614/cmdline, 0)
+	Real path: /proc/614/cmdline
+	Command: irq/190-iwlwifi:queue_7
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/191-iwlwifi:queue_8
+stat(/proc/615, 0x7f29b7eb0d50)
+	Real path: /proc/615
+	Command: irq/191-iwlwifi:queue_8
+open(/proc/615/stat, 0)
+	Real path: /proc/615/stat
+	Command: irq/191-iwlwifi:queue_8
+open(/proc/615/status, 0)
+	Real path: /proc/615/status
+	Command: irq/191-iwlwifi:queue_8
+open(/proc/615/environ, 0)
+	Real path: /proc/615/environ
+	Command: irq/191-iwlwifi:queue_8
+open(/proc/615/cmdline, 0)
+	Real path: /proc/615/cmdline
+	Command: irq/191-iwlwifi:queue_8
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/192-iwlwifi:queue_9
+stat(/proc/616, 0x7f29b7eb0d50)
+	Real path: /proc/616
+	Command: irq/192-iwlwifi:queue_9
+open(/proc/616/stat, 0)
+	Real path: /proc/616/stat
+	Command: irq/192-iwlwifi:queue_9
+open(/proc/616/status, 0)
+	Real path: /proc/616/status
+	Command: irq/192-iwlwifi:queue_9
+open(/proc/616/environ, 0)
+	Real path: /proc/616/environ
+	Command: irq/192-iwlwifi:queue_9
+open(/proc/616/cmdline, 0)
+	Real path: /proc/616/cmdline
+	Command: irq/192-iwlwifi:queue_9
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/193-iwlwifi:queue_10
+stat(/proc/617, 0x7f29b7eb0d50)
+	Real path: /proc/617
+	Command: irq/193-iwlwifi:queue_10
+open(/proc/617/stat, 0)
+	Real path: /proc/617/stat
+	Command: irq/193-iwlwifi:queue_10
+open(/proc/617/status, 0)
+	Real path: /proc/617/status
+	Command: irq/193-iwlwifi:queue_10
+open(/proc/617/environ, 0)
+	Real path: /proc/617/environ
+	Command: irq/193-iwlwifi:queue_10
+open(/proc/617/cmdline, 0)
+	Real path: /proc/617/cmdline
+	Command: irq/193-iwlwifi:queue_10
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/194-iwlwifi:queue_11
+stat(/proc/618, 0x7f29b7eb0d50)
+	Real path: /proc/618
+	Command: irq/194-iwlwifi:queue_11
+open(/proc/618/stat, 0)
+	Real path: /proc/618/stat
+	Command: irq/194-iwlwifi:queue_11
+open(/proc/618/status, 0)
+	Real path: /proc/618/status
+	Command: irq/194-iwlwifi:queue_11
+open(/proc/618/environ, 0)
+	Real path: /proc/618/environ
+	Command: irq/194-iwlwifi:queue_11
+open(/proc/618/cmdline, 0)
+	Real path: /proc/618/cmdline
+	Command: irq/194-iwlwifi:queue_11
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/195-iwlwifi:queue_12
+stat(/proc/619, 0x7f29b7eb0d50)
+	Real path: /proc/619
+	Command: irq/195-iwlwifi:queue_12
+open(/proc/619/stat, 0)
+	Real path: /proc/619/stat
+	Command: irq/195-iwlwifi:queue_12
+open(/proc/619/status, 0)
+	Real path: /proc/619/status
+	Command: irq/195-iwlwifi:queue_12
+open(/proc/619/environ, 0)
+	Real path: /proc/619/environ
+	Command: irq/195-iwlwifi:queue_12
+open(/proc/619/cmdline, 0)
+	Real path: /proc/619/cmdline
+	Command: irq/195-iwlwifi:queue_12
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/196-iwlwifi:queue_13
+stat(/proc/620, 0x7f29b7eb0d50)
+	Real path: /proc/620
+	Command: irq/196-iwlwifi:queue_13
+open(/proc/620/stat, 0)
+	Real path: /proc/620/stat
+	Command: irq/196-iwlwifi:queue_13
+open(/proc/620/status, 0)
+	Real path: /proc/620/status
+	Command: irq/196-iwlwifi:queue_13
+open(/proc/620/environ, 0)
+	Real path: /proc/620/environ
+	Command: irq/196-iwlwifi:queue_13
+open(/proc/620/cmdline, 0)
+	Real path: /proc/620/cmdline
+	Command: irq/196-iwlwifi:queue_13
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/197-iwlwifi:queue_14
+stat(/proc/621, 0x7f29b7eb0d50)
+	Real path: /proc/621
+	Command: irq/197-iwlwifi:queue_14
+open(/proc/621/stat, 0)
+	Real path: /proc/621/stat
+	Command: irq/197-iwlwifi:queue_14
+open(/proc/621/status, 0)
+	Real path: /proc/621/status
+	Command: irq/197-iwlwifi:queue_14
+open(/proc/621/environ, 0)
+	Real path: /proc/621/environ
+	Command: irq/197-iwlwifi:queue_14
+open(/proc/621/cmdline, 0)
+	Real path: /proc/621/cmdline
+	Command: irq/197-iwlwifi:queue_14
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/198-iwlwifi:exception
+stat(/proc/622, 0x7f29b7eb0d50)
+	Real path: /proc/622
+	Command: irq/198-iwlwifi:exception
+open(/proc/622/stat, 0)
+	Real path: /proc/622/stat
+	Command: irq/198-iwlwifi:exception
+open(/proc/622/status, 0)
+	Real path: /proc/622/status
+	Command: irq/198-iwlwifi:exception
+open(/proc/622/environ, 0)
+	Real path: /proc/622/environ
+	Command: irq/198-iwlwifi:exception
+open(/proc/622/cmdline, 0)
+	Real path: /proc/622/cmdline
+	Command: irq/198-iwlwifi:exception
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/16-processor_thermal_device_pci
+stat(/proc/626, 0x7f29b7eb0d50)
+	Real path: /proc/626
+	Command: irq/16-processor_thermal_device_pci
+open(/proc/626/stat, 0)
+	Real path: /proc/626/stat
+	Command: irq/16-processor_thermal_device_pci
+open(/proc/626/status, 0)
+	Real path: /proc/626/status
+	Command: irq/16-processor_thermal_device_pci
+open(/proc/626/environ, 0)
+	Real path: /proc/626/environ
+	Command: irq/16-processor_thermal_device_pci
+open(/proc/626/cmdline, 0)
+	Real path: /proc/626/cmdline
+	Command: irq/16-processor_thermal_device_pci
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/7:2
+stat(/proc/632, 0x7f29b7eb0d50)
+	Real path: /proc/632
+	Command: kworker/7:2
+open(/proc/632/stat, 0)
+	Real path: /proc/632/stat
+	Command: kworker/7:2
+open(/proc/632/status, 0)
+	Real path: /proc/632/status
+	Command: kworker/7:2
+open(/proc/632/environ, 0)
+	Real path: /proc/632/environ
+	Command: kworker/7:2
+open(/proc/632/cmdline, 0)
+	Real path: /proc/632/cmdline
+	Command: kworker/7:2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/199-AudioDSP
+stat(/proc/644, 0x7f29b7eb0d50)
+	Real path: /proc/644
+	Command: irq/199-AudioDSP
+open(/proc/644/stat, 0)
+	Real path: /proc/644/stat
+	Command: irq/199-AudioDSP
+open(/proc/644/status, 0)
+	Real path: /proc/644/status
+	Command: irq/199-AudioDSP
+open(/proc/644/environ, 0)
+	Real path: /proc/644/environ
+	Command: irq/199-AudioDSP
+open(/proc/644/cmdline, 0)
+	Real path: /proc/644/cmdline
+	Command: irq/199-AudioDSP
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: irq/200-VEN_04F3:00
+stat(/proc/647, 0x7f29b7eb0d50)
+	Real path: /proc/647
+	Command: irq/200-VEN_04F3:00
+open(/proc/647/stat, 0)
+	Real path: /proc/647/stat
+	Command: irq/200-VEN_04F3:00
+open(/proc/647/status, 0)
+	Real path: /proc/647/status
+	Command: irq/200-VEN_04F3:00
+open(/proc/647/environ, 0)
+	Real path: /proc/647/environ
+	Command: irq/200-VEN_04F3:00
+open(/proc/647/cmdline, 0)
+	Real path: /proc/647/cmdline
+	Command: irq/200-VEN_04F3:00
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/R-USBC000:00-con1
+stat(/proc/650, 0x7f29b7eb0d50)
+	Real path: /proc/650
+	Command: kworker/R-USBC000:00-con1
+open(/proc/650/stat, 0)
+	Real path: /proc/650/stat
+	Command: kworker/R-USBC000:00-con1
+open(/proc/650/status, 0)
+	Real path: /proc/650/status
+	Command: kworker/R-USBC000:00-con1
+open(/proc/650/environ, 0)
+	Real path: /proc/650/environ
+	Command: kworker/R-USBC000:00-con1
+open(/proc/650/cmdline, 0)
+	Real path: /proc/650/cmdline
+	Command: kworker/R-USBC000:00-con1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u81:3-rb_allocator
+stat(/proc/652, 0x7f29b7eb0d50)
+	Real path: /proc/652
+	Command: kworker/u81:3-rb_allocator
+open(/proc/652/stat, 0)
+	Real path: /proc/652/stat
+	Command: kworker/u81:3-rb_allocator
+open(/proc/652/status, 0)
+	Real path: /proc/652/status
+	Command: kworker/u81:3-rb_allocator
+open(/proc/652/environ, 0)
+	Real path: /proc/652/environ
+	Command: kworker/u81:3-rb_allocator
+open(/proc/652/cmdline, 0)
+	Real path: /proc/652/cmdline
+	Command: kworker/u81:3-rb_allocator
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/9:2-pm
+stat(/proc/661, 0x7f29b7eb0d50)
+	Real path: /proc/661
+	Command: kworker/9:2-pm
+open(/proc/661/stat, 0)
+	Real path: /proc/661/stat
+	Command: kworker/9:2-pm
+open(/proc/661/status, 0)
+	Real path: /proc/661/status
+	Command: kworker/9:2-pm
+open(/proc/661/environ, 0)
+	Real path: /proc/661/environ
+	Command: kworker/9:2-pm
+open(/proc/661/cmdline, 0)
+	Real path: /proc/661/cmdline
+	Command: kworker/9:2-pm
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:10-events_power_efficient
+stat(/proc/676, 0x7f29b7eb0d50)
+	Real path: /proc/676
+	Command: kworker/u80:10-events_power_efficient
+open(/proc/676/stat, 0)
+	Real path: /proc/676/stat
+	Command: kworker/u80:10-events_power_efficient
+open(/proc/676/status, 0)
+	Real path: /proc/676/status
+	Command: kworker/u80:10-events_power_efficient
+open(/proc/676/environ, 0)
+	Real path: /proc/676/environ
+	Command: kworker/u80:10-events_power_efficient
+open(/proc/676/cmdline, 0)
+	Real path: /proc/676/cmdline
+	Command: kworker/u80:10-events_power_efficient
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:11-btrfs-endio
+stat(/proc/677, 0x7f29b7eb0d50)
+	Real path: /proc/677
+	Command: kworker/u80:11-btrfs-endio
+open(/proc/677/stat, 0)
+	Real path: /proc/677/stat
+	Command: kworker/u80:11-btrfs-endio
+open(/proc/677/status, 0)
+	Real path: /proc/677/status
+	Command: kworker/u80:11-btrfs-endio
+open(/proc/677/environ, 0)
+	Real path: /proc/677/environ
+	Command: kworker/u80:11-btrfs-endio
+open(/proc/677/cmdline, 0)
+	Real path: /proc/677/cmdline
+	Command: kworker/u80:11-btrfs-endio
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:12-btrfs-endio
+stat(/proc/678, 0x7f29b7eb0d50)
+	Real path: /proc/678
+	Command: kworker/u80:12-btrfs-endio
+open(/proc/678/stat, 0)
+	Real path: /proc/678/stat
+	Command: kworker/u80:12-btrfs-endio
+open(/proc/678/status, 0)
+	Real path: /proc/678/status
+	Command: kworker/u80:12-btrfs-endio
+open(/proc/678/environ, 0)
+	Real path: /proc/678/environ
+	Command: kworker/u80:12-btrfs-endio
+open(/proc/678/cmdline, 0)
+	Real path: /proc/678/cmdline
+	Command: kworker/u80:12-btrfs-endio
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dbus-broker-lau
+stat(/proc/694, 0x7f29b7eb0d50)
+	Real path: /proc/694
+	Command: dbus-broker-lau
+open(/proc/694/stat, 0)
+	Real path: /proc/694/stat
+	Command: dbus-broker-lau
+open(/proc/694/status, 0)
+	Real path: /proc/694/status
+	Command: dbus-broker-lau
+open(/proc/694/environ, 0)
+	Real path: /proc/694/environ
+	Command: dbus-broker-lau
+open(/proc/694/cmdline, 0)
+	Real path: /proc/694/cmdline
+	Command: dbus-broker-lau
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dbus-broker
+stat(/proc/695, 0x7f29b7eb0d50)
+	Real path: /proc/695
+	Command: dbus-broker
+open(/proc/695/stat, 0)
+	Real path: /proc/695/stat
+	Command: dbus-broker
+open(/proc/695/status, 0)
+	Real path: /proc/695/status
+	Command: dbus-broker
+open(/proc/695/environ, 0)
+	Real path: /proc/695/environ
+	Command: dbus-broker
+open(/proc/695/cmdline, 0)
+	Real path: /proc/695/cmdline
+	Command: dbus-broker
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: iwd
+stat(/proc/697, 0x7f29b7eb0d50)
+	Real path: /proc/697
+	Command: iwd
+open(/proc/697/stat, 0)
+	Real path: /proc/697/stat
+	Command: iwd
+open(/proc/697/status, 0)
+	Real path: /proc/697/status
+	Command: iwd
+open(/proc/697/environ, 0)
+	Real path: /proc/697/environ
+	Command: iwd
+open(/proc/697/cmdline, 0)
+	Real path: /proc/697/cmdline
+	Command: iwd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-logind
+stat(/proc/700, 0x7f29b7eb0d50)
+	Real path: /proc/700
+	Command: systemd-logind
+open(/proc/700/stat, 0)
+	Real path: /proc/700/stat
+	Command: systemd-logind
+open(/proc/700/status, 0)
+	Real path: /proc/700/status
+	Command: systemd-logind
+open(/proc/700/environ, 0)
+	Real path: /proc/700/environ
+	Command: systemd-logind
+open(/proc/700/cmdline, 0)
+	Real path: /proc/700/cmdline
+	Command: systemd-logind
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-machine
+stat(/proc/701, 0x7f29b7eb0d50)
+	Real path: /proc/701
+	Command: systemd-machine
+open(/proc/701/stat, 0)
+	Real path: /proc/701/stat
+	Command: systemd-machine
+open(/proc/701/status, 0)
+	Real path: /proc/701/status
+	Command: systemd-machine
+open(/proc/701/environ, 0)
+	Real path: /proc/701/environ
+	Command: systemd-machine
+open(/proc/701/cmdline, 0)
+	Real path: /proc/701/cmdline
+	Command: systemd-machine
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: libvirtd
+stat(/proc/797, 0x7f29b7eb0d50)
+	Real path: /proc/797
+	Command: libvirtd
+open(/proc/797/stat, 0)
+	Real path: /proc/797/stat
+	Command: libvirtd
+open(/proc/797/status, 0)
+	Real path: /proc/797/status
+	Command: libvirtd
+open(/proc/797/environ, 0)
+	Real path: /proc/797/environ
+	Command: libvirtd
+open(/proc/797/cmdline, 0)
+	Real path: /proc/797/cmdline
+	Command: libvirtd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: sddm
+stat(/proc/800, 0x7f29b7eb0d50)
+	Real path: /proc/800
+	Command: sddm
+open(/proc/800/stat, 0)
+	Real path: /proc/800/stat
+	Command: sddm
+open(/proc/800/status, 0)
+	Real path: /proc/800/status
+	Command: sddm
+open(/proc/800/environ, 0)
+	Real path: /proc/800/environ
+	Command: sddm
+open(/proc/800/cmdline, 0)
+	Real path: /proc/800/cmdline
+	Command: sddm
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/10:2-i915-unordered
+stat(/proc/812, 0x7f29b7eb0d50)
+	Real path: /proc/812
+	Command: kworker/10:2-i915-unordered
+open(/proc/812/stat, 0)
+	Real path: /proc/812/stat
+	Command: kworker/10:2-i915-unordered
+open(/proc/812/status, 0)
+	Real path: /proc/812/status
+	Command: kworker/10:2-i915-unordered
+open(/proc/812/environ, 0)
+	Real path: /proc/812/environ
+	Command: kworker/10:2-i915-unordered
+open(/proc/812/cmdline, 0)
+	Real path: /proc/812/cmdline
+	Command: kworker/10:2-i915-unordered
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: Xorg
+stat(/proc/813, 0x7f29b7eb0d50)
+	Real path: /proc/813
+	Command: Xorg
+open(/proc/813/stat, 0)
+	Real path: /proc/813/stat
+	Command: Xorg
+open(/proc/813/status, 0)
+	Real path: /proc/813/status
+	Command: Xorg
+open(/proc/813/environ, 0)
+	Real path: /proc/813/environ
+	Command: Xorg
+open(/proc/813/cmdline, 0)
+	Real path: /proc/813/cmdline
+	Command: Xorg
+open(/proc/tty/drivers, 0)
+	Real path: /proc/tty/drivers
+stat(/dev/tty2, 0x7ffd8a31b230)
+	Real path: /dev/tty2
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/3:2-events
+stat(/proc/822, 0x7f29b7eb0d50)
+	Real path: /proc/822
+	Command: kworker/3:2-events
+open(/proc/822/stat, 0)
+	Real path: /proc/822/stat
+	Command: kworker/3:2-events
+open(/proc/822/status, 0)
+	Real path: /proc/822/status
+	Command: kworker/3:2-events
+open(/proc/822/environ, 0)
+	Real path: /proc/822/environ
+	Command: kworker/3:2-events
+open(/proc/822/cmdline, 0)
+	Real path: /proc/822/cmdline
+	Command: kworker/3:2-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dnsmasq
+stat(/proc/906, 0x7f29b7eb0d50)
+	Real path: /proc/906
+	Command: dnsmasq
+open(/proc/906/stat, 0)
+	Real path: /proc/906/stat
+	Command: dnsmasq
+open(/proc/906/status, 0)
+	Real path: /proc/906/status
+	Command: dnsmasq
+open(/proc/906/environ, 0)
+	Real path: /proc/906/environ
+	Command: dnsmasq
+open(/proc/906/cmdline, 0)
+	Real path: /proc/906/cmdline
+	Command: dnsmasq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dnsmasq
+stat(/proc/907, 0x7f29b7eb0d50)
+	Real path: /proc/907
+	Command: dnsmasq
+open(/proc/907/stat, 0)
+	Real path: /proc/907/stat
+	Command: dnsmasq
+open(/proc/907/status, 0)
+	Real path: /proc/907/status
+	Command: dnsmasq
+open(/proc/907/environ, 0)
+	Real path: /proc/907/environ
+	Command: dnsmasq
+open(/proc/907/cmdline, 0)
+	Real path: /proc/907/cmdline
+	Command: dnsmasq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dnsmasq
+stat(/proc/927, 0x7f29b7eb0d50)
+	Real path: /proc/927
+	Command: dnsmasq
+open(/proc/927/stat, 0)
+	Real path: /proc/927/stat
+	Command: dnsmasq
+open(/proc/927/status, 0)
+	Real path: /proc/927/status
+	Command: dnsmasq
+open(/proc/927/environ, 0)
+	Real path: /proc/927/environ
+	Command: dnsmasq
+open(/proc/927/cmdline, 0)
+	Real path: /proc/927/cmdline
+	Command: dnsmasq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dnsmasq
+stat(/proc/928, 0x7f29b7eb0d50)
+	Real path: /proc/928
+	Command: dnsmasq
+open(/proc/928/stat, 0)
+	Real path: /proc/928/stat
+	Command: dnsmasq
+open(/proc/928/status, 0)
+	Real path: /proc/928/status
+	Command: dnsmasq
+open(/proc/928/environ, 0)
+	Real path: /proc/928/environ
+	Command: dnsmasq
+open(/proc/928/cmdline, 0)
+	Real path: /proc/928/cmdline
+	Command: dnsmasq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: psimon
+stat(/proc/969, 0x7f29b7eb0d50)
+	Real path: /proc/969
+	Command: psimon
+open(/proc/969/stat, 0)
+	Real path: /proc/969/stat
+	Command: psimon
+open(/proc/969/status, 0)
+	Real path: /proc/969/status
+	Command: psimon
+open(/proc/969/environ, 0)
+	Real path: /proc/969/environ
+	Command: psimon
+open(/proc/969/cmdline, 0)
+	Real path: /proc/969/cmdline
+	Command: psimon
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/17:0-nouveau_sched_wq_shared
+stat(/proc/1025, 0x7f29b7eb0d50)
+	Real path: /proc/1025
+	Command: kworker/17:0-nouveau_sched_wq_shared
+open(/proc/1025/stat, 0)
+	Real path: /proc/1025/stat
+	Command: kworker/17:0-nouveau_sched_wq_shared
+open(/proc/1025/status, 0)
+	Real path: /proc/1025/status
+	Command: kworker/17:0-nouveau_sched_wq_shared
+open(/proc/1025/environ, 0)
+	Real path: /proc/1025/environ
+	Command: kworker/17:0-nouveau_sched_wq_shared
+open(/proc/1025/cmdline, 0)
+	Real path: /proc/1025/cmdline
+	Command: kworker/17:0-nouveau_sched_wq_shared
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:0-events_unbound
+stat(/proc/1029, 0x7f29b7eb0d50)
+	Real path: /proc/1029
+	Command: kworker/u80:0-events_unbound
+open(/proc/1029/stat, 0)
+	Real path: /proc/1029/stat
+	Command: kworker/u80:0-events_unbound
+open(/proc/1029/status, 0)
+	Real path: /proc/1029/status
+	Command: kworker/u80:0-events_unbound
+open(/proc/1029/environ, 0)
+	Real path: /proc/1029/environ
+	Command: kworker/u80:0-events_unbound
+open(/proc/1029/cmdline, 0)
+	Real path: /proc/1029/cmdline
+	Command: kworker/u80:0-events_unbound
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:1-btrfs-endio
+stat(/proc/1030, 0x7f29b7eb0d50)
+	Real path: /proc/1030
+	Command: kworker/u80:1-btrfs-endio
+open(/proc/1030/stat, 0)
+	Real path: /proc/1030/stat
+	Command: kworker/u80:1-btrfs-endio
+open(/proc/1030/status, 0)
+	Real path: /proc/1030/status
+	Command: kworker/u80:1-btrfs-endio
+open(/proc/1030/environ, 0)
+	Real path: /proc/1030/environ
+	Command: kworker/u80:1-btrfs-endio
+open(/proc/1030/cmdline, 0)
+	Real path: /proc/1030/cmdline
+	Command: kworker/u80:1-btrfs-endio
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/16:2-mm_percpu_wq
+stat(/proc/1037, 0x7f29b7eb0d50)
+	Real path: /proc/1037
+	Command: kworker/16:2-mm_percpu_wq
+open(/proc/1037/stat, 0)
+	Real path: /proc/1037/stat
+	Command: kworker/16:2-mm_percpu_wq
+open(/proc/1037/status, 0)
+	Real path: /proc/1037/status
+	Command: kworker/16:2-mm_percpu_wq
+open(/proc/1037/environ, 0)
+	Real path: /proc/1037/environ
+	Command: kworker/16:2-mm_percpu_wq
+open(/proc/1037/cmdline, 0)
+	Real path: /proc/1037/cmdline
+	Command: kworker/16:2-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/18:1-mm_percpu_wq
+stat(/proc/1038, 0x7f29b7eb0d50)
+	Real path: /proc/1038
+	Command: kworker/18:1-mm_percpu_wq
+open(/proc/1038/stat, 0)
+	Real path: /proc/1038/stat
+	Command: kworker/18:1-mm_percpu_wq
+open(/proc/1038/status, 0)
+	Real path: /proc/1038/status
+	Command: kworker/18:1-mm_percpu_wq
+open(/proc/1038/environ, 0)
+	Real path: /proc/1038/environ
+	Command: kworker/18:1-mm_percpu_wq
+open(/proc/1038/cmdline, 0)
+	Real path: /proc/1038/cmdline
+	Command: kworker/18:1-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: sddm-helper
+stat(/proc/1039, 0x7f29b7eb0d50)
+	Real path: /proc/1039
+	Command: sddm-helper
+open(/proc/1039/stat, 0)
+	Real path: /proc/1039/stat
+	Command: sddm-helper
+open(/proc/1039/status, 0)
+	Real path: /proc/1039/status
+	Command: sddm-helper
+open(/proc/1039/environ, 0)
+	Real path: /proc/1039/environ
+	Command: sddm-helper
+open(/proc/1039/cmdline, 0)
+	Real path: /proc/1039/cmdline
+	Command: sddm-helper
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:2-btrfs-endio
+stat(/proc/1040, 0x7f29b7eb0d50)
+	Real path: /proc/1040
+	Command: kworker/u80:2-btrfs-endio
+open(/proc/1040/stat, 0)
+	Real path: /proc/1040/stat
+	Command: kworker/u80:2-btrfs-endio
+open(/proc/1040/status, 0)
+	Real path: /proc/1040/status
+	Command: kworker/u80:2-btrfs-endio
+open(/proc/1040/environ, 0)
+	Real path: /proc/1040/environ
+	Command: kworker/u80:2-btrfs-endio
+open(/proc/1040/cmdline, 0)
+	Real path: /proc/1040/cmdline
+	Command: kworker/u80:2-btrfs-endio
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd
+stat(/proc/1044, 0x7f29b7eb0d50)
+	Real path: /proc/1044
+	Command: systemd
+open(/proc/1044/stat, 0)
+	Real path: /proc/1044/stat
+	Command: systemd
+open(/proc/1044/status, 0)
+	Real path: /proc/1044/status
+	Command: systemd
+open(/proc/1044/environ, 0)
+	Real path: /proc/1044/environ
+	Command: systemd
+open(/proc/1044/cmdline, 0)
+	Real path: /proc/1044/cmdline
+	Command: systemd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: (sd-pam)
+stat(/proc/1045, 0x7f29b7eb0d50)
+	Real path: /proc/1045
+	Command: (sd-pam)
+open(/proc/1045/stat, 0)
+	Real path: /proc/1045/stat
+	Command: (sd-pam)
+open(/proc/1045/status, 0)
+	Real path: /proc/1045/status
+	Command: (sd-pam)
+open(/proc/1045/environ, 0)
+	Real path: /proc/1045/environ
+	Command: (sd-pam)
+open(/proc/1045/cmdline, 0)
+	Real path: /proc/1045/cmdline
+	Command: (sd-pam)
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/12:1-events
+stat(/proc/1056, 0x7f29b7eb0d50)
+	Real path: /proc/1056
+	Command: kworker/12:1-events
+open(/proc/1056/stat, 0)
+	Real path: /proc/1056/stat
+	Command: kworker/12:1-events
+open(/proc/1056/status, 0)
+	Real path: /proc/1056/status
+	Command: kworker/12:1-events
+open(/proc/1056/environ, 0)
+	Real path: /proc/1056/environ
+	Command: kworker/12:1-events
+open(/proc/1056/cmdline, 0)
+	Real path: /proc/1056/cmdline
+	Command: kworker/12:1-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dbus-broker-lau
+stat(/proc/1059, 0x7f29b7eb0d50)
+	Real path: /proc/1059
+	Command: dbus-broker-lau
+open(/proc/1059/stat, 0)
+	Real path: /proc/1059/stat
+	Command: dbus-broker-lau
+open(/proc/1059/status, 0)
+	Real path: /proc/1059/status
+	Command: dbus-broker-lau
+open(/proc/1059/environ, 0)
+	Real path: /proc/1059/environ
+	Command: dbus-broker-lau
+open(/proc/1059/cmdline, 0)
+	Real path: /proc/1059/cmdline
+	Command: dbus-broker-lau
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dbus-broker
+stat(/proc/1060, 0x7f29b7eb0d50)
+	Real path: /proc/1060
+	Command: dbus-broker
+open(/proc/1060/stat, 0)
+	Real path: /proc/1060/stat
+	Command: dbus-broker
+open(/proc/1060/status, 0)
+	Real path: /proc/1060/status
+	Command: dbus-broker
+open(/proc/1060/environ, 0)
+	Real path: /proc/1060/environ
+	Command: dbus-broker
+open(/proc/1060/cmdline, 0)
+	Real path: /proc/1060/cmdline
+	Command: dbus-broker
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: pipewire
+stat(/proc/1061, 0x7f29b7eb0d50)
+	Real path: /proc/1061
+	Command: pipewire
+open(/proc/1061/stat, 0)
+	Real path: /proc/1061/stat
+	Command: pipewire
+open(/proc/1061/status, 0)
+	Real path: /proc/1061/status
+	Command: pipewire
+open(/proc/1061/environ, 0)
+	Real path: /proc/1061/environ
+	Command: pipewire
+open(/proc/1061/cmdline, 0)
+	Real path: /proc/1061/cmdline
+	Command: pipewire
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: wireplumber
+stat(/proc/1062, 0x7f29b7eb0d50)
+	Real path: /proc/1062
+	Command: wireplumber
+open(/proc/1062/stat, 0)
+	Real path: /proc/1062/stat
+	Command: wireplumber
+open(/proc/1062/status, 0)
+	Real path: /proc/1062/status
+	Command: wireplumber
+open(/proc/1062/environ, 0)
+	Real path: /proc/1062/environ
+	Command: wireplumber
+open(/proc/1062/cmdline, 0)
+	Real path: /proc/1062/cmdline
+	Command: wireplumber
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: pipewire-pulse
+stat(/proc/1063, 0x7f29b7eb0d50)
+	Real path: /proc/1063
+	Command: pipewire-pulse
+open(/proc/1063/stat, 0)
+	Real path: /proc/1063/stat
+	Command: pipewire-pulse
+open(/proc/1063/status, 0)
+	Real path: /proc/1063/status
+	Command: pipewire-pulse
+open(/proc/1063/environ, 0)
+	Real path: /proc/1063/environ
+	Command: pipewire-pulse
+open(/proc/1063/cmdline, 0)
+	Real path: /proc/1063/cmdline
+	Command: pipewire-pulse
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: Hyprland
+stat(/proc/1064, 0x7f29b7eb0d50)
+	Real path: /proc/1064
+	Command: Hyprland
+open(/proc/1064/stat, 0)
+	Real path: /proc/1064/stat
+	Command: Hyprland
+open(/proc/1064/status, 0)
+	Real path: /proc/1064/status
+	Command: Hyprland
+open(/proc/1064/environ, 0)
+	Real path: /proc/1064/environ
+	Command: Hyprland
+open(/proc/1064/cmdline, 0)
+	Real path: /proc/1064/cmdline
+	Command: Hyprland
+stat(/dev/tty1, 0x7ffd8a31b230)
+	Real path: /dev/tty1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: rtkit-daemon
+stat(/proc/1070, 0x7f29b7eb0d50)
+	Real path: /proc/1070
+	Command: rtkit-daemon
+open(/proc/1070/stat, 0)
+	Real path: /proc/1070/stat
+	Command: rtkit-daemon
+open(/proc/1070/status, 0)
+	Real path: /proc/1070/status
+	Command: rtkit-daemon
+open(/proc/1070/environ, 0)
+	Real path: /proc/1070/environ
+	Command: rtkit-daemon
+open(/proc/1070/cmdline, 0)
+	Real path: /proc/1070/cmdline
+	Command: rtkit-daemon
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: polkitd
+stat(/proc/1075, 0x7f29b7eb0d50)
+	Real path: /proc/1075
+	Command: polkitd
+open(/proc/1075/stat, 0)
+	Real path: /proc/1075/stat
+	Command: polkitd
+open(/proc/1075/status, 0)
+	Real path: /proc/1075/status
+	Command: polkitd
+open(/proc/1075/environ, 0)
+	Real path: /proc/1075/environ
+	Command: polkitd
+open(/proc/1075/cmdline, 0)
+	Real path: /proc/1075/cmdline
+	Command: polkitd
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/9:0-nouveau_sched_wq_shared
+stat(/proc/1095, 0x7f29b7eb0d50)
+	Real path: /proc/1095
+	Command: kworker/9:0-nouveau_sched_wq_shared
+open(/proc/1095/stat, 0)
+	Real path: /proc/1095/stat
+	Command: kworker/9:0-nouveau_sched_wq_shared
+open(/proc/1095/status, 0)
+	Real path: /proc/1095/status
+	Command: kworker/9:0-nouveau_sched_wq_shared
+open(/proc/1095/environ, 0)
+	Real path: /proc/1095/environ
+	Command: kworker/9:0-nouveau_sched_wq_shared
+open(/proc/1095/cmdline, 0)
+	Real path: /proc/1095/cmdline
+	Command: kworker/9:0-nouveau_sched_wq_shared
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:4+events_unbound
+stat(/proc/1109, 0x7f29b7eb0d50)
+	Real path: /proc/1109
+	Command: kworker/u80:4+events_unbound
+open(/proc/1109/stat, 0)
+	Real path: /proc/1109/stat
+	Command: kworker/u80:4+events_unbound
+open(/proc/1109/status, 0)
+	Real path: /proc/1109/status
+	Command: kworker/u80:4+events_unbound
+open(/proc/1109/environ, 0)
+	Real path: /proc/1109/environ
+	Command: kworker/u80:4+events_unbound
+open(/proc/1109/cmdline, 0)
+	Real path: /proc/1109/cmdline
+	Command: kworker/u80:4+events_unbound
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:5-btrfs-endio-write
+stat(/proc/1110, 0x7f29b7eb0d50)
+	Real path: /proc/1110
+	Command: kworker/u80:5-btrfs-endio-write
+open(/proc/1110/stat, 0)
+	Real path: /proc/1110/stat
+	Command: kworker/u80:5-btrfs-endio-write
+open(/proc/1110/status, 0)
+	Real path: /proc/1110/status
+	Command: kworker/u80:5-btrfs-endio-write
+open(/proc/1110/environ, 0)
+	Real path: /proc/1110/environ
+	Command: kworker/u80:5-btrfs-endio-write
+open(/proc/1110/cmdline, 0)
+	Real path: /proc/1110/cmdline
+	Command: kworker/u80:5-btrfs-endio-write
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/13:0-mm_percpu_wq
+stat(/proc/1126, 0x7f29b7eb0d50)
+	Real path: /proc/1126
+	Command: kworker/13:0-mm_percpu_wq
+open(/proc/1126/stat, 0)
+	Real path: /proc/1126/stat
+	Command: kworker/13:0-mm_percpu_wq
+open(/proc/1126/status, 0)
+	Real path: /proc/1126/status
+	Command: kworker/13:0-mm_percpu_wq
+open(/proc/1126/environ, 0)
+	Real path: /proc/1126/environ
+	Command: kworker/13:0-mm_percpu_wq
+open(/proc/1126/cmdline, 0)
+	Real path: /proc/1126/cmdline
+	Command: kworker/13:0-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: xdg-permission-
+stat(/proc/1165, 0x7f29b7eb0d50)
+	Real path: /proc/1165
+	Command: xdg-permission-
+open(/proc/1165/stat, 0)
+	Real path: /proc/1165/stat
+	Command: xdg-permission-
+open(/proc/1165/status, 0)
+	Real path: /proc/1165/status
+	Command: xdg-permission-
+open(/proc/1165/environ, 0)
+	Real path: /proc/1165/environ
+	Command: xdg-permission-
+open(/proc/1165/cmdline, 0)
+	Real path: /proc/1165/cmdline
+	Command: xdg-permission-
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dconf-service
+stat(/proc/1174, 0x7f29b7eb0d50)
+	Real path: /proc/1174
+	Command: dconf-service
+open(/proc/1174/stat, 0)
+	Real path: /proc/1174/stat
+	Command: dconf-service
+open(/proc/1174/status, 0)
+	Real path: /proc/1174/status
+	Command: dconf-service
+open(/proc/1174/environ, 0)
+	Real path: /proc/1174/environ
+	Command: dconf-service
+open(/proc/1174/cmdline, 0)
+	Real path: /proc/1174/cmdline
+	Command: dconf-service
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/19:0-mm_percpu_wq
+stat(/proc/1178, 0x7f29b7eb0d50)
+	Real path: /proc/1178
+	Command: kworker/19:0-mm_percpu_wq
+open(/proc/1178/stat, 0)
+	Real path: /proc/1178/stat
+	Command: kworker/19:0-mm_percpu_wq
+open(/proc/1178/status, 0)
+	Real path: /proc/1178/status
+	Command: kworker/19:0-mm_percpu_wq
+open(/proc/1178/environ, 0)
+	Real path: /proc/1178/environ
+	Command: kworker/19:0-mm_percpu_wq
+open(/proc/1178/cmdline, 0)
+	Real path: /proc/1178/cmdline
+	Command: kworker/19:0-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: Xwayland
+stat(/proc/1185, 0x7f29b7eb0d50)
+	Real path: /proc/1185
+	Command: Xwayland
+open(/proc/1185/stat, 0)
+	Real path: /proc/1185/stat
+	Command: Xwayland
+open(/proc/1185/status, 0)
+	Real path: /proc/1185/status
+	Command: Xwayland
+open(/proc/1185/environ, 0)
+	Real path: /proc/1185/environ
+	Command: Xwayland
+open(/proc/1185/cmdline, 0)
+	Real path: /proc/1185/cmdline
+	Command: Xwayland
+stat(/dev/tty1, 0x7ffd8a31b230)
+	Real path: /dev/tty1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/0:1-pm
+stat(/proc/1205, 0x7f29b7eb0d50)
+	Real path: /proc/1205
+	Command: kworker/0:1-pm
+open(/proc/1205/stat, 0)
+	Real path: /proc/1205/stat
+	Command: kworker/0:1-pm
+open(/proc/1205/status, 0)
+	Real path: /proc/1205/status
+	Command: kworker/0:1-pm
+open(/proc/1205/environ, 0)
+	Real path: /proc/1205/environ
+	Command: kworker/0:1-pm
+open(/proc/1205/cmdline, 0)
+	Real path: /proc/1205/cmdline
+	Command: kworker/0:1-pm
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/0:2-events
+stat(/proc/1207, 0x7f29b7eb0d50)
+	Real path: /proc/1207
+	Command: kworker/0:2-events
+open(/proc/1207/stat, 0)
+	Real path: /proc/1207/stat
+	Command: kworker/0:2-events
+open(/proc/1207/status, 0)
+	Real path: /proc/1207/status
+	Command: kworker/0:2-events
+open(/proc/1207/environ, 0)
+	Real path: /proc/1207/environ
+	Command: kworker/0:2-events
+open(/proc/1207/cmdline, 0)
+	Real path: /proc/1207/cmdline
+	Command: kworker/0:2-events
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kitty
+stat(/proc/1213, 0x7f29b7eb0d50)
+	Real path: /proc/1213
+	Command: kitty
+open(/proc/1213/stat, 0)
+	Real path: /proc/1213/stat
+	Command: kitty
+open(/proc/1213/status, 0)
+	Real path: /proc/1213/status
+	Command: kitty
+open(/proc/1213/environ, 0)
+	Real path: /proc/1213/environ
+	Command: kitty
+open(/proc/1213/cmdline, 0)
+	Real path: /proc/1213/cmdline
+	Command: kitty
+stat(/dev/tty1, 0x7ffd8a31b230)
+	Real path: /dev/tty1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: xdg-desktop-por
+stat(/proc/1214, 0x7f29b7eb0d50)
+	Real path: /proc/1214
+	Command: xdg-desktop-por
+open(/proc/1214/stat, 0)
+	Real path: /proc/1214/stat
+	Command: xdg-desktop-por
+open(/proc/1214/status, 0)
+	Real path: /proc/1214/status
+	Command: xdg-desktop-por
+open(/proc/1214/environ, 0)
+	Real path: /proc/1214/environ
+	Command: xdg-desktop-por
+open(/proc/1214/cmdline, 0)
+	Real path: /proc/1214/cmdline
+	Command: xdg-desktop-por
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: xdg-document-po
+stat(/proc/1219, 0x7f29b7eb0d50)
+	Real path: /proc/1219
+	Command: xdg-document-po
+open(/proc/1219/stat, 0)
+	Real path: /proc/1219/stat
+	Command: xdg-document-po
+open(/proc/1219/status, 0)
+	Real path: /proc/1219/status
+	Command: xdg-document-po
+open(/proc/1219/environ, 0)
+	Real path: /proc/1219/environ
+	Command: xdg-document-po
+open(/proc/1219/cmdline, 0)
+	Real path: /proc/1219/cmdline
+	Command: xdg-document-po
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: fusermount3
+stat(/proc/1225, 0x7f29b7eb0d50)
+	Real path: /proc/1225
+	Command: fusermount3
+open(/proc/1225/stat, 0)
+	Real path: /proc/1225/stat
+	Command: fusermount3
+open(/proc/1225/status, 0)
+	Real path: /proc/1225/status
+	Command: fusermount3
+open(/proc/1225/environ, 0)
+	Real path: /proc/1225/environ
+	Command: fusermount3
+open(/proc/1225/cmdline, 0)
+	Real path: /proc/1225/cmdline
+	Command: fusermount3
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: xdg-desktop-por
+stat(/proc/1232, 0x7f29b7eb0d50)
+	Real path: /proc/1232
+	Command: xdg-desktop-por
+open(/proc/1232/stat, 0)
+	Real path: /proc/1232/stat
+	Command: xdg-desktop-por
+open(/proc/1232/status, 0)
+	Real path: /proc/1232/status
+	Command: xdg-desktop-por
+open(/proc/1232/environ, 0)
+	Real path: /proc/1232/environ
+	Command: xdg-desktop-por
+open(/proc/1232/cmdline, 0)
+	Real path: /proc/1232/cmdline
+	Command: xdg-desktop-por
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kitten
+stat(/proc/1250, 0x7f29b7eb0d50)
+	Real path: /proc/1250
+	Command: kitten
+open(/proc/1250/stat, 0)
+	Real path: /proc/1250/stat
+	Command: kitten
+open(/proc/1250/status, 0)
+	Real path: /proc/1250/status
+	Command: kitten
+open(/proc/1250/environ, 0)
+	Real path: /proc/1250/environ
+	Command: kitten
+open(/proc/1250/cmdline, 0)
+	Real path: /proc/1250/cmdline
+	Command: kitten
+stat(/dev/tty1, 0x7ffd8a31b230)
+	Real path: /dev/tty1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: dunst
+stat(/proc/1252, 0x7f29b7eb0d50)
+	Real path: /proc/1252
+	Command: dunst
+open(/proc/1252/stat, 0)
+	Real path: /proc/1252/stat
+	Command: dunst
+open(/proc/1252/status, 0)
+	Real path: /proc/1252/status
+	Command: dunst
+open(/proc/1252/environ, 0)
+	Real path: /proc/1252/environ
+	Command: dunst
+open(/proc/1252/cmdline, 0)
+	Real path: /proc/1252/cmdline
+	Command: dunst
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: bash
+stat(/proc/1253, 0x7f29b7eb0d50)
+	Real path: /proc/1253
+	Command: bash
+open(/proc/1253/stat, 0)
+	Real path: /proc/1253/stat
+	Command: bash
+open(/proc/1253/status, 0)
+	Real path: /proc/1253/status
+	Command: bash
+open(/proc/1253/environ, 0)
+	Real path: /proc/1253/environ
+	Command: bash
+open(/proc/1253/cmdline, 0)
+	Real path: /proc/1253/cmdline
+	Command: bash
+stat(/dev/pts0, 0x7ffd8a31b230)
+stat(/dev/pts/0, 0x7ffd8a31b230)
+	Real path: /dev/pts/0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/u80:6-events_unbound
+stat(/proc/1302, 0x7f29b7eb0d50)
+	Real path: /proc/1302
+	Command: kworker/u80:6-events_unbound
+open(/proc/1302/stat, 0)
+	Real path: /proc/1302/stat
+	Command: kworker/u80:6-events_unbound
+open(/proc/1302/status, 0)
+	Real path: /proc/1302/status
+	Command: kworker/u80:6-events_unbound
+open(/proc/1302/environ, 0)
+	Real path: /proc/1302/environ
+	Command: kworker/u80:6-events_unbound
+open(/proc/1302/cmdline, 0)
+	Real path: /proc/1302/cmdline
+	Command: kworker/u80:6-events_unbound
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-userwor
+stat(/proc/1304, 0x7f29b7eb0d50)
+	Real path: /proc/1304
+	Command: systemd-userwor
+open(/proc/1304/stat, 0)
+	Real path: /proc/1304/stat
+	Command: systemd-userwor
+open(/proc/1304/status, 0)
+	Real path: /proc/1304/status
+	Command: systemd-userwor
+open(/proc/1304/environ, 0)
+	Real path: /proc/1304/environ
+	Command: systemd-userwor
+open(/proc/1304/cmdline, 0)
+	Real path: /proc/1304/cmdline
+	Command: systemd-userwor
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-userwor
+stat(/proc/1307, 0x7f29b7eb0d50)
+	Real path: /proc/1307
+	Command: systemd-userwor
+open(/proc/1307/stat, 0)
+	Real path: /proc/1307/stat
+	Command: systemd-userwor
+open(/proc/1307/status, 0)
+	Real path: /proc/1307/status
+	Command: systemd-userwor
+open(/proc/1307/environ, 0)
+	Real path: /proc/1307/environ
+	Command: systemd-userwor
+open(/proc/1307/cmdline, 0)
+	Real path: /proc/1307/cmdline
+	Command: systemd-userwor
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: systemd-userwor
+stat(/proc/1309, 0x7f29b7eb0d50)
+	Real path: /proc/1309
+	Command: systemd-userwor
+open(/proc/1309/stat, 0)
+	Real path: /proc/1309/stat
+	Command: systemd-userwor
+open(/proc/1309/status, 0)
+	Real path: /proc/1309/status
+	Command: systemd-userwor
+open(/proc/1309/environ, 0)
+	Real path: /proc/1309/environ
+	Command: systemd-userwor
+open(/proc/1309/cmdline, 0)
+	Real path: /proc/1309/cmdline
+	Command: systemd-userwor
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kworker/19:1-mm_percpu_wq
+stat(/proc/1331, 0x7f29b7eb0d50)
+	Real path: /proc/1331
+	Command: kworker/19:1-mm_percpu_wq
+open(/proc/1331/stat, 0)
+	Real path: /proc/1331/stat
+	Command: kworker/19:1-mm_percpu_wq
+open(/proc/1331/status, 0)
+	Real path: /proc/1331/status
+	Command: kworker/19:1-mm_percpu_wq
+open(/proc/1331/environ, 0)
+	Real path: /proc/1331/environ
+	Command: kworker/19:1-mm_percpu_wq
+open(/proc/1331/cmdline, 0)
+	Real path: /proc/1331/cmdline
+	Command: kworker/19:1-mm_percpu_wq
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kitty
+stat(/proc/1338, 0x7f29b7eb0d50)
+	Real path: /proc/1338
+	Command: kitty
+open(/proc/1338/stat, 0)
+	Real path: /proc/1338/stat
+	Command: kitty
+open(/proc/1338/status, 0)
+	Real path: /proc/1338/status
+	Command: kitty
+open(/proc/1338/environ, 0)
+	Real path: /proc/1338/environ
+	Command: kitty
+open(/proc/1338/cmdline, 0)
+	Real path: /proc/1338/cmdline
+	Command: kitty
+stat(/dev/tty1, 0x7ffd8a31b230)
+	Real path: /dev/tty1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: kitten
+stat(/proc/1351, 0x7f29b7eb0d50)
+	Real path: /proc/1351
+	Command: kitten
+open(/proc/1351/stat, 0)
+	Real path: /proc/1351/stat
+	Command: kitten
+open(/proc/1351/status, 0)
+	Real path: /proc/1351/status
+	Command: kitten
+open(/proc/1351/environ, 0)
+	Real path: /proc/1351/environ
+	Command: kitten
+open(/proc/1351/cmdline, 0)
+	Real path: /proc/1351/cmdline
+	Command: kitten
+stat(/dev/tty1, 0x7ffd8a31b230)
+	Real path: /dev/tty1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: bash
+stat(/proc/1355, 0x7f29b7eb0d50)
+	Real path: /proc/1355
+	Command: bash
+open(/proc/1355/stat, 0)
+	Real path: /proc/1355/stat
+	Command: bash
+open(/proc/1355/status, 0)
+	Real path: /proc/1355/status
+	Command: bash
+open(/proc/1355/environ, 0)
+	Real path: /proc/1355/environ
+	Command: bash
+open(/proc/1355/cmdline, 0)
+	Real path: /proc/1355/cmdline
+	Command: bash
+stat(/dev/pts1, 0x7ffd8a31b230)
+stat(/dev/pts/1, 0x7ffd8a31b230)
+	Real path: /dev/pts/1
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: nc
+	Blocked PID: 1374
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+	Command: ps
+stat(/proc/1380, 0x7f29b7eb0d50)
+	Real path: /proc/1380
+	Command: ps
+open(/proc/1380/stat, 0)
+	Real path: /proc/1380/stat
+	Command: ps
+open(/proc/1380/status, 0)
+	Real path: /proc/1380/status
+	Command: ps
+open(/proc/1380/environ, 0)
+	Real path: /proc/1380/environ
+	Command: ps
+open(/proc/1380/cmdline, 0)
+	Real path: /proc/1380/cmdline
+	Command: ps
+stat(/dev/pts0, 0x7ffd8a31b230)
+stat(/dev/pts/0, 0x7ffd8a31b230)
+	Real path: /dev/pts/0
+readdir(0x5625a5e7f980)
+	Directory path: /proc
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           2  0.0open(/proc/meminfo, 0)
+	Real path: /proc/meminfo
+  0.0      0     0 ?        S    19:58   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-mm_percpu_wq]
+root          15  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/0]
+root          16  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [rcu_preempt]
+root          17  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [rcub/1]
+root          18  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [rcu_exp_par_gp_kthread_worker/1]
+root          19  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [rcu_exp_gp_kthread_worker]
+root          20  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/0]
+root          21  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/0]
+root          22  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/0]
+root          23  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/2]
+root          24  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/2]
+root          25  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/2]
+root          26  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/2]
+root          28  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/2:0H-events_highpri]
+root          29  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/4]
+root          30  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/4]
+root          31  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/4]
+root          32  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/4]
+root          34  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/4:0H-events_highpri]
+root          35  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/6]
+root          36  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/6]
+root          37  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/6]
+root          38  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/6]
+root          40  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/6:0H-events_highpri]
+root          41  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/8]
+root          42  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/8]
+root          43  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/8]
+root          44  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/8]
+root          46  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/8:0H-events_highpri]
+root          47  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/10]
+root          48  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/10]
+root          49  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/10]
+root          50  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/10]
+root          51  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/10:0-events]
+root          52  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/10:0H-events_highpri]
+root          53  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [rcub/2]
+root          54  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [rcu_exp_par_gp_kthread_worker/2]
+root          55  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/12]
+root          56  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/12]
+root          57  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/12]
+root          58  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/12]
+root          59  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/12:0-mm_percpu_wq]
+root          60  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/12:0H-events_highpri]
+root          61  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/13]
+root          62  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/13]
+root          63  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/13]
+root          64  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/13]
+root          66  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/13:0H-events_highpri]
+root          67  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/14]
+root          68  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/14]
+root          69  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/14]
+root          70  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/14]
+root          71  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/14:0-kacpi_notify]
+root          72  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/14:0H-events_highpri]
+root          73  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/15]
+root          74  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/15]
+root          75  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/15]
+root          76  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/15]
+root          77  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/15:0-mm_percpu_wq]
+root          78  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/15:0H-events_highpri]
+root          79  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/16]
+root          80  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/16]
+root          81  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/16]
+root          82  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/16]
+root          84  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/16:0H-events_highpri]
+root          85  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/17]
+root          86  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/17]
+root          87  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/17]
+root          88  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/17]
+root          90  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/17:0H-events_highpri]
+root          91  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/18]
+root          92  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/18]
+root          93  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/18]
+root          94  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/18]
+root          95  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/18:0-mm_percpu_wq]
+root          96  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/18:0H-events_highpri]
+root          97  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/19]
+root          98  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/19]
+root          99  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/19]
+root         100  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/19]
+root         102  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/19:0H-events_highpri]
+root         103  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/1]
+root         104  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/1]
+root         105  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/1]
+root         106  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/1]
+root         108  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/1:0H-events_highpri]
+root         109  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/3]
+root         110  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/3]
+root         111  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/3]
+root         112  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/3]
+root         113  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/3:0-mm_percpu_wq]
+root         114  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/3:0H-events_highpri]
+root         115  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/5]
+root         116  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/5]
+root         117  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/5]
+root         118  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/5]
+root         120  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/5:0H-events_highpri]
+root         121  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/7]
+root         122  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/7]
+root         123  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/7]
+root         124  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/7]
+root         126  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/7:0H-events_highpri]
+root         127  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/9]
+root         128  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/9]
+root         129  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/9]
+root         130  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/9]
+root         132  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/9:0H-events_highpri]
+root         133  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [cpuhp/11]
+root         134  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [idle_inject/11]
+root         135  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [migration/11]
+root         136  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [ksoftirqd/11]
+root         137  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/11:0-mm_percpu_wq]
+root         138  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/11:0H-events_highpri]
+root         139  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [kdevtmpfs]
+root         140  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-inet_frag_wq]
+root         141  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [rcu_tasks_kthread]
+root         142  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [rcu_tasks_rude_kthread]
+root         143  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [rcu_tasks_trace_kthread]
+root         144  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [kauditd]
+root         145  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [khungtaskd]
+root         146  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [oom_reaper]
+root         148  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-writeback]
+root         149  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [kcompactd0]
+root         150  0.0  0.0      0     0 ?        SN   19:58   0:00  \_ [ksmd]
+root         151  0.0  0.0      0     0 ?        SN   19:58   0:00  \_ [khugepaged]
+root         152  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/1:1-events]
+root         153  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-kblockd]
+root         154  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-blkcg_punt_bio]
+root         155  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-kintegrityd]
+root         156  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/2:1-events]
+root         157  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/16:1-mm_percpu_wq]
+root         158  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/9-acpi]
+root         159  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-tpm_dev_wq]
+root         160  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-ata_sff]
+root         161  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-edac-poller]
+root         162  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-devfreq_wq]
+root         163  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [watchdogd]
+root         164  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/1:2-kacpi_notify]
+root         165  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/11:1-events]
+root         166  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/17:1-events]
+root         167  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/16:1H-kblockd]
+root         168  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [kswapd0]
+root         169  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-kthrotld]
+root         170  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/122-aerdrv]
+root         171  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/123-aerdrv]
+root         172  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/124-pciehp]
+root         173  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/125-pciehp]
+root         174  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/126-pciehp]
+root         175  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-acpi_thermal_pm]
+root         176  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/u80:3-btrfs-endio]
+root         178  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [hwrng]
+root         182  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-hfi-updates]
+root         184  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-mld]
+root         185  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/2:1H-kblockd]
+root         186  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-ipv6_addrconf]
+root         193  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-kstrp]
+root         196  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/8:1-i915-unordered]
+root         201  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/5:1-events]
+root         202  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/6:1-events]
+root         205  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/15:1-cgroup_destroy]
+root         209  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/u81:0-ttm]
+root         210  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/0:1H-kblockd]
+root         243  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/14:1H-i915_cleanup]
+root         250  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/12:1H-kblockd]
+root         278  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/4:1H-kblockd]
+root         280  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/19:1H-kblockd]
+root         281  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/6:1H-kblockd]
+root         282  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/8:1H-kblockd]
+root         283  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/10:1H-kblockd]
+root         286  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/2:2-mm_percpu_wq]
+root         292  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-nvme-wq]
+root         293  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-nvme-reset-wq]
+root         294  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-nvme-delete-wq]
+root         295  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-nvme-auth-wq]
+root         296  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/17:1H-kblockd]
+root         297  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/6:2-kacpi_notify]
+root         298  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/15:1H-kblockd]
+root         299  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/13:1H-kblockd]
+root         301  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-ttm]
+root         303  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card1-crtc0]
+root         304  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card1-crtc1]
+root         305  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card1-crtc2]
+root         306  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card1-crtc3]
+root         307  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/18:1H-kblockd]
+root         308  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/7:1-events]
+root         311  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-ttm]
+root         312  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card0-crtc0]
+root         313  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card0-crtc1]
+root         314  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card0-crtc2]
+root         315  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [card0-crtc3]
+root         317  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/13:2-cgroup_destroy]
+root         363  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-worker]
+root         364  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-delalloc]
+root         365  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-flush_delalloc]
+root         366  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-cache]
+root         367  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-fixup]
+root         368  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-endio]
+root         369  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-endio-meta]
+root         370  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-rmw]
+root         371  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-endio-write]
+root         372  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-compressed-write]
+root         373  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-freespace-write]
+root         374  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-delayed-meta]
+root         375  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-btrfs-qgroup-rescan]
+root         376  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [btrfs-cleaner]
+root         377  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [btrfs-transaction]
+root         384  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/3:1H-kblockd]
+root         385  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/5:1H-kblockd]
+root         386  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/9:1H-kblockd]
+root         387  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/1:1H-kblockd]
+root         388  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/7:1H-kblockd]
+root         389  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/11:1H-kblockd]
+root         404  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/4:7-kacpi_notify]
+root         405  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/4:8-events]
+root         434  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/19:2-events]
+root         455  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/8:2-i915-unordered]
+root         466  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [psimon]
+root         485  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/14:2-events]
+root         500  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [psimon]
+root         577  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/5:2]
+root         595  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/182-mei_me]
+root         603  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-cfg80211]
+root         604  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/183-iwlwifi:default_queue]
+root         605  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/184-iwlwifi:queue_1]
+root         606  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/185-iwlwifi:queue_2]
+root         609  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/186-iwlwifi:queue_3]
+root         610  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/187-iwlwifi:queue_4]
+root         612  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/188-iwlwifi:queue_5]
+root         613  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/189-iwlwifi:queue_6]
+root         614  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/190-iwlwifi:queue_7]
+root         615  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/191-iwlwifi:queue_8]
+root         616  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/192-iwlwifi:queue_9]
+root         617  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/193-iwlwifi:queue_10]
+root         618  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/194-iwlwifi:queue_11]
+root         619  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/195-iwlwifi:queue_12]
+root         620  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/196-iwlwifi:queue_13]
+root         621  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/197-iwlwifi:queue_14]
+root         622  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/198-iwlwifi:exception]
+root         626  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/16-processor_thermal_device_pci]
+root         632  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/7:2]
+root         644  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/199-AudioDSP]
+root         647  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [irq/200-VEN_04F3:00]
+root         650  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/R-USBC000:00-con1]
+root         652  0.0  0.0      0     0 ?        I<   19:58   0:00  \_ [kworker/u81:3-rb_allocator]
+root         661  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/9:2-pm]
+root         676  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/u80:10-events_power_efficient]
+root         677  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/u80:11-btrfs-endio]
+root         678  0.1  0.0      0     0 ?        I    19:58   0:02  \_ [kworker/u80:12-btrfs-endio]
+root         812  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/10:2-i915-unordered]
+root         822  0.0  0.0      0     0 ?        I    19:58   0:00  \_ [kworker/3:2-events]
+root         969  0.0  0.0      0     0 ?        S    19:58   0:00  \_ [psimon]
+root        1025  0.0  0.0      0     0 ?        I    20:06   0:00  \_ [kworker/17:0-nouveau_sched_wq_shared]
+root        1029  0.3  0.0      0     0 ?        I    20:12   0:01  \_ [kworker/u80:0-events_unbound]
+root        1030  0.0  0.0      0     0 ?        I    20:12   0:00  \_ [kworker/u80:1-btrfs-endio]
+root        1037  0.0  0.0      0     0 ?        I    20:13   0:00  \_ [kworker/16:2-mm_percpu_wq]
+root        1038  0.0  0.0      0     0 ?        I    20:13   0:00  \_ [kworker/18:1-mm_percpu_wq]
+root        1040  0.0  0.0      0     0 ?        I    20:13   0:00  \_ [kworker/u80:2-btrfs-endio]
+root        1056  0.0  0.0      0     0 ?        I    20:13   0:00  \_ [kworker/12:1-events]
+root        1095  0.0  0.0      0     0 ?        I    20:13   0:00  \_ [kworker/9:0-nouveau_sched_wq_shared]
+root        1109  0.9  0.0      0     0 ?        D    20:13   0:03  \_ [kworker/u80:4+events_unbound]
+root        1110  0.3  0.0      0     0 ?        I    20:13   0:01  \_ [kworker/u80:5-btrfs-endio-write]
+root        1126  0.0  0.0      0     0 ?        I    20:13   0:00  \_ [kworker/13:0-mm_percpu_wq]
+root        1178  0.0  0.0      0     0 ?        I    20:13   0:00  \_ [kworker/19:0-mm_percpu_wq]
+root        1205  0.0  0.0      0     0 ?        I    20:14   0:00  \_ [kworker/0:1-pm]
+root        1207  0.0  0.0      0     0 ?        I    20:14   0:00  \_ [kworker/0:2-events]
+root        1302  0.5  0.0      0     0 ?        I    20:16   0:01  \_ [kworker/u80:6-events_unbound]
+root        1331  0.0  0.0      0     0 ?        I    20:19   0:00  \_ [kworker/19:1-mm_percpu_wq]
+root           1  0.0  0.0  22416 14100 ?        Ss   19:58   0:01 /sbin/init
+root         447  0.0  0.0  49544 16848 ?        Ss   19:58   0:00 /usr/lib/systemd/systemd-journald
+root         462  0.0  0.0  15380  6284 ?        Ss   19:58   0:00 /usr/lib/systemd/systemd-userdbd
+root        1304  0.0  0.0  15796  5840 ?        S    20:16   0:00  \_ systemd-userwork: waiting...
+root        1307  0.0  0.0  15796  5868 ?        S    20:16   0:00  \_ systemd-userwork: waiting...
+root        1309  0.0  0.0  15796  5844 ?        S    20:17   0:00  \_ systemd-userwork: waiting...
+systemd+     488  0.0  0.0  90148  7984 ?        Ssl  19:58   0:00 /usr/lib/systemd/systemd-timesyncd
+systemd+     494  0.0  0.0  22468 14132 ?        Ss   19:58   0:00 /usr/lib/systemd/systemd-resolved
+root         498  0.0  0.0  36284 10604 ?        Ss   19:58   0:00 /usr/lib/systemd/systemd-udevd
+dbus         694  0.0  0.0   8696  4108 ?        Ss   19:58   0:00 /usr/bin/dbus-broker-launch --scope system --audit
+dbus         695  0.0  0.0   5200  3416 ?        S    19:58   0:00  \_ dbus-broker --log 10 --controller 9 --machine-id bba2321f7d5a443a88c0d823a1c2d861 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+root         697  0.0  0.0  17660  3924 ?        Ss   19:58   0:00 /usr/lib/iwd/iwd
+root         700  0.0  0.0  16312  8108 ?        Ss   19:58   0:00 /usr/lib/systemd/systemd-logind
+root         701  0.0  0.0  15968  7404 ?        Ss   19:58   0:00 /usr/lib/systemd/systemd-machined
+root         797  0.0  0.1 1648168 42892 ?       Ssl  19:58   0:00 /usr/bin/libvirtd --timeout 120
+root         800  0.0  0.0 156912 21748 ?        Ssl  19:58   0:00 /usr/bin/sddm
+root         813  0.3  0.2 900832 83972 tty2     Ssl+ 19:58   0:04  \_ /usr/lib/Xorg -nolisten tcp -background none -seat seat0 vt2 -auth /run/sddm/xauth_qtfejA -noreset -displayfd 16
+root        1039  0.0  0.0  80424 26488 ?        S    20:13   0:00  \_ /usr/lib/sddm/sddm-helper --socket /tmp/sddm-auth-1132ab0b-91ad-4ab2-ba46-e62e1fd5e54c --id 1 --start Hyprland --user omp
+omp         1064  1.8  0.7 1728420 242924 tty1   Ssl+ 20:13   0:07      \_ Hyprland
+omp         1185  0.0  0.6 533012 199792 tty1    Sl+  20:13   0:00          \_ Xwayland :1 -rootless -core -listenfd 67 -listenfd 68 -displayfd 108 -wm 105
+nobody       906  0.0  0.0  11288  2892 ?        S    19:58   0:00 /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/rbteam.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root         907  0.0  0.0  11288  1296 ?        S    19:58   0:00  \_ /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/rbteam.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+nobody       927  0.0  0.0  11316  2892 ?        S    19:58   0:00 /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/CPTC-AD.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+root         928  0.0  0.0  11316  1304 ?        S    19:58   0:00  \_ /usr/bin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/CPTC-AD.conf --leasefile-ro --dhcp-script=/usr/lib/libvirt/libvirt_leaseshelper
+omp         1044  0.0  0.0  21184 12020 ?        Ss   20:13   0:00 /usr/lib/systemd/systemd --user
+omp         1045  0.0  0.0  23120  3864 ?        S    20:13   0:00  \_ (sd-pam)
+omp         1059  0.0  0.0   8260  3808 ?        Ss   20:13   0:00  \_ /usr/bin/dbus-broker-launch --scope user
+omp         1060  0.0  0.0   4536  2688 ?        S    20:13   0:00  |   \_ dbus-broker --log 11 --controller 10 --machine-id bba2321f7d5a443a88c0d823a1c2d861 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+omp         1061  0.0  0.0 102452 15252 ?        S<sl 20:13   0:00  \_ /usr/bin/pipewire
+omp         1062  0.0  0.0 416548 20608 ?        S<sl 20:13   0:00  \_ /usr/bin/wireplumber
+omp         1063  0.0  0.0  97868  9780 ?        S<sl 20:13   0:00  \_ /usr/bin/pipewire-pulse
+omp         1165  0.0  0.0 305908  7660 ?        Ssl  20:13   0:00  \_ /usr/lib/xdg-permission-store
+omp         1174  0.0  0.0 163804  5636 ?        Ssl  20:13   0:00  \_ /usr/lib/dconf-service
+omp         1214  0.0  0.0 472608 14408 ?        Ssl  20:14   0:00  \_ /usr/lib/xdg-desktop-portal
+omp         1219  0.0  0.0 539344  8816 ?        Ssl  20:14   0:00  \_ /usr/lib/xdg-document-portal
+root        1225  0.0  0.0   2728  2048 ?        Ss   20:14   0:00  |   \_ fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+omp         1232  0.0  0.4 494484 146156 ?       Ssl  20:14   0:00  \_ /usr/lib/xdg-desktop-portal-hyprland
+omp         1252  0.0  0.0 389348  9668 ?        Ssl  20:14   0:00  \_ /usr/bin/dunst
+rtkit       1070  0.0  0.0  21940  3280 ?        SNsl 20:13   0:00 /usr/lib/rtkit-daemon
+polkitd     1075  0.0  0.0 382192  9848 ?        Ssl  20:13   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+omp         1213  0.7  0.7 598992 257440 tty1    Sl+  20:14   0:02 kitty
+omp         1250  0.0  0.0 1520732 26700 tty1    Sl+  20:14   0:00  \_ /usr/bin/kitten __atexit__
+omp         1253  0.0  0.0   8104  6656 pts/0    Ss   20:14   0:00  \_ /usr/bin/bash --posix
+omp         1380  200  0.0  10004  6292 pts/0    R+   20:20   0:00      \_ ps auxf
+omp         1338  0.7  0.7 574984 229652 tty1    Sl+  20:20   0:00 kitty
+omp         1351  0.0  0.0 1603684 26228 tty1    Sl+  20:20   0:00  \_ /usr/bin/kitten __atexit__
+omp         1355  0.0  0.0   8104  6552 pts/1    Ss   20:20   0:00  \_ /usr/bin/bash --posix

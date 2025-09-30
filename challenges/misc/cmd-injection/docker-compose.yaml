@@ -1,0 +1,7 @@
+services:
+  rootkit-workshop-chall:
+    build: src
+    command: ${LISTEN_PORT}
+    ports:
+      - ${LISTEN_PORT}:${LISTEN_PORT}/tcp
+  
